@@ -1,0 +1,112 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" [@slideInOut]>
+    <div class="container">
+      <a class="navbar-brand" routerLink="/"> <img src="../../../assets/img/logo/Digitize-Logo-svg.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav" [class.show]="isMenuOpen">
+        <ul class="navbar-nav mr-auto navbar-right">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="" (click)="toggleMenu()">Home</a>
+          </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Saohkha Acoustics
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item"routerLink="Soundproofing-And-Acoustic-Treatment">Soundproofing & Acoustic Treatment</a></li>
+            <li><a class="dropdown-item"routerLink="Areas">Areas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" routerLink="Expertise">Expertise</a></li>
+          </ul>
+        </li> -->
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Soundproofing & Acoustic Treatment</a>
+        </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Areas</a>
+          </li> -->
+  
+          <!-- <li  class="nav-item">
+            <a routerLink="Consultation-Installation" class="nav-link">A/V Consultation & Installation</a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Print & Marketing
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+  
+              <li (click)="toggleMenu()"><a class="dropdown-item" >x</a></li>
+              <!-- <li><hr class="dropdown-divider"></li> -->
+              <li (click)="toggleMenu()"><a class="dropdown-item" >s</a></li>
+              <li (click)="toggleMenu()"><a class="dropdown-item"  >Audio Visual</a></li>
+            </ul>
+          </li>
+  
+          <!-- <li class="nav-item">
+            <a href="" class="nav-link">
+              Gallery
+            </a>
+          </li> -->
+  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Shop
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li class="dropdown-item dropdown">
+                <a class="dropdown-toggle" role="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Shop By Category</a>
+                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end mx-4" aria-labelledby="dropdownMenuButton2">
+                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Ceiling">Ceiling</a></li>
+                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Wall">Wall</a></li>
+                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Floor">Floor</a></li>
+                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Absorber">Absorber</a></li>
+                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Diffuser">Diffuser</a></li>
+                </ul>
+              </li>
+              <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Sound-Proof">Sound Proof</a></li>
+              <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Acoustic-Treatment">Acoustic Treatment</a></li>
+            </ul>
+          </li>
+  
+  
+  
+  
+  
+  
+          <!-- <li class="nav-item">
+            <a routerLink="Booking" class="nav-link">
+             Booking for site visit
+            </a>
+          </li>
+          <li class="nav-item">
+            <a routerLink="Testimonial" class="nav-link">
+             Testimonial
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Media
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="News">News</a></li>
+              <li><a class="dropdown-item" routerLink="Blog">Blog</a></li>
+  
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="">Clientele</a>
+          </li> -->
+          <li class="nav-item" (click)="toggleMenu()">
+            <a routerLink="Gallery" class="nav-link">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item" (click)="toggleMenu()">
+            <a class="nav-link" routerLink="Contact">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  

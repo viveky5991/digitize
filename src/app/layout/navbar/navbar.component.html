@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" [@slideInOut]>
     <div class="container">
-      <a class="navbar-brand" routerLink="/"> <img src="../../../assets/img/logo/Digitize-Logo-svg.svg" alt=""></a>
+      <a class="navbar-brand" (click)="goToHome()"> <img src="../../../assets/img/logo/Digitize-Logo-svg.svg" alt=""></a>
       <button class="navbar-toggler" type="button" (click)="toggleMenu()">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse " id="navbarNav" [class.show]="isMenuOpen">
         <ul class="navbar-nav mr-auto navbar-right">
           <li class="nav-item">
-            <a class="nav-link" routerLink="" (click)="toggleMenu()">Home</a>
+            <a class="nav-link" (click)="goToHome()" (click)="toggleMenu()">Home</a>
           </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,7 +40,8 @@
               <button mat-menu-item [matMenuTriggerFor]="invertebrates">Invertebrates</button>
             </mat-menu> -->
             <mat-menu #print="matMenu">
-              <button mat-menu-item>Print & Marketing</button>
+
+              <button mat-menu-item  (click)="goToPrint()" >Print & Marketing</button>
               <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
               <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
               <button mat-menu-item>Voucher Books</button>
@@ -69,7 +70,7 @@
             </mat-menu>
 
             <mat-menu #stationary="matMenu">
-              <button mat-menu-item>BUSINESS CARDS</button>
+              <button mat-menu-item (click)="goTostationary()">BUSINESS CARDS</button>
               <button mat-menu-item>LETTERHEADS</button>
               <button mat-menu-item>ENVELOPES</button>
               <button mat-menu-item>FOLDERS</button>
@@ -86,20 +87,20 @@
               <button mat-menu-item>Wax Seal</button>
               <button mat-menu-item>Embossing Seal</button>
             </mat-menu>
-            
+
             <mat-menu #brochures="matMenu">
               <button mat-menu-item>Brochures</button>
               <button mat-menu-item>Flyers</button>
               <button mat-menu-item>Booklets & Catalogues</button>
             </mat-menu>
-            
+
             <mat-menu #crowd="matMenu">
               <button mat-menu-item>Compliment Slips</button>
               <button mat-menu-item>Tickets & Coupons</button>
               <button mat-menu-item>Scratch & Win Coupons</button>
               <button mat-menu-item>Tent Cards</button>
             </mat-menu>
-            
+
             <mat-menu #stickers="matMenu">
               <button mat-menu-item>Die Cut Sticker</button>
               <button mat-menu-item>Print & Cut sticker</button>

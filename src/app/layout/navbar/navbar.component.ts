@@ -2,6 +2,7 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 import { Component, OnInit } from '@angular/core';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-navbar',
   standalone: true,
@@ -41,7 +42,7 @@ import {MatButtonModule} from '@angular/material/button';
 })
 export class NavbarComponent implements OnInit {
   public isCollapsed = true;
-  constructor() { }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
   }
@@ -50,5 +51,15 @@ export class NavbarComponent implements OnInit {
   toggleMenu() {
 
     this.isMenuOpen = !this.isMenuOpen;
+  }
+  goToHome(): void {
+    this.router.navigateByUrl('/');
+  }
+  goToPrint(){
+    this.router.navigateByUrl('/print');
+  }
+  goTostationary(){
+
+    this.router.navigateByUrl('/stationary/business-cards');
   }
 }

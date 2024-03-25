@@ -42,8 +42,12 @@
             <mat-menu #print="matMenu">
               <button mat-menu-item>Print & Marketing</button>
               <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
-
-              <button mat-menu-item>Item 2</button>
+              <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
+              <button mat-menu-item>Voucher Books</button>
+              <button mat-menu-item [matMenuTriggerFor]="brochures">Brochures & Flyers</button>
+              <button mat-menu-item>Hang Tags</button>
+              <button mat-menu-item [matMenuTriggerFor]="crowd">Crowd Promotions</button>
+              <button mat-menu-item [matMenuTriggerFor]="stickers">Stickers</button>
             </mat-menu>
             <mat-menu #vertebrates="matMenu">
               <button mat-menu-item [matMenuTriggerFor]="stationary">Fishes</button>
@@ -70,6 +74,45 @@
               <button mat-menu-item>ENVELOPES</button>
               <button mat-menu-item>FOLDERS</button>
               <button mat-menu-item>NOTEPADS</button>
+              <button mat-menu-item>Notebook & Journal</button>
+              <button mat-menu-item>Binding</button>
+              <button mat-menu-item>Thank you Card</button>
+              <button mat-menu-item>Certificates</button>
+              <button mat-menu-item>Calendars</button>
+            </mat-menu>
+
+            <mat-menu #seals="matMenu">
+              <button mat-menu-item>Self Ink Stamps</button>
+              <button mat-menu-item>Wax Seal</button>
+              <button mat-menu-item>Embossing Seal</button>
+            </mat-menu>
+            
+            <mat-menu #brochures="matMenu">
+              <button mat-menu-item>Brochures</button>
+              <button mat-menu-item>Flyers</button>
+              <button mat-menu-item>Booklets & Catalogues</button>
+            </mat-menu>
+            
+            <mat-menu #crowd="matMenu">
+              <button mat-menu-item>Compliment Slips</button>
+              <button mat-menu-item>Tickets & Coupons</button>
+              <button mat-menu-item>Scratch & Win Coupons</button>
+              <button mat-menu-item>Tent Cards</button>
+            </mat-menu>
+            
+            <mat-menu #stickers="matMenu">
+              <button mat-menu-item>Die Cut Sticker</button>
+              <button mat-menu-item>Print & Cut sticker</button>
+              <button mat-menu-item>Paper Sticker Gloss / Matt</button>
+              <button mat-menu-item>Transparent Sticker</button>
+              <button mat-menu-item>PVC White Sticker</button>
+              <button mat-menu-item>White Ink Sticker</button>
+              <button mat-menu-item>Epoxy sticker</button>
+              <button mat-menu-item>Windshield sticker</button>
+              <button mat-menu-item>Foil Sticker</button>
+              <button mat-menu-item>Embossing seal sticker</button>
+              <button mat-menu-item>Helmet Sticker</button>
+              <button mat-menu-item>Kraft Paper Sticker</button>
             </mat-menu>
 
             <mat-menu #amphibians="matMenu">

@@ -41,7 +41,7 @@
             </mat-menu> -->
             <mat-menu #print="matMenu">
 
-              <button mat-menu-item  (click)="goToPrint()" >Print & Marketing</button>
+              <button mat-menu-item  (click)="navigate('/print')" >Print & Marketing</button>
               <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
               <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
               <button mat-menu-item>Voucher Books</button>
@@ -70,8 +70,8 @@
             </mat-menu>
 
             <mat-menu #stationary="matMenu">
-              <button mat-menu-item (click)="goTostationary()">BUSINESS CARDS</button>
-              <button mat-menu-item>LETTERHEADS</button>
+              <button mat-menu-item (click)="navigate('/stationary/business-cards')">BUSINESS CARDS</button>
+              <button mat-menu-item (click)="navigate('/stationary/letter-heads')">LETTERHEADS</button>
               <button mat-menu-item>ENVELOPES</button>
               <button mat-menu-item>FOLDERS</button>
               <button mat-menu-item>NOTEPADS</button>
@@ -113,7 +113,7 @@
               <button mat-menu-item>Foil Sticker</button>
               <button mat-menu-item>Embossing seal sticker</button>
               <button mat-menu-item>Helmet Sticker</button>
-              <button mat-menu-item>Kraft Paper Sticker</button>  
+              <button mat-menu-item>Kraft Paper Sticker</button>
             </mat-menu>
 
             <mat-menu #amphibians="matMenu">
@@ -158,7 +158,7 @@
               <button mat-menu-item>Standard Cut Frosted sticker</button>
               <button mat-menu-item>Printed Frosted sticker</button>
               <button mat-menu-item>Blank Frosted sticker</button>
-              
+
             </mat-menu>
 
             <mat-menu #window="matMenu">
@@ -166,13 +166,13 @@
               <button mat-menu-item>Window Graphics</button>
               <button mat-menu-item>One Way Vision Sticker</button>
               <button mat-menu-item>Window Films</button>
-              
+
             </mat-menu>
 
             <mat-menu #wallBranding="matMenu">
               <button mat-menu-item>Wall Vinyl Lettering</button>
               <button mat-menu-item>Wall Graphics</button>
-              
+
             </mat-menu>
 
             <mat-menu #wallFrames="matMenu">
@@ -180,14 +180,14 @@
               <button mat-menu-item>Wooden</button>
               <button mat-menu-item>Acrylic</button>
               <button mat-menu-item>Metal Art</button>
-              
+
             </mat-menu>
 
             <mat-menu #vehicle="matMenu">
               <button mat-menu-item>Car Door</button>
               <button mat-menu-item>Half Wrap Vehicle</button>
               <button mat-menu-item>Van Branding</button>
-              
+
             </mat-menu>
 
           </li>
@@ -216,7 +216,7 @@
               <button mat-menu-item>Outlit 3D Signage</button>
               <button mat-menu-item>Push Through 3D Signage</button>
               <button mat-menu-item>Neon 3D Signage</button>
-              
+
             </mat-menu>
 
             <mat-menu #signBoard="matMenu">
@@ -225,7 +225,7 @@
               <button mat-menu-item>Backtlit 3D Sign Board</button>
               <button mat-menu-item>Push Through Sign Board</button>
               <button mat-menu-item>Neon Sign Board</button>
-              
+
             </mat-menu>
 
             <mat-menu #lightBox="matMenu">
@@ -233,7 +233,7 @@
               <button mat-menu-item>Fabric Light Box</button>
               <button mat-menu-item>Acrylic Light Box</button>
               <button mat-menu-item>Poster Light Box</button>
-              
+
             </mat-menu>
 
             <mat-menu #direction="matMenu">
@@ -241,14 +241,14 @@
               <button mat-menu-item>Wall Mounted Signage</button>
               <button mat-menu-item>Hanging Signage</button>
               <button mat-menu-item>Directory Signage</button>
-              
+
             </mat-menu>
             <mat-menu #selfStanding="matMenu">
               <button mat-menu-item>Metal Letters</button>
               <button mat-menu-item>Wooden Letters</button>
               <button mat-menu-item>Acrylic Letters</button>
               <button mat-menu-item>Forex / Foam Letters</button>
-              
+
             </mat-menu>
 
             <mat-menu #namePlate="matMenu">
@@ -256,7 +256,7 @@
               <button mat-menu-item>Acrylic Name Plates</button>
               <button mat-menu-item>Wooden Name Plates</button>
               <button mat-menu-item>Table Top Plates / Sign</button>
-              
+
             </mat-menu>
 
             <mat-menu #labels="matMenu">
@@ -264,7 +264,7 @@
               <button mat-menu-item>Metal Labels</button>
               <button mat-menu-item>Wooden Labels</button>
               <button mat-menu-item>Acrylic Labels</button>
-              
+
             </mat-menu>
 
           </li>
@@ -290,7 +290,7 @@
               <button mat-menu-item>L Shape Flags</button>
               <button mat-menu-item>Blade Flags</button>
               <button mat-menu-item>Telescopic Flags</button>
-              
+
             </mat-menu>
 
             <mat-menu #decorativeFlags="matMenu">
@@ -348,7 +348,7 @@
               <button mat-menu-item>Banners-Flex & Fabric</button>
               <button mat-menu-item>Fence Banners </button>
               <button mat-menu-item>Lama Stand </button>
-              
+
             </mat-menu>
             <mat-menu #backdropsStandees="matMenu">
               <button mat-menu-item>Wooden Backdrop </button>
@@ -358,7 +358,7 @@
               <button mat-menu-item>Popout Banner / Spring A Board </button>
               <button mat-menu-item>Toblerone Frame </button>
               <button mat-menu-item>Cutout Standee </button>
-              
+
             </mat-menu>
 
             <mat-menu #exhibitionEvents="matMenu">
@@ -370,7 +370,7 @@
               <button mat-menu-item>Social Media Frame </button>
               <button mat-menu-item>Foam Board </button>
               <button mat-menu-item>Shell Scheme Booth Branding </button>
-              
+
             </mat-menu>
 
             </li>
@@ -387,14 +387,14 @@
                 <button mat-menu-item [matMenuTriggerFor]="tradeShows">Trade Shows & Events</button>
                 <button mat-menu-item [matMenuTriggerFor]="Drinkware">Drinkware</button>
                 <button mat-menu-item [matMenuTriggerFor]="shoppingPromotional">Shopping/Promotional Bags</button>
-  
+
               </mat-menu>
               <mat-menu #officeEssentials="matMenu">
                 <button mat-menu-item>Pens</button>
                 <button mat-menu-item>PU Notebooks</button>
                 <button mat-menu-item>PU Organizer</button>
                 <button mat-menu-item>Mouse Pad</button>
-                
+
               </mat-menu>
               <mat-menu #apparel="matMenu">
                 <button mat-menu-item>T-Shirt</button>
@@ -402,7 +402,7 @@
                 <button mat-menu-item>Caps</button>
                 <button mat-menu-item>Neck Tie</button>
                 <button mat-menu-item>Safety Vest</button>
-                
+
               </mat-menu>
 
               <mat-menu #tradeShows="matMenu">
@@ -412,16 +412,16 @@
                 <button mat-menu-item>ID Cards & Badge Reel</button>
                 <button mat-menu-item>Keychain</button>
                 <button mat-menu-item>USB</button>
-                
+
               </mat-menu>
 
               <mat-menu #Drinkware="matMenu">
                 <button mat-menu-item>Mugs</button>
                 <button mat-menu-item>Bottles</button>
                 <button mat-menu-item>Tumblers</button>
-                
+
               </mat-menu>
-             
+
               <mat-menu #shoppingPromotional="matMenu">
                 <button mat-menu-item>Paper bag</button>
                 <button mat-menu-item>Kraft bag</button>
@@ -431,7 +431,7 @@
                 <button mat-menu-item>Canvas bag</button>
                 <button mat-menu-item>Drawstring bag</button>
                 <button mat-menu-item>Cotton String bag</button>
-                
+
               </mat-menu>
             </li>
           <!-- <li class="nav-item">
@@ -440,25 +440,7 @@
             </a>
           </li> -->
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Shop
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="navbarDropdown">
-              <li class="dropdown-item dropdown">
-                <a class="dropdown-toggle" role="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">Shop By Category</a>
-                <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end mx-4" aria-labelledby="dropdownMenuButton2">
-                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Ceiling">Ceiling</a></li>
-                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Wall">Wall</a></li>
-                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Floor">Floor</a></li>
-                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Absorber">Absorber</a></li>
-                  <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Category/Diffuser">Diffuser</a></li>
-                </ul>
-              </li>
-              <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Sound-Proof">Sound Proof</a></li>
-              <li (click)="toggleMenu()"><a class="dropdown-item" routerLink="/Acoustic-Treatment">Acoustic Treatment</a></li>
-            </ul>
-          </li>
+
 
 
 
@@ -488,11 +470,7 @@
           <li class="nav-item">
             <a class="nav-link" routerLink="">Clientele</a>
           </li> -->
-          <li class="nav-item" (click)="toggleMenu()">
-            <a routerLink="Gallery" class="nav-link">
-              Gallery
-            </a>
-          </li>
+
           <li class="nav-item" (click)="toggleMenu()">
             <a class="nav-link" routerLink="Contact">contact us</a>
           </li>

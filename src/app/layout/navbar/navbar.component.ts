@@ -42,6 +42,7 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent implements OnInit {
   public isCollapsed = true;
+  currentRoute:string='/'
   constructor(private router: Router) {}
 
   ngOnInit(): void {
@@ -51,6 +52,9 @@ export class NavbarComponent implements OnInit {
   toggleMenu() {
 
     this.isMenuOpen = !this.isMenuOpen;
+  }
+  navigate(path:string){
+    this.router.navigateByUrl(path);
   }
   goToHome(): void {
     this.router.navigateByUrl('/');

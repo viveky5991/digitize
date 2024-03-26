@@ -8,6 +8,10 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./marketprint/marketprint.module').then(m => m.MarketprintModule)
   },
+  {
+    path: '',
+    loadChildren: () => import('./seals/seals.module').then(m => m.SealsModule)
+  },
 
 ];
 @NgModule({

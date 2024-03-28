@@ -1,6 +1,6 @@
 <div class="home mt-4" >
 
-  <swiper [loop]="false"  [allowTouchMove]="true" 	[autoplay]="{ delay: 3000, disableOnInteraction: false }"
+  <!-- <swiper [loop]="false"  [allowTouchMove]="true" 	[autoplay]="{ delay: 3000, disableOnInteraction: false }"
   [pagination]="{ clickable: true }" [navigation]="true">
   <ng-template data-swiper-autoplay="6000" swiperSlide >
 
@@ -23,8 +23,8 @@
    <img src="../../assets/img/logo/about.png" alt="">
   </ng-template>
 
-  </swiper>
-  <swiper
+  </swiper> -->
+  <!-- <swiper
       [config]="config"
       (swiper)="onSwiper($event)"
       (slideChange)="onSlideChange()"
@@ -35,22 +35,98 @@
       <ng-template swiperSlide>Slide 4</ng-template>
       <ng-template swiperSlide>Slide 5</ng-template>
       <ng-template swiperSlide>Slide 6</ng-template>
-    </swiper>
-    <swiper
-      [slidesPerView]="3"
+    </swiper> -->
+    <!-- <swiper
+      [slidesPerView]="2"
       [spaceBetween]="50"
       (swiper)="onSwiper($event)"
       (slideChange)="onSlideChange()"
       [navigation]="true"
       [pagination]="{ clickable: true }"
-      [scrollbar]="{ draggable: true }"
+      [scrollbar]="{ draggable: false }"
     >
-      <ng-template swiperSlide>Slide 1</ng-template>
+      <ng-template swiperSlide><img src="https://www.dlxprint.com/img/stickers_wall_dubai_slider.png" alt="" class="w-100"></ng-template>
 
       <ng-template swiperSlide><img src="../../assets/img/logo/about.png" alt=""></ng-template>
       <ng-template swiperSlide>Slide 3</ng-template>
       <ng-template swiperSlide>Slide 4</ng-template>
       <ng-template swiperSlide>Slide 5</ng-template>
       <ng-template swiperSlide>Slide 6</ng-template>
+    </swiper> -->
+    <swiper [loop]="false"  [allowTouchMove]="true" 	[autoplay]="{ delay: 3000, disableOnInteraction: false }"
+    [pagination]="{ clickable: true }" [navigation]="true">
+    <ng-template data-swiper-autoplay="6000" swiperSlide >
+
+     <img src="../../assets/img/logo/about.png" alt="" class="swp"class="" >
+    </ng-template>
+
+    <ng-template data-swiper-autoplay="10000" class="" swiperSlide>
+
+     <img src="https://www.dlxprint.com/img/stickers_wall_dubai_slider.png" alt="" class="w-100">
+    </ng-template>
+
+    <ng-template data-swiper-autoplay="60000" swiperSlide>
+
+     <img src="../../assets/img/logo/about.png" alt="">
+
+    </ng-template>
+
+    <ng-template data-swiper-autoplay="60000" swiperSlide>
+     <img src="../../assets/img/logo/about.png" alt="">
+    </ng-template>
+
     </swiper>
+    <div class="container mt-5">
+      <div class="row">
+        <h2 style="text-align: center;">OUR PRODUCTS</h2>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+            <h5><a href="">Business Cards</a></h5>
+          </a>
+          <figure>
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="Trulli" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+          </figure>
+
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+        <div class="col-md-4 p-2">
+          <a href="http://">
+            <img src="https://www.dlxprint.com/img/standard_business_cards_printing_dubai.webp" alt="" class="w-100">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
+
+

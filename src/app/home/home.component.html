@@ -1,1 +1,56 @@
-<p>home works!</p>
+<div class="home mt-4" >
+
+  <swiper [loop]="false"  [allowTouchMove]="true" 	[autoplay]="{ delay: 3000, disableOnInteraction: false }"
+  [pagination]="{ clickable: true }" [navigation]="true">
+  <ng-template data-swiper-autoplay="6000" swiperSlide >
+
+   <img src="../../assets/img/logo/about.png" alt="" class="swp">
+  </ng-template>
+
+  <ng-template data-swiper-autoplay="10000" class="" swiperSlide>
+
+   <img src="../../assets/img/logo/about.png" alt="">
+  </ng-template>
+
+  <ng-template data-swiper-autoplay="60000" swiperSlide>
+
+   <img src="../../assets/img/logo/about.png" alt="">
+
+  </ng-template>
+
+  <ng-template data-swiper-autoplay="60000" swiperSlide>
+   <img src="../../assets/img/logo/about.png" alt="">
+   <img src="../../assets/img/logo/about.png" alt="">
+  </ng-template>
+
+  </swiper>
+  <swiper
+      [config]="config"
+      (swiper)="onSwiper($event)"
+      (slideChange)="onSlideChange()"
+    >
+      <ng-template swiperSlide>Slide 1</ng-template>
+      <ng-template swiperSlide>Slide 2</ng-template>
+      <ng-template swiperSlide>Slide 3</ng-template>
+      <ng-template swiperSlide>Slide 4</ng-template>
+      <ng-template swiperSlide>Slide 5</ng-template>
+      <ng-template swiperSlide>Slide 6</ng-template>
+    </swiper>
+    <swiper
+      [slidesPerView]="3"
+      [spaceBetween]="50"
+      (swiper)="onSwiper($event)"
+      (slideChange)="onSlideChange()"
+      [navigation]="true"
+      [pagination]="{ clickable: true }"
+      [scrollbar]="{ draggable: true }"
+    >
+      <ng-template swiperSlide>Slide 1</ng-template>
+
+      <ng-template swiperSlide><img src="../../assets/img/logo/about.png" alt=""></ng-template>
+      <ng-template swiperSlide>Slide 3</ng-template>
+      <ng-template swiperSlide>Slide 4</ng-template>
+      <ng-template swiperSlide>Slide 5</ng-template>
+      <ng-template swiperSlide>Slide 6</ng-template>
+    </swiper>
+  </div>

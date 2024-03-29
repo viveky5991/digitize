@@ -1,6 +1,29 @@
 import { Component } from '@angular/core';
 import { SwiperModule } from 'swiper/angular';
-import SwiperCore, { SwiperOptions } from 'swiper';
+// import SwiperCore, { SwiperOptions } from 'swiper';
+import SwiperCore , {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  SwiperOptions,
+  A11y,
+  Virtual,
+  Zoom,
+  Autoplay,
+  Thumbs,
+  Controller,
+} from 'swiper';
+SwiperCore.use([
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Virtual,
+  Zoom,
+  Autoplay,
+  Thumbs,
+  Controller
+]);
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -22,4 +45,5 @@ export class HomeComponent {
   onSlideChange() {
     console.log('slide change');
   }
+
 }

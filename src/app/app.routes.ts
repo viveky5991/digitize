@@ -12,6 +12,10 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./seals/seals.module').then(m => m.SealsModule)
   },
+  {
+    path:'',
+    loadChildren: () => import('./stickers/stickers.module').then(m => m.StickerModule)
+  }
 
 ];
 @NgModule({

@@ -6,8 +6,18 @@ import { StationarydetailsComponent } from './stationarydetails/stationarydetail
 
 const routes: Routes = [
   { path: 'business-cards', component: StationarylistingComponent },
-  { path: 'certificates', component: StationarylistingComponent },
-  { path: 'letter-heads', component: StationarydetailsComponent },
+  { path: 'letter-heads', component: StationarylistingComponent },
+  { path: 'envelopes', component: StationarylistingComponent },
+  { path: 'folders', component: StationarylistingComponent },
+  { path: 'notepads', component: StationarylistingComponent },
+  { path: 'notebook&journal', component: StationarylistingComponent },
+  { path: 'binding', component: StationarylistingComponent },
+  { path: 'thankyoucard', component: StationarylistingComponent },
+   { path: 'certificates', component: StationarylistingComponent },
+   { path: 'calendars', component: StationarylistingComponent },
+  // { path: 'business-cards', component: StationarylistingComponent },
+  // { path: 'certificates', component: StationarylistingComponent },
+  // { path: 'letter-heads', component: StationarydetailsComponent },
 ]
 
 @NgModule({

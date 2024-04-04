@@ -72,20 +72,20 @@
             <mat-menu #stationary="matMenu">
               <button mat-menu-item (click)="navigate('/stationary/business-cards')">BUSINESS CARDS</button>
               <button mat-menu-item (click)="navigate('/stationary/letter-heads')">LETTERHEADS</button>
-              <button mat-menu-item>ENVELOPES</button>
-              <button mat-menu-item>FOLDERS</button>
-              <button mat-menu-item>NOTEPADS</button>
-              <button mat-menu-item>Notebook & Journal</button>
-              <button mat-menu-item>Binding</button>
-              <button mat-menu-item>Thank you Card</button>
-              <button mat-menu-item>Certificates</button>
-              <button mat-menu-item>Calendars</button>
+              <button mat-menu-item (click)="navigate('/stationary/envelopes')">ENVELOPES</button>
+              <button mat-menu-item (click)="navigate('/stationary/folders')">FOLDERS</button>
+              <button mat-menu-item (click)="navigate('/stationary/notepads')">NOTEPADS</button>
+              <button mat-menu-item (click)="navigate('/stationary/notebook&journal')">Notebook & Journal</button>
+              <button mat-menu-item (click)="navigate('/stationary/binding')">Binding</button>
+              <button mat-menu-item (click)="navigate('/stationary/thankyoucard')">Thank you Card</button>
+              <button mat-menu-item (click)="navigate('/stationary/certificates')">Certificates</button>
+              <button mat-menu-item (click)="navigate('/stationary/calendars')">Calendars</button>
             </mat-menu>
 
             <mat-menu #seals="matMenu">
-              <button mat-menu-item>Self Ink Stamps</button>
-              <button mat-menu-item>Wax Seal</button>
-              <button mat-menu-item>Embossing Seal</button>
+              <button mat-menu-item (click)="navigate('/seals/selfinkstamps')">Self Ink Stamps</button>
+              <button mat-menu-item (click)="navigate('/seals/waxseal')" >Wax Seal</button>
+              <button mat-menu-item (click)="navigate('/seals/embossingseal')" >Embossing Seal</button>
             </mat-menu>
 
             <mat-menu #brochures="matMenu">
@@ -102,18 +102,18 @@
             </mat-menu>
 
             <mat-menu #stickers="matMenu">
-              <button mat-menu-item>Die Cut Sticker</button>
-              <button mat-menu-item>Print & Cut sticker</button>
-              <button mat-menu-item>Paper Sticker Gloss / Matt</button>
-              <button mat-menu-item>Transparent Sticker</button>
-              <button mat-menu-item>PVC White Sticker</button>
-              <button mat-menu-item>White Ink Sticker</button>
-              <button mat-menu-item>Epoxy sticker</button>
-              <button mat-menu-item>Windshield sticker</button>
-              <button mat-menu-item>Foil Sticker</button>
-              <button mat-menu-item>Embossing seal sticker</button>
-              <button mat-menu-item>Helmet Sticker</button>
-              <button mat-menu-item>Kraft Paper Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/DieCutSticker')">Die Cut Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/print&cutsticker')">Print & Cut sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/paperstickergloss')">Paper Sticker Gloss / Matt</button>
+              <button mat-menu-item (click)="navigate('/stickers/transparentsticker')">Transparent Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/pvcwhitesticker')">PVC White Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/whiteinksticker')">White Ink Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/epoxysticker')">Epoxy sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/windshieldsticker')">Windshield sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/foilsticker')">Foil Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/embossingsealsticker')">Embossing seal sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/helmetsticker')">Helmet Sticker</button>
+              <button mat-menu-item (click)="navigate('/stickers/kraftpapersticker')">Kraft Paper Sticker</button>
             </mat-menu>
 
             <mat-menu #amphibians="matMenu">

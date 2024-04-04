@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { PrintComponent } from './print/print.component';
 
 const routes: Routes = [
-  { path: 'print', component: PrintComponent },
+ 
   {
     path: 'stationary',
     loadChildren: () => import('../stationary/stationary.module').then(m => m.StationaryModule)

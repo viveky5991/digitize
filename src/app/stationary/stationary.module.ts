@@ -17,7 +17,7 @@ const routes: Routes = [
    { path: 'calendars', component: StationarylistingComponent },
   // { path: 'business-cards', component: StationarylistingComponent },
   // { path: 'certificates', component: StationarylistingComponent },
-  // { path: 'letter-heads', component: StationarydetailsComponent },
+  { path: 'details-heads', component: StationarydetailsComponent },
 ]
 
 @NgModule({

@@ -39,3 +39,32 @@ img {
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
+
+.image-aboutus-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom:110px;
+ }
+ 
+  .image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom:30px;
+ }
+.lg-text {
+    font-size:52px;
+    font-weight: 600;
+    text-transform: none;
+    color:#fff;
+}
+.image-aboutus-para {
+    color:#fff;
+}

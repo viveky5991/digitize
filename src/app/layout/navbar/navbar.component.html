@@ -170,23 +170,23 @@
             </mat-menu>
 
             <mat-menu #wallBranding="matMenu">
-              <button mat-menu-item>Wall Vinyl Lettering</button>
-              <button mat-menu-item>Wall Graphics</button>
+              <button mat-menu-item (click)="navigate('/wallbranding/WallVinylLettering')">Wall Vinyl Lettering</button>
+              <button mat-menu-item (click)="navigate('/wallbranding/WallGraphics')">Wall Graphics</button>
 
             </mat-menu>
 
             <mat-menu #wallFrames="matMenu">
-              <button mat-menu-item>Canvas</button>
-              <button mat-menu-item>Wooden</button>
-              <button mat-menu-item>Acrylic</button>
-              <button mat-menu-item>Metal Art</button>
+              <button mat-menu-item (click)="navigate('/wallframes/Canvas')">Canvas</button>
+              <button mat-menu-item (click)="navigate('/wallframes/Wooden')">Wooden</button>
+              <button mat-menu-item (click)="navigate('/wallframes/Acrylic')">Acrylic</button>
+              <button mat-menu-item (click)="navigate('/wallframes/MetalArt')">Metal Art</button>
 
             </mat-menu>
 
             <mat-menu #vehicle="matMenu">
-              <button mat-menu-item>Car Door</button>
-              <button mat-menu-item>Half Wrap Vehicle</button>
-              <button mat-menu-item>Van Branding</button>
+              <button mat-menu-item (click)="navigate('/vehiclegraphics/CarDoor')">Car Door</button>
+              <button mat-menu-item (click)="navigate('/vehiclegraphics/HalfWrapVehicle')">Half Wrap Vehicle</button>
+              <button mat-menu-item (click)="navigate('/vehiclegraphics/VanBranding')">Van Branding</button>
 
             </mat-menu>
 
@@ -210,60 +210,60 @@
             </mat-menu>
 
             <mat-menu #indoor3D="matMenu">
-              <button mat-menu-item>Unlit 3D Signage</button>
-              <button mat-menu-item>Frontlit 3D Signage</button>
-              <button mat-menu-item>Backlit 3D Signage</button>
-              <button mat-menu-item>Outlit 3D Signage</button>
-              <button mat-menu-item>Push Through 3D Signage</button>
-              <button mat-menu-item>Neon 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/Unlit3DSignage')">Unlit 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/Frontlit3DSignage')">Frontlit 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/Backlit3DSignage')">Backlit 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/Outlit3DSignage')">Outlit 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/PushThrough3DSignage')">Push Through 3D Signage</button>
+              <button mat-menu-item (click)="navigate('/indoor3D/Neon3DSignage')">Neon 3D Signage</button>
 
             </mat-menu>
 
             <mat-menu #signBoard="matMenu">
-              <button mat-menu-item>Flex Face Sign Board</button>
-              <button mat-menu-item>Frontlit 3D Sign Board</button>
-              <button mat-menu-item>Backtlit 3D Sign Board</button>
-              <button mat-menu-item>Push Through Sign Board</button>
-              <button mat-menu-item>Neon Sign Board</button>
+              <button mat-menu-item (click)="navigate('/signboard/FlexFaceSignBoard')">Flex Face Sign Board</button>
+              <button mat-menu-item (click)="navigate('/signboard/Frontlit3DSignBoard')">Frontlit 3D Sign Board</button>
+              <button mat-menu-item (click)="navigate('/signboard/Backtlit3DSignBoard')">Backtlit 3D Sign Board</button>
+              <button mat-menu-item (click)="navigate('/signboard/PushThroughSignBoard')">Push Through Sign Board</button>
+              <button mat-menu-item (click)="navigate('/signboard/NeonSignBoard')">Neon Sign Board</button>
 
             </mat-menu>
 
             <mat-menu #lightBox="matMenu">
-              <button mat-menu-item>Flex Face Light Box</button>
-              <button mat-menu-item>Fabric Light Box</button>
-              <button mat-menu-item>Acrylic Light Box</button>
-              <button mat-menu-item>Poster Light Box</button>
+              <button mat-menu-item (click)="navigate('/lightboxsignages/FlexFaceLightBox')">Flex Face Light Box</button>
+              <button mat-menu-item (click)="navigate('/lightboxsignages/FabricLightBox')">Fabric Light Box</button>
+              <button mat-menu-item (click)="navigate('/lightboxsignages/AcrylicLightBox')">Acrylic Light Box</button>
+              <button mat-menu-item (click)="navigate('/lightboxsignages/PosterLightBox')">Poster Light Box</button>
 
             </mat-menu>
 
             <mat-menu #direction="matMenu">
-              <button mat-menu-item>Self-Standing Signage</button>
-              <button mat-menu-item>Wall Mounted Signage</button>
-              <button mat-menu-item>Hanging Signage</button>
-              <button mat-menu-item>Directory Signage</button>
+              <button mat-menu-item (click)="navigate('/directionwayfindingsignage/SelfStandingSignage')">Self-Standing Signage</button>
+              <button mat-menu-item (click)="navigate('/directionwayfindingsignage/WallMountedSignage')">Wall Mounted Signage</button>
+              <button mat-menu-item (click)="navigate('/directionwayfindingsignage/HangingSignage')">Hanging Signage</button>
+              <button mat-menu-item (click)="navigate('/directionwayfindingsignage/DirectorySignage')">Directory Signage</button>
 
             </mat-menu>
             <mat-menu #selfStanding="matMenu">
-              <button mat-menu-item>Metal Letters</button>
-              <button mat-menu-item>Wooden Letters</button>
-              <button mat-menu-item>Acrylic Letters</button>
-              <button mat-menu-item>Forex / Foam Letters</button>
+              <button mat-menu-item (click)="navigate('/selfstandingletters/MetalLetters')">Metal Letters</button>
+              <button mat-menu-item (click)="navigate('/selfstandingletters/WoodenLetters')">Wooden Letters</button>
+              <button mat-menu-item (click)="navigate('/selfstandingletters/AcrylicLetters')">Acrylic Letters</button>
+              <button mat-menu-item (click)="navigate('/selfstandingletters/ForexFoamLetters')">Forex / Foam Letters</button>
 
             </mat-menu>
 
             <mat-menu #namePlate="matMenu">
-              <button mat-menu-item>Metal Name Plates</button>
-              <button mat-menu-item>Acrylic Name Plates</button>
-              <button mat-menu-item>Wooden Name Plates</button>
-              <button mat-menu-item>Table Top Plates / Sign</button>
+              <button mat-menu-item (click)="navigate('/nameplate/MetalNamePlates')">Metal Name Plates</button>
+              <button mat-menu-item (click)="navigate('/nameplate/AcrylicNamePlates')">Acrylic Name Plates</button>
+              <button mat-menu-item (click)="navigate('/nameplate/WoodenNamePlates')">Wooden Name Plates</button>
+              <button mat-menu-item (click)="navigate('/nameplate/TableTopPlatesSign')">Table Top Plates / Sign</button>
 
             </mat-menu>
 
             <mat-menu #labels="matMenu">
-              <button mat-menu-item>Traffolyte / PVC / Acrylic Labels</button>
-              <button mat-menu-item>Metal Labels</button>
-              <button mat-menu-item>Wooden Labels</button>
-              <button mat-menu-item>Acrylic Labels</button>
+              <button mat-menu-item (click)="navigate('/labels/TraffolytePVCAcrylicLabels')">Traffolyte / PVC / Acrylic Labels</button>
+              <button mat-menu-item (click)="navigate('/labels/MetalLabels')">Metal Labels</button>
+              <button mat-menu-item (click)="navigate('/labels/WoodenLabels')">Wooden Labels</button>
+              <button mat-menu-item (click)="navigate('/labels/AcrylicLabels')">Acrylic Labels</button>
 
             </mat-menu>
 
@@ -285,44 +285,44 @@
             </mat-menu>
 
             <mat-menu #advertisingFlags="matMenu">
-              <button mat-menu-item>Sail Flags</button>
-              <button mat-menu-item>Tear Drop Flags</button>
-              <button mat-menu-item>L Shape Flags</button>
-              <button mat-menu-item>Blade Flags</button>
-              <button mat-menu-item>Telescopic Flags</button>
+              <button mat-menu-item (click)="navigate('/advertisingflags/SailFlags')">Sail Flags</button>
+              <button mat-menu-item (click)="navigate('/advertisingflags/TearDropFlags')">Tear Drop Flags</button>
+              <button mat-menu-item (click)="navigate('/advertisingflags/LShapeFlags')">L Shape Flags</button>
+              <button mat-menu-item (click)="navigate('/advertisingflags/BladeFlags')">Blade Flags</button>
+              <button mat-menu-item (click)="navigate('/advertisingflags/TelescopicFlags')">Telescopic Flags</button>
 
             </mat-menu>
 
             <mat-menu #decorativeFlags="matMenu">
-              <button mat-menu-item>Car Flags</button>
-              <button mat-menu-item>Car Desert Flags</button>
-              <button mat-menu-item>Dashboard Flags</button>
-              <button mat-menu-item>Pennant Flags</button>
-              <button mat-menu-item>Bunting Flags</button>
-              <button mat-menu-item>Toothpick Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/CarFlags')">Car Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/CarDesertFlags')">Car Desert Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/DashboardFlags')">Dashboard Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/PennantFlags')">Pennant Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/BuntingFlags')">Bunting Flags</button>
+              <button mat-menu-item (click)="navigate('/decorativeflags/ToothpickFlags')">Toothpick Flags</button>
             </mat-menu>
 
             <mat-menu #handheldFlags="matMenu">
-              <button mat-menu-item>Pole flags</button>
-              <button mat-menu-item>Hand flags</button>
-              <button mat-menu-item>Finish Line</button>
-              <button mat-menu-item>Body Flags</button>
-              <button mat-menu-item>Fan Scarf</button>
+              <button mat-menu-item (click)="navigate('/handheldflags/Poleflags')">Pole flags</button>
+              <button mat-menu-item (click)="navigate('/handheldflags/Handflags')">Hand flags</button>
+              <button mat-menu-item (click)="navigate('/handheldflags/FinishLine')">Finish Line</button>
+              <button mat-menu-item (click)="navigate('/handheldflags/BodyFlags')">Body Flags</button>
+              <button mat-menu-item (click)="navigate('/handheldflags/FanScarf')">Fan Scarf</button>
             </mat-menu>
 
             <mat-menu #outdoorFlags="matMenu">
-              <button mat-menu-item>Hoisting Flags</button>
-              <button mat-menu-item>Wall Mounted Flags</button>
-              <button mat-menu-item>Stadium flags</button>
-              <button mat-menu-item>Advertising Flags</button>
-              <button mat-menu-item>Festival Flags</button>
+              <button mat-menu-item (click)="navigate('/outdoorflags/HoistingFlags')">Hoisting Flags</button>
+              <button mat-menu-item (click)="navigate('/outdoorflags/WallMountedFlags')">Wall Mounted Flags</button>
+              <button mat-menu-item (click)="navigate('/outdoorflags/Stadiumflags')">Stadium flags</button>
+              <button mat-menu-item (click)="navigate('/outdoorflags/AdvertisingFlags')">Advertising Flags</button>
+              <button mat-menu-item (click)="navigate('/outdoorflags/FestivalFlags')">Festival Flags</button>
             </mat-menu>
 
             <mat-menu #officeFlags="matMenu">
-              <button mat-menu-item>Table Flags</button>
-              <button mat-menu-item>Table Flags - Royal</button>
-              <button mat-menu-item>Conference Flags</button>
-              <button mat-menu-item>Conference Flags - Hanging</button>
+              <button mat-menu-item (click)="navigate('/officeflags/TableFlags')">Table Flags</button>
+              <button mat-menu-item (click)="navigate('/officeflags/TableFlagsRoyal')">Table Flags - Royal</button>
+              <button mat-menu-item (click)="navigate('/officeflags/ConferenceFlags')">Conference Flags</button>
+              <button mat-menu-item (click)="navigate('/officeflags/ConferenceFlagsHanging')">Conference Flags - Hanging</button>
             </mat-menu>
           </li>
 
@@ -341,35 +341,35 @@
             </mat-menu>
 
             <mat-menu #popupsRollups="matMenu">
-              <button mat-menu-item>Pop Ups</button>
-              <button mat-menu-item>Fabric Pop Ups</button>
-              <button mat-menu-item>Rollup Banners</button>
-              <button mat-menu-item>X Banners</button>
-              <button mat-menu-item>Banners-Flex & Fabric</button>
-              <button mat-menu-item>Fence Banners </button>
-              <button mat-menu-item>Lama Stand </button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/PopUps')">Pop Ups</button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/FabricPopUps')">Fabric Pop Ups</button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/RollupBanners')">Rollup Banners</button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/XBanners')">X Banners</button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/BannersFlexFabric')">Banners-Flex & Fabric</button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/FenceBanners')">Fence Banners </button>
+              <button mat-menu-item (click)="navigate('/popupsrollupsbanners/LamaStand')">Lama Stand </button>
 
             </mat-menu>
             <mat-menu #backdropsStandees="matMenu">
-              <button mat-menu-item>Wooden Backdrop </button>
-              <button mat-menu-item>Step & Repeat Backdrop </button>
-              <button mat-menu-item>Fabric Backdrop - Indoor </button>
-              <button mat-menu-item>Fabric Backdrop - Outdoor </button>
-              <button mat-menu-item>Popout Banner / Spring A Board </button>
-              <button mat-menu-item>Toblerone Frame </button>
-              <button mat-menu-item>Cutout Standee </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/WoodenBackdrop')">Wooden Backdrop </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/StepRepeatBackdrop')">Step & Repeat Backdrop </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/FabricBackdropIndoor')">Fabric Backdrop - Indoor </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/FabricBackdropOutdoor')">Fabric Backdrop - Outdoor </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/PopoutBannerSpringABoard')">Popout Banner / Spring A Board </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/TobleroneFrame')">Toblerone Frame </button>
+              <button mat-menu-item (click)="navigate('/backdropsstandees/CutoutStandee')">Cutout Standee </button>
 
             </mat-menu>
 
             <mat-menu #exhibitionEvents="matMenu">
-              <button mat-menu-item>Promotion Table </button>
-              <button mat-menu-item>Exhibition Counters </button>
-              <button mat-menu-item>Tent / Canopy / Gazebo </button>
-              <button mat-menu-item>Parasol Umbrella </button>
-              <button mat-menu-item>Table Cover & Table Cloth </button>
-              <button mat-menu-item>Social Media Frame </button>
-              <button mat-menu-item>Foam Board </button>
-              <button mat-menu-item>Shell Scheme Booth Branding </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/PromotionTable')">Promotion Table </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/ExhibitionCounters')">Exhibition Counters </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/TentCanopyGazebo')">Tent / Canopy / Gazebo </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/ParasolUmbrella')">Parasol Umbrella </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/TableCoverTableCloth')">Table Cover & Table Cloth </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/SocialMediaFrame')">Social Media Frame </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/FoamBoard')">Foam Board </button>
+              <button mat-menu-item (click)="navigate('/exhibitionevents/ShellSchemeBoothBranding')">Shell Scheme Booth Branding </button>
 
             </mat-menu>
 
@@ -390,47 +390,47 @@
 
               </mat-menu>
               <mat-menu #officeEssentials="matMenu">
-                <button mat-menu-item>Pens</button>
-                <button mat-menu-item>PU Notebooks</button>
-                <button mat-menu-item>PU Organizer</button>
-                <button mat-menu-item>Mouse Pad</button>
+                <button mat-menu-item (click)="navigate('/officeessentials/Pens')">Pens</button>
+                <button mat-menu-item (click)="navigate('/officeessentials/PUNotebooks')">PU Notebooks</button>
+                <button mat-menu-item (click)="navigate('/officeessentials/PUOrganizer')">PU Organizer</button>
+                <button mat-menu-item (click)="navigate('/officeessentials/MousePad')">Mouse Pad</button>
 
               </mat-menu>
               <mat-menu #apparel="matMenu">
-                <button mat-menu-item>T-Shirt</button>
-                <button mat-menu-item>Jersey</button>
-                <button mat-menu-item>Caps</button>
-                <button mat-menu-item>Neck Tie</button>
-                <button mat-menu-item>Safety Vest</button>
+                <button mat-menu-item (click)="navigate('/apparel/TShirt')">T-Shirt</button>
+                <button mat-menu-item (click)="navigate('/apparel/Jersey')">Jersey</button>
+                <button mat-menu-item (click)="navigate('/apparel/Caps')">Caps</button>
+                <button mat-menu-item (click)="navigate('/apparel/NeckTie')">Neck Tie</button>
+                <button mat-menu-item (click)="navigate('/apparel/SafetyVest')">Safety Vest</button>
 
               </mat-menu>
 
               <mat-menu #tradeShows="matMenu">
-                <button mat-menu-item>Wristband</button>
-                <button mat-menu-item>Name Badges</button>
-                <button mat-menu-item>Lanyards</button>
-                <button mat-menu-item>ID Cards & Badge Reel</button>
-                <button mat-menu-item>Keychain</button>
-                <button mat-menu-item>USB</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/Wristband')">Wristband</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/NameBadges')">Name Badges</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/Lanyards')">Lanyards</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/IDCardsBadgeReel')">ID Cards & Badge Reel</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/Keychain')">Keychain</button>
+                <button mat-menu-item (click)="navigate('/tradeshowsevents/USB')">USB</button>
 
               </mat-menu>
 
               <mat-menu #Drinkware="matMenu">
-                <button mat-menu-item>Mugs</button>
-                <button mat-menu-item>Bottles</button>
-                <button mat-menu-item>Tumblers</button>
+                <button mat-menu-item (click)="navigate('/drinkware/Mugs')">Mugs</button>
+                <button mat-menu-item (click)="navigate('/drinkware/Bottles')">Bottles</button>
+                <button mat-menu-item (click)="navigate('/drinkware/Tumblers')">Tumblers</button>
 
               </mat-menu>
 
               <mat-menu #shoppingPromotional="matMenu">
-                <button mat-menu-item>Paper bag</button>
-                <button mat-menu-item>Kraft bag</button>
-                <button mat-menu-item>Non Woven bag</button>
-                <button mat-menu-item>Jute bag</button>
-                <button mat-menu-item>Tote bag</button>
-                <button mat-menu-item>Canvas bag</button>
-                <button mat-menu-item>Drawstring bag</button>
-                <button mat-menu-item>Cotton String bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Paperbag')">Paper bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Kraftbag')">Kraft bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/NonWovenbag')">Non Woven bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Jutebag')">Jute bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Totebag')">Tote bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Canvasbag')">Canvas bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/Drawstringbag')">Drawstring bag</button>
+                <button mat-menu-item (click)="navigate('/shoppingpromotionalbags/CottonStringbag')">Cotton String bag</button>
 
               </mat-menu>
             </li>

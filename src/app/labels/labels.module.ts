@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TraffolyteComponent } from './/traffolyte//traffolyte.component';
 
 const routes: Routes = [
-  { path: 'TraffolytePVCAcrylicLabels', component: TraffolyteComponent },
+  { path: 'TraffolytePVCAcrylic', component: TraffolyteComponent },
   { path: 'MetalLabels', component: TraffolyteComponent },
   { path: 'WoodenLabels', component: TraffolyteComponent },
   { path: 'AcrylicLabels', component: TraffolyteComponent }

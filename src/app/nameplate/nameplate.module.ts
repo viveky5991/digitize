@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { MetalnameplatesComponent } from './/metalnameplates//metalnameplates.component';
 
 const routes: Routes = [
-  { path: 'MetalNamePlates', component: MetalnameplatesComponent },
-  { path: 'AcrylicNamePlates', component: MetalnameplatesComponent },
-  { path: 'WoodenNamePlates', component: MetalnameplatesComponent },
+  { path: 'MetalPlates', component: MetalnameplatesComponent },
+  { path: 'AcrylicPlates', component: MetalnameplatesComponent },
+  { path: 'WoodenPlates', component: MetalnameplatesComponent },
   { path: 'TableTopPlatesSign', component: MetalnameplatesComponent }
  
 ]

@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { SelfstandingsignageComponent } from './/selfstandingsignage//selfstandingsignage.component';
 
 const routes: Routes = [
-  { path: 'SelfStandingSignage', component: SelfstandingsignageComponent },
-  { path: 'WallMountedSignage', component: SelfstandingsignageComponent },
-  { path: 'HangingSignage', component: SelfstandingsignageComponent },
-  { path: 'DirectorySignage', component: SelfstandingsignageComponent }
+  { path: 'SelfStanding', component: SelfstandingsignageComponent },
+  { path: 'WallMounted', component: SelfstandingsignageComponent },
+  { path: 'Hanging', component: SelfstandingsignageComponent },
+  { path: 'Directory', component: SelfstandingsignageComponent }
  
 ]
 

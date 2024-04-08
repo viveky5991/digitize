@@ -4,9 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { CardoorComponent } from './/cardoor//cardoor.component';
 
 const routes: Routes = [
-  { path: 'CarDoor', component: CardoorComponent },
-  { path: 'HalfWrapVehicle', component: CardoorComponent },
-  { path: 'VanBranding', component: CardoorComponent }
+  { path: 'Car-Door', component: CardoorComponent },
+  { path: 'Half-Wrap-Vehicle', component: CardoorComponent },
+  { path: 'Van-Branding', component: CardoorComponent }
  
 ]
 

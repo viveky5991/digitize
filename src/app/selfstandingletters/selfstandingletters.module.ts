@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { MetallettersComponent } from './/metalletters//metalletters.component';
 
 const routes: Routes = [
-  { path: 'MetalLetters', component: MetallettersComponent },
-  { path: 'WoodenLetters', component: MetallettersComponent },
+  { path: 'Metal', component: MetallettersComponent },
+  { path: 'Wooden', component: MetallettersComponent },
   { path: 'AcrylicLetters', component: MetallettersComponent },
-  { path: 'ForexFoamLetters', component: MetallettersComponent }
+  { path: 'ForexFoam', component: MetallettersComponent }
  
 ]
 

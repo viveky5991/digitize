@@ -3,18 +3,18 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { DieCutStickerComponent } from "./die-cut-sticker/die-cut-sticker.component";
 const  routes = [
-    { path: 'diecutsticker', component: DieCutStickerComponent },
-    { path: 'print&cutsticker', component: DieCutStickerComponent },
+    { path: 'die-cut', component: DieCutStickerComponent },
+    { path: 'print-cut', component: DieCutStickerComponent },
     { path: 'paperstickergloss', component: DieCutStickerComponent },
-    { path: 'transparentsticker', component: DieCutStickerComponent },
-    { path: 'pvcwhitesticker', component: DieCutStickerComponent },
-    { path: 'whiteinksticker', component: DieCutStickerComponent },
-    { path: 'epoxysticker', component: DieCutStickerComponent },
-    { path: 'windshieldsticker', component: DieCutStickerComponent },
-    { path: 'foilsticker', component: DieCutStickerComponent },
-    { path: 'embossingsealsticker', component: DieCutStickerComponent },
-    { path: 'helmetsticker', component: DieCutStickerComponent },
-    { path: 'kraftpapersticker', component: DieCutStickerComponent },
+    { path: 'transparent', component: DieCutStickerComponent },
+    { path: 'pvcwhite', component: DieCutStickerComponent },
+    { path: 'whiteink', component: DieCutStickerComponent },
+    { path: 'epoxy', component: DieCutStickerComponent },
+    { path: 'windshield', component: DieCutStickerComponent },
+    { path: 'foil', component: DieCutStickerComponent },
+    { path: 'embossingseal', component: DieCutStickerComponent },
+    { path: 'helmet', component: DieCutStickerComponent },
+    { path: 'kraftpaper', component: DieCutStickerComponent },
 ];
 @NgModule({
     declarations:[],

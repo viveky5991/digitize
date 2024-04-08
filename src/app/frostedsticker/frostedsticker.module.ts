@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { CutfrostedstickerComponent } from './cutfrostedsticker/cutfrostedsticker.component';
 
 const routes: Routes = [
-  { path: 'ReverseCutFrostedsticker', component: CutfrostedstickerComponent },
-  { path: 'StandardCutFrostedsticker', component: CutfrostedstickerComponent },
-  { path: 'PrintedFrostedsticker', component: CutfrostedstickerComponent },
-  { path: 'BlankFrostedsticker', component: CutfrostedstickerComponent }
+  { path: 'ReverseCut-Frosted', component: CutfrostedstickerComponent },
+  { path: 'StandardCut-Frosted', component: CutfrostedstickerComponent },
+  { path: 'Printed-Frosted', component: CutfrostedstickerComponent },
+  { path: 'Blank-Frosted', component: CutfrostedstickerComponent }
  
 ]
 

@@ -8,10 +8,10 @@ const routes: Routes = [
   { path: 'ExhibitionCounters', component: PromotiontableComponent },
   { path: 'TentCanopyGazebo', component: PromotiontableComponent },
   { path: 'ParasolUmbrella', component: PromotiontableComponent },
-  { path: 'TableCoverTableCloth', component: PromotiontableComponent },
+  { path: 'TableCoverCloth', component: PromotiontableComponent },
   { path: 'SocialMediaFrame', component: PromotiontableComponent },
   { path: 'FoamBoard', component: PromotiontableComponent },
-  { path: 'ShellSchemeBoothBranding', component: PromotiontableComponent }
+  { path: 'ShellSchemeBooth', component: PromotiontableComponent }
 ]
 
 @NgModule({

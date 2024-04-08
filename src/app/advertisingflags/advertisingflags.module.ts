@@ -8,7 +8,8 @@ const routes: Routes = [
   { path: 'TearDropFlags', component: SailflagsComponent },
   { path: 'LShapeFlags', component: SailflagsComponent },
   { path: 'BladeFlags', component: SailflagsComponent },
-  { path: 'TelescopicFlags', component: SailflagsComponent }
+  { path: 'TelescopicFlags', component: SailflagsComponent },
+  { path: 'flag-base', component: SailflagsComponent }
  
 ]
 

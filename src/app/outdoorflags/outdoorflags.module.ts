@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { HoistingflagsComponent } from './/hoistingflags//hoistingflags.component';
 
 const routes: Routes = [
-  { path: 'HoistingFlags', component: HoistingflagsComponent },
-  { path: 'WallMountedFlags', component: HoistingflagsComponent },
-  { path: 'Stadiumflags', component: HoistingflagsComponent },
-  { path: 'AdvertisingFlags', component: HoistingflagsComponent },
-  { path: 'FestivalFlags', component: HoistingflagsComponent }
+  { path: 'Hoisting', component: HoistingflagsComponent },
+  { path: 'WallMounted', component: HoistingflagsComponent },
+  { path: 'Stadium', component: HoistingflagsComponent },
+  { path: 'Advertising', component: HoistingflagsComponent },
+  { path: 'Festival', component: HoistingflagsComponent }
 
  
 ]

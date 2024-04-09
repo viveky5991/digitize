@@ -5,10 +5,10 @@ import { WoodenbackdropComponent } from './/woodenbackdrop//woodenbackdrop.compo
 
 const routes: Routes = [
   { path: 'WoodenBackdrop', component: WoodenbackdropComponent },
-  { path: 'StepRepeatBackdrop', component: WoodenbackdropComponent },
-  { path: 'FabricBackdropIndoor', component: WoodenbackdropComponent },
-  { path: 'FabricBackdropOutdoor', component: WoodenbackdropComponent },
-  { path: 'PopoutBannerSpringABoard', component: WoodenbackdropComponent },
+  { path: 'StepRepeat', component: WoodenbackdropComponent },
+  { path: 'FabricIndoor', component: WoodenbackdropComponent },
+  { path: 'FabricOutdoor', component: WoodenbackdropComponent },
+  { path: 'PopoutBannerSpring', component: WoodenbackdropComponent },
   { path: 'TobleroneFrame', component: WoodenbackdropComponent },
   { path: 'CutoutStandee', component: WoodenbackdropComponent } 
 ]

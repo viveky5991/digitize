@@ -12,125 +12,154 @@ export const routes: Routes = [
   },
   //business-cards,letter-heads,envelopes,folders,notepads,notebook&journal,binding,thankyoucard,certificates,calendars
   {
-    path: 'stationary',
+    path: '',
     loadChildren: () => import('./stationary/stationary.module').then(m => m.StationaryModule)
   },
-  // Selfink
+  // selfink-stamps,waxseal,embossingseal
   {
-    path: 'seals',
+    path: '',
     loadChildren: () => import('./seals/seals.module').then(m => m.SealsModule)
   },
+  //die-cut,print-cut,paperstickergloss,transparent,pvcwhite,whiteink,epoxy,windshield,foil,embossingseal,helmet,kraftpaper
   {
-    path:'stickers',
+    path:'',
     loadChildren: () => import('./stickers/stickers.module').then(m => m.StickerModule)
   },
+  //Brochures,Flyers,Booklets
   {
-    path:'brochuresflyers',
+    path:'',
     loadChildren: () => import('./brochuresflyers/brochuresflyers.module').then(m =>m.BrochuresflyersModule)
   },
+  //Compliment-Slips,Tickets-Coupons,ScratchWin-Coupons,Tent-Cards
   {
-    path:'crowdpromotions',
+    path:'',
     loadChildren: () => import('./crowdpromotions/crowdpromotions.module').then(m =>m.CrowdpromotionsModule)
   },
+  // ReverseCut-Frosted,StandardCut-Frosted,Printed-Frosted,Blank-Frosted
   {
-    path:'frostedsticker',
+    path:'',
     loadChildren: () => import('./frostedsticker/frostedsticker.module').then(m =>m.Frostedsticker)
   },
+  //Window-Vinyl,Window-Graphics,OneWay-Vision,Window-Films
   {
-    path:'windowbranding',
+    path:'',
     loadChildren: () => import('./windowbranding/windowbranding.module').then(m =>m.Windowbranding)
   },
+  { path: 'Contact', component: ContactComponent },
+// Wall-Vinyl,Wall-Graphics
   {
-    path:'wallbranding',
+    path:'',
     loadChildren: () => import('./wallbranding/wallbranding.module').then(m =>m.Wallbranding)
   },
+//Canvas,Wooden,Acrylic,MetalArt
   {
-    path:'wallframes',
+    path:'',
     loadChildren: () => import('./wallframes/wallframes.module').then(m =>m.Wallframes)
   },
+//Car-Door,Half-Wrap-Vehicle,Van-Branding
   {
-    path:'vehiclegraphics',
+    path:'',
     loadChildren: () => import('./vehiclegraphics/vehiclegraphics.module').then(m =>m.Vehiclegraphics)
   },
+//Unlit3D,Frontlit3D,Backlit3D,Outlit3D,PushThrough3D,Neon3D
   {
-    path:'indoor3D',
+    path:'',
     loadChildren: () => import('./indoor3D/indoor3D.module').then(m =>m.Indoor3D)
   },
+  //FlexFace,Frontlit3D,Backtlit3D,PushThrough,Neon
   {
-    path:'signboard',
+    path:'',
     loadChildren: () => import('./signboard/signboard.module').then(m =>m.Signboard)
   },
+  //FlexFace-LightBox,Fabric,Acrylic,Poster
   {
-    path:'lightboxsignages',
+    path:'',
     loadChildren: () => import('./lightboxsignages/lightboxsignages.module').then(m =>m.Lightboxsignages)
   },
+  //SelfStanding,WallMounted,Hanging,Directory
   {
-    path:'directionwayfindingsignage',
+    path:'',
     loadChildren: () => import('./directionwayfindingsignage/directionwayfindingsignage.module').then(m =>m.Directionwayfindingsignage)
   },
+  //Metal,Wooden,AcrylicLetters,ForexFoam
   {
-    path:'selfstandingletters',
+    path:'',
     loadChildren: () => import('./selfstandingletters/selfstandingletters.module').then(m =>m.Selfstandingletters)
   },
+  //MetalPlates,AcrylicPlates,WoodenPlates,TableTopPlatesSign
   {
-    path:'nameplate',
-    loadChildren: () => import('./nameplate/nameplate.module').then(m =>m.Nameplate)  
+    path:'',
+    loadChildren: () => import('./nameplate/nameplate.module').then(m =>m.Nameplate)
   },
+  //TraffolytePVCAcrylic,MetalLabels,WoodenLabels,AcrylicLabels
   {
-    path:'labels',
-    loadChildren: () => import('./labels/labels.module').then(m =>m.Labels)  
+    path:'',
+    loadChildren: () => import('./labels/labels.module').then(m =>m.Labels)
   },
+  //SailFlags,TearDropFlags,LShapeFlags,BladeFlags,TelescopicFlags
   {
-    path:'advertisingflags',
-    loadChildren: () => import('./advertisingflags/advertisingflags.module').then(m =>m.Advertisingflags)  
+    path:'',
+    loadChildren: () => import('./advertisingflags/advertisingflags.module').then(m =>m.Advertisingflags)
   },
+  //CarFlags,CarDesert,Dashboard,Pennant,Bunting,Toothpick
   {
-    path:'decorativeflags',
-    loadChildren: () => import('./decorativeflags/decorativeflags.module').then(m =>m.Decorativeflags)  
+    path:'',
+    loadChildren: () => import('./decorativeflags/decorativeflags.module').then(m =>m.Decorativeflags)
   },
+  //Poleflags,Handflags,FinishLine,BodyFlags,FanScarf
   {
-    path:'handheldflags',
-    loadChildren: () => import('./handheldflags/handheldflags.module').then(m =>m.Handheldflags)  
+    path:'',
+    loadChildren: () => import('./handheldflags/handheldflags.module').then(m =>m.Handheldflags)
   },
+  //Hoisting,WallMounted,Stadium,Advertising,Festival
   {
-    path:'outdoorflags',
-    loadChildren: () => import('./outdoorflags/outdoorflags.module').then(m =>m.Outdoorflags)  
-  }, 
-  {
-    path:'officeflags',
-    loadChildren: () => import('./officeflags/officeflags.module').then(m =>m.Officeflags)  
+    path:'',
+    loadChildren: () => import('./outdoorflags/outdoorflags.module').then(m =>m.Outdoorflags)
   },
+  //TableFlags,TableFlagsRoyal,ConferenceFlags,ConferenceFlagsHanging
   {
-    path:'popupsrollupsbanners',
-    loadChildren: () => import('./popupsrollupsbanners/popupsrollupsbanners.module').then(m =>m.Popupsrollupsbanners)  
+    path:'',
+    loadChildren: () => import('./officeflags/officeflags.module').then(m =>m.Officeflags)
   },
+  //PopUps,FabricPopUps,RollupBanners,XBanners,BannersFlexFabric,FenceBanners,LamaStand
   {
-    path:'backdropsstandees',
-    loadChildren: () => import('./backdropsstandees/backdropsstandees.module').then(m =>m.Backdropsstandees)  
+    path:'',
+    loadChildren: () => import('./popupsrollupsbanners/popupsrollupsbanners.module').then(m =>m.Popupsrollupsbanners)
   },
+  //WoodenBackdrop,StepRepeat,FabricIndoor,FabricOutdoor,PopoutBannerSpring,TobleroneFrame,CutoutStandee
   {
-    path:'exhibitionevents',
-    loadChildren: () => import('./exhibitionevents/exhibitionevents.module').then(m =>m.Exhibitionevents)  
+    path:'',
+    loadChildren: () => import('./backdropsstandees/backdropsstandees.module').then(m =>m.Backdropsstandees)
   },
+  //PromotionTable,ExhibitionCounters,TentCanopyGazebo,ParasolUmbrella,TableCoverCloth,SocialMediaFrame,FoamBoard,ShellSchemeBooth
   {
-    path:'officeessentials',
-    loadChildren: () => import('./officeessentials/officeessentials.module').then(m =>m.Officeessentials)  
+    path:'',
+    loadChildren: () => import('./exhibitionevents/exhibitionevents.module').then(m =>m.Exhibitionevents)
   },
+  //Pens,PUNotebooks,PUOrganizer,MousePad
   {
-    path:'apparel',
-    loadChildren: () => import('./apparel/apparel.module').then(m =>m.Apparel)  
+    path:'',
+    loadChildren: () => import('./officeessentials/officeessentials.module').then(m =>m.Officeessentials)
   },
+  //TShirt,Jersey,Caps,NeckTie,SafetyVest
   {
-    path:'tradeshowsevents',
-    loadChildren: () => import('./tradeshowsevents/tradeshowsevents.module').then(m =>m.Tradeshowsevents)  
+    path:'',
+    loadChildren: () => import('./apparel/apparel.module').then(m =>m.Apparel)
   },
+  //Wristband,NameBadges,Lanyards,IDCardsBadgeReel,Keychain,USB
   {
-    path:'drinkware',
-    loadChildren: () => import('./drinkware/drinkware.module').then(m =>m.Drinkware)  
+    path:'',
+    loadChildren: () => import('./tradeshowsevents/tradeshowsevents.module').then(m =>m.Tradeshowsevents)
   },
+  //Mugs,Bottles,Tumblers
   {
-    path:'shoppingpromotionalbags',
-    loadChildren: () => import('./shoppingpromotionalbags/shoppingpromotionalbags.module').then(m =>m.Shoppingpromotionalbags)  
+    path:'',
+    loadChildren: () => import('./drinkware/drinkware.module').then(m =>m.Drinkware)
+  },
+  //Paperbag,Kraftbag,NonWovenbag,Jutebag,Totebag,Canvasbag,Drawstringbag,CottonStringbag
+  {
+    path:'',
+    loadChildren: () => import('./shoppingpromotionalbags/shoppingpromotionalbags.module').then(m =>m.Shoppingpromotionalbags)
   }
 ];
 @NgModule({

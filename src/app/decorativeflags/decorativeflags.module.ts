@@ -5,11 +5,11 @@ import { CarflagsComponent } from './/carflags//carflags.component';
 
 const routes: Routes = [
   { path: 'CarFlags', component: CarflagsComponent },
-  { path: 'CarDesertFlags', component: CarflagsComponent },
-  { path: 'DashboardFlags', component: CarflagsComponent },
-  { path: 'PennantFlags', component: CarflagsComponent },
-  { path: 'BuntingFlags', component: CarflagsComponent },
-  { path: 'ToothpickFlags', component: CarflagsComponent }
+  { path: 'CarDesert', component: CarflagsComponent },
+  { path: 'Dashboard', component: CarflagsComponent },
+  { path: 'Pennant', component: CarflagsComponent },
+  { path: 'Bunting', component: CarflagsComponent },
+  { path: 'Toothpick', component: CarflagsComponent }
 
  
 ]

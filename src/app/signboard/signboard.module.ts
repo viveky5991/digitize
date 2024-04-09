@@ -4,11 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { FlexfaceComponent } from './/flexface//flexface.component';
 
 const routes: Routes = [
-  { path: 'FlexFaceSignBoard', component: FlexfaceComponent },
-  { path: 'Frontlit3DSignBoard', component: FlexfaceComponent },
-  { path: 'Backtlit3DSignBoard', component: FlexfaceComponent },
-  { path: 'PushThroughSignBoard', component: FlexfaceComponent },
-  { path: 'NeonSignBoard', component: FlexfaceComponent }
+  { path: 'FlexFace', component: FlexfaceComponent },
+  { path: 'Frontlit3D', component: FlexfaceComponent },
+  { path: 'Backtlit3D', component: FlexfaceComponent },
+  { path: 'PushThrough', component: FlexfaceComponent },
+  { path: 'Neon', component: FlexfaceComponent }
  
 ]
 

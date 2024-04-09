@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { WindowvinylletteringComponent } from './/windowvinyllettering//windowvinyllettering.component';
 
 const routes: Routes = [
-  { path: 'WindowVinylLettering', component: WindowvinylletteringComponent },
-  { path: 'WindowGraphics', component: WindowvinylletteringComponent },
-  { path: 'OneWayVisionSticker', component: WindowvinylletteringComponent },
-  { path: 'WindowFilms', component: WindowvinylletteringComponent }
+  { path: 'Window-Vinyl', component: WindowvinylletteringComponent },
+  { path: 'Window-Graphics', component: WindowvinylletteringComponent },
+  { path: 'OneWay-Vision', component: WindowvinylletteringComponent },
+  { path: 'Window-Films', component: WindowvinylletteringComponent }
  
 ]
 

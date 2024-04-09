@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { FlexfacelightboxComponent } from './/flexfacelightbox//flexfacelightbox.component';
 
 const routes: Routes = [
-  { path: 'FlexFaceLightBox', component: FlexfacelightboxComponent },
-  { path: 'FabricLightBox', component: FlexfacelightboxComponent },
-  { path: 'AcrylicLightBox', component: FlexfacelightboxComponent },
-  { path: 'PosterLightBox', component: FlexfacelightboxComponent }
+  { path: 'FlexFace-LightBox', component: FlexfacelightboxComponent },
+  { path: 'Fabric', component: FlexfacelightboxComponent },
+  { path: 'Acrylic', component: FlexfacelightboxComponent },
+  { path: 'Poster', component: FlexfacelightboxComponent }
  
 ]
 

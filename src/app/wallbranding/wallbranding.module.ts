@@ -4,8 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { WallvinylletteringComponent } from './/wallvinyllettering//wallvinyllettering.component';
 
 const routes: Routes = [
-  { path: 'WallVinylLettering', component: WallvinylletteringComponent },
-  { path: 'WallGraphics', component: WallvinylletteringComponent }
+  { path: 'Wall-Vinyl', component: WallvinylletteringComponent },
+  { path: 'Wall-Graphics', component: WallvinylletteringComponent }
  
 ]
 

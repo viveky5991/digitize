@@ -4,10 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { ComplimentslipsComponent } from './complimentslips/complimentslips.component';
 
 const routes: Routes = [
-  { path: 'ComplimentSlips', component: ComplimentslipsComponent },
-  { path: 'TicketsCoupons', component: ComplimentslipsComponent },
-  { path: 'ScratchWinCoupons', component: ComplimentslipsComponent },
-  { path: 'TentCards', component: ComplimentslipsComponent }
+  { path: 'Compliment-Slips', component: ComplimentslipsComponent },
+  { path: 'Tickets-Coupons', component: ComplimentslipsComponent },
+  { path: 'ScratchWin-Coupons', component: ComplimentslipsComponent },
+  { path: 'Tent-Cards', component: ComplimentslipsComponent }
  
 ]
 

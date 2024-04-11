@@ -18,11 +18,21 @@ export class ImgcontentComponent implements OnInit{
   navload(){
     this._route.url.subscribe((url: any) => {
       debugger
-      if(url[0].path=='envelopes'){
-console.log('envelopes');
-this.title='Envelopes'
-      } else if(url[0].path=='business-cards'){
-        this.title='Business-Cards'
+      if(url[0].path=='letter-heads'){
+console.log('envletter-headselopes');
+this.title='letter-heads'
+      } else if(url[0].path=='envelopes'){
+        this.title='envelopes'
+      }else if(url[0].path=='folders'){
+        this.title='folders'
+      }else if(url[0].path=='notepads'){
+        this.title='notepads'
+      }else if(url[0].path=='notebooks'){
+        this.title='notebook&journal'
+      }else if(url[0].path=='thanks'){
+        this.title='thankyoucard'
+      }else if(url[0].path=='calendars'){
+        this.title='calendars'
       }else{
         this.title='Digitize'
       }

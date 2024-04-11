@@ -15,10 +15,29 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./stationary/stationary.module').then(m => m.StationaryModule)
   },
-  //letter-heads
+  //letter-heads,envelopes,folders,notepads,notebook&journal,thankyoucard,calendars
+
   {
     path: '',
     loadChildren: () => import('./imgcontent/imgcontent.module').then(m => m.ImgcontentModule)
+  },
+  //selfink-stamps,waxseal,embossingseal,flyers-printing,
+
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent1/imgcontent1.module').then(m => m.Imgcontent1Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent2/imgcontent2.module').then(m => m.Imgcontent2Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent3/imgcontent3.module').then(m => m.Imgcontent3Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent4/imgcontent4.module').then(m => m.Imgcontent4Module)
   },
   // selfink-stamps,waxseal,embossingseal
   {

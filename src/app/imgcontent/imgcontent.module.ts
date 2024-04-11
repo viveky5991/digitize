@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { PrintComponent } from './print/print.component';
-// import { StationarylistingComponent } from '../stationary/stationarylisting/stationarylisting.component';
+import { ImgcontentComponent } from './imgcontent/imgcontent.component';
+
 
 const routes: Routes = [
  
- // { path: 'letter-heads', component: PrintComponent },
+  { path: 'letter-heads', component: ImgcontentComponent },
   // Add more routes as needed
 ];
 
@@ -16,5 +16,6 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes)
   ]
+
 })
-export class MarketprintModule { }
+export class ImgcontentModule { }

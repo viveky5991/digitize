@@ -2,13 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-print',
+  selector: 'app-imgcontent',
   standalone: true,
   imports: [],
-  templateUrl: './print.component.html',
-  styleUrl: './print.component.scss'
+  templateUrl: './imgcontent.component.html',
+  styleUrl: './imgcontent.component.scss'
 })
-export class PrintComponent  implements OnInit{
+export class ImgcontentComponent implements OnInit{
   title: string | undefined;
   constructor( public _router: Router, private _route: ActivatedRoute,) { }
   ngOnInit(): void {

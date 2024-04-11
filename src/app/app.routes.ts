@@ -5,15 +5,20 @@ import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
-
+ //business-cards
   {
     path: '',
     loadChildren: () => import('./marketprint/marketprint.module').then(m => m.MarketprintModule)
   },
-  //business-cards,letter-heads,envelopes,folders,notepads,notebook&journal,binding,thankyoucard,certificates,calendars
+  //envelopes,folders,notepads,notebook&journal,binding,thankyoucard,certificates,calendars
   {
     path: '',
     loadChildren: () => import('./stationary/stationary.module').then(m => m.StationaryModule)
+  },
+  //letter-heads
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent/imgcontent.module').then(m => m.ImgcontentModule)
   },
   // selfink-stamps,waxseal,embossingseal
   {

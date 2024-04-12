@@ -30,8 +30,6 @@ export class Imgcontent4Component  implements OnInit{
         this.title='PushThrough3D'
       }else if(url[0].path=='Neon3D'){
         this.title='Neon3D'
-      }else if(url[0].path=='Tent-Cards'){
-        this.title='Tent-Cards'
       }else{
         this.title='Digitize'
       }

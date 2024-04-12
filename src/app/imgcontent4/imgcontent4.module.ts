@@ -8,10 +8,8 @@ const routes: Routes = [
   { path: 'Backlit3D', component: Imgcontent4Component },
   { path: 'Outlit3D', component: Imgcontent4Component },
   { path: 'PushThrough3D', component: Imgcontent4Component },
-  { path: 'Neon3D', component: Imgcontent4Component },
-  { path: 'Tent-Cards', component: Imgcontent4Component },
-  { path: 'Coupons', component: Imgcontent4Component },
-  { path: 'Tent-Cards', component: Imgcontent4Component }
+  { path: 'Neon3D', component: Imgcontent4Component }
+ 
 ];
 
 

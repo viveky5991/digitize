@@ -39,6 +39,41 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./imgcontent4/imgcontent4.module').then(m => m.Imgcontent4Module)
   },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent5/imgcontent5.module').then(m => m.Imgcontent5Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent6/imgcontent6.module').then(m => m.Imgcontent6Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent7/imgcontent7.module').then(m => m.Imgcontent7Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent8/imgcontent8.module').then(m => m.Imgcontent8Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent9/imgcontent9.module').then(m => m.Imgcontent9Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent10/imgcontent10.module').then(m => m.Imgcontent10Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent11/imgcontent11.module').then(m => m.Imgcontent11Module)
+  }, {
+    path: '',
+    loadChildren: () => import('./imgcontent12/imgcontent12.module').then(m => m.Imgcontent12Module)
+  },
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent13/imgcontent13.module').then(m => m.Imgcontent13Module)
+  },
   // selfink-stamps,waxseal,embossingseal
   {
     path: '',

@@ -19,8 +19,7 @@ export class Imgcontent1Component implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='selfink-stamps'){
-console.log('selfink-stamps');
-this.title='selfink-stamps'
+        this.title='selfink-stamps'
       } else if(url[0].path=='wax-seal'){
         this.title='wax-seal'
       }else if(url[0].path=='embossing-seal'){

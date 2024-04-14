@@ -20,9 +20,17 @@ export class StationarylistingComponent implements OnInit {
         console.log('envelopes');
         this.title = 'Envelopes'
       }
-      /* else if(url[0].path=='business-cards'){
-        this.title='Business-Cards'
-      } */else {
+       else if(url[0].path=='voucher'){
+        this.title='voucher'
+      } else if(url[0].path=='hang-tag'){
+        this.title='hang-tag'
+      } else if(url[0].path=='sticker-gloss'){
+        this.title='sticker-gloss'
+      }else if(url[0].path=='pvcwhite'){
+        this.title='pvcwhite'
+      }else if(url[0].path=='epoxy'){
+        this.title='epoxy'
+      }else {
         this.title = 'Digitize'
       }
     })

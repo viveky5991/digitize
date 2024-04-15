@@ -142,7 +142,7 @@ export const routes: Routes = [
 //     path:'',
 //     loadChildren: () => import('./windowbranding/windowbranding.module').then(m =>m.Windowbranding)
 //   },
-//   { path: 'Contact', component: ContactComponent },
+  { path: 'Contact', component: ContactComponent },
 // // Wall-Vinyl,Wall-Graphics
 //   {
 //     path:'',

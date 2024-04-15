@@ -44,30 +44,16 @@
               
               <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
               <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
-              <button mat-menu-item>Voucher Books</button>
+              <button mat-menu-item (click)="navigate('/voucher')">Voucher Books</button>
               <button mat-menu-item [matMenuTriggerFor]="brochures">Brochures & Flyers</button>
-              <button mat-menu-item>Hang Tags</button>
+              <button mat-menu-item (click)="navigate('/hang-tag')">Hang Tags</button>
               <button mat-menu-item [matMenuTriggerFor]="crowd">Crowd Promotions</button>
               <button mat-menu-item [matMenuTriggerFor]="stickers">Stickers</button>
             </mat-menu>
-            <mat-menu #vertebrates="matMenu">
-              <button mat-menu-item [matMenuTriggerFor]="stationary">Fishes</button>
-              <button mat-menu-item [matMenuTriggerFor]="amphibians">Amphibians</button>
-              <button mat-menu-item [matMenuTriggerFor]="reptiles">Reptiles</button>
-              <button mat-menu-item>Birds</button>
-              <button mat-menu-item>Mammals</button>
-            </mat-menu>
+           
             <!-- #enddocregion sub-menu -->
 
-            <mat-menu #invertebrates="matMenu">
-              <button mat-menu-item>Insects</button>
-              <button mat-menu-item>Molluscs</button>
-              <button mat-menu-item>Crustaceans</button>
-              <button mat-menu-item>Corals</button>
-              <button mat-menu-item>Arachnids</button>
-              <button mat-menu-item>Velvet worms</button>
-              <button mat-menu-item>Horseshoe crabs</button>
-            </mat-menu>
+          
 
             <mat-menu #stationary="matMenu">
               <button mat-menu-item (click)="navigate('/business-cards')">BUSINESS CARDS</button>
@@ -104,32 +90,19 @@
             <mat-menu #stickers="matMenu">
               <button mat-menu-item (click)="navigate('/die-cut')">Die Cut Sticker</button>
               <button mat-menu-item (click)="navigate('/print-cut')">Print & Cut sticker</button>
-              <button mat-menu-item (click)="navigate('/paperstickergloss')">Paper Sticker Gloss / Matt</button>
+              <button mat-menu-item (click)="navigate('/sticker-gloss')">Paper Sticker Gloss / Matt</button>
               <button mat-menu-item (click)="navigate('/transparent')">Transparent Sticker</button>
               <button mat-menu-item (click)="navigate('/pvcwhite')">PVC White Sticker</button>
               <button mat-menu-item (click)="navigate('/whiteink')">White Ink Sticker</button>
               <button mat-menu-item (click)="navigate('/epoxy')">Epoxy sticker</button>
-              <button mat-menu-item (click)="navigate('/windshield')">Windshield sticker</button>
+              <button mat-menu-item (click)="navigate('/wind-shield')">Windshield sticker</button>
               <button mat-menu-item (click)="navigate('/foil')">Foil Sticker</button>
               <button mat-menu-item (click)="navigate('/embossingseal')">Embossing seal sticker</button>
               <button mat-menu-item (click)="navigate('/helmet')">Helmet Sticker</button>
               <button mat-menu-item (click)="navigate('/kraftpaper')">Kraft Paper Sticker</button>
             </mat-menu>
 
-            <mat-menu #amphibians="matMenu">
-              <button mat-menu-item>Sonoran desert toad</button>
-              <button mat-menu-item>Western toad</button>
-              <button mat-menu-item>Arroyo toad</button>
-              <button mat-menu-item>Yosemite toad</button>
-            </mat-menu>
-
-            <mat-menu #reptiles="matMenu">
-              <button mat-menu-item>Banded Day Gecko</button>
-              <button mat-menu-item>Banded Gila Monster</button>
-              <button mat-menu-item>Black Tree Monitor</button>
-              <button mat-menu-item>Blue Spiny Lizard</button>
-              <button mat-menu-item disabled>Velociraptor</button>
-            </mat-menu>
+            <!--  -->
 
           </li>
 
@@ -142,14 +115,14 @@
               <button mat-menu-item>Office & Store Branding</button>
               <button mat-menu-item [matMenuTriggerFor]="frosted">Frosted Sticker</button>
               <button mat-menu-item [matMenuTriggerFor]="window">Window Branding</button>
-              <button mat-menu-item>Floor Sticker</button>
+              <button mat-menu-item  (click)="navigate('/floor-stickers')">Floor Sticker</button>
               <button mat-menu-item [matMenuTriggerFor]="wallBranding">Wall Branding</button>
               <button mat-menu-item [matMenuTriggerFor]="wallFrames">Wall Frames</button>
-              <button mat-menu-item>Posters</button>
-              <button mat-menu-item>Repositionable Cling</button>
+              <button mat-menu-item  (click)="navigate('/posters')">Posters</button>
+              <button mat-menu-item  (click)="navigate('/repositionable')">Repositionable Cling</button>
               <button mat-menu-item [matMenuTriggerFor]="vehicle">Vehicle Graphics</button>
-              <button mat-menu-item>Magnetic Sheet</button>
-              <button mat-menu-item>Ceremonial ribbon</button>
+              <button mat-menu-item (click)="navigate('/magnetic')">Magnetic Sheet</button>
+              <button mat-menu-item (click)="navigate('/ceremonial')">Ceremonial ribbon</button>
 
             </mat-menu>
 
@@ -184,7 +157,7 @@
             </mat-menu>
 
             <mat-menu #vehicle="matMenu">
-              <button mat-menu-item (click)="navigate('/Car-Door')">Car Door</button>
+              <button mat-menu-item (click)="navigate('/vehicle-graphics')">Car Door</button>
               <button mat-menu-item (click)="navigate('/Half-Wrap-Vehicle')">Half Wrap Vehicle</button>
               <button mat-menu-item (click)="navigate('/Van-Branding')">Van Branding</button>
 

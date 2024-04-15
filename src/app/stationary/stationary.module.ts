@@ -6,9 +6,11 @@ import { StationarydetailsComponent } from './stationarydetails/stationarydetail
 
 const routes: Routes = [
   { path: 'business-cards', component: StationarylistingComponent },
-  // { path: 'letter-heads', component: StationarylistingComponent },
-  // { path: 'envelopes', component: StationarylistingComponent },
-  // { path: 'folders', component: StationarylistingComponent },
+  { path: 'voucher', component: StationarylistingComponent },
+  { path: 'hang-tag', component: StationarylistingComponent },
+  { path: 'sticker-gloss', component: StationarylistingComponent },
+  { path: 'pvcwhite', component: StationarylistingComponent },
+  { path: 'epoxy', component: StationarylistingComponent },
   // { path: 'notepads', component: StationarylistingComponent },
   // { path: 'notebook&journal', component: StationarylistingComponent },
   // { path: 'binding', component: StationarylistingComponent },

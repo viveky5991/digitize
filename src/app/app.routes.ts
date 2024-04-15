@@ -97,12 +97,12 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./imgcontent15/imgcontent15.module').then(m => m.Imgcontent15Module)
   },
-  //binding,certificates,booklets,foil
+  //binding#brochures ,certificates#brochures ,booklets#brochures ,foil#brochures 
   {
     path: '',
     loadChildren: () => import('./bannercontent/bannercontent.module').then(m => m.BannercontentModule)
   },
-  //brochures,Tickets-Coupons,Window-Films
+  //brochures#brochures ,Tickets-Coupons#brochures ,Window-Films#brochures 
   {
     path: '',
     loadChildren: () => import('./highlightbook/highlightbook.module').then(m => m.HighlightbookModule)

@@ -4,19 +4,20 @@ import { NgModule } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
+  // 
   { path: '', component: HomeComponent },
- //
-  {
-    path: '',
-    loadChildren: () => import('./marketprint/marketprint.module').then(m => m.MarketprintModule)
-  },
-  //business-cards,voucher,hang-tag,sticker-gloss,pvcwhite,epoxy
+ 
+  // {
+  //   path: '',
+  //   loadChildren: () => import('./marketprint/marketprint.module').then(m => m.MarketprintModule)
+  // },
+  //business-cards,voucher,hang-tag,sticker-gloss,pvcwhite,epoxy (listing)
   {
     path: '',
     loadChildren: () => import('./stationary/stationary.module').then(m => m.StationaryModule)
   },
-  //letter-heads,envelopes,folders,notepads,notebook&journal,thankyoucard,calendars
 
+  //letter-heads,envelopes,folders,notepads,notebook&journal,thankyoucard,calendars (img+content)
   {
     path: '',
     loadChildren: () => import('./imgcontent/imgcontent.module').then(m => m.ImgcontentModule)

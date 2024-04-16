@@ -16,21 +16,20 @@ export class StationarylistingComponent implements OnInit {
 
   ngOnInit(): void {
     this._route.url.subscribe((url: any) => {
-      if (url[0].path == 'envelopes') {
-        console.log('envelopes');
-        this.title = 'Envelopes'
-      }
-       else if(url[0].path=='voucher'){
-        this.title='voucher'
-      } else if(url[0].path=='hang-tag'){
-        this.title='hang-tag'
-      } else if(url[0].path=='sticker-gloss'){
-        this.title='sticker-gloss'
-      }else if(url[0].path=='pvcwhite'){
-        this.title='pvcwhite'
-      }else if(url[0].path=='epoxy'){
-        this.title='epoxy'
-      }else {
+      if (url[0].path == 'business-cards') {
+        console.log('business-cards');
+        this.title = 'business-cards'
+      } else if (url[0].path == 'voucher') {
+        this.title = 'voucher'
+      } else if (url[0].path == 'hang-tag') {
+        this.title = 'hang-tag'
+      } else if (url[0].path == 'sticker-gloss') {
+        this.title = 'sticker-gloss'
+      } else if (url[0].path == 'pvcwhite') {
+        this.title = 'pvcwhite'
+      } else if (url[0].path == 'epoxy') {
+        this.title = 'epoxy'
+      } else {
         this.title = 'Digitize'
       }
     })

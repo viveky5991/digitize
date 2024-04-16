@@ -5,20 +5,14 @@ import {MatButtonModule} from '@angular/material/button';
 @Component({
   selector: 'app-popup',
   standalone: true,
-  imports: [],
+  imports: [MatDialogModule],
   templateUrl: './popup.component.html',
   styleUrl: './popup.component.scss'
 })
 export class PopupComponent {
   constructor(public dialog: MatDialog) {}
 
-  openDialog() {
-    const dialogRef = this.dialog.open(PopupComponent);
-
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
+ 
 
 
 }

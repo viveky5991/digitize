@@ -1,3 +1,87 @@
-<p>bannercontent works!</p>
-<br>
-{{title}}
+<div class="image-aboutus-banner" >
+    <!-- style="margin-top:70px" -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="lg-text ">{{title}}</h1>
+                <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <swiper [config]="config" (swiper)="onSwiper($event)" (slideChange)="onSlideChange()">
+            <ng-template swiperSlide>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                    <div class="box">
+                        <!-- <div class="box-icon">
+                            <span class="fa fa-4x fa-html5"></span>
+                        </div> -->
+                        <div class="info">
+                            <!-- <h4 class="text-center">Title</h4> -->
+                            <img src="../../../assets/img/Binding/01102.webp" alt="" class="w-100">
+                            <!-- <a href="" class="btn">Link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                    <div class="box">
+                        <!-- <div class="box-icon">
+                            <span class="fa fa-4x fa-css3"></span>
+                        </div> -->
+                        <div class="info">
+                            <!-- <h4 class="text-center">Title</h4> -->
+                            <img src="../../../assets/img/Binding/01112.webp" alt="" class="w-100">
+                            <!-- <a href="" class="btn">Link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                    <div class="box">
+                        <!-- <div class="box-icon">
+                            <span class="fa fa-4x fa-html5"></span>
+                        </div> -->
+                        <div class="info">
+                            <!-- <h4 class="text-center">Title</h4> -->
+                            <img src="../../../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg" alt="" class="w-100">
+                            <!-- <a href="" class="btn">Link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                    <div class="box">
+                        <!-- <div class="box-icon">
+                            <span class="fa fa-4x fa-css3"></span>
+                        </div> -->
+                        <div class="info">
+                            <!-- <h4 class="text-center">Title</h4> -->
+                            <img src="../../../assets/img/Binding/01112.webp" alt="" class="w-100">
+                            <!-- <a href="" class="btn">Link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template swiperSlide>
+                <div class="col-xs-12 col-sm-6 col-md-12 col-lg-12">
+                    <div class="box">
+                        <!-- <div class="box-icon">
+                            <span class="fa fa-4x fa-css3"></span>
+                        </div> -->
+                        <div class="info">
+                            <!-- <h4 class="text-center">Title</h4> -->
+                            <img src="../../../assets/img/Binding/01112.webp" alt="" class="w-100">
+                            <!-- <a href="" class="btn">Link</a> -->
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </swiper>
+    </div>
+</div>

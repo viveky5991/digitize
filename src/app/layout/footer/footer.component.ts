@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PopupComponent } from '../../popup/popup.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
@@ -11,7 +12,7 @@ import { PopupComponent } from '../../popup/popup.component';
 })
 export class FooterComponent implements OnInit {
  
-  constructor(public dialog: MatDialog) { }
+  constructor(public dialog: MatDialog,private router: Router) { }
   ngOnInit(): void { }
 
   openDialog(){
@@ -20,5 +21,8 @@ export class FooterComponent implements OnInit {
     dialogRef.afterClosed().subscribe(result => {
       console.log(`Dialog result: ${result}`);
     });
+  }
+  navigate(path:string){
+    this.router.navigateByUrl(path);
   }
 }

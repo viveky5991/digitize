@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  // z-index: 10000;
   z-index: 1000;
   /* Ensure the menu appears above other elements */
   border-bottom: 3px solid #e98b8b;
@@ -19,4 +20,8 @@
 .navbar-expand-lg .navbar-collapse {
   justify-content: end;
   ;
+}
+
+.mat-elevation-z8, .mat-mdc-elevation-specific.mat-elevation-z8 {
+  margin-top: 18px;
 }

@@ -1,12 +1,13 @@
-.home{
+.home {
   margin-top: 4.1em;
   padding-bottom: 2em;
 }
 
 .home h5 {
-text-align: center;
+  text-align: center;
 }
-.thumb{
+
+.thumb {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -17,18 +18,28 @@ text-align: center;
   padding-left: 8%;
   padding-top: 7%;
 }
-.col-md-4{
-    padding-bottom:20px;
+
+.col-md-4 {
+  padding-bottom: 20px;
 }
 
 .white {
   color: #fff !important;
 }
-.mt{float: left;margin-top: -20px;padding-top: 20px;}
+
+.mt {
+  float: left;
+  margin-top: -20px;
+  padding-top: 20px;
+}
+
 .bg-blue-ui {
   background-color: #708198 !important;
 }
-figure img{width:300px;}
+
+figure img {
+  width: 300px;
+}
 
 #blogCarousel {
   padding-bottom: 100px;
@@ -109,12 +120,12 @@ figure img{width:300px;}
 .item-heading-blog a h5 {
   margin: 0;
   line-height: 1;
-  text-decoration:none;
+  text-decoration: none;
   transition: color 0.3s;
 }
 
 .item-box-blog-heading a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .item-box-blog-data p {
@@ -146,45 +157,51 @@ figure img{width:300px;}
 .btn.bg-blue-ui.white.read:hover {
   box-shadow: 0px 5px 15px inset #4d5f77;
 }
-.quality img{
+
+.quality img {
   width: 100%;
 }
-.testimonial{
+
+.testimonial {
   padding: 20px 0px;
   background-image: url("https://www.dlxprint.com/images/backdrops&exhibiti…tcase_straight_popup_banner_printing_dubai01.webp");
   background-color: #cccccc;
 }
-.text{
-	color: rgba(31,181,172,.9);
-	text-align: center;
+
+.text {
+  color: #ffffffb3;
+  text-align: center;
 }
 
 
-.folded-corner:hover .text{
-	visibility: visible;
-	color: #000000;;
+.folded-corner:hover .text {
+  visibility: visible;
+  color: #000000;
+  ;
 }
-.Services-tab{
-	margin-top:20px;
-	
+
+.Services-tab {
+  margin-top: 20px;
+
 
 }
 
 /*
   nav link items
 */
-.folded-corner{
+.folded-corner {
   padding: 25px 25px;
   position: relative;
   font-size: 90%;
   text-decoration: none;
-  color: #999; 
+  color: #999;
   background: transparent;
   transition: all ease .5s;
-  border: 1px solid rgba(31,181,172,.9);
+  border: 1px solid #f057647a;
 }
-.folded-corner:hover{
-	background-color: rgba(31,181,172,.9);
+
+.folded-corner:hover {
+  background-color: #f057647a;
 }
 
 /*
@@ -206,35 +223,35 @@ figure img{width:300px;}
   on li hover make paper fold larger
 */
 .folded-corner:hover:before {
-	background-color: #D00003;
+  background-color: #D00003;
   border-width: 0 50px 50px 0;
   border-color: #eee #000;
-  
+
 }
 
-.service_tab_1{
-	background-color: #000;
-}
-.service_tab_1:hover .fa-icon-image{
-    color: #000;
-    transform: rotate(360deg) scale(1.5);
+.service_tab_1 {
+  background-color: #000;
 }
 
-
-.fa-icon-image{
-	color: rgba(31,181,172,.9);
-	display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: normal;
-    line-height: 1;
-    font-size-adjust: none;
-    font-stretch: normal;
-    -moz-font-feature-settings: normal;
-    -moz-font-language-override: normal;
-    text-rendering: auto;
-    transition: all .65s linear 0s;
-    text-align: center;
-    transition: all 1s cubic-bezier(.99,.82,.11,1.41);
+.service_tab_1:hover .fa-icon-image {
+  color: #000;
+  transform: rotate(360deg) scale(1.5);
 }
 
+
+.fa-icon-image {
+  color: rgba(31, 181, 172, .9);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size-adjust: none;
+  font-stretch: normal;
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  text-rendering: auto;
+  transition: all .65s linear 0s;
+  text-align: center;
+  transition: all 1s cubic-bezier(.99, .82, .11, 1.41);
+}

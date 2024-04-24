@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { StationarylistingComponent } from './stationarylisting/stationarylisting.component';
 import { StationarydetailsComponent } from './stationarydetails/stationarydetails.component';
+import { BrowserModule } from '@angular/platform-browser';
 
 const routes: Routes = [
   { path: 'business-cards', component: StationarylistingComponent },
@@ -24,8 +25,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
+  imports: [ 
     RouterModule.forChild(routes)
   ]
 })

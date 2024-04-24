@@ -41,7 +41,7 @@
             </mat-menu> -->
             <mat-menu #print="matMenu">
 
-              
+
               <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
               <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
               <button mat-menu-item (click)="navigate('/voucher')">Voucher Books</button>
@@ -50,10 +50,10 @@
               <button mat-menu-item [matMenuTriggerFor]="crowd">Crowd Promotions</button>
               <button mat-menu-item [matMenuTriggerFor]="stickers">Stickers</button>
             </mat-menu>
-           
+
             <!-- #enddocregion sub-menu -->
 
-          
+
 
             <mat-menu #stationary="matMenu">
               <button mat-menu-item (click)="navigate('/business-cards')">BUSINESS CARDS</button>
@@ -112,7 +112,7 @@
             </a> -->
             <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" [matMenuTriggerFor]="office">Office & Store Branding</a>
             <mat-menu #office="matMenu">
-              <button mat-menu-item>Office & Store Branding</button>
+              <!-- <button mat-menu-item>Office & Store Branding</button> -->
               <button mat-menu-item [matMenuTriggerFor]="frosted">Frosted Sticker</button>
               <button mat-menu-item [matMenuTriggerFor]="window">Window Branding</button>
               <button mat-menu-item  (click)="navigate('/floor-stickers')">Floor Sticker</button>

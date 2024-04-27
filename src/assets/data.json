@@ -1,43 +1,46 @@
 {
-  "books": [
-    {
-      "id": 1,
-      "title": "1984",
-      "author": "George Orwell",
-      "yearPublished": 1949
-    },
-    {
-      "id": 2,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "yearPublished": 1925,
-      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg"
-    },
-    {
-      "id": 3,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "yearPublished": 1960
-    }
-  ],
   "businesscard": [
     {
       "id": 1,
-      "title": "1984",
-      "author": "George Orwell",
-      "yearPublished": 1949
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
-      "title": "The Great Gatsby",
-      "author": "F. Scott Fitzgerald",
-      "yearPublished": 1925
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
-      "title": "To Kill a Mockingbird",
-      "author": "Harper Lee",
-      "yearPublished": 1960
+      "img":"../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "img":"../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "img":"../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    }
+  ],
+  "voucher": [
+    {
+      "id": 1,
+      "img":"../assets/img/Folder/Folder-Mockup-7-1536x1152.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     }
   ]
 }

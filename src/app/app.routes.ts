@@ -2,6 +2,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 export const routes: Routes = [
   // 
@@ -144,6 +145,7 @@ export const routes: Routes = [
 //     loadChildren: () => import('./windowbranding/windowbranding.module').then(m =>m.Windowbranding)
 //   },
   { path: 'Contact', component: ContactComponent },
+  { path: 'About-us', component: AboutusComponent },
 // // Wall-Vinyl,Wall-Graphics
 //   {
 //     path:'',

@@ -12,16 +12,16 @@
 
 
 <div class="container pt-5 pb-5">
-    <h3>Cards</h3>
+    <h3>{{title}}</h3>
     <div class="row">
         <div class="col-md-3 col-sm-4 col-lg-3 col-6" *ngFor="let item of digitizedata">
             <!-- {{item|json}} -->
             <img [src]="item.img"
                 alt="">
             <p>{{item.description}}</p>
-            
+
         </div>
-        
+
         <!-- <div class="col-md-3 col-sm-4 col-lg-3 col-6">
             <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
                 alt="">
@@ -55,6 +55,6 @@
 
 
     </div>
-
-    <button type="button" class="btn btn-light list-btn">view more</button>
+   <div *ngFor="let item of digitizedata.contentinfo"> {{item|json}}</div>
+    <button type="button" (click)="navigate('/Contact')" class="btn btn-light list-btn">Contact Us</button>
 </div>

@@ -19,6 +19,7 @@ export class StationarylistingComponent implements OnInit {
   data: any[] | undefined;
 
   digitizedata: any;
+  contentinfo: any;
   constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient) { }
 
   ngOnInit(): void {
@@ -29,35 +30,65 @@ export class StationarylistingComponent implements OnInit {
         // this.data = this.service.getData();
         // console.log(this.data)
         console.log('business-cards');
-        this.title = 'business-cards'
+        this.title = 'Business Cards'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.businesscard)
-          this.digitizedata = data.businesscard
+          this.digitizedata = data.businesscard;
+          if (data.businesscard.length > 5) {
+            this.contentinfo = data.businesscard[5].PrintingInformation;
+            console.log(this.contentinfo);
+          } else {
+            console.log("Not enough data in businesscard array.");
+          }
 
         }
 
 
         )
       } else if (url[0].path == 'voucher') {
-        this.title = 'voucher'
+        this.title = 'Voucher'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.voucher)
           this.digitizedata = data.voucher
         })
       } else if (url[0].path == 'hang-tag') {
-        this.title = 'hang-tag'
+        this.title = 'Hang Tag'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.hangtag)
+          this.digitizedata = data.hangtag
+        })
       } else if (url[0].path == 'sticker-gloss') {
-        this.title = 'sticker-gloss'
+        this.title = 'Sticker Gloss'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.sticker_gloss)
+          this.digitizedata = data.sticker_gloss
+        })
       } else if (url[0].path == 'pvcwhite') {
-        this.title = 'pvcwhite'
+        this.title = 'PVC Stickers'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pvcwhite)
+          this.digitizedata = data.pvcwhite
+        })
       } else if (url[0].path == 'epoxy') {
         this.title = 'epoxy'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.epoxy)
+          this.digitizedata = data.epoxy
+        })
       } else {
         this.title = 'Digitize'
       }
     })
   }
+  navigate(path:string){
+    this._router.navigateByUrl(path);
+  }
+
 
 }

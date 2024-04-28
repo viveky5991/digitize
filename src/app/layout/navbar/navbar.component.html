@@ -42,7 +42,7 @@
             <mat-menu #print="matMenu">
 
 
-              <button mat-menu-item [matMenuTriggerFor]="stationary">STATIONERY & CORPORATE IDENTITY</button>
+              <button mat-menu-item [matMenuTriggerFor]="stationary">Stationary & Corporate Identity Stationary</button>
               <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
               <button mat-menu-item (click)="navigate('/voucher')">Voucher Books</button>
               <button mat-menu-item [matMenuTriggerFor]="brochures">Brochures & Flyers</button>
@@ -56,11 +56,11 @@
 
 
             <mat-menu #stationary="matMenu">
-              <button mat-menu-item (click)="navigate('/business-cards')">BUSINESS CARDS</button>
-              <button mat-menu-item (click)="navigate('/letter-heads')">LETTERHEADS</button>
-              <button mat-menu-item (click)="navigate('/envelopes')">ENVELOPES</button>
-              <button mat-menu-item (click)="navigate('/folders')">FOLDERS</button>
-              <button mat-menu-item (click)="navigate('/notepads')">NOTEPADS</button>
+              <button mat-menu-item (click)="navigate('/business-cards')">Business Cards</button>
+              <button mat-menu-item (click)="navigate('/letter-heads')">Letterheads</button>
+              <button mat-menu-item (click)="navigate('/envelopes')">Envelopes</button>
+              <button mat-menu-item (click)="navigate('/folders')">Folders</button>
+              <button mat-menu-item (click)="navigate('/notepads')"> Notepads</button>
               <button mat-menu-item (click)="navigate('/notebooks')">Notebook & Journal</button>
               <button mat-menu-item (click)="navigate('/binding')">Binding</button>
               <button mat-menu-item (click)="navigate('/thanks')">Thank you Card</button>
@@ -247,7 +247,7 @@
             </a> -->
             <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" [matMenuTriggerFor]="flags">Flags</a>
             <mat-menu #flags="matMenu">
-              <button mat-menu-item>All Flags</button>
+              <!-- <button mat-menu-item>All Flags</button> -->
               <button mat-menu-item [matMenuTriggerFor]="advertisingFlags">Advertising Flags</button>
               <button mat-menu-item [matMenuTriggerFor]="decorativeFlags">Decorative Flags</button>
               <button mat-menu-item [matMenuTriggerFor]="handheldFlags">Handheld Flags</button>
@@ -407,11 +407,11 @@
 
               </mat-menu>
             </li>
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a href="" class="nav-link">
-              Gallery
+              About Us
             </a>
-          </li> -->
+          </li>
 
 
 

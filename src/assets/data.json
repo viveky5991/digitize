@@ -1,5 +1,72 @@
 {
   "businesscard": [
+
+    {
+      "id": 1,
+      "title":"",
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title":"",
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "img":"../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "img":"../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "img":"../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [{
+        "ColorStandards": "CMYK Digital standards",
+        "PrintQuality": "High-quality prints with consistent color fidelity throughout the entire print run",
+        "ColorMatching": {
+          "Note": "Exact color matching with existing business cards is not guaranteed",
+          "Details": "Color output may differ depending on printing equipment and supplier"
+        },
+        "ScreenVsPrint": {
+          "Description": "Color discrepancies between computer screen and final printed product may occur",
+          "Policy": "No reprints at our expense if the issue is related to color variations"
+        },
+        "PantoneColors": {
+          "Handling": "Pantone colors will be converted to CMYK colors automatically",
+          "Policy": "Pantone colors cannot be printed directly"
+        }
+     } ]
+    }
+
+
+  ],
+  "voucher": [
+    {
+      "id": 1,
+      "img":"../assets/img/Folder/Folder-Mockup-7-1536x1152.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    }
+  ],
+  "hangtag": [
     {
       "id": 1,
       "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
@@ -26,20 +93,84 @@
       "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     }
   ],
-  "voucher": [
+  "sticker_gloss": [
     {
       "id": 1,
-      "img":"../assets/img/Folder/Folder-Mockup-7-1536x1152.jpg",
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
-      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
       "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
+      "img":"../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "img":"../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "img":"../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    }
+  ],
+  "pvcwhite": [
+    {
+      "id": 1,
       "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "img":"../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "img":"../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "img":"../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    }
+  ],
+  "epoxy": [
+    {
+      "id": 1,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "img":"../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "img":"../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "img":"../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "img":"../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
       "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     }
   ]

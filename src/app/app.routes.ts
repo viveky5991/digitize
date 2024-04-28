@@ -99,6 +99,23 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./imgcontent15/imgcontent15.module').then(m => m.Imgcontent15Module)
   },
+//popups,fabric-popups,rollup-banners,x-banners,banners-flex,fence-banners,lama-stand
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent16/imgcontent16.module').then(m => m.Imgcontent16Module)
+  },
+
+  //wooden-backdrop,repeat-backdrop,backdrop-indoor,backdrop-outdoor,popout-banner,toblerone-frame,cutout-standee
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent17/imgcontent17.module').then(m => m.Imgcontent17Module)
+  },
+
+  //promotion,exhibition-counter,tent-canopy,parasol-umbrella,cover-cloth,media-frame,foam-board,shell-scheme,flag-base
+  {
+    path: '',
+    loadChildren: () => import('./imgcontent18/imgcontent18.module').then(m => m.Imgcontent18Module)
+  },
   //binding#brochures ,certificates#brochures ,booklets#brochures ,foil#brochures 
   {
     path: '',

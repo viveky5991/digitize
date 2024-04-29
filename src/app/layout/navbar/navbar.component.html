@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg " [@slideInOut]>
     <div class="container">
-      <a class="navbar-brand" (click)="goToHome()" href="#"> <img src="../../../assets/img/logo/Digitize-Logo-svg.svg" alt=""></a>
+      <a class="navbar-brand" (click)="goToHome()"> <img src="../../../assets/img/logo/Digitize-Logo-svg.svg" alt=""></a>
       <button class="navbar-toggler" type="button" (click)="toggleMenu()">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -171,7 +171,7 @@
             </a> -->
             <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" [matMenuTriggerFor]="signages">Signages</a>
             <mat-menu #signages="matMenu">
-              <button mat-menu-item>All Signages</button>
+              <!-- <button mat-menu-item>All Signages</button> -->
               <button mat-menu-item [matMenuTriggerFor]="indoor3D">3D Indoor / Outdoor Signage</button>
               <button mat-menu-item [matMenuTriggerFor]="signBoard">Sign Board</button>
               <button mat-menu-item [matMenuTriggerFor]="lightBox">Light Box Signages</button>
@@ -305,7 +305,7 @@
             </a> -->
             <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" [matMenuTriggerFor]="Backdrops">Backdrops & Exhibition </a>
             <mat-menu #Backdrops="matMenu">
-              <button mat-menu-item>ALL BACKDROPS</button>
+              <!-- <button mat-menu-item>ALL BACKDROPS</button> -->
               <button mat-menu-item [matMenuTriggerFor]="popupsRollups">Popups, Rollups & Banners</button>
               <button mat-menu-item [matMenuTriggerFor]="backdropsStandees">Backdrops & Standees</button>
               <button mat-menu-item [matMenuTriggerFor]="exhibitionEvents">Exhibition & Events</button>
@@ -354,7 +354,7 @@
               </a> -->
               <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" [matMenuTriggerFor]="corporateGifts">Corporate Gifts & Bags </a>
               <mat-menu #corporateGifts="matMenu">
-                <button mat-menu-item>All Corporate Gifts & Bags</button>
+                <!-- <button mat-menu-item>All Corporate Gifts & Bags</button> -->
                 <button mat-menu-item [matMenuTriggerFor]="officeEssentials">Office Essentials</button>
                 <button mat-menu-item [matMenuTriggerFor]="apparel">Apparel</button>
                 <button mat-menu-item [matMenuTriggerFor]="tradeShows">Trade Shows & Events</button>

@@ -19,7 +19,7 @@ export class Imgcontent14Component implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='ReverseCut-Frosted'){
-        this.title='ReverseCut-Frosted'
+        this.title='Frosted Sticker'
       }else if(url[0].path=='vehicle-graphics'){
         this.title='vehicle-graphics'
       } else{

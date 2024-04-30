@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-highlightbook',
   standalone: true,
-  imports: [HttpClientModule, CommonModule],
+  imports: [HttpClientModule, CommonModule,RouterModule,],
   templateUrl: './highlightbook.component.html',
   styleUrl: './highlightbook.component.scss'
 })
@@ -15,7 +15,7 @@ export class HighlightbookComponent implements OnInit{
   digitizedata: any;
   constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
   navload(){
@@ -27,18 +27,27 @@ export class HighlightbookComponent implements OnInit{
 
           console.log(data.brochurePreparationTasks)
           this.digitizedata = data.brochurePreparationTasks;
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
+
 
         })
       }else if(url[0].path=='Tickets-Coupons'){
-        this.title='Tickets-Coupons'
+        this.title='Tickets-Coupons';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.TicketsCoupons)
+          this.digitizedata = data.TicketsCoupons;
+
+
+        })
       }else if(url[0].path=='Window-Films'){
         this.title='Window-Films'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.WindowFilms)
+          this.digitizedata = data.WindowFilms;
+
+
+        })
       }else{
         this.title='Digitize'
       }

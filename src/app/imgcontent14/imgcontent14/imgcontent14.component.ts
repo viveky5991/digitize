@@ -18,14 +18,27 @@ export class Imgcontent14Component implements OnInit{
   navload(){
     this._route.url.subscribe((url: any) => {
       debugger
-      if(url[0].path=='ReverseCut-Frosted'){
-        this.title='Frosted Sticker'
+      this._route.fragment.subscribe(fragment => {
+        if (fragment) {
+          this.scrollToFragment(fragment);
+        }
+      });
+      if(url[0].path=='Frosted-Sticker'){
+        
+        this.title='Frosted-Sticker'
+        
       }else if(url[0].path=='vehicle-graphics'){
         this.title='vehicle-graphics'
       } else{
         this.title='Digitize'
       }
     })
+  }
+  scrollToFragment(fragment: string): void {
+    const element = document.getElementById(fragment);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
   }
 }
 

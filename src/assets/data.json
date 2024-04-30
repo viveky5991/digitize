@@ -179,20 +179,37 @@
   "brochurePreparationTasks": [
     {
       "list": [
-        "Apply a 2mm bleed over the finished size",
-        "Convert all fonts to paths or curves",
-        "Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)",
-        "Flatten transparency effects",
-        "Set overprints correctly for desired result",
-        "Remove all color profiles",
-        "Ensure all bitmap images are minimum 300dpi and in CMYK color mode",
-        "Ensure reversed type (light type on dark background) is a minimum of 7pt",
-        "Supply all files separately as individual PDFs (not multi-page documents)",
-        "Ensure borders and type are within safe zone as variations may occur when trimming",
-        "Remove registration marks, keylines, dielines, and other non-printing items",
-        "If crop marks are required, ensure they are positioned outside the bleed area"
+        "Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area"
       ]
-      
+
+    },
+    {"img":[
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+    ]}
+  ],
+  "TicketsCoupons": [
+    {
+      "list": [
+        "Order your event tickets or coupons through Deluxe Printing for superior quality. Deluxe offers cost-effective printing solutions for custom vouchers or coupons with a fast turnaround time. Additionally, we provide printing services for gift certificates that include barcodes or QR codes."
+      ]
+
+    },
+    {"img":[
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+    ]}
+  ],
+  "WindowFilms": [
+    {
+      "list": [
+        "Privacy Window Film and stickers are used on glass surfaces in offices, restaurants, and stores to create a frosted glass look. This application enhances privacy and addresses visibility concerns."
+      ]
+
     },
     {"img":[
       "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
@@ -201,4 +218,5 @@
       "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
     ]}
   ]
+
 }

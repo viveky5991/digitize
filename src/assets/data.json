@@ -32,67 +32,96 @@
     },
     {
       "PrintingInformation": [
+       {"list":[
         {
-          "ColorStandards": "CMYK Digital standards",
-          "PrintQuality": "High-quality prints with consistent color fidelity throughout the entire print run",
-          "ColorMatching": {
-            "Note": "Exact color matching with existing business cards is not guaranteed",
-            "Details": "Color output may differ depending on printing equipment and supplier"
-          },
-          "ScreenVsPrint": {
-            "Description": "Color discrepancies between computer screen and final printed product may occur",
-            "Policy": "No reprints at our expense if the issue is related to color variations"
-          },
-          "PantoneColors": {
-            "Handling": "Pantone colors will be converted to CMYK colors automatically",
-            "Policy": "Pantone colors cannot be printed directly"
-          }
-        }
+        "note": "Colors adhere to CMYK Digital standards, ensuring exceptional print quality with consistent color accuracy throughout the entire print run."
+       },
+       {
+        "note": "We cannot ensure an exact color match with your current business card. Color discrepancies may occur due to differences between various machines and vendors."
+       },
+       {"note":"Color differences may exist between what is displayed on the client’s screen and the actual product. The supplier will not cover the cost of reprints caused by these color variations."},
+       {"note":"Pantone colors cannot be directly printed and will instead be automatically translated into CMYK"}
+       ]}
       ]
     }
   ],
   "voucher": [
     {
       "id": 1,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Folder/Folder-Mockup-7-1536x1152.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+       {"list":[
+        {
+        "note": " voucher is a document which can be used as proof that a monetary transaction has occurred between two parties. In business, a payment voucher can be used for a variety of purposes, sometimes taking the place of cash in a transaction, acting as a receipt, or indicating that an invoice has been approved for payment."
+       },
+       {
+        "note": "Deluxe Printing provides printing services in multiple colors, including full-color or single-color offset printing on high-grade Self Carbon or NCR paper. Our top-quality forms utilize self-carbonating paper and are available in duplicates, triplicates, and more. We keep a stock of popularly used colored papers in shades of pink, yellow, green, and blue. The superior quality of our self-carbonizing paper ensures ink transfer to the final copy in a set. Custom sizes for company Payment Vouchers are available, as well as standard A5 format. We accept orders starting from 10 books and guarantee printing within five working days. Choose from our selection of payment voucher templates, or send us your own template along with the required number of copies to receive a quote."
+       }
+       ]}
+      ]
     }
   ],
   "hangtag": [
     {
       "id": 1,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 4,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
-      "id": 5,
-      "img": "../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+      "PrintingInformation": [
+       {"list":[
+        {
+        "note": "Hang tags effortlessly and economically enhance the distinctiveness of a brand, adding a unique touch to virtually any product."
+       },
+       {
+        "note": "Enhances the efficiency of raising awareness, a fundamental aspect of brand communication."
+       },
+       {
+        "note": "It not only enhances the brand's appeal but also fosters a connection between the customer and the product."
+       }
+       ]}
+      ]
     }
   ],
   "sticker_gloss": [
@@ -217,6 +246,66 @@
       "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
       "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
     ]}
+  ],
+  "Frosted_Sticker": [
+    {
+      "id": "ReverseCut",
+      "list": [
+                {
+                  "title":"Reverse Cut Frosted Stickers",
+      "description":["The design is precisely extracted from the frosted vinyl, creating clear cut-outs where the images or graphics are located, allowing for direct visibility through these areas.", "Each decal will typically be shaped as a square or rectangle, with the design elements meticulously trimmed out of the larger form.","Prior to installation, the sticker is carefully pre-spaced and covered with transfer tape for accurate placement."]
+                }
+      ],
+      "img":[
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+
+      ]
+
+    },
+    {
+      "id": "Standard-Cut",
+      "list": [
+                {
+                  "title":"Standard Cut Frosted Stickers",
+      "description":"The letters or logo will be precisely cut into the exact shape from the frosted vinyl, with internal elements of the artwork removed to prevent them from being solid.  As illustrated in the image, the interior of the 'p' is cut out rather than left solid. It will bear no color and will simply retain a frosted translucent effect."}
+
+      ],
+      "img":[
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+
+      ]
+
+    },
+    {
+      "id": "Printed-Frosted",
+      "list": [
+                {
+                  "title":"Printed Frosted Stickers",
+      "description":"The design is directly applied to the surface of the frosted vinyl material using a four-color printing process.  This technique preserves all the colors in the design while also permitting light to pass through both the printed and unprinted areas, thanks to the translucent properties of the material."}
+
+      ],
+      "img":[
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+
+      ]
+
+    },
+    {
+      "id": "Blank-Frosted",
+      "list": [
+                {
+                  "title":"Blank-Frosted",
+      "description":"This will be a solid, unprinted, and non-cut frosted vinyl, providing a genuine, solid frosted effect. It will be installed in its original form, with no modifications."}
+
+      ],
+      "img":[
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+
+      ]
+
+    }
+
   ]
+
 
 }

@@ -2,7 +2,8 @@ import { animate, state, style, transition, trigger } from '@angular/animations'
 import { Component, OnInit } from '@angular/core';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
-import { Router, RouterModule } from '@angular/router';
+import { NavigationEnd, Router, RouterModule } from '@angular/router';
+import { filter } from 'rxjs';
 @Component({
   selector: 'app-navbar',
   standalone: true,
@@ -46,6 +47,18 @@ export class NavbarComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {
+
+    this.router.events.pipe(
+      filter(event => event instanceof NavigationEnd)
+    ).subscribe(() => {
+      debugger
+      if(this.router.url=='/Frosted-Sticker#Standard-Cut' ||this.router.url=='/Frosted-Sticker#ReverseCut'||this.router.url=='/Frosted-Sticker#Printed-Frosted'||this.router.url=='/Frosted-Sticker#Blank-Frosted'){
+
+      } else{
+        window.scrollTo(0, 0);
+      }
+
+    });
   }
   isMenuOpen = false;
 

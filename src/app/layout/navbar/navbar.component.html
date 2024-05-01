@@ -129,8 +129,8 @@
             <mat-menu #frosted="matMenu">
               <button mat-menu-item routerLink="/Frosted-Sticker" fragment="ReverseCut" >Reverse Cut Frosted sticker</button>
               <button mat-menu-item [routerLink]="['/Frosted-Sticker']" fragment="Standard-Cut">Standard Cut Frosted sticker</button>
-              <button mat-menu-item (click)="navigate('/Printed-Frosted')">Printed Frosted sticker</button>
-              <button mat-menu-item (click)="navigate('/Blank-Frosted')">Blank Frosted sticker</button>
+              <button mat-menu-item [routerLink]="['/Frosted-Sticker']"  fragment="Printed-Frosted" >Printed Frosted sticker</button>
+              <button mat-menu-item [routerLink]="['/Frosted-Sticker']"  fragment="Blank-Frosted">Blank Frosted sticker</button>
 
             </mat-menu>
 

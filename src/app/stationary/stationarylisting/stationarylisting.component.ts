@@ -35,12 +35,18 @@ export class StationarylistingComponent implements OnInit {
 
           console.log(data.businesscard)
           this.digitizedata = data.businesscard;
-          if (data.businesscard.length > 5) {
-            this.contentinfo = data.businesscard[5].PrintingInformation;
-            console.log(this.contentinfo);
-          } else {
-            console.log("Not enough data in businesscard array.");
-          }
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
+          // if (data.businesscard.length > 5) {
+          //   this.contentinfo = data.businesscard[5].PrintingInformation;
+          //   console.log(this.contentinfo);
+          // } else {
+          //   console.log("Not enough data in businesscard array.");
+          // }
 
         }
 
@@ -51,35 +57,65 @@ export class StationarylistingComponent implements OnInit {
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.voucher)
-          this.digitizedata = data.voucher
+          this.digitizedata = data.voucher;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
         })
       } else if (url[0].path == 'hang-tag') {
         this.title = 'Hang Tag'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.hangtag)
-          this.digitizedata = data.hangtag
+          this.digitizedata = data.hangtag;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
         })
       } else if (url[0].path == 'sticker-gloss') {
         this.title = 'Sticker Gloss'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.sticker_gloss)
-          this.digitizedata = data.sticker_gloss
+          this.digitizedata = data.sticker_gloss;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
         })
       } else if (url[0].path == 'pvcwhite') {
         this.title = 'PVC Stickers'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.pvcwhite)
-          this.digitizedata = data.pvcwhite
+          this.digitizedata = data.pvcwhite;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
         })
       } else if (url[0].path == 'epoxy') {
         this.title = 'epoxy'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.epoxy)
-          this.digitizedata = data.epoxy
+          this.digitizedata = data.epoxy;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
         })
       } else {
         this.title = 'Digitize'

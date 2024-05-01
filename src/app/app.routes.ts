@@ -5,9 +5,9 @@ import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 
 export const routes: Routes = [
-  // 
+  //
   { path: '', component: HomeComponent },
- 
+
   // {
   //   path: '',
   //   loadChildren: () => import('./marketprint/marketprint.module').then(m => m.MarketprintModule)
@@ -116,12 +116,12 @@ export const routes: Routes = [
     path: '',
     loadChildren: () => import('./imgcontent18/imgcontent18.module').then(m => m.Imgcontent18Module)
   },
-  //binding#brochures ,certificates#brochures ,booklets#brochures ,foil#brochures 
+  //binding#brochures ,certificates#brochures ,booklets#brochures ,foil#brochures
   {
     path: '',
     loadChildren: () => import('./bannercontent/bannercontent.module').then(m => m.BannercontentModule)
   },
-  //brochures#brochures ,Tickets-Coupons#brochures ,Window-Films#brochures 
+  //brochures#brochures ,Tickets-Coupons#brochures ,Window-Films#brochures
   {
     path: '',
     loadChildren: () => import('./highlightbook/highlightbook.module').then(m => m.HighlightbookModule)
@@ -213,7 +213,7 @@ export const routes: Routes = [
   //   path:'',
   //   loadChildren: () => import('./labels/labels.module').then(m =>m.Labels)
   // },
-  
+
   // //CarFlags,CarDesert,Dashboard,Pennant,Bunting,Toothpick
   // {
   //   path:'',
@@ -276,7 +276,7 @@ export const routes: Routes = [
   // }
 ];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { scrollPositionRestoration: 'enabled' })],
 
   exports: [RouterModule]
 })

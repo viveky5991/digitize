@@ -55,14 +55,21 @@
 
 
     </div>
-   <div *ngFor="let item of contentinfo">
+   <div *ngFor="let item of contentinfo" class="note">
      <!-- {{item|json}} -->
     <h4>Important points to note before placing your order:</h4>
-  <ul>
-    <li>{{item.ColorStandards}}</li>
+    <div class="row">
+      <div class="col-2"></div>
+ <div class="col-8">
+  <ul *ngFor="let item2 of item.PrintingInformation">
+    <li *ngFor="let item of item2.list">{{item.note}}</li>
+    <!-- <li>{{item.ColorStandards}}</li>
     <li>{{item.PrintQuality}}</li>
-    <li>{{item.ColorMatching}} </li>
+    <li>{{item.ColorMatching}} </li> -->
   </ul>
+ </div>
+ <div class="col-2"></div>
+    </div>
   </div>
     <button type="button" (click)="navigate('/Contact')" class="btn btn-light list-btn">Contact Us</button>
 </div>

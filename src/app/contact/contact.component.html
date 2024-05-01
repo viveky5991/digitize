@@ -260,30 +260,43 @@
       <div class="contact-form">
         <span class="circle one"></span>
         <span class="circle two"></span>
-
-        <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+        
+        <!-- <form (ngSubmit)="submitForm()" #contactForm="ngForm"> -->
+          <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
           <h3 class="title">Contact us</h3>
           <div class="input-container">
-            <input type="text" name="name" [(ngModel)]="formData.name" class="input" />
+            <input type="text" name="name" formControlName="name" class="input" required/>
             <label for="">Username</label>
-            <span>Username</span>
+           <span>Username</span>
+           <div *ngIf="contactForm.get('name').invalid && contactForm.get('name').touched" class="error">
+            Name is required
+          </div>
           </div>
           <div class="input-container">
-            <input type="email" name="email" [(ngModel)]="formData.email" class="input" />
+            <input type="email" name="email" formControlName="email" class="input" required/>
             <label for="">Email</label>
             <span>Email</span>
+            <div *ngIf="contactForm.get('email').invalid && contactForm.get('email').touched" class="error">
+              Please enter a valid email address
+            </div>
           </div>
-          <div class="input-container">
-            <input type="tel" name="phone" [(ngModel)]="formData.phone" class="input" />
+          <div class="input-container"> 
+            <input type="tel" name="phone" formControlName="phone" class="input" required/>
             <label for="">Phone</label>
             <span>Phone</span>
+            <div *ngIf="contactForm.get('phone').invalid && contactForm.get('phone').touched" class="error">
+              Message is required
+            </div>
           </div>
           <div class="input-container textarea">
-            <textarea name="message" [(ngModel)]="formData.message" class="input"></textarea>
+            <textarea name="message" formControlName="message" class="input"></textarea>
             <label for="">Message</label>
             <span>Message</span>
+            <div *ngIf="contactForm.get('message').invalid && contactForm.get('message').touched" class="error">
+              Message is required
+            </div>
           </div>
-          <button type="submit" [disabled]="!contactForm.valid">Submit</button>
+          <button type="submit" [disabled]="!contactForm.valid"  class="btn btn-primary">Submit</button>
         </form>
       </div>
     </div>

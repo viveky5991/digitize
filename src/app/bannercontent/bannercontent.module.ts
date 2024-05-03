@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { RouterModule, Routes } from '@angular/router';
 import { BannercontentComponent } from './bannercontent/bannercontent.component';
+
 
 const routes: Routes = [
   { path: 'binding', component: BannercontentComponent },
@@ -14,8 +15,9 @@ const routes: Routes = [
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule,
-    RouterModule.forChild(routes)
+   
+    RouterModule.forChild(routes),
+    
   ]
 })
 export class BannercontentModule { }

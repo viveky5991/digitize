@@ -32,16 +32,22 @@
     },
     {
       "PrintingInformation": [
-       {"list":[
         {
-        "note": "Colors adhere to CMYK Digital standards, ensuring exceptional print quality with consistent color accuracy throughout the entire print run."
-       },
-       {
-        "note": "We cannot ensure an exact color match with your current business card. Color discrepancies may occur due to differences between various machines and vendors."
-       },
-       {"note":"Color differences may exist between what is displayed on the client’s screen and the actual product. The supplier will not cover the cost of reprints caused by these color variations."},
-       {"note":"Pantone colors cannot be directly printed and will instead be automatically translated into CMYK"}
-       ]}
+          "list": [
+            {
+              "note": "Colors adhere to CMYK Digital standards, ensuring exceptional print quality with consistent color accuracy throughout the entire print run."
+            },
+            {
+              "note": "We cannot ensure an exact color match with your current business card. Color discrepancies may occur due to differences between various machines and vendors."
+            },
+            {
+              "note": "Color differences may exist between what is displayed on the client’s screen and the actual product. The supplier will not cover the cost of reprints caused by these color variations."
+            },
+            {
+              "note": "Pantone colors cannot be directly printed and will instead be automatically translated into CMYK"
+            }
+          ]
+        }
       ]
     }
   ],
@@ -72,14 +78,16 @@
     },
     {
       "PrintingInformation": [
-       {"list":[
         {
-        "note": " voucher is a document which can be used as proof that a monetary transaction has occurred between two parties. In business, a payment voucher can be used for a variety of purposes, sometimes taking the place of cash in a transaction, acting as a receipt, or indicating that an invoice has been approved for payment."
-       },
-       {
-        "note": "Deluxe Printing provides printing services in multiple colors, including full-color or single-color offset printing on high-grade Self Carbon or NCR paper. Our top-quality forms utilize self-carbonating paper and are available in duplicates, triplicates, and more. We keep a stock of popularly used colored papers in shades of pink, yellow, green, and blue. The superior quality of our self-carbonizing paper ensures ink transfer to the final copy in a set. Custom sizes for company Payment Vouchers are available, as well as standard A5 format. We accept orders starting from 10 books and guarantee printing within five working days. Choose from our selection of payment voucher templates, or send us your own template along with the required number of copies to receive a quote."
-       }
-       ]}
+          "list": [
+            {
+              "note": " voucher is a document which can be used as proof that a monetary transaction has occurred between two parties. In business, a payment voucher can be used for a variety of purposes, sometimes taking the place of cash in a transaction, acting as a receipt, or indicating that an invoice has been approved for payment."
+            },
+            {
+              "note": "Deluxe Printing provides printing services in multiple colors, including full-color or single-color offset printing on high-grade Self Carbon or NCR paper. Our top-quality forms utilize self-carbonating paper and are available in duplicates, triplicates, and more. We keep a stock of popularly used colored papers in shades of pink, yellow, green, and blue. The superior quality of our self-carbonizing paper ensures ink transfer to the final copy in a set. Custom sizes for company Payment Vouchers are available, as well as standard A5 format. We accept orders starting from 10 books and guarantee printing within five working days. Choose from our selection of payment voucher templates, or send us your own template along with the required number of copies to receive a quote."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -110,17 +118,19 @@
     },
     {
       "PrintingInformation": [
-       {"list":[
         {
-        "note": "Hang tags effortlessly and economically enhance the distinctiveness of a brand, adding a unique touch to virtually any product."
-       },
-       {
-        "note": "Enhances the efficiency of raising awareness, a fundamental aspect of brand communication."
-       },
-       {
-        "note": "It not only enhances the brand's appeal but also fosters a connection between the customer and the product."
-       }
-       ]}
+          "list": [
+            {
+              "note": "Hang tags effortlessly and economically enhance the distinctiveness of a brand, adding a unique touch to virtually any product."
+            },
+            {
+              "note": "Enhances the efficiency of raising awareness, a fundamental aspect of brand communication."
+            },
+            {
+              "note": "It not only enhances the brand's appeal but also fosters a connection between the customer and the product."
+            }
+          ]
+        }
       ]
     }
   ],
@@ -210,102 +220,176 @@
       "list": [
         "Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area"
       ]
-
     },
-    {"img":[
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-    ]}
+    {
+      "img": [
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+      ]
+    }
   ],
   "TicketsCoupons": [
     {
       "list": [
         "Order your event tickets or coupons through Deluxe Printing for superior quality. Deluxe offers cost-effective printing solutions for custom vouchers or coupons with a fast turnaround time. Additionally, we provide printing services for gift certificates that include barcodes or QR codes."
       ]
-
     },
-    {"img":[
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-    ]}
+    {
+      "img": [
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+      ]
+    }
   ],
   "WindowFilms": [
     {
       "list": [
         "Privacy Window Film and stickers are used on glass surfaces in offices, restaurants, and stores to create a frosted glass look. This application enhances privacy and addresses visibility concerns."
       ]
-
     },
-    {"img":[
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-      "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-    ]}
+    {
+      "img": [
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+      ]
+    }
   ],
   "Frosted_Sticker": [
     {
       "id": "ReverseCut",
       "list": [
-                {
-                  "title":"Reverse Cut Frosted Stickers",
-      "description":["The design is precisely extracted from the frosted vinyl, creating clear cut-outs where the images or graphics are located, allowing for direct visibility through these areas.", "Each decal will typically be shaped as a square or rectangle, with the design elements meticulously trimmed out of the larger form.","Prior to installation, the sticker is carefully pre-spaced and covered with transfer tape for accurate placement."]
-                }
+        {
+          "title": "Reverse Cut Frosted Stickers",
+          "description": [
+            "The design is precisely extracted from the frosted vinyl, creating clear cut-outs where the images or graphics are located, allowing for direct visibility through these areas.",
+            "Each decal will typically be shaped as a square or rectangle, with the design elements meticulously trimmed out of the larger form.",
+            "Prior to installation, the sticker is carefully pre-spaced and covered with transfer tape for accurate placement."
+          ]
+        }
       ],
-      "img":[
+      "img": [
         "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-
       ]
-
     },
     {
       "id": "Standard-Cut",
       "list": [
-                {
-                  "title":"Standard Cut Frosted Stickers",
-      "description":"The letters or logo will be precisely cut into the exact shape from the frosted vinyl, with internal elements of the artwork removed to prevent them from being solid.  As illustrated in the image, the interior of the 'p' is cut out rather than left solid. It will bear no color and will simply retain a frosted translucent effect."}
-
+        {
+          "title": "Standard Cut Frosted Stickers",
+          "description": "The letters or logo will be precisely cut into the exact shape from the frosted vinyl, with internal elements of the artwork removed to prevent them from being solid.  As illustrated in the image, the interior of the 'p' is cut out rather than left solid. It will bear no color and will simply retain a frosted translucent effect."
+        }
       ],
-      "img":[
+      "img": [
         "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-
       ]
-
     },
     {
       "id": "Printed-Frosted",
       "list": [
-                {
-                  "title":"Printed Frosted Stickers",
-      "description":"The design is directly applied to the surface of the frosted vinyl material using a four-color printing process.  This technique preserves all the colors in the design while also permitting light to pass through both the printed and unprinted areas, thanks to the translucent properties of the material."}
-
+        {
+          "title": "Printed Frosted Stickers",
+          "description": "The design is directly applied to the surface of the frosted vinyl material using a four-color printing process.  This technique preserves all the colors in the design while also permitting light to pass through both the printed and unprinted areas, thanks to the translucent properties of the material."
+        }
       ],
-      "img":[
+      "img": [
         "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-
       ]
-
     },
     {
       "id": "Blank-Frosted",
       "list": [
-                {
-                  "title":"Blank-Frosted",
-      "description":"This will be a solid, unprinted, and non-cut frosted vinyl, providing a genuine, solid frosted effect. It will be installed in its original form, with no modifications."}
-
+        {
+          "title": "Blank-Frosted",
+          "description": "This will be a solid, unprinted, and non-cut frosted vinyl, providing a genuine, solid frosted effect. It will be installed in its original form, with no modifications."
+        }
       ],
-      "img":[
+      "img": [
         "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-
       ]
-
     }
-
+  ],
+  "letter_heads": [
+    {
+      "list": [
+        {
+          "title": "Letterhead",
+          "description": [
+            "With our premium letterhead printing services available in Dubai and Abu Dhabi, you can enhance the overall impression of your company. Our specialty at Deluxe Printing lies in crafting memorable company letterheads. Choose from a variety of designs, opt for on-demand printing, and utilize environmentally friendly Recycled Letterhead material. Environmental conservation is a priority for us. We offer recycled Letterhead Paper upon our clients' request, delivering excellent environmentally friendly paper results on a stock that is brighter and more uniform in color. Recycled paper can be ordered at no additional cost compared to other stocks. Our full-color letterhead printing is available on high-quality paper stocks such as Conqueror, Fedrigoni, woodfree, Executive Bonds, and other renowned brands.",
+            " Elevate the professionalism of your correspondence with a meticulously crafted letterhead. Order yours today and leave a lasting impression!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/Letter-Ahead/1192.jpg"
+      ]
+    }
+  ],
+  "envelopes": [
+    {
+      "list": [
+        {
+          "title": "Envelopes",
+          "description": [
+            "Look no further than Deluxe Printing for all your Business Envelope Printing needs in Dubai. From customizable options to ready-made standard business envelopes and window envelopes, we have everything you need for your next business mailing. Streamline the process by incorporating your logo and address onto specialty peel and seal or self-seal business envelopes and save valuable time.",
+            "Enhance your correspondence with personalized envelope printing, injecting each envelope with your distinctive style and brand identity.",
+            "Discover our selection of pre-designed envelope printing solutions for a quick and polished outcome. Effortlessly blend convenience with a unique touch by exploring our range today!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/Envelope/2cd2706ec68d41fd0ae7e90ac8dd5853.jpg"
+      ]
+    }
+  ],
+  "Folders": [
+    {
+      "list": [
+        {
+          "title": "Folders",
+          "description": [
+            "A presentation folder is a versatile tool designed to organize and showcase important documents for business presentations. Typically featuring single or double pockets, these folders securely hold company profiles, brochures, and other materials. Whether printed or plain, presentation folders serve as an essential aid during sales pitches and customer meetings, helping to streamline the sales process and leave a professional impression."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+      ]
+    }
+  ],
+  "Notepads": [
+    {
+      "list": [
+        {
+          "title": "Notepads",
+          "description": [
+            "Explore our range of perforated notepads tailored to your needs at Deluxe Printing. Whether you require a specific size, shape, or number of sheets, we've got you covered. Stand out from the crowd with custom die-cut shapes that catch the eye! Each pad boasts a generous number of pages, typically 50 or more, and is reinforced with chipboard for added durability. For those seeking unique touches, consider options like rounded corners or side printing. Our woodfree 80gsm stock is favored for its smooth writing surface, though we offer a wide selection of alternatives to suit your preferences. Simply put, if you can envision it, we can bring it to life through print!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/notepad/Notepad_Printing__03161.webp"
+      ]
+    }
+  ],
+  "notebooks": [
+    {
+      "list": [
+        {
+          "title": "Note-books",
+          "description": [
+            "Deluxe provides customizable hardcover book printing services, allowing you to personalize the cover with your preferred design or brand logo, printed edge-to-edge. Ideal for high-profile corporate events, product promotions, branding initiatives, or training programs, our printing options include full-color printing, thick foiling, or spot UV finishes, imparting a luxurious touch to your books."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/notebook/notebook.jpg"
+      ]
+    }
   ]
-
-
 }

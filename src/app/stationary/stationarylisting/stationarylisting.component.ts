@@ -4,6 +4,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { SharedService } from '../../service/shared-service.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { PopupComponent } from '../../popup/popup.component';
+import { MatDialog } from '@angular/material/dialog';
 
 
 @Component({
@@ -20,12 +22,12 @@ export class StationarylistingComponent implements OnInit {
 
   digitizedata: any;
   contentinfo: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,) { }
 
   ngOnInit(): void {
     debugger
     this._route.url.subscribe((url: any) => {
-      debugger
+      
       if (url[0].path == 'business-cards') {
         // this.data = this.service.getData();
         // console.log(this.data)
@@ -125,6 +127,28 @@ export class StationarylistingComponent implements OnInit {
   navigate(path:string){
     this._router.navigateByUrl(path);
   }
+  EnquiryNow() {
+    // const dialogRef = this.dialog.open(PopupComponent);
 
+    // dialogRef.afterClosed().subscribe(result => {
+    //   console.log(`Dialog result: ${result}`);
+    // });
+    const dialogRef = this.dialog.open(PopupComponent, {
+      width: '900px',
+    });
+    // dialogRef.afterOpened().subscribe(() => {
+    //   // Find the dialog container element by class name or any other means if necessary
+    //   const dialogContainer = document.querySelector('.mat-dialog-container');
+    //   // Check if the element exists
+    //   if (dialogContainer) {
+    //     // Set the role attribute to 'dialog'
+    //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+    //   }
+    // });
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Dialog closed');
+    });
+  }
+    
 
 }

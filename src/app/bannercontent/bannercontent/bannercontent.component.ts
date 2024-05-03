@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SwiperModule } from 'swiper/angular';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { CollapseModule } from 'ngx-bootstrap/collapse';
+import { CommonModule } from '@angular/common';
 import SwiperCore , {
   Navigation,
   Pagination,
@@ -23,11 +26,11 @@ SwiperCore.use([
   Autoplay,
   Thumbs,
   Controller
-]);
+]); 
 @Component({
   selector: 'app-bannercontent',
   standalone: true,
-  imports: [SwiperModule],
+  imports: [SwiperModule,CarouselModule,CollapseModule,CommonModule],
   templateUrl: './bannercontent.component.html',
   styleUrl: './bannercontent.component.scss'
 })
@@ -67,5 +70,13 @@ export class BannercontentComponent implements OnInit{
   onSlideChange() {
     console.log('slide change');
   }
+
+  images = [
+    { url: 'path/to/image1.jpg', alt: 'Image 1' },
+    { url: 'path/to/image2.jpg', alt: 'Image 2' },
+    { url: 'path/to/image3.jpg', alt: 'Image 3' }
+  ];
+
+  activeSlideIndex = 0;
 }
 

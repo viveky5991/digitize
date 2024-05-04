@@ -72,9 +72,9 @@ export class BannercontentComponent implements OnInit{
   }
 
   images = [
-    { url: 'path/to/image1.jpg', alt: 'Image 1' },
-    { url: 'path/to/image2.jpg', alt: 'Image 2' },
-    { url: 'path/to/image3.jpg', alt: 'Image 3' }
+    { url: '../../assets/img/banner/flag.jpg', alt: 'Image 1' },
+    { url: '../../assets/img/banner/tshirt.jpg', alt: 'Image 2' },
+    { url: '../../assets/img/banner/flag.jpg', alt: 'Image 3' }
   ];
 
   activeSlideIndex = 0;

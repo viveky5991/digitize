@@ -421,5 +421,36 @@
         "../../../assets/img/calendar/calendar.jpg"
       ]
     }
+  ],
+  "selfink_stamps": [
+    {
+      "list": [
+        {
+          "title": "Self Ink Stamps",
+          "description": [
+            "Get your custom stamp in just a few easy steps:  Choose a Shape and Size: Select the preferred shape and size for your stamp from our options. Email Documentation: Send us a copy of your valid trade license and Emirates ID along with the dimensions of the stamp. Proof Approval: Receive the proof of the stamp design via email within minutes. Review and approve the design. Collection or Delivery: Collection: Your stamp will be ready for collection the same day, just 4 hours after approving the draft. Delivery: If you prefer delivery, ensure to approve the stamp draft by 2:00 pm for next-day delivery. Don't have a design yet? No problem!  Our helpful team can assist you in creating a custom stamp. Simply browse our website's Stamp category, choose a template, and email us the template code. We'll take care of the rest!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/stamp.webp"
+      ]
+    }
+  ],
+  "Wax_Seal": [
+    {
+      "list": [
+        {
+          "title": "Wax Seal",
+          "description": [
+            "Elevate your personal touch with our versatile Sealing Wax Stamp Kits. Crafting your unique Custom Design Wax Seal Stamp has never been easier! Simply select your preferred design and let us handle the rest. Once your stamp is ready, choose from our array of vibrant Sealing Wax colors to add an exquisite touch to event and wedding invitations, personal correspondence, certificates, and packaging. With our help, your creations will radiate sophistication and elegance, making each moment memorable."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/wax-seal-stamp.jpeg"
+      ]
+    }
   ]
+  
 }

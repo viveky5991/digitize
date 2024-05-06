@@ -68,9 +68,23 @@ export class ImgcontentComponent implements OnInit {
 
         })
       } else if (url[0].path == 'thanks') {
-        this.title = 'thankyoucard'
+        this.title = 'Thank You Cards';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.thank_card)
+          this.digitizedata = data.thank_card;
+
+
+        })
       } else if (url[0].path == 'calendars') {
-        this.title = 'calendars'
+        this.title = 'Calendars';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.calendars)
+          this.digitizedata = data.calendars;
+
+
+        })
       } else {
         this.title = 'Digitize'
       }

@@ -391,5 +391,35 @@
         "../../../assets/img/notebook/notebook.jpg"
       ]
     }
+  ],
+  "thank_card": [
+    {
+      "list": [
+        {
+          "title": "Thank You Cards",
+          "description": [
+            "Ready to elevate your gratitude? Say thanks from the depths of your heart with a personalized card. Whether it's for a birthday bash, a dreamy wedding, or a simple act of kindness, a handwritten thank you note speaks volumes. We specialize in crafting thank you cards that reflect your individuality. From wedding appreciation to professional gestures, our cards are fully customizable. Add your personal touch with photos, bespoke text, and more. Say it with sincerity, say it with style - say thank you like never before."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/thankyoucard/thank-you-cards.jpg"
+      ]
+    }
+  ],
+  "calendars": [
+    {
+      "list": [
+        {
+          "title": "Calendars",
+          "description": [
+            "At our calendar workshop, we specialize in curating an eclectic array of calendars, ranging from elegant table calendars to captivating wall calendars, available in an array of sizes and vibrant hues. Each calendar is meticulously crafted using premium-grade materials, ensuring both durability and aesthetic appeal. We take great pride in offering our exquisite collection at incredibly competitive prices, ensuring accessibility for all our customers. Furthermore, our expertise lies in the realm of personalized calendars, tailored to perfectly align with the unique preferences and branding requirements of our clients. Whether it's a sophisticated hanging calendar for the corporate setting or a charming table calendar for personal use, our diverse selection caters to an array of needs. Customization is at the heart of what we do! We understand that personal calendars are as diverse as the individuals who use them, addressing unique preferences and organizational demands. Whether it's a sleek desk calendar taking center stage or a convenient spiral-bound companion, the ultimate aim remains consistent: to effectively manage daily, weekly, and monthly schedules. While personal calendars offer unparalleled portability and individuality, they may fall short when it comes to accommodating the bustling schedules of entire families. That's where our customizable solutions shine, offering versatility and functionality tailored to suit every lifestyle."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/calendar/calendar.jpg"
+      ]
+    }
   ]
 }

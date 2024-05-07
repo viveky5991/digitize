@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule, Routes } from '@angular/router';
 import { BannercontentComponent } from './bannercontent/bannercontent.component';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 
 const routes: Routes = [
@@ -17,7 +18,7 @@ const routes: Routes = [
   imports: [
    
     RouterModule.forChild(routes),
-    
+    CarouselModule.forRoot()
   ]
 })
 export class BannercontentModule { }

@@ -78,5 +78,10 @@ export class BannercontentComponent implements OnInit{
   ];
 
   activeSlideIndex = 0;
+  slides = [
+    { image: '../../assets/img/banner/flag.jpg', caption: 'Caption 1' },
+    { image: '../../assets/img/banner/tshirt.jpg', caption: 'Caption 2' },
+    { image: '../../assets/img/banner/flag.jpg', caption: 'Caption 3' }
+  ];
 }
 

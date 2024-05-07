@@ -49,11 +49,32 @@ export class Imgcontent1Component implements OnInit{
 
         })
       }else if(url[0].path=='flyers'){
-        this.title='flyers'
+        this.title='The Flyers';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Flyers)
+          this.digitizedata = data.Flyers;
+
+
+        })
       }else if(url[0].path=='compliment-slips'){
-        this.title='compliment-slips'
+        this.title='Compliment-Slips';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.compliment_slips)
+          this.digitizedata = data.compliment_slips;
+
+
+        })
       }else if(url[0].path=='Coupons'){
-        this.title='Coupons'
+        this.title='Coupons';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.coupons)
+          this.digitizedata = data.coupons;
+
+
+        })
       }else if(url[0].path=='Tent-Cards'){
         this.title='Tent-Cards'
       }else{

@@ -421,5 +421,112 @@
         "../../../assets/img/calendar/calendar.jpg"
       ]
     }
+  ],
+  "selfink_stamps": [
+    {
+      "list": [
+        {
+          "title": "Self Ink Stamps",
+          "description": [
+            "Get your custom stamp in just a few easy steps:  Choose a Shape and Size: Select the preferred shape and size for your stamp from our options. Email Documentation: Send us a copy of your valid trade license and Emirates ID along with the dimensions of the stamp. Proof Approval: Receive the proof of the stamp design via email within minutes. Review and approve the design. Collection or Delivery: Collection: Your stamp will be ready for collection the same day, just 4 hours after approving the draft. Delivery: If you prefer delivery, ensure to approve the stamp draft by 2:00 pm for next-day delivery. Don't have a design yet? No problem!  Our helpful team can assist you in creating a custom stamp. Simply browse our website's Stamp category, choose a template, and email us the template code. We'll take care of the rest!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/stamp.webp"
+      ]
+    }
+  ],
+  "Wax_Seal": [
+    {
+      "list": [
+        {
+          "title": "Wax Seal",
+          "description": [
+            "Elevate your personal touch with our versatile Sealing Wax Stamp Kits. Crafting your unique Custom Design Wax Seal Stamp has never been easier! Simply select your preferred design and let us handle the rest. Once your stamp is ready, choose from our array of vibrant Sealing Wax colors to add an exquisite touch to event and wedding invitations, personal correspondence, certificates, and packaging. With our help, your creations will radiate sophistication and elegance, making each moment memorable."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/wax-seal-stamp.jpeg"
+      ]
+    }
+  ],
+  "Embossing_Seal": [
+    {
+      "list": [
+        {
+          "title": "Embossing Seal",
+          "description": [
+            "Certainly! Here's a refined version:   Enhance your product's credibility and project an air of prestige with a company seal. Our embossing seals offer a sophisticated way to imprint logos, monograms, and other designs onto documents, letterheads, certificates, and more. Not only do they add a touch of elegance to your materials, but they also serve as a mark of authenticity, safeguarding your important documents from unauthorized duplication. Elevate your brand's image and ensure the integrity of your paperwork with our high-quality embossing seals."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/embosse_seal.jpg"
+      ]
+    }
+  ],
+  "Flyers": [
+    {
+      "list": [
+        {
+          "title": "Flyers",
+          "description": [
+            "Sure, here's a refined version:",
+            "For flawless print results, adhere to these meticulous guidelines:",
+            "Bleed Requirements: Ensure a 2mm bleed over the finished size for flyers. Font Precision: Convert all fonts in the brochure to paths or curves for consistent rendering. Color Standards: Utilize CMYK or Grayscale colors exclusively; refrain from using RGB, PMS, Pantone, or Spot colors. Transparency Handling: Flatten transparency effects to prevent unexpected outcomes during printing. Overprint Settings: Set overprints accurately to achieve the desired printing effect. Color Profile Removal: Remove all color profiles to maintain color integrity across platforms. Image Resolution: Bitmap images must have a minimum resolution of 300dpi and be in CMYK format for optimal print quality. Reversed Type: Ensure that reversed type (light type on dark backgrounds) is no smaller than 7pt for readability. File Organization: Provide individual PDF files instead of multi-page documents to facilitate efficient imposition. Safe Zone Considerations: Keep borders and type within the safe zone, as variations may occur during trimming. Non-Printing Elements: Remove registration marks, keylines, dielines, and other non-printing items to maintain clarity. Crop Marks: If crop marks are necessary, position them outside the bleed area to avoid interference with the printed content. Adhering to these specifications will ensure optimal print quality and streamline the printing process."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
+  ],
+  "compliment_slips": [
+    {
+      "list": [
+        {
+          "title": "Compliment Slips",
+          "description": [
+            "A compliment slip serves as a vital promotional asset, allowing you to express gratitude, offer sincere apologies, respond warmly to requests for price quotes or product catalogs, or provide a delivery note for purchases. With its versatility, a compliment slip transforms the way your company communicates externally and internally, fostering strong and enduring connections with valued clients, business associates, and customers. Elevate your company's communication strategy and cultivate lasting relationships that leave a positive impression."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "list": [
+        {
+          "title": "Tickets Or Coupons Or Vouchers",
+          "description": [
+            "Elevate your event experience with Deluxe printing for your tickets and coupons, guaranteeing superior quality and professionalism. Whether it's event tickets, coupons, or custom vouchers, Deluxe offers cost-effective printing solutions with a quick turnaround time. Our expert printing services ensure that your materials are produced to the highest standards, leaving a lasting impression on your audience. Additionally, we specialize in printing gift certificates complete with barcodes or QR codes, providing added convenience and security for your customers. Trust Deluxe for all your printing needs and make your event or promotion stand out from the crowd."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/ticketcoupen/coupon-and-tickets.jpg"
+      ]
+    }
+  ],
+  "tent_cards": [
+    {
+      "list": [
+        {
+          "title": "Tent Cards",
+          "description": [
+            "Elevate your brand's presence with our top-tier tent card printing services in Dubai. Our bespoke designs, unparalleled quality, and swift delivery ensure that your message leaves a lasting impact. Contact us today for premium tent card solutions crafted to perfection."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
   ]
 }

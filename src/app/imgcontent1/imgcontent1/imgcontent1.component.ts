@@ -67,16 +67,19 @@ export class Imgcontent1Component implements OnInit{
 
         })
       }else if(url[0].path=='Coupons'){
-        this.title='Coupons';
+        this.title='Tickets | Coupons | Vouchers' ;
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.coupons)
           this.digitizedata = data.coupons;
-
-
         })
       }else if(url[0].path=='Tent-Cards'){
-        this.title='Tent-Cards'
+        this.title='Tent-Cards';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.tent_cards)
+          this.digitizedata = data.tent_cards;
+        })
       }else{
         this.title='Digitize'
       }

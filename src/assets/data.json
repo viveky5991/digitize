@@ -474,10 +474,8 @@
           "title": "Flyers",
           "description": [
             "Sure, here's a refined version:",
-            
             "For flawless print results, adhere to these meticulous guidelines:",
-            
-           "Bleed Requirements: Ensure a 2mm bleed over the finished size for flyers. Font Precision: Convert all fonts in the brochure to paths or curves for consistent rendering. Color Standards: Utilize CMYK or Grayscale colors exclusively; refrain from using RGB, PMS, Pantone, or Spot colors. Transparency Handling: Flatten transparency effects to prevent unexpected outcomes during printing. Overprint Settings: Set overprints accurately to achieve the desired printing effect. Color Profile Removal: Remove all color profiles to maintain color integrity across platforms. Image Resolution: Bitmap images must have a minimum resolution of 300dpi and be in CMYK format for optimal print quality. Reversed Type: Ensure that reversed type (light type on dark backgrounds) is no smaller than 7pt for readability. File Organization: Provide individual PDF files instead of multi-page documents to facilitate efficient imposition. Safe Zone Considerations: Keep borders and type within the safe zone, as variations may occur during trimming. Non-Printing Elements: Remove registration marks, keylines, dielines, and other non-printing items to maintain clarity. Crop Marks: If crop marks are necessary, position them outside the bleed area to avoid interference with the printed content. Adhering to these specifications will ensure optimal print quality and streamline the printing process."
+            "Bleed Requirements: Ensure a 2mm bleed over the finished size for flyers. Font Precision: Convert all fonts in the brochure to paths or curves for consistent rendering. Color Standards: Utilize CMYK or Grayscale colors exclusively; refrain from using RGB, PMS, Pantone, or Spot colors. Transparency Handling: Flatten transparency effects to prevent unexpected outcomes during printing. Overprint Settings: Set overprints accurately to achieve the desired printing effect. Color Profile Removal: Remove all color profiles to maintain color integrity across platforms. Image Resolution: Bitmap images must have a minimum resolution of 300dpi and be in CMYK format for optimal print quality. Reversed Type: Ensure that reversed type (light type on dark backgrounds) is no smaller than 7pt for readability. File Organization: Provide individual PDF files instead of multi-page documents to facilitate efficient imposition. Safe Zone Considerations: Keep borders and type within the safe zone, as variations may occur during trimming. Non-Printing Elements: Remove registration marks, keylines, dielines, and other non-printing items to maintain clarity. Crop Marks: If crop marks are necessary, position them outside the bleed area to avoid interference with the printed content. Adhering to these specifications will ensure optimal print quality and streamline the printing process."
           ]
         }
       ],
@@ -505,9 +503,24 @@
     {
       "list": [
         {
-          "title": "Coupons",
+          "title": "Tickets Or Coupons Or Vouchers",
           "description": [
             "Elevate your event experience with Deluxe printing for your tickets and coupons, guaranteeing superior quality and professionalism. Whether it's event tickets, coupons, or custom vouchers, Deluxe offers cost-effective printing solutions with a quick turnaround time. Our expert printing services ensure that your materials are produced to the highest standards, leaving a lasting impression on your audience. Additionally, we specialize in printing gift certificates complete with barcodes or QR codes, providing added convenience and security for your customers. Trust Deluxe for all your printing needs and make your event or promotion stand out from the crowd."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/ticketcoupen/coupon-and-tickets.jpg"
+      ]
+    }
+  ],
+  "tent_cards": [
+    {
+      "list": [
+        {
+          "title": "Tent Cards",
+          "description": [
+            "Elevate your brand's presence with our top-tier tent card printing services in Dubai. Our bespoke designs, unparalleled quality, and swift delivery ensure that your message leaves a lasting impact. Contact us today for premium tent card solutions crafted to perfection."
           ]
         }
       ],

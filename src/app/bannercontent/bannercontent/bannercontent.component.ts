@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SwiperModule } from 'swiper/angular';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CommonModule } from '@angular/common';
+SwiperCore.use([Pagination, EffectCoverflow]);
 import SwiperCore , {
   Navigation,
   Pagination,
@@ -15,6 +16,8 @@ import SwiperCore , {
   Autoplay,
   Thumbs,
   Controller,
+  Swiper,
+  EffectCoverflow,
 } from 'swiper';
 SwiperCore.use([
   Navigation,
@@ -34,8 +37,9 @@ SwiperCore.use([
   templateUrl: './bannercontent.component.html',
   styleUrl: './bannercontent.component.scss'
 })
-export class BannercontentComponent implements OnInit{
+export class BannercontentComponent implements OnInit, AfterViewInit{
   title: string | undefined;
+  swiper: Swiper | undefined;
   config: SwiperOptions = {
     slidesPerView: 4,
     spaceBetween: 50,
@@ -47,6 +51,25 @@ export class BannercontentComponent implements OnInit{
   ngOnInit(): void {
    
     this.navload()
+  }
+  
+  ngAfterViewInit(): void {
+    this.swiper = new Swiper('.mySwiper', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+    });
   }
   navload(){
     this._route.url.subscribe((url: any) => {

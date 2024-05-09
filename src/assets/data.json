@@ -528,5 +528,20 @@
         "../../../assets/img/flyer/flyer.webp"
       ]
     }
+  ],
+  "die_cut": [
+    {
+      "list": [
+        {
+          "title": "Die Cut",
+          "description": [
+            "Looking for a unique sticker solution for your brand? Our Die Cut Sticker sheets offer complete customization, allowing you to choose the shape and design that perfectly aligns with your brand identity. With digital printing technology, there are no color restrictions, giving you the flexibility to adapt the design to match the season, celebrate special events, or create exclusive limited-edition designs. Elevate your brand's visibility with our versatile Die Cut Sticker Labels tailored to your unique specifications.Price adjustments based on finishing for items supplied on a sheet. Explore our versatile pricing structure tailored to different finishing options. For additional sizes and pricing details, feel free to reach out and inquire."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
   ]
 }

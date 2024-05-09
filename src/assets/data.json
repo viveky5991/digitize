@@ -528,5 +528,15 @@
         "../../../assets/img/flyer/flyer.webp"
       ]
     }
+  ],
+  "binding":[
+    "../../../assets/img/Binding/01101.webp",
+    "../../../assets/img/Binding/01102.webp",
+    "../../../assets/img/Binding/01103.webp",
+    "../../../assets/img/Binding/01104.webp",
+    "../../../assets/img/Binding/01105.webp",
+    "../../../assets/img/Binding/01106.webp",
+    "../../../assets/img/Binding/01107.webp",
+    "../../../assets/img/Binding/01108.webp"
   ]
 }

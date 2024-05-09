@@ -4,6 +4,7 @@ import { SwiperModule } from 'swiper/angular';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 SwiperCore.use([Pagination, EffectCoverflow]);
 import SwiperCore , {
   Navigation,
@@ -18,6 +19,7 @@ import SwiperCore , {
   Controller,
   Swiper,
   EffectCoverflow,
+
 } from 'swiper';
 SwiperCore.use([
   Navigation,
@@ -33,7 +35,7 @@ SwiperCore.use([
 @Component({
   selector: 'app-bannercontent',
   standalone: true,
-  imports: [SwiperModule,CarouselModule,CollapseModule,CommonModule],
+  imports: [SwiperModule,CarouselModule,CollapseModule,CommonModule,HttpClientModule],
   templateUrl: './bannercontent.component.html',
   styleUrl: './bannercontent.component.scss'
 })
@@ -47,7 +49,9 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
     pagination: { clickable: true },
     scrollbar: { draggable: true },
   };
-  constructor( public _router: Router, private _route: ActivatedRoute,) { }
+  
+  bindingdata: any;
+  constructor( public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient) { }
   ngOnInit(): void {
    
     this.navload()
@@ -76,6 +80,13 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
       debugger
       if(url[0].path=='binding'){
         this.title='binding'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.binding)
+          this.bindingdata = data.binding;
+
+
+        })
       }else if(url[0].path=='certificates'){
         this.title='certificates'
       }else if(url[0].path=='booklets'){

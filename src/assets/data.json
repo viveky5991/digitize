@@ -529,17 +529,6 @@
       ]
     }
   ],
-<<<<<<< HEAD
-  "binding":[
-    "../../../assets/img/Binding/01101.webp",
-    "../../../assets/img/Binding/01102.webp",
-    "../../../assets/img/Binding/01103.webp",
-    "../../../assets/img/Binding/01104.webp",
-    "../../../assets/img/Binding/01105.webp",
-    "../../../assets/img/Binding/01106.webp",
-    "../../../assets/img/Binding/01107.webp",
-    "../../../assets/img/Binding/01108.webp"
-=======
   "die_cut": [
     {
       "list": [
@@ -554,6 +543,45 @@
         "../../../assets/img/flyer/flyer.webp"
       ]
     }
->>>>>>> c6aaac6443316efa51fea316c11e5c8ea49c2305
+  ],
+  "print_cut": [
+    {
+      "list": [
+        {
+          "title": "Print Cut",
+          "description": [
+            "Looking for high-quality Kiss Cut sticker printing in Dubai? Look no further! Our customizable Kiss Cut stickers are the perfect choice to showcase your company, brand, or event with style. We meticulously cut around the contour of your design, resulting in a truly unique creation that stands out from the crowd. Our stickers are not only visually appealing but also durable and sticky, ensuring they stay in place wherever you decide to stick them. For added protection against scratches, water, and sunlight, you can opt to laminate them, ensuring they remain vibrant and eye-catching for longer. Choose our Kiss Cut sticker printing services in Dubai for a professional and impactful way to promote your business or event. Let your creativity shine with our customizable options, and make a lasting impression with every sticker you share."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
+  ],
+  "transparent": [
+    {
+      "list": [
+        {
+          "title": "Transparent Stickers",
+          "description": [
+            "Discover premium transparent stickers that seamlessly blend durability with remarkable water resistance. These translucent stickers are fully customizable, allowing you to incorporate text or integrate your logo for a personalized touch. Crafted in vibrant full color, these stickers maintain absolute transparency, ensuring your design shines through. Add a unique flair to your stickers with the option of enhancing them with pure white ink or a white base layer over your selected color scheme, resulting in vivid and solid front colors. Our transparent stickers come in two finishes: Clear and Ultra-Clear, offering unparalleled see-through quality. Choose from a variety of shapes, sizes, and supply formats to perfectly match your needs and preferences."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/flyer/flyer.webp"
+      ]
+    }
+  ],
+  "binding": [
+    "../../../assets/img/Binding/01101.webp",
+    "../../../assets/img/Binding/01102.webp",
+    "../../../assets/img/Binding/01103.webp",
+    "../../../assets/img/Binding/01104.webp",
+    "../../../assets/img/Binding/01105.webp",
+    "../../../assets/img/Binding/01106.webp",
+    "../../../assets/img/Binding/01107.webp",
+    "../../../assets/img/Binding/01108.webp"
   ]
 }

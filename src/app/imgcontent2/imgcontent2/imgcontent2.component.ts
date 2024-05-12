@@ -31,18 +31,18 @@ export class Imgcontent2Component implements OnInit {
           this.digitizedata = data.die_cut;
         })
       } else if (url[0].path == 'print-cut') {
-        this.title = 'print-cut';
+        this.title = 'Print And Cut Stickers';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.die_cut)
-          this.digitizedata = data.die_cut;
+          console.log(data.print_cut)
+          this.digitizedata = data.print_cut;
         })
       } else if (url[0].path == 'transparent') {
-        this.title = 'transparent'
+        this.title = 'Transparent Stickers'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.die_cut)
-          this.digitizedata = data.die_cut;
+          console.log(data.transparent)
+          this.digitizedata = data.transparent;
         })
       } else if (url[0].path == 'whiteink') {
         this.title = 'whiteink'

@@ -6,6 +6,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
+import { Meta, Title } from '@angular/platform-browser';
 
 
 @Component({
@@ -22,12 +23,12 @@ export class StationarylistingComponent implements OnInit {
 
   digitizedata: any;
   contentinfo: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title) { }
 
   ngOnInit(): void {
     debugger
     this._route.url.subscribe((url: any) => {
-      
+
       if (url[0].path == 'business-cards') {
         // this.data = this.service.getData();
         // console.log(this.data)
@@ -41,6 +42,9 @@ export class StationarylistingComponent implements OnInit {
             if(element.PrintingInformation){
               this.contentinfo=[element]
               console.log(this.contentinfo)
+              this.titleService.setTitle('Business-card');
+              this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
             }
           });
           // if (data.businesscard.length > 5) {
@@ -149,6 +153,6 @@ export class StationarylistingComponent implements OnInit {
       console.log('Dialog closed');
     });
   }
-    
+
 
 }

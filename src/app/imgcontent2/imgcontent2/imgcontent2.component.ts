@@ -45,11 +45,11 @@ export class Imgcontent2Component implements OnInit {
           this.digitizedata = data.transparent;
         })
       } else if (url[0].path == 'whiteink') {
-        this.title = 'whiteink'
+        this.title = 'White-Ink'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.die_cut)
-          this.digitizedata = data.die_cut;
+          console.log(data.white_ink)
+          this.digitizedata = data.white_ink;
         })
       } else if (url[0].path == 'embossingseal') {
         this.title = 'embossingseal'

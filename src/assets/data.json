@@ -574,6 +574,21 @@
       ]
     }
   ],
+  "white_ink": [
+    {
+      "list": [
+        {
+          "title": "White Ink Stickers",
+          "description": [
+            "Clear White Ink Stickers offer versatility for both indoor and outdoor applications. The addition of white ink enhances opacity, ensuring visibility and a polished finish for your stickers."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/white-ink/white-ink.webp"
+      ]
+    }
+  ],
   "binding": [
     "../../../assets/img/Binding/01101.webp",
     "../../../assets/img/Binding/01102.webp",

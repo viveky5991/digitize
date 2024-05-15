@@ -52,18 +52,18 @@ export class Imgcontent2Component implements OnInit {
           this.digitizedata = data.white_ink;
         })
       } else if (url[0].path == 'embossingseal') {
-        this.title = 'embossingseal'
+        this.title = 'Embossing Seal'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.die_cut)
-          this.digitizedata = data.die_cut;
+          console.log(data.embossing_seal)
+          this.digitizedata = data.embossing_seal;
         })
       } else if (url[0].path == 'kraftpaper') {
-        this.title = 'kraftpaper'
+        this.title = 'Kraft Paper Sticker'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.die_cut)
-          this.digitizedata = data.die_cut;
+          console.log(data.kraft_paper)
+          this.digitizedata = data.kraft_paper;
         })
       } else {
         this.title = 'Digitize'

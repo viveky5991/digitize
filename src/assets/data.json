@@ -589,6 +589,36 @@
       ]
     }
   ],
+  "embossing_seal": [
+    {
+      "list": [
+        {
+          "title": "Embossing Seal",
+          "description": [
+            "A corporate seal serves as a mark of authenticity and professionalism, enhancing the credibility of your brand.  Embossing seals offer a sophisticated way to imprint logos, monograms, and other designs onto documents, letterheads, certificates, and more. They not only add a touch of elegance but also serve as a security measure, safeguarding important documents from forgery and unauthorized duplication."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/stamp/emo_seal.webp"
+      ]
+    }
+  ],
+  "kraft_paper": [
+    {
+      "list": [
+        {
+          "title": "Kraft Paper",
+          "description": [
+            "Explore our eco-friendly Kraft paper stickers in Dubai, designed for long-lasting use and exceptional customization. Our stickers, made from recycled paper, not only promote sustainability but also showcase our dedication to environmentally friendly printing practices. Ideal for businesses looking to enhance their green credentials, these stickers provide a perfect blend of durability, aesthetics, and environmental responsibility. Whether you need labels for products, packaging, or promotional materials, our eco-friendly solutions ensure that your branding stands out while supporting ecological sustainability. With our eco-conscious labels, embrace the next wave of sustainable sticker production in Dubai. Opt for our services to enjoy top-notch quality coupled with a commitment to environmental responsibility.With our eco-friendly stickers in Dubai, elevate your brand identity sustainably. These environmentally conscious custom stickers and labels offer an innovative solution for enhancing your product packaging and communication, helping your brand make a positive impact on the environment."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/sticker/kraft-sticker.webp"
+      ]
+    }
+  ],
   "binding": [
     "../../../assets/img/Binding/01101.webp",
     "../../../assets/img/Binding/01102.webp",

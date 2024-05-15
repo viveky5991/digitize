@@ -326,7 +326,7 @@ textarea {
 }
 
 .contact-form {
-  background-color: #f0576480;
+  background-color: #f057644d;
   position: relative;
 }
 
@@ -678,4 +678,7 @@ textarea.input {
   .btn {
     padding: 0.45rem 1.2rem;
   }
+}
+.mat-form-field-appearance-outline .mat-form-field-outline {
+  color: white !important; /* Change the border color to white */
 }

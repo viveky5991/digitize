@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "../../../assets/scss/variables";
 body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
@@ -20,11 +21,11 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	background-color: #f7abb1c7;
+    padding: 30px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 33.33%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -40,13 +41,14 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #ffffff75;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
 }
-.footer-col ul li:not(:last-child){
+.footer-col ul li{
 	margin-bottom: 10px;
+	color: #ffffff;
 }
 .footer-col ul li a{
 	font-size: 16px;
@@ -54,7 +56,7 @@ ul{
 	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #ffffff;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -75,7 +77,7 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover{
-	color: #24262b;
+	color: #e91e63;
 	background-color: #ffffff;
 }
 
@@ -115,7 +117,40 @@ ul{
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 43px;
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
 }
+.fa{
+	margin-right: 10px;
+}
+.copy{
+	text-align: center;
+	background-color: white;
+	color: black;
+	padding: 5px 0px;
+}
+.whatsapp{
+	display: none;
+  }
+  .whatsapp-desk{
+	display: block;
+  
+  }
+@include media-breakpoint('sm') {
+	.whatsapp-desk{
+	  display: none;
+	}
+	.whatsapp{
+	  display: block;
+	}
+  }
+  @include media-breakpoint('lt-sm') {
+	.whatsapp{
+	  display: block;
+	}
+	.whatsapp-desk{
+	  display: none;
+  
+	}
+  }

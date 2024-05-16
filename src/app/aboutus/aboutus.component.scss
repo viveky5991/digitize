@@ -13,7 +13,7 @@ h1
 {
 	width:100%;
 	height:auto;
-	border-bottom:5px #323233 solid;
+	border-bottom:5px #e3e3e3a8 solid;
 	background:#fff;
 	text-align:center;
 	border-radius:10px;
@@ -81,7 +81,7 @@ h1
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2c3145;
+    color: #000000;
 }
 a, a:hover, a:focus, a:active {
     text-decoration: none;
@@ -243,5 +243,31 @@ h5{
   }
 
 
+
+  #counter{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+  }
+  #counter .item{
+    // background: #fff;
+    // width: 200px;
+    padding: 35px 40px;
+    margin: 10px;
+    text-align: center;
+  //   border-radius: 20px;
+  //   -webkit-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  // -moz-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  // box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
+  } 
+
+  #counter .item h3{
+    color: #4f4e28;
+    text-transform: capitalize;
+  }
 
   

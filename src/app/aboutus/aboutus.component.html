@@ -48,7 +48,7 @@
   <div class="our-team-main">
   
   <div class="team-front">
-  <img src="http://placehold.it/110x110/9c27b0/fff?text=Dilip" class="img-fluid" />
+  <!-- <img src="http://placehold.it/110x110/9c27b0/fff?text=Dilip" class="img-fluid" /> -->
   <h3>Corporate Gifts</h3>
 
   </div>
@@ -68,7 +68,7 @@
   <div class="our-team-main">
   
   <div class="team-front">
-  <img src="http://placehold.it/110x110/336699/fff?text=Dilip" class="img-fluid" />
+  <!-- <img src="http://placehold.it/110x110/336699/fff?text=Dilip" class="img-fluid" /> -->
   <h3>Large Format Printing</h3>
   </div>
   
@@ -87,7 +87,7 @@
   <div class="our-team-main">
   
   <div class="team-front">
-  <img src="http://placehold.it/110x110/607d8b/fff?text=Dilip" class="img-fluid" />
+  <!-- <img src="http://placehold.it/110x110/607d8b/fff?text=Dilip" class="img-fluid" /> -->
   <h3>Offset Printing</h3>
   </div>
   
@@ -106,7 +106,7 @@
   <div class="our-team-main">
   
   <div class="team-front">
-  <img src="http://placehold.it/110x110/4caf50/fff?text=Dilip" class="img-fluid" />
+  <!-- <img src="http://placehold.it/110x110/4caf50/fff?text=Dilip" class="img-fluid" /> -->
   <h3>Digital Printing</h3>
   </div>
   
@@ -122,48 +122,19 @@
       </div>
     </div>
     </section>
-  <section>
-    <div class="container">
-      <div class="row">
-        <!-- <div class="col-md-12">
-          <div class="">
-              <h4 style="margin-bottom: 25px;">OUR VISION</h4>
-              <p><i class="fa fa-check" aria-hidden="true"></i> To meet the needs of our customers with our instant delivery services.</p>
-              <p><i class="fa fa-check" aria-hidden="true"></i> To provide high quality corporate gifts to our customers and ensuring customer satisfaction</p>
-              <p><i class="fa fa-check" aria-hidden="true"></i> To create a corporate gifting ecosystem that is a one stop solution and making gifting a delightful experience.</p>
-          </div>
-        </div> -->
-      </div>
-    </div>
-</section>
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
-        <p class="styp">12,000+</p>
-        <p class="styp1">CUSTOMERS</p>
-      </div>
-      <div class="col-md-2">
-        <p class="styp">130+</p>
-        <p class="styp1">TEAM MEMBERS</p>
-      </div>
-      <div class="col-md-2">
-        <p class="styp">12HR</p>
-        <p class="styp1">SUPPORT AVAILABLE</p>
-      </div>
-      <div class="col-md-2">
-        <p class="styp">265+</p>
-        <p class="styp1">CUP OF COFFEE</p>
-      </div>
-      <div class="col-md-2">
-        <p class="styp">99%</p>
-        <p class="styp1">POSITIVE REVIEWS</p>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-  </div>
 
+
+
+
+
+<section>
+  
+<div id="counter">
+  <div class="item" *ngFor="let item of countItems">
+    <p class="count styp">{{ item.count }}{{item.sign}}</p>
+    <p class="text styp1">{{ item.label }}</p>
+  </div>
+</div>
 </section>
 <section>
   <div class="container">

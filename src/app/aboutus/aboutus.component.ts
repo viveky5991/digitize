@@ -1,69 +1,60 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
+
 interface CounterItem {
   count: number;
   label: string;
   target: number;
-  sign:string;
+  sign: string;
 }
+
 @Component({
   selector: 'app-aboutus',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './aboutus.component.html',
-  styleUrl: './aboutus.component.scss'
+  styleUrls: ['./aboutus.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class AboutusComponent  implements OnInit{
-  // countItems: CounterItem[] = [
-  //   { count: 0, label: 'Reward', target: 50 },
-  //   { count: 0, label: 'Year+ Experience', target: 15 },
-  //   { count: 0, label: 'Projects Completed', target: 2040 },
-  //   { count: 0, label: 'Happy Clients', target: 1018 }
-  // ];
+export class AboutusComponent implements OnInit {
   countItems: CounterItem[] = [
-    { count: 0, label: 'CUSTOMERS', target: 12000,sign:"+" },
-    { count: 0, label: 'TEAM MEMBERS', target: 130,sign:"+" },
-    { count: 0, label: 'SUPPORT AVAILABLE', target: 12,sign:"HR" },
-    { count: 0, label: 'CUP OF COFFEE', target: 265,sign:"+" },
-    { count: 0, label: 'POSITIVE REVIEWS', target: 99,sign:"%" }
+    { count: 0, label: 'CUSTOMERS', target: 12000, sign: "+" },
+    { count: 0, label: 'TEAM MEMBERS', target: 130, sign: "+" },
+    { count: 0, label: 'SUPPORT AVAILABLE', target: 12, sign: "HR" },
+    { count: 0, label: 'CUP OF COFFEE', target: 265, sign: "+" },
+    { count: 0, label: 'POSITIVE REVIEWS', target: 99, sign: "%" }
   ];
-  constructor(){}
+
+  constructor(private cdr: ChangeDetectorRef) { }
+
   ngOnInit(): void {
-    this.startCounters()
+    this.startCounters();
   }
 
-  // startCounter(): void {
-  //   const countElements = document.querySelectorAll(".count");
-  //   const countArray = Array.from(countElements);
-
-  //   countArray.forEach(item => {
-  //     let startNumber = 0;
-  //     const targetNumber = parseInt(item.dataset.number || '0', 10); // Parse the dataset number as an integer
-
-  //     const counterUp = () => {
-  //       startNumber++;
-  //       item.innerHTML = startNumber.toString();
-
-  //       if (startNumber === targetNumber) {
-  //         clearInterval(stop);
-  //       }
-  //     };
-
-  //     const stop = setInterval(counterUp, 50);
-  //   });
-  // }
   startCounters(): void {
-    this.countItems.forEach(item => {
-      let startNumber = 0;
+    const updateCounter = (index: number) => {
+      const item = this.countItems[index];
+      let current = 0;
 
-      const counterInterval = setInterval(() => {
-        startNumber++;
-        item.count = startNumber;
+      const step = () => {
+        current++;
+        item.count = current;
+        this.cdr.markForCheck(); // Trigger change detection for OnPush
 
-        if (startNumber === item.target) {
-          clearInterval(counterInterval);
+        if (current < item.target) {
+          requestAnimationFrame(step);
         }
-      }, 50);
+      };
+
+      // Staggered start by 100ms per counter
+      setTimeout(() => {
+        requestAnimationFrame(step);
+      }, index * 100);
+    };
+
+    // Start counters for all items
+    this.countItems.forEach((_, index) => {
+      updateCounter(index);
     });
   }
 }

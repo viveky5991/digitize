@@ -8,7 +8,10 @@ h1
 	margin:40px 0 60px 0;
 	font-weight:300;
 }
-
+.demo {
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .our-team-main
 {
 	width:100%;
@@ -22,7 +25,9 @@ h1
 	transition:0.5s;
 	margin-bottom:28px;
 }
-
+.mt-5.row.vertical_content_manage{
+  padding-bottom: 30px;
+}
 
 .our-team-main img
 {
@@ -95,7 +100,7 @@ ul {
 
 .section_all {
     position: relative;
-    padding-top: 25px;
+    padding-top: 88px;
     padding-bottom: 15px;
     min-height: 100vh;
 }
@@ -173,9 +178,9 @@ h5{
 .styp1{
 	text-align: center;
 }
-.row{
-	margin: 45px 0px;
-}
+// .row{
+// 	margin: 45px 0px;
+// }
 
 
 .aboutSty{
@@ -191,30 +196,30 @@ h5{
     --tab-padding: 1.25rem;
     --tab-bg:#f0576473;
     --tab-active-bg: #fff;
-  
+
     input {
       display: none;
-      
+
       &:checked + label {
         background-color: var(--tab-active-bg);
         color: #000;
       }
-      
+
       &:not(:checked) + label + * {
         display: none;
       }
     }
-    
+
     label {
       color: #fff;
       cursor: pointer;
       padding: var(--tab-padding);
-      
+
       @media (max-width: 575px) {
         width: 100%;
       }
     }
-    
+
     &-wrapper{
       position: relative;
       display: flex;
@@ -223,21 +228,21 @@ h5{
       background-color: var(--tab-bg);
       box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1) , 0px 4px 6px -2px rgba(0,0,0,0.05);
     }
-    
+
     &-content {
       width: 100%;
       padding: var(--tab-padding);
       background-color: var(--tab-active-bg);
-      
+
       @media (min-width: 576px) {
         order: 9999;
       }
     }
   }
-  
+
   // Solo Demo
 
-  
+
   .demo {
       max-width: 100%;
   }
@@ -263,11 +268,10 @@ h5{
   //   -webkit-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
   // -moz-box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
   // box-shadow: 0px 0px 38px -8px rgba(0,0,0,0.34);
-  } 
+  }
 
   #counter .item h3{
     color: #4f4e28;
     text-transform: capitalize;
   }
 
-  

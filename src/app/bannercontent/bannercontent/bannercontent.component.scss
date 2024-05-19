@@ -134,7 +134,7 @@
     padding-bottom:80px;
     margin-top: 4.3em;
  }
- 
+
   .image-aboutus-sm-banner {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../../assets/img/background/david-van-dijk-3LTht2nxd34-unsplash.jpg");
     background-repeat: no-repeat;
@@ -176,3 +176,13 @@
   width: 100%;
 }
 
+.container, .col-md-12 {
+  max-width: 1200px; /* Adjust this value based on your design */
+  margin: 0 auto; /* Center the container */
+}
+.container {
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+.swiper-container {
+  width: 100%; /* Ensures it takes the width of its parent */
+}

@@ -13,48 +13,50 @@
 
 <!-- </div> -->
 
-
-
-  <div class="swiper-container mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" *ngFor="let item of bindingdata">
-        <img [src]="item" />
+<div class="container">
+  <div class="row">
+    <div class="swiper-container mySwiper">
+      <h4>Perfect Binding</h4>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" *ngFor="let item of bindingdata">
+          <img [src]="item" />
+        </div>
       </div>
+      <div class="swiper-pagination"></div>
     </div>
-    <div class="swiper-pagination"></div>
   </div>
-  
+</div>
 
-  <div class="swiper-container mySwiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" *ngFor="let item of bindingdata">
-        <img [src]="item" />
-      </div>
-      <!-- <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-      </div>
-      <div class="swiper-slide">
-        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-      </div> -->
+<!-- <div class="swiper-container mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide" *ngFor="let item of bindingdata">
+      <img [src]="item" />
     </div>
-    <div class="swiper-pagination"></div>
   </div>
-  
+  <div class="swiper-pagination"></div>
+</div> -->
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    slidesPerView: 1,
+    spaceBetween: 10,
+    breakpoints: {
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+    }
+  });
+</script>

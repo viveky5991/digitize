@@ -14,12 +14,12 @@
 <!-- </div> -->
 
 <div class="container">
-  <div class="row">
+  <div class="row"  *ngFor="let item of bindingdata">
     <div class="swiper-container mySwiper">
-      <h4>Perfect Binding</h4>
+      <h4>{{ item.title }}</h4>
       <div class="swiper-wrapper">
-        <div class="swiper-slide" *ngFor="let item of bindingdata">
-          <img [src]="item" />
+        <div class="swiper-slide" *ngFor="let img of item.img">
+          <img [src]="img" />
         </div>
       </div>
       <div class="swiper-pagination"></div>

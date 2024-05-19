@@ -180,28 +180,46 @@
   "pvcwhite": [
     {
       "id": 1,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 4,
+      "title": "PVC Business Cards  ",
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
-      "id": 5,
-      "img": "../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "PVC sticker printing in Dubai is one of the most popular choices for both businesses and individuals looking for a durable and versatile solution for their labeling and branding needs. PVC stickers are ideal for any flat surfaces, offering a sleek and professional appearance."
+            },
+            {
+              "note": "Longer Lifespan: PVC stickers are known for their durability, ensuring that your labels remain intact and legible for an extended period."
+            },
+            {
+              "note": "Versatility: These stickers are perfectly suited to work around corners, curves, and edges, making them ideal for a variety of applications."
+            },
+            {"note": "Enhanced Protection: Adding lamination to PVC stickers can further improve their lifespan, providing additional protection against scratches, moisture, and UV exposure."
+            }
+          ]
+        }
+      ]
     }
   ],
   "epoxy": [
@@ -226,9 +244,231 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
-      "id": 5,
-      "img": "../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Epoxy stickers, also known as epoxy bubble stickers or epoxy 3D stickers, are crafted from polyurethane. This material is poured over each decal, forming a clear, thick layer that imparts a high-quality, three-dimensional appearance. The transparent coating enhances the epoxy labels, giving them an eye-catching 'pop' that stands out to everyone. These stickers are commonly found on wrappers, cans, bottles, CD bags, envelopes, and folders. Additionally, many vehicles today feature epoxy stickers with the manufacturer's brand logo. The durability and striking look of epoxy stickers make them a popular choice for various applications."
+            },
+            {
+              "note": "To ensure the perfect fit, we offer the option of creating physical samples before moving forward with the full print run. This allows you to verify the fit and finish, giving you peace of mind."
+            },
+            {
+              "note": "Additionally, we manufacture durable outdoor epoxy stickers designed to withstand harsh weather conditions, ensuring your labels remain intact and vibrant, no matter the environment."
+            }
+
+          ]
+        }
+      ]
+    }
+  ],
+  "wind_shield": [
+    {
+      "id": 1,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Windshield stickers are crafted using a specialized printing technique that allows them to be adhered to the interior side of the windshield. These stickers are designed to be heat-resistant, ensuring durability and longevity for up to a year."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "helmet": [
+    {
+      "id": 1,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "For helmet sticker printing, we offer a diverse range of print methods tailored to your needs. Our team can guide you in selecting the best method based on your specific artwork. The printing process for helmet decals involves printing and then cutting the stickers to the desired shape. This can be done on either white or clear transparent stickers. Additionally, we provide options for variable branding across different areas of the helmet, ensuring a customized and professional finish."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "floor_stickers": [
+    {
+      "id": 1,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Material: Special soft white PVC film"
+            },
+            {
+              "note": "Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look."
+            },
+            {
+              "note":"Thickness: 110 microns and 160 microns for floor lamination."
+            },
+            {
+              "note":"Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective."
+            }
+
+          ]
+        }
+      ]
+    }
+  ],
+  "posters": [
+    {
+      "id": 1,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Transform your walls or windows into opportunities with custom-made posters. Keep your message clear and simple, whether it’s announcing opening hours, limited-time sales, or an upcoming special event. Ensure a professional appearance that effectively communicates your message, whether it's in-store or outdoors."
+            },
+            {
+              "note": "Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request"
+            },
+            {
+              "note":"Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required"
+            }
+
+          ]
+        }
+      ]
+    }
+  ],
+  "repositionable": [
+    {
+      "id": 1,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "PVC Business Cards  ",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Introducing our new repositionable vinyl window clings! These clings are simple to apply and remove in less than a minute, giving the effect of a sticker without any messy adhesive."
+            },
+            {
+              "note": "With excellent durability, you can easily change their position whenever needed. Designed specifically for glass and windows, these clings are perfect for any DIY project, eliminating the need for a professional applicator."
+            },
+            {
+              "note":"Our window clings are non-adhesive, ensuring a secure 'cling' to the window for easy placement, removal, and repositioning. Reusable and convenient, they make decorating and redecorating a breeze."
+            }
+
+          ]
+        }
+      ]
     }
   ],
   "brochurePreparationTasks": [

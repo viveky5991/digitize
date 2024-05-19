@@ -111,7 +111,7 @@ export class StationarylistingComponent implements OnInit {
           });
         })
       } else if (url[0].path == 'epoxy') {
-        this.title = 'epoxy'
+        this.title = 'Epoxy Stickers'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.epoxy)

@@ -1,59 +1,74 @@
-<div class="image-aboutus-banner" >
-    <!-- style="margin-top:70px" -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="lg-text ">{{title}}</h1>
-                <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-    </div>
+<div class="image-aboutus-banner">
+  <!-- style="margin-top:70px" -->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h1 class="lg-text ">{{title}}</h1>
+              <p class="image-aboutus-para"> </p>
+          </div>
+      </div>
+  </div>
 </div>
 
 
 <div class="container pt-5 pb-5">
-    <h3>Column 1</h3>
-    <div class="row">
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+  <h3>{{title}}</h3>
+  <div class="row">
+      <div class="col-md-3 col-sm-4 col-lg-3 col-6 main" *ngFor="let item of digitizedata">
+          <!-- {{item|json}} -->
+          <img [src]="item.img" alt="">
+          <h4>{{item.title}}</h4>
 
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
-        <div class="col-md-3 col-sm-4 col-lg-3 col-6">
-            <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
-                alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
-            <button type="button" class="btn btn-light list-btn">view more</button>
-        </div>
+      </div>
 
-
-    </div>
+      <!-- <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+          <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
+              alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+          <button type="button" class="btn btn-light list-btn">view more</button>
+      </div>
+      <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+          <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
+              alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+          <button type="button" class="btn btn-light list-btn">view more</button>
+      </div>
+      <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+          <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
+              alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+          <button type="button" class="btn btn-light list-btn">view more</button>
+      </div>
+      <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+          <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
+              alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+          <button type="button" class="btn btn-light list-btn">view more</button>
+      </div>
+      <div class="col-md-3 col-sm-4 col-lg-3 col-6">
+          <img src="https://www.dlxprint.com/images/digital-business-cards/standard_business_cards_printing_dubai.webp"
+              alt="">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum.</p>
+          <button type="button" class="btn btn-light list-btn">view more</button>
+      </div> -->
 
 
+  </div>
+  <div *ngFor="let item of contentinfo" class="note">
+      <!-- {{item|json}} -->
+      <h4>Important points to note before placing your order:</h4>
+      <!-- <div class="row"> -->
+      <!-- <div class="col-2"></div> -->
+      <div class="col-8">
+          <ul *ngFor="let item2 of item.PrintingInformation">
+              <li *ngFor="let item of item2.list">{{item.note}}</li>
+              <!-- <li>{{item.ColorStandards}}</li>
+  <li>{{item.PrintQuality}}</li>
+  <li>{{item.ColorMatching}} </li> -->
+          </ul>
+      </div>
+      <!-- <div class="col-2"></div> -->
+      <!-- </div> -->
+  </div>
+  <button type="button" (click)="EnquiryNow()" class="btn btn-primary list-btn">Enquiry Now</button>
 </div>

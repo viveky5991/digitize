@@ -1,16 +1,19 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-imgcontent11',
   standalone: true,
-  imports: [],
+  imports: [HttpClientModule, CommonModule,RouterModule],
   templateUrl: './imgcontent11.component.html',
   styleUrl: './imgcontent11.component.scss'
 })
 export class Imgcontent11Component implements OnInit{
   title: string | undefined;
-  constructor( public _router: Router, private _route: ActivatedRoute,) { }
+  digitizedata: any;
+  constructor(public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient) { }
   ngOnInit(): void {
    
     this.navload()
@@ -19,7 +22,14 @@ export class Imgcontent11Component implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='Pens'){
-        this.title='Pens'
+        this.title='Pens';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.letter_heads)
+          this.digitizedata = data.letter_heads;
+
+
+        })
       } else if(url[0].path=='PUNotebooks'){
         this.title='PUNotebooks'
       }else if(url[0].path=='PUOrganizer'){

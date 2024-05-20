@@ -19,7 +19,7 @@ export class ImgcontentComponent implements OnInit {
   ngOnInit(): void {
 
     this.navload()
-  }
+  } 
   navload() {
     this._route.url.subscribe((url: any) => {
       debugger

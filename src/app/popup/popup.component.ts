@@ -21,13 +21,11 @@ export class PopupComponent implements OnInit {
       name: ['', Validators.required],
       phone: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      url: [''],
+      requirement: ['', Validators.required],
       message: ['', Validators.required]
     });
   }
-  ngOnInit(): void {
-
-  }
+  ngOnInit(): void {}
 
   onSubmit() {
     if (this.contactForm.valid) {

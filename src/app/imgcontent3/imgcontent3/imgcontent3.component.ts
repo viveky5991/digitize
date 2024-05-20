@@ -1,25 +1,33 @@
+import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-imgcontent3',
   standalone: true,
-  imports: [],
+  imports: [HttpClientModule, CommonModule, RouterModule,],
   templateUrl: './imgcontent3.component.html',
   styleUrl: './imgcontent3.component.scss'
 })
 export class Imgcontent3Component  implements OnInit{
   title: string | undefined;
-  constructor( public _router: Router, private _route: ActivatedRoute,) { }
+  digitizedata: any;
+  constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
   navload(){
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='Window-Vinyl'){
-        this.title='Window-Vinyl'
+        this.title='Window Vinyl Lettering';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.window_vinyl)
+          this.digitizedata = data.window_vinyl;
+        })
       } else if(url[0].path=='Window-Graphics'){
         this.title='Window-Graphics'
       }else if(url[0].path=='OneWay-Vision'){

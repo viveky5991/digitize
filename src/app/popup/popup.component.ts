@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {MatDialog, MatDialogModule} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 
@@ -13,7 +13,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   templateUrl: './popup.component.html',
   styleUrl: './popup.component.scss'
 })
-export class PopupComponent {
+export class PopupComponent implements OnInit {
   //constructor(public dialog: MatDialog) {}
   contactForm: any;
   constructor(private fb: FormBuilder ,public dialog: MatDialog) {
@@ -21,9 +21,12 @@ export class PopupComponent {
       name: ['', Validators.required],
       phone: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
-      requirement: ['', Validators.required],
+      url: [''],
       message: ['', Validators.required]
     });
+  }
+  ngOnInit(): void {
+
   }
 
   onSubmit() {
@@ -37,7 +40,7 @@ export class PopupComponent {
       console.log('Form is invalid, please check all fields.');
     }
   }
- 
+
 
 
 }

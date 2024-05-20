@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: 'helmet', component: ListingComponent },
   { path: 'floor-stickers', component: ListingComponent },
   { path: 'posters', component: ListingComponent },
-  { path: 'repositionable', component: ListingComponent }
+  // { path: 'repositionable', component: ListingComponent }
 ];
 
 @NgModule({

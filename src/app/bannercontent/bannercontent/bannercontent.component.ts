@@ -31,7 +31,7 @@ SwiperCore.use([
   Autoplay,
   Thumbs,
   Controller
-]); 
+]);
 @Component({
   selector: 'app-bannercontent',
   standalone: true,
@@ -43,20 +43,21 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
   title: string | undefined;
   swiper: Swiper | undefined;
   config: SwiperOptions = {
-    slidesPerView: 4,
-    spaceBetween: 50,
+    slidesPerView: 'auto',
+    spaceBetween: 10,
     navigation: true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },
   };
-  
+
+
   bindingdata: any;
   constructor( public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
-  
+
   ngAfterViewInit(): void {
     this.swiper = new Swiper('.mySwiper', {
       pagination: {
@@ -69,7 +70,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
       coverflowEffect: {
         rotate: 75,
         stretch: 0,
-        depth: 100,
+        depth: 10,
         modifier: 1,
         slideShadows: true,
       },

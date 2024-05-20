@@ -68,7 +68,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
       centeredSlides: true,
       slidesPerView: 'auto',
       coverflowEffect: {
-        rotate: 50,
+        rotate: 75,
         stretch: 0,
         depth: 10,
         modifier: 1,

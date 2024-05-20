@@ -875,14 +875,33 @@
       ]
     }
   ],
-  "binding": [
-    "../../../assets/img/Binding/01101.webp",
-    "../../../assets/img/Binding/01102.webp",
-    "../../../assets/img/Binding/01103.webp",
-    "../../../assets/img/Binding/01104.webp",
-    "../../../assets/img/Binding/01105.webp",
-    "../../../assets/img/Binding/01106.webp",
-    "../../../assets/img/Binding/01107.webp",
-    "../../../assets/img/Binding/01108.webp"
+  "binding": [{
+    
+    "title": "Kraft Paper",
+    "img":[
+      "../../../assets/img/Binding/01101.webp",
+      "../../../assets/img/Binding/01102.webp",
+      "../../../assets/img/Binding/01103.webp",
+      "../../../assets/img/Binding/01104.webp",
+      "../../../assets/img/Binding/01105.webp",
+      "../../../assets/img/Binding/01106.webp",
+      "../../../assets/img/Binding/01107.webp",
+      "../../../assets/img/Binding/01108.webp"
+    ]
+  }],
+  "pen":[
+    {
+      "list": [
+        {
+          "title": "Pens",
+          "description": [
+            "Promotional pens are a versatile and cost-effective marketing tool, perfect for graduates, students, sales staff, and anyone who needs to jot down notes or lists. These pens are ideal for events, exhibitions, and trade show giveaways, offering an excellent alternative to business cards with their longer lifespan and daily usability. Easy to customize with multi-color prints or engravings, promotional pens ensure your brand leaves a lasting impression. Available in various materials such as plastic, metal, rubberized, crystal, stylus, bamboo, and eco-friendly options, they cater to diverse preferences and underscore your brand’s commitment to practicality and sustainability."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/sticker/kraft-sticker.webp"
+      ]
+    }
   ]
 }

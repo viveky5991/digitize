@@ -29,11 +29,26 @@ export class Imgcontent3Component  implements OnInit{
           this.digitizedata = data.window_vinyl;
         })
       } else if(url[0].path=='Window-Graphics'){
-        this.title='Window-Graphics'
+        this.title='Window-Graphics';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Window_Graphics)
+          this.digitizedata = data.Window_Graphics;
+        })
       }else if(url[0].path=='OneWay-Vision'){
-        this.title='OneWay-Vision'
+        this.title='One Way Vision Sticker';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.OneWay_Vision)
+          this.digitizedata = data.OneWay_Vision;
+        })
       }else if(url[0].path=='Wall-Vinyl'){
-        this.title='Wall-Vinyl'
+        this.title='Wall Vinyl Lettering';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.OneWay_Vision)
+          this.digitizedata = data.OneWay_Vision;
+        })
       }else if(url[0].path=='Wall-Graphics'){
         this.title='Wall-Graphics'
       }else if(url[0].path=='Canvas'){

@@ -890,6 +890,36 @@
       ]
     }
   ],
+  "Window_Graphics": [
+    {
+      "list": [
+        {
+          "title": "Window-Graphics",
+          "description": [
+            "Window decals are a favored approach for enhancing and branding commercial window fronts. Frequently utilized by businesses such as salons and spas, these decals not only ensure privacy by obstructing external views but also serve as effective promotional tools. Available in various dimensions to suit different window sizes, these window decals are tailored to meet specific branding needs. Premium installation services for these window decals are offered across major cities including Dubai, Abu Dhabi, and Sharjah, catering to a range of establishments from retail shops to corporate offices. Window branding is becoming an essential strategy for marketing your products and enhancing the visibility of your storefront. By transforming windows into attractive advertising spaces, it catches the eye of passersby, potentially increasing foot traffic to your store or business. Deluxe provides comprehensive window branding services, including professional design and installation, at highly competitive rates. Whether you're looking to promote a new product or reinforce brand recognition, our window branding solutions are designed to meet your specific needs and stand out in busy commercial environments."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/window/window-graphic.png"
+      ]
+    }
+  ],
+  "OneWay_Vision": [
+    {
+      "list": [
+        {
+          "title": "One Way Vision",
+          "description": [
+            "Usage: Suitable for both indoor and outdoor environments. Style Options: Choose from multi-piece decals that combine to form a large display or opt for a single, continuous piece for a seamless look. Application: Ideal for sales promotions or advertising on storefronts, these decals also serve multiple functional purposes including privacy maintenance, sun protection, and decorative window signage. They are perfect for use on partition glasses in settings such as hospitals and pharmacies. Note: The effectiveness of one-way vision decals can diminish if the interior is brighter than the exterior, such as a well-lit store during nighttime. This limitation is inherent to all perforated or one-way vision decals. One-way vision films offer a practical solution for branding outlets while displaying ongoing promotions and product details. These custom films not only enhance the aesthetic appeal of a storefront but also contribute to a cooler indoor environment by blocking excess sunlight. Ideal for office spaces, these films maintain external visibility and privacy, making them an effective and functional choice for advertising and sun protection."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/window/one-way.png"
+      ]
+    }
+  ],
   "binding": [{
 
     "title": "Kraft Paper",

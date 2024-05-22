@@ -13,6 +13,7 @@ import SwiperCore , {
   Thumbs,
   Controller,
 } from 'swiper';
+import { RouterModule } from '@angular/router';
 SwiperCore.use([
   Navigation,
   Pagination,
@@ -27,7 +28,7 @@ SwiperCore.use([
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [SwiperModule],
+  imports: [SwiperModule,RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

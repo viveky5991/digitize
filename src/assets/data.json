@@ -947,6 +947,20 @@
       ]
     }
   ],
+  "canvas": [
+    {
+      "list": [
+        {
+          "title": "Canvas",
+          "description": ["Transform Your Space with Our Premium Glossy Canvas Prints Elevate your decor with stunning glossy canvas prints that bring your artwork and photographs to life. Perfect for homes, offices, or art galleries, our large-scale canvases add a vibrant touch to any environment. Transform your digital images into breathtaking masterpieces—whether you're showcasing abstract pieces or highlighting your best photography. Crafted on high-quality, durable woven canvas with a glossy finish, each print captures vibrant colors and crystal-clear details. Our canvas prints not only enhance the visual appeal but also serve as a focal point in any room. Personalize your canvas print further by adding text, decorative borders, or creating a unique collage of your favorite memories. Available in various sizes, our custom canvas prints are designed to suit both expansive and intimate spaces."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/wall-graph.webp"
+      ]
+    }
+  ],
   "binding": [
     {
       "title": "Kraft Paper",

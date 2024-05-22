@@ -59,7 +59,12 @@ export class Imgcontent3Component  implements OnInit{
           this.digitizedata = data.Wall_Graphics;
         })
       }else if(url[0].path=='Canvas'){
-        this.title='Canvas'
+        this.title='Canvas';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.canvas)
+          this.digitizedata = data.canvas;
+        })
       }else if(url[0].path=='Wooden'){
         this.title='Wooden'
       }else if(url[0].path=='Acrylic'){

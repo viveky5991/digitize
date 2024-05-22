@@ -17,3 +17,13 @@ body {
 a {
     cursor: pointer;
 }
+.btn-primary:hover {
+    -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+    box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+    background-color: rgba(240, 87, 100, 0.768);
+}
+.btn-primary:focus {
+  background-color: rgba(240, 87, 100, 0.5019607843);
+  -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+  box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+}

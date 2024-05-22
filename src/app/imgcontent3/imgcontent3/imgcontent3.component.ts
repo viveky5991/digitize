@@ -46,11 +46,16 @@ export class Imgcontent3Component  implements OnInit{
         this.title='Wall Vinyl Lettering';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.OneWay_Vision)
-          this.digitizedata = data.OneWay_Vision;
+          console.log(data.Wall_Vinyl)
+          this.digitizedata = data.Wall_Vinyl;
         })
       }else if(url[0].path=='Wall-Graphics'){
-        this.title='Wall-Graphics'
+        this.title='Wall-Graphics';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Wall_Graphics)
+          this.digitizedata = data.Wall_Graphics;
+        })
       }else if(url[0].path=='Canvas'){
         this.title='Canvas'
       }else if(url[0].path=='Wooden'){

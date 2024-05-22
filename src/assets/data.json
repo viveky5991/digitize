@@ -215,7 +215,8 @@
             {
               "note": "Versatility: These stickers are perfectly suited to work around corners, curves, and edges, making them ideal for a variety of applications."
             },
-            {"note": "Enhanced Protection: Adding lamination to PVC stickers can further improve their lifespan, providing additional protection against scratches, moisture, and UV exposure."
+            {
+              "note": "Enhanced Protection: Adding lamination to PVC stickers can further improve their lifespan, providing additional protection against scratches, moisture, and UV exposure."
             }
           ]
         }
@@ -256,7 +257,6 @@
             {
               "note": "Additionally, we manufacture durable outdoor epoxy stickers designed to withstand harsh weather conditions, ensuring your labels remain intact and vibrant, no matter the environment."
             }
-
           ]
         }
       ]
@@ -372,12 +372,11 @@
               "note": "Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look."
             },
             {
-              "note":"Thickness: 110 microns and 160 microns for floor lamination."
+              "note": "Thickness: 110 microns and 160 microns for floor lamination."
             },
             {
-              "note":"Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective."
+              "note": "Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective."
             }
-
           ]
         }
       ]
@@ -419,9 +418,8 @@
               "note": "Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request"
             },
             {
-              "note":"Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required"
+              "note": "Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required"
             }
-
           ]
         }
       ]
@@ -463,9 +461,8 @@
               "note": "With excellent durability, you can easily change their position whenever needed. Designed specifically for glass and windows, these clings are perfect for any DIY project, eliminating the need for a professional applicator."
             },
             {
-              "note":"Our window clings are non-adhesive, ensuring a secure 'cling' to the window for easy placement, removal, and repositioning. Reusable and convenient, they make decorating and redecorating a breeze."
+              "note": "Our window clings are non-adhesive, ensuring a secure 'cling' to the window for easy placement, removal, and repositioning. Reusable and convenient, they make decorating and redecorating a breeze."
             }
-
           ]
         }
       ]
@@ -920,21 +917,52 @@
       ]
     }
   ],
-  "binding": [{
-
-    "title": "Kraft Paper",
-    "img":[
-      "../../../assets/img/Binding/01101.webp",
-      "../../../assets/img/Binding/01102.webp",
-      "../../../assets/img/Binding/01103.webp",
-      "../../../assets/img/Binding/01104.webp",
-      "../../../assets/img/Binding/01105.webp",
-      "../../../assets/img/Binding/01106.webp",
-      "../../../assets/img/Binding/01107.webp",
-      "../../../assets/img/Binding/01108.webp"
-    ]
-  }],
-  "pen":[
+  "Wall_Vinyl": [
+    {
+      "list": [
+        {
+          "title": "Wall Vinyl Lettering",
+          "description": [
+            "If you're looking to infuse a dash of fun or liveliness into your workspace or home, vinyl lettering offers a fantastic solution. Whether it's inspiring quotes or whimsical messages, vinyl lettering allows for a personalized touch tailored to your space. Vinyl lettering involves precision-cut letters, shapes, and graphics crafted directly from vinyl material, which is available in white or a variety of other colors from our extensive catalog. This customization ensures that whatever your design vision, it can be brought to life exactly as you imagine. At Deluxe, our skilled team is ready to assist with even the most intricate installations. Our goal is to transform your environment into a more joyful and inspiring place. Whether it's a simple message in a study or an elaborate graphic in a corporate lobby, we make sure that every installation is perfect."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/wall.webp"
+      ]
+    }
+  ],
+  "Wall_Graphics": [
+    {
+      "list": [
+        {
+          "title": "Wall Graphics",
+          "description": [
+            "Usage: Indoor and Outdoor- Our high-quality vinyl is durable enough for outdoor conditions while being perfect for indoor aesthetics. Whether exposed to the elements or enhancing an interior, our products stand the test of time.Application: Versatile Settings- Ideal for a range of locations, including offices, retail stores, shopping malls, boutiques, and cafes. Our vinyl products can transform any environment, adding a professional or creative touch that captivates and impresses. Shape Options: Customizable Dimensions- We offer standard full-size options that extend from edge to edge, providing a seamless look. Custom shapes and sizes are also available to perfectly match the specific dimensions of your space, ensuring a perfect fit every time. Our team is dedicated to providing not just products but solutions that enhance and elevate the spaces they inhabit. Whether you're looking to brand your business environment or add a personal touch to your personal space, our vinyl lettering and decals are designed to meet your needs."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/wall-graph.webp"
+      ]
+    }
+  ],
+  "binding": [
+    {
+      "title": "Kraft Paper",
+      "img": [
+        "../../../assets/img/Binding/01101.webp",
+        "../../../assets/img/Binding/01102.webp",
+        "../../../assets/img/Binding/01103.webp",
+        "../../../assets/img/Binding/01104.webp",
+        "../../../assets/img/Binding/01105.webp",
+        "../../../assets/img/Binding/01106.webp",
+        "../../../assets/img/Binding/01107.webp",
+        "../../../assets/img/Binding/01108.webp"
+      ]
+    }
+  ],
+  "pen": [
     {
       "list": [
         {

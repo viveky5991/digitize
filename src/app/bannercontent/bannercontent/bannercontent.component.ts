@@ -4,6 +4,7 @@ import { SwiperModule } from 'swiper/angular';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { CommonModule } from '@angular/common';
+import { PopupComponent } from '../../popup/popup.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 SwiperCore.use([Pagination, EffectCoverflow]);
 import SwiperCore , {
@@ -21,6 +22,7 @@ import SwiperCore , {
   EffectCoverflow,
 
 } from 'swiper';
+import { MatDialog } from '@angular/material/dialog';
 SwiperCore.use([
   Navigation,
   Pagination,
@@ -52,7 +54,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
 
 
   bindingdata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient) { }
+  constructor( public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
 
     this.navload()
@@ -118,5 +120,28 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
     { image: '../../assets/img/banner/tshirt.jpg', caption: 'Caption 2' },
     { image: '../../assets/img/banner/flag.jpg', caption: 'Caption 3' }
   ];
+
+  EnquiryNow() {
+    // const dialogRef = this.dialog.open(PopupComponent);
+
+    // dialogRef.afterClosed().subscribe(result => {
+    //   console.log(`Dialog result: ${result}`);
+    // });
+    const dialogRef = this.dialog.open(PopupComponent, {
+      width: '900px',
+    });
+    // dialogRef.afterOpened().subscribe(() => {
+    //   // Find the dialog container element by class name or any other means if necessary
+    //   const dialogContainer = document.querySelector('.mat-dialog-container');
+    //   // Check if the element exists
+    //   if (dialogContainer) {
+    //     // Set the role attribute to 'dialog'
+    //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+    //   }
+    // });
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Dialog closed');
+    });
+  }
 }
 

@@ -14,17 +14,20 @@
 <!-- </div> -->
 
 <div class="container">
-  <div class="row"  *ngFor="let item of bindingdata">
+  <div class="row" >
     <div class="swiper-container mySwiper">
-      <h4>{{ item.title }}</h4>
+      
       <div class="swiper-wrapper">
-        <div class="swiper-slide" *ngFor="let img of item.img">
-          <img [src]="img" />
+        <div class="swiper-slide"  *ngFor="let item of bindingdata" >
+          <img [src]="item.img" />
+          <h4>{{ item.title }}</h4>
         </div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
+   
   </div>
+  <button class="btn btn-primary list-btn" (click)="EnquiryNow()">Enquire Now</button>
 </div>
 
 <!-- <div class="swiper-container mySwiper">
@@ -35,28 +38,3 @@
   </div>
   <div class="swiper-pagination"></div>
 </div> -->
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-  const swiper = new Swiper('.mySwiper', {
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    slidesPerView: 1,
-    spaceBetween: 10,
-    breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-    }
-  });
-</script>

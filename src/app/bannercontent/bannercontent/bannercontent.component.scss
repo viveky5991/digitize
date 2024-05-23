@@ -168,7 +168,7 @@
   background-position: center;
   background-size: cover;
   width: 300px;
-  height: 300px;
+  height: auto;
 }
 
 .swiper-slide img {
@@ -186,3 +186,37 @@
 .swiper-container {
   width: 100%; /* Ensures it takes the width of its parent */
 }
+
+.list-btn{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 35px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: rgba(240, 87, 100, 0.5019607843);
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding:8px 20px;
+    min-width: 150px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+  .btn-primary:hover {
+      -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+      box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+      background-color: rgba(240, 87, 100, 0.768);
+  }
+  .btn-primary:focus {
+    background-color: rgba(240, 87, 100, 0.5019607843);
+    -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+    box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+  }

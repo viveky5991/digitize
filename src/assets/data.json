@@ -989,7 +989,7 @@
       ]
     }
   ],
-  "binding": [
+  "binding1": [
     {
       "title": "Kraft Paper",
       "img": [
@@ -1002,6 +1002,40 @@
         "../../../assets/img/Binding/01107.webp",
         "../../../assets/img/Binding/01108.webp"
       ]
+    }
+  ],
+  "binding": [
+    {
+      "title": "Hardcover Or Case Binding",
+      "img": "../../../assets/img/Binding/new/Hardcover-or-case-binding-768x386.png"
+    },
+    {
+      "title": "Interscrew Binding",
+      "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
+    },
+    {
+      "title": "PUR Binding",
+      "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
+    },
+    {
+      "title": "Saddle Stitch Binding",
+      "img": "../../../assets/img/Binding/new/Saddle-stitch-binding-768x386.png"
+    },
+    {
+      "title": "Section Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Singer Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Solander Boxes And Slipcases",
+      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
+    },
+    {
+      "title": "Wiro Comb Or Spiral Binding",
+      "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
     }
   ],
   "pen": [

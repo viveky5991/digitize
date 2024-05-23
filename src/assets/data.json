@@ -957,7 +957,35 @@
         }
       ],
       "img": [
-        "../../../assets/img/wall/wall-graph.webp"
+        "../../../assets/img/wall/canvas.png"
+      ]
+    }
+  ],
+  "wooden": [
+    {
+      "list": [
+        {
+          "title": "Wooden Frames",
+          "description": ["We offer an extensive collection of frames that are perfect for encasing your photographs, artworks, cherished mementos, or elegantly designed certificates. Our selection spans from classic vintage designs to sleek, modern aesthetics. Through expert craftsmanship, meticulous selection, and innovative design, we strive to craft a display-worthy piece. With our custom framing options, you have the freedom to select each component of your frame, tailoring it to your specific needs. This bespoke service provides a deeply personal touch to your framing project. Opt for custom frame design when you desire something truly exceptional, enhancing the beauty of your piece while also safeguarding it for the future."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/woodframe.png"
+      ]
+    }
+  ],
+  "acrylic": [
+    {
+      "list": [
+        {
+          "title": "Acrylic Frames",
+          "description": ["Acrylic is a superior choice for photo mounting, particularly when paired with advanced face-mount techniques that place the photo beneath the acrylic sheet. The inherent clarity and shine of acrylic amplify the colors and vibrancy of your images while providing essential protection and sturdiness. The result is a breathtaking, enduring, and resilient display piece, perfect for exhibitions and public spaces. Our exquisite acrylic floating frames, featuring elegant metal fixtures, will take your display to the next level. In these frameless designs, your artwork is encased between two clear acrylic panels, creating a seamless, borderless visual effect. This allows your photographs and artworks to truly shine, unobstructed by traditional framing."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/acrylic.png"
       ]
     }
   ],

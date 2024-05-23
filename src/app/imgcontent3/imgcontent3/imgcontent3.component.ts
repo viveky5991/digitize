@@ -66,9 +66,19 @@ export class Imgcontent3Component  implements OnInit{
           this.digitizedata = data.canvas;
         })
       }else if(url[0].path=='Wooden'){
-        this.title='Wooden'
+        this.title='Wooden';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.wooden)
+          this.digitizedata = data.wooden;
+        })
       }else if(url[0].path=='Acrylic'){
-        this.title='Acrylic'
+        this.title='Acrylic';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.acrylic)
+          this.digitizedata = data.acrylic;
+        })
       }else if(url[0].path=='MetalArt'){
         this.title='MetalArt'
       }else{

@@ -80,7 +80,12 @@ export class Imgcontent3Component  implements OnInit{
           this.digitizedata = data.acrylic;
         })
       }else if(url[0].path=='MetalArt'){
-        this.title='MetalArt'
+        this.title='Metal Art';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.metal_art)
+          this.digitizedata = data.metal_art;
+        })
       }else{
         this.title='Digitize'
       }

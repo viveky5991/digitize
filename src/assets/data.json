@@ -989,6 +989,48 @@
       ]
     }
   ],
+  "metal_art": [
+    {
+      "list": [
+        {
+          "title": "Metal Art",
+          "description": ["Metal signs are an excellent choice for adding a personal touch to your living spaces. Whether it’s for your living room, kitchen, or even an outdoor setting, these signs transform the ambiance with a unique flair. They are also perfect as thoughtful gifts for any occasion. Enhance the appeal of your home with this bespoke product, tailored just for you. The elegance of these metal signs comes from their sleek and timeless design. We utilize cutting-edge laser cutting technology to achieve impeccable precision and detail. Each sign is then powder coated to ensure a flawless finish and enduring quality. Our dedicated team takes great care in crafting each order, ensuring it exceeds your expectations and brings joy to your space!"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/wall/metal.webp"
+      ]
+    }
+  ],
+  "magnetic": [
+    {
+      "list": [
+        {
+          "title": "Magnetic Sheet",
+          "description": ["Custom-printed magnetic sheets offer a versatile and convenient solution for temporary advertising and personalization. They are commonly utilized as car magnets or fridge magnets. Many businesses, particularly in the retail sector, favor these magnets as promotional items during events and exhibitions.These magnets are incredibly user-friendly, allowing for easy application on vehicles, and can be just as quickly removed after the event. Their use is ideal for short-term campaigns as they do not leave any residue upon removal, making them a preferable choice over more permanent branding options. Beyond commercial use, these magnetic sheets find a place in home and office decor. They can be printed with memorable images from family vacations or special moments with friends, making them perfect for creating personalized gifts or keepsakes. These customizable magnets serve not only as functional tools for marketing and decoration but also as thoughtful, personalized gifts that preserve cherished memories."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/magnet/magnet.webp"
+      ]
+    }
+  ],
+  "ceremonial": [
+    {
+      "list": [
+        {
+          "title": "Ceremonial Ribbon",
+          "description": ["Custom printed ribbons add a touch of professionalism and celebration to any corporate event, particularly during groundbreaking ceremonies or store openings. When you personalize these ribbons with your logo, company name, or a unique message, they become a centerpiece of the ceremony, drawing attention and making a memorable statement about your brand. Extend your brand's reach by opting for extra lengths of ribbon, ensuring that your branding theme is consistently visible throughout the event space. This not only enhances the visual appeal but also supports broader media coverage, from photographs to videos, thereby amplifying your brand's presence and impact. Investing in these bespoke ribbons is cost-effective, offering you the luxury of high-quality branding tools within a reasonable budget. Make your next corporate milestone unforgettable with custom printed ribbons that truly embody your brand's ethos and achievements."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/ceremonial/ceremonial.webp"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

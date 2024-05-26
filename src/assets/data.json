@@ -1086,12 +1086,87 @@
         {
           "title": "Pens",
           "description": [
-            "Promotional pens are a versatile and cost-effective marketing tool, perfect for graduates, students, sales staff, and anyone who needs to jot down notes or lists. These pens are ideal for events, exhibitions, and trade show giveaways, offering an excellent alternative to business cards with their longer lifespan and daily usability. Easy to customize with multi-color prints or engravings, promotional pens ensure your brand leaves a lasting impression. Available in various materials such as plastic, metal, rubberized, crystal, stylus, bamboo, and eco-friendly options, they cater to diverse preferences and underscore your brand’s commitment to practicality and sustainability."
+            "Promotional pens are an ideal choice for a wide range of recipients, including graduates, students, and sales staff, as well as anyone who frequently writes notes, reports, shopping lists, or journals. These pens shine at events, exhibitions, and trade show giveaways, offering a cost-effective solution for marketing on a tight budget. Their ability to create a lasting impression with quirky designs makes them memorable, and unlike business cards, pens have the longevity to keep your brand in front of potential clients for a long time."
+          ],
+          "description1": [
+            "Furthermore, promotional pens are incredibly versatile and easy to customize, allowing for multi-color printing or engraving to suit your brand’s aesthetic. Their everyday usability ensures they are constantly in use, making them one of the most effective tools for brand visibility. Whether made from plastic, metal, rubberized, crystal, stylus, bamboo, or eco-friendly materials, these pens cater to various tastes and underscore your brand’s commitment to quality and practicality. By choosing promotional pens, you can enhance your marketing strategy and ensure your brand is always at your clients' fingertips."
           ]
         }
       ],
       "img": [
-        "../../../assets/img/sticker/kraft-sticker.webp"
+        "../../../assets/img/OfficeEssentials/pen.webp"
+      ]
+    }
+  ],
+  "PUOrganizer": [
+    {
+      "list": [
+        {
+          "title": "PU Organizer",
+          "description": [
+            "Organisers are attractive and highly effective accessories that play a crucial role in maintaining order and ensuring that important items are easily accessible. Whether for personal or professional use, these organisers are designed with the user in mind, providing both functionality and style. Made from high-quality materials, they not only boast a traditional and elegant appearance but also promise exceptional durability and longevity, making them a reliable companion for years to come."
+          ],
+          "description1": [
+            "Deluxe organisers are more than just practical tools; they embody sophistication and efficiency, making them an ideal choice for anyone looking to enhance their daily routine. These organisers serve as thoughtful and impressive gifts, suitable for any occasion, and are equally beneficial as personal accessories to help streamline your day-to-day activities."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/OfficeEssentials/notebook.webp"
+      ]
+    }
+  ],
+  "MousePad": [
+    {
+      "list": [
+        {
+          "title": "Mouse Pad",
+          "description": [
+            "Mouse pads are essential accessories for both optical and trackball mice, providing a stable and smooth surface that enhances user experience. By personalizing these pads with your artwork of choice, you can make them look stylish and attractive, adding a unique touch to your workspace. These pads are designed to stay firmly in place on your desktop, preventing any unwanted movement or swaying during use. The smooth surface is particularly beneficial for gaming sensors, offering less resistance than standard mouse pads and ensuring that mouse movements are effortless and response times are quick."
+          ],
+          "description1": [
+            "Ideal for corporate branding, mouse pads can be customized and distributed as giveaways during exhibitions, events, and conferences, offering long-term brand recall and publicity. They also make thoughtful gifts for loved ones or friends, perfect for occasions like birthdays and anniversaries. By personalizing a mouse pad with a special picture and a meaningful quote on a plain or scenic background, you create a memorable and practical gift that can be used daily, reminding recipients of your thoughtfulness every time they use their computer."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/OfficeEssentials/mouse.webp"
+      ]
+    }
+  ],
+  "TShirt": [
+    {
+      "list": [
+        {
+          "title": "T-Shirts",
+          "description": [
+            "T-shirt printing offers a fantastic way to elevate your style while staying within a budget. By customizing your t-shirt with a catchy punch line or a unique image, you can transform your look from ordinary to appealing in minutes. This allows you to break away from monotonous shirts and showcase your personality. Whether you prefer a mild or wild design, your creativity can bring a fresh and exciting touch to your wardrobe, making a strong style statement wherever you go."
+          ],
+          "description1": [
+            "In the corporate world, custom-printed t-shirts with your company logo can effectively promote team spirit and brand identity. Printing a quote, text, or slogan on t-shirts for your colleagues not only enhances office wear but also serves as a powerful tool for promotional campaigns. T-shirts are among the most effective marketing tools, offering excellent exposure for your brand message. By distributing logo-printed t-shirts to clients and customers, you can significantly boost brand visibility and ensure that your message reaches the right audience at the right time, making a lasting impact."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/apparel/tshirt.webp"
+      ]
+    }
+  ],
+  "Jersey": [
+    {
+      "list": [
+        {
+          "title": "Jersey",
+          "description": [
+            "Jersey printing using dye sublimation has revolutionized the way businesses, schools, and sports teams create high-quality jerseys, making it more accessible and affordable. This innovative method significantly lowers the cost of printing small runs of unique items, allowing teams to design custom jerseys that stand out without breaking the bank. Unlike traditional methods such as screen printing or iron-on transfers, dye sublimation ensures a seamless, vibrant finish that covers the entire front panel of the jersey, eliminating issues like creasing and gaps between the ink and the seams."
+          ],
+          "description1": [
+            "One of the key advantages of dye sublimation printing is its ability to handle an unlimited range of colors and shades, providing unmatched flexibility in design. This means that intricate patterns, gradients, and vivid color combinations can be achieved with ease, something that other forms of printing and embroidery cannot offer. Additionally, the sublimation process embeds the ink directly into the fabric, resulting in durable prints that won't fade, peel, or crack over time. Whether for sports teams looking to make a bold statement or organizations aiming to promote their brand, dye sublimation jersey printing is the optimal choice for creating eye-catching, long-lasting apparel."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/apparel/jerset.webp"
       ]
     }
   ]

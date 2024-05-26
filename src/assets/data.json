@@ -1031,6 +1031,23 @@
       ]
     }
   ],
+  "Unlit3D": [
+    {
+      "list": [
+        {
+          "title": "Window Vinyl Lettering",
+          "description": [
+            "Vinyl lettering is a popular and cost-effective method for displaying storefront messages. Whether it's for showcasing working hours, indicating a change of location, displaying a company logo, or posting important notices, vinyl lettering provides a clear and professional look. It adheres easily to windows and glass surfaces, making it a versatile choice for business signage."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

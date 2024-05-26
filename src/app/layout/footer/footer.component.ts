@@ -2,19 +2,19 @@ import { Component, ElementRef, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@
 import { MatDialog } from '@angular/material/dialog';
 import { PopupComponent } from '../../popup/popup.component';
 import { Router } from '@angular/router';
-import { isPlatformBrowser } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [FooterComponent],
+  imports: [FooterComponent, CommonModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })
 export class FooterComponent implements OnInit {
   windowScrolled = false;
   topPosToStartShowing = 100;
-
+  currentdate : Date = new Date();
   constructor(public dialog: MatDialog, private router: Router, @Inject(PLATFORM_ID) private platformId: any, private el: ElementRef, private renderer: Renderer2) { }
   ngOnInit(): void {
     // this.openDialog()

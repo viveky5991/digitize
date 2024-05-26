@@ -22,7 +22,6 @@ export class Imgcontent3Component  implements OnInit{
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-      debugger
       if(url[0].path=='Window-Vinyl'){
         this.title='Window Vinyl Lettering';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

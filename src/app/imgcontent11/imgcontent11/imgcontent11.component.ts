@@ -25,21 +25,49 @@ export class Imgcontent11Component implements OnInit{
         this.title='Pens';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.letter_heads)
-          this.digitizedata = data.letter_heads;
+          console.log(data.pen)
+          this.digitizedata = data.pen;
 
 
         })
       } else if(url[0].path=='PUNotebooks'){
         this.title='PUNotebooks'
       }else if(url[0].path=='PUOrganizer'){
-        this.title='PUOrganizer'
+        this.title='PUOrganizer';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pen)
+          this.digitizedata = data.PUOrganizer;
+
+
+        })
       }else if(url[0].path=='MousePad'){
-        this.title='MousePad'
+        this.title='Mouse Pad';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pen)
+          this.digitizedata = data.MousePad;
+
+
+        })
       }else if(url[0].path=='TShirt'){
-        this.title='TShirt'
+        this.title='T-Shirts';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pen)
+          this.digitizedata = data.TShirt;
+
+
+        })
       }else if(url[0].path=='Jersey'){
-        this.title='Jersey'
+        this.title='Jersey';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pen)
+          this.digitizedata = data.Jersey;
+
+
+        })
       }else if(url[0].path=='Caps'){
         this.title='Caps'
       }else if(url[0].path=='NeckTie'){

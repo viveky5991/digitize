@@ -14,6 +14,7 @@ import SwiperCore , {
   Controller,
 } from 'swiper';
 import { RouterModule } from '@angular/router';
+import { Animations } from '../animation';
 SwiperCore.use([
   Navigation,
   Pagination,
@@ -30,7 +31,8 @@ SwiperCore.use([
   standalone: true,
   imports: [SwiperModule,RouterModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
+  animations: Animations
 })
 export class HomeComponent {
   config: SwiperOptions = {

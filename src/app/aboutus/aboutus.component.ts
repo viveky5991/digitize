@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnInit } from '@angular/core';
+import { Animations } from '../animation';
 
 interface CounterItem {
   count: number;
@@ -14,7 +15,8 @@ interface CounterItem {
   imports: [CommonModule],
   templateUrl: './aboutus.component.html',
   styleUrls: ['./aboutus.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  animations: Animations
 })
 export class AboutusComponent implements OnInit {
   countItems: CounterItem[] = [

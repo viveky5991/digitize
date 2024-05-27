@@ -1073,7 +1073,7 @@
       "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
     },
     {
-      "title": "PUR Binding",
+      "title": "Perfect Binding",
       "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
     },
     {
@@ -1179,6 +1179,42 @@
           ],
           "description1": [
             "One of the key advantages of dye sublimation printing is its ability to handle an unlimited range of colors and shades, providing unmatched flexibility in design. This means that intricate patterns, gradients, and vivid color combinations can be achieved with ease, something that other forms of printing and embroidery cannot offer. Additionally, the sublimation process embeds the ink directly into the fabric, resulting in durable prints that won't fade, peel, or crack over time. Whether for sports teams looking to make a bold statement or organizations aiming to promote their brand, dye sublimation jersey printing is the optimal choice for creating eye-catching, long-lasting apparel."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/apparel/jerset.webp"
+      ]
+    }
+  ],
+  "Caps": [
+    {
+      "list": [
+        {
+          "title": "Caps",
+          "description": [
+            "Enhance your brand's visibility with our custom caps, available in a wide range of models and color options. Whether you're looking to create a unique piece of fashion or a cohesive uniform accessory, our caps can be personalized with your design or logo. Popular printing techniques like embroidery and sublimation ensure a distinctive look that stands out. These custom caps are not only stylish but also serve as effective promotional tools during events and exhibitions, helping to reinforce brand recognition and retention."
+          ],
+          "description1": [
+            "Our personalized caps are perfect for staff or corporate events, offering a practical and stylish way to promote your brand. Each time your staff or customers wear these branded caps, your logo gains exposure, making them a valuable addition to your promotional strategy. Crafted with quality materials, these caps are durable and can be worn both indoors and outdoors, providing protection from the sun or serving as a fashionable accessory. Whether used as giveaways or part of a uniform, our custom caps ensure your brand stays visible and memorable."
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/apparel/jerset.webp"
+      ]
+    }
+  ],
+  "SafetyVest": [
+    {
+      "list": [
+        {
+          "title": "Safety Vest",
+          "description": [
+            "Safety vests, also known as high-visibility or reflective vests, are essential for increasing visibility in low-light or hazardous environments. Ideal for use during events, exhibitions, and trade shows, these vests help identify staff members easily. Designed to provide maximum safety, our vests can be customized to include text, images, and logos, ensuring they meet your specific requirements while enhancing brand recognition."
+          ],
+          "description1": [
+            "Our customizable safety vests come in various models and sizes, making them suitable for diverse applications. Whether you need them for construction sites, road work, or event staff, we offer bulk quantities to accommodate any scale. Choose from screen printing, DTF, or embroidery to match your needs for durability and visual appeal. With these personalized options, you can ensure both safety and a professional appearance for your team."
           ]
         }
       ],

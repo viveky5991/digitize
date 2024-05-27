@@ -69,11 +69,25 @@ export class Imgcontent11Component implements OnInit{
 
         })
       }else if(url[0].path=='Caps'){
-        this.title='Caps'
+        this.title='Caps';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.pen)
+          this.digitizedata = data.Caps;
+
+
+        })
       }else if(url[0].path=='NeckTie'){
         this.title='NeckTie'
       }else if(url[0].path=='SafetyVest'){
-        this.title='SafetyVest'
+        this.title='SafetyVest';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.SafetyVest);
+          this.digitizedata = data.SafetyVest;
+
+
+        })
       }else{
         this.title='Digitize'
       }

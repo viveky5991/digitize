@@ -43,20 +43,16 @@
                     </swiper>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let img of item.list">
                     <div class="aboutus-content ">
                         <h2>
-                            <p><span>WELCOME TO ABEDESIGNS</span></p>
-                            I'M The Best <span>Web Developer</span>
+                            <p><span>{{title}}</span></p>
+                            The <span>{{img.title}}</span>
                         </h2>
 
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-                            Semantics, a large language ocean.</p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <div [innerHTML]="img.description"></div>
 
-                        <div class="counter ">
+                        <!-- <div class="counter ">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-counter text-center">
                                     <h2 class="counter"><span>15</span></h2>
@@ -78,7 +74,7 @@
                                     <p>CLIENTS</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>

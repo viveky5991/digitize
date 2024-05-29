@@ -1039,7 +1039,7 @@
           "description": [
             "<ul><li><strong>Types:</strong> Reception, Wall, 3D Letters.</li><li><strong>Basic Materials:</strong> Forex, Wood, Acrylic, Aluminum, Stainless Steel, ACP, Channelium, GI Sheet.</li><li><strong>Supporting Materials:</strong> PVC Vinyl, Reflective Stickers, Spacers, Hooks, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
-          
+
         }
       ],
       "img": [
@@ -1057,7 +1057,7 @@
           "description": [
             "<ul><li><strong>Types:</strong> Reception Sign, Wall Sign, Wall 3D Letters, Fascia.</li><li><strong>Basic Materials:</strong> Acrylic, Aluminum, Stainless Steel, Channelium.</li><li><strong>Supporting Materials:</strong> LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws.</li></ul>"
           ]
-          
+
         }
       ],
       "img": [
@@ -1067,7 +1067,78 @@
       ]
     }
   ],
-  
+  "Backlit3D": [
+    {
+      "list": [
+        {
+          "title": "Backlit 3D Signage",
+          "description": [
+            "<ul><li><strong> Types:</strong> Reception Sign, Wall Sign, 3D Wall Letters, Fascia</li><li><strong>Primary  Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Supporting Materials:</strong> LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Adhesives (Silicon Glue, Super Glue), Double-Sided Tape, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Outlit3D": [
+    {
+      "list": [
+        {
+          "title": "Outlit 3D Signage",
+          "description": [
+            "<ul><li><strong> Types:</strong> Reception, Wall Signs, 3D Letters, Fascia.</li><li><strong>Primary  Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Accessories:</strong> LED Lights, PVC Vinyl Stickers, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws.</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "PushThrough3D": [
+    {
+      "list": [
+        {
+          "title": "Push Through 3D Signage",
+          "description": [
+            "<ul><li><strong> Types:</strong> (Reception Sign, Wall Sign, Wall 3D Letters, Fascia)</li><li><strong>Primary  Materials:</strong> Acrylic, Aluminum, Stainless Steel, ACP, Forex</li><li><strong>Supporting Materials:</strong>LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Neon3D": [
+    {
+      "list": [
+        {
+          "title": "Neon 3D Signage",
+          "description": [
+            "<ul><li><strong> Types:</strong> Reception, Wall, Party, Fascia</li><li><strong>Primary  Materials:</strong> LED Neon, Acrylic, Aluminum, Stainless Steel, ACP</li><li><strong>Accessories:</strong>PVC Vinyl Sticker, Spacers, Hook, Transformer, Wires, Silicon Glue, Super Glue, Double-Sided Tape, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

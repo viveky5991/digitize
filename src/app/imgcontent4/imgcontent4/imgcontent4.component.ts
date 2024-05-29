@@ -6,13 +6,15 @@ import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
 import { HttpClient } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { Animations } from '../../animation';
 
 @Component({
   selector: 'app-imgcontent4',
   standalone: true,
   imports: [SwiperModule,RouterModule,CommonModule],
   templateUrl: './imgcontent4.component.html',
-  styleUrl: './imgcontent4.component.scss'
+  styleUrl: './imgcontent4.component.scss',
+  animations: Animations
 })
 export class Imgcontent4Component  implements OnInit{
   title: string | undefined;
@@ -46,13 +48,33 @@ export class Imgcontent4Component  implements OnInit{
           this.digitizedata = data.Frontlit3D;
         })
       }else if(url[0].path=='Backlit3D'){
-        this.title='Backlit3D'
+        this.title='Backlit 3D';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Backlit3D)
+          this.digitizedata = data.Backlit3D;
+        })
       }else if(url[0].path=='Outlit3D'){
-        this.title='Outlit3D'
+        this.title='Outlit 3D';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Outlit3D)
+          this.digitizedata = data.Outlit3D;
+        })
       }else if(url[0].path=='PushThrough3D'){
-        this.title='PushThrough3D'
+        this.title='Push Through 3D';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.PushThrough3D)
+          this.digitizedata = data.PushThrough3D;
+        })
       }else if(url[0].path=='Neon3D'){
-        this.title='Neon3D'
+        this.title='Neon 3D';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Neon3D)
+          this.digitizedata = data.Neon3D;
+        })
       }else{
         this.title='Digitize'
       }

@@ -1,18 +1,22 @@
+import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { Animations } from '../../animation';
 
 @Component({
   selector: 'app-imgcontent5',
   standalone: true,
-  imports: [],
+  imports: [HttpClientModule, CommonModule, RouterModule,],
   templateUrl: './imgcontent5.component.html',
-  styleUrl: './imgcontent5.component.scss'
+  styleUrl: './imgcontent5.component.scss',
+  animations: Animations
 })
 export class Imgcontent5Component implements OnInit{
   title: string | undefined;
   constructor( public _router: Router, private _route: ActivatedRoute,) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
   navload(){

@@ -39,7 +39,12 @@ export class Imgcontent4Component  implements OnInit{
           this.digitizedata = data.Unlit3D;
         })
       } else if(url[0].path=='Frontlit3D'){
-        this.title='Frontlit3D'
+        this.title='Frontlit 3D';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Frontlit3D)
+          this.digitizedata = data.Frontlit3D;
+        })
       }else if(url[0].path=='Backlit3D'){
         this.title='Backlit3D'
       }else if(url[0].path=='Outlit3D'){

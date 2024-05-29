@@ -1049,6 +1049,25 @@
       ]
     }
   ],
+  "Frontlit3D": [
+    {
+      "list": [
+        {
+          "title": "Frontlit 3D Signage",
+          "description": [
+            "<ul><li><strong>Types:</strong> Reception Sign, Wall Sign, Wall 3D Letters, Fascia.</li><li><strong>Basic Materials:</strong> Acrylic, Aluminum, Stainless Steel, Channelium.</li><li><strong>Supporting Materials:</strong> LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws.</li></ul>"
+          ]
+          
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  
   "binding1": [
     {
       "title": "Kraft Paper",

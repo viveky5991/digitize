@@ -1139,6 +1139,42 @@
       ]
     }
   ],
+  "FlexFace": [
+    {
+      "list": [
+        {
+          "title": "Flex Face Sign Board",
+          "description": [
+            "<ul><li><strong> Types:</strong>Fascia, Shop Top, Wall, Side, Hanging Signs</li><li><strong>Primary  Materials:</strong> MS or Aluminum Pipe, GI Sheet, Digital Printed Flex</li><li><strong>Accessories:</strong> LED Lights, Transformers, Electrical Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "FrontlitSign": [
+    {
+      "list": [
+        {
+          "title": "Frontlit 3D Sign Board",
+          "description": [
+            "<ul><li><strong> Frontlit 3D Signage Options:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Primary  Materials:</strong>MS or Aluminum Pipes, ACP or Aluminum Sheets, 3D Letters (Acrylic, Aluminum, SS, Channelium)</li><li><strong>Accessories:</strong>LED Lights, Transformers, Electric Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

@@ -1,20 +1,32 @@
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { Animations } from '../../animation';
+import { SwiperOptions } from 'swiper';
+import { MatDialog } from '@angular/material/dialog';
+import { PopupComponent } from '../../popup/popup.component';
+import { SwiperModule } from 'swiper/angular';
 
 @Component({
   selector: 'app-imgcontent5',
   standalone: true,
-  imports: [HttpClientModule, CommonModule, RouterModule,],
+  imports: [SwiperModule, CommonModule, RouterModule,],
   templateUrl: './imgcontent5.component.html',
   styleUrl: './imgcontent5.component.scss',
   animations: Animations
 })
 export class Imgcontent5Component implements OnInit{
   title: string | undefined;
-  constructor( public _router: Router, private _route: ActivatedRoute,) { }
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
+  digitizedata: any;
+  constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
 
     this.navload()
@@ -23,9 +35,19 @@ export class Imgcontent5Component implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='FlexFace'){
-      this.title='FlexFace'
+      this.title='Flex Face Sign';
+      this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+        console.log(data.FlexFace)
+        this.digitizedata = data.FlexFace;
+      })
       } else if(url[0].path=='Frontlit3D'){
-        this.title='Frontlit3D'
+        this.title='Frontlit 3D Sign';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.FrontlitSign)
+          this.digitizedata = data.FrontlitSign;
+        })
       }else if(url[0].path=='Backtlit3D'){
         this.title='Backtlit3D'
       }else if(url[0].path=='PushThrough'){
@@ -44,5 +66,15 @@ export class Imgcontent5Component implements OnInit{
         this.title='Digitize'
       }
     })
+  }
+  EnquiryNow() {
+
+    const dialogRef = this.dialog.open(PopupComponent, {
+      width: '900px',
+    });
+
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Dialog closed');
+    });
   }
 }

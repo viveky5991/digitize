@@ -5,8 +5,8 @@ import { Imgcontent5Component } from './imgcontent5/imgcontent5.component';
 
 const routes: Routes = [
   { path: 'FlexFace', component: Imgcontent5Component },
-  { path: 'Frontlit3D', component: Imgcontent5Component },
-  { path: 'Backtlit3D', component: Imgcontent5Component },
+  { path: 'Frontlit3DBoard', component: Imgcontent5Component },
+  { path: 'Backlit3DBoard', component: Imgcontent5Component },
   { path: 'PushThrough', component: Imgcontent5Component },
   { path: 'Neon', component: Imgcontent5Component },
   { path: 'FlexFace-LightBox', component: Imgcontent5Component },
@@ -15,7 +15,7 @@ const routes: Routes = [
   { path: 'Poster', component: Imgcontent5Component }
   
 
-];
+];  
 
 @NgModule({
   declarations: [],

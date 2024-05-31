@@ -41,27 +41,62 @@ export class Imgcontent5Component implements OnInit{
         console.log(data.FlexFace)
         this.digitizedata = data.FlexFace;
       })
-      } else if(url[0].path=='Frontlit3D'){
+      } else if(url[0].path=='Frontlit3DBoard'){
         this.title='Frontlit 3D Sign';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.FrontlitSign)
           this.digitizedata = data.FrontlitSign;
         })
-      }else if(url[0].path=='Backtlit3D'){
-        this.title='Backtlit3D'
+      }else if(url[0].path=='Backlit3DBoard'){
+        this.title='Backlit 3D Sign';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Backlit3DBoard)
+          this.digitizedata = data.Backlit3DBoard;
+        })
       }else if(url[0].path=='PushThrough'){
-        this.title='PushThrough'
+        this.title='Push Through Sign';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.PushThrough)
+          this.digitizedata = data.PushThrough;
+        })
       }else if(url[0].path=='Neon'){
-        this.title='Neon'
+        this.title='Neon Sign';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Neon)
+          this.digitizedata = data.Neon;
+        })
       }else if(url[0].path=='FlexFace-LightBox'){
-        this.title='FlexFace-LightBox'
+        this.title='Flex Face Light Box';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.FlexFaceLightBox)
+          this.digitizedata = data.FlexFaceLightBox;
+        })
       }else if(url[0].path=='Fabric'){
-        this.title='Fabric'
-      }else if(url[0].path=='Acrylic'){
-        this.title='Acrylic'
+        this.title='Fabric Light Box (SEG)';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Fabric)
+          this.digitizedata = data.Fabric;
+        })
+      }else if(url[0].path=='acrylic-light-box'){
+        this.title='Acrylic Light Box';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.acrylic_light_box)
+          this.digitizedata = data.acrylic_light_box;
+        })
       }else if(url[0].path=='Poster'){
-        this.title='Poster'
+        this.title='Poster Light Box';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Poster)
+          this.digitizedata = data.Poster;
+        })
       }else{
         this.title='Digitize'
       }

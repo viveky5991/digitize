@@ -11,11 +11,11 @@ const routes: Routes = [
   { path: 'Neon', component: Imgcontent5Component },
   { path: 'FlexFace-LightBox', component: Imgcontent5Component },
   { path: 'Fabric', component: Imgcontent5Component },
-  { path: 'Acrylic', component: Imgcontent5Component },
+  { path: 'acrylic-light-box', component: Imgcontent5Component },
   { path: 'Poster', component: Imgcontent5Component }
-  
 
-];  
+
+];
 
 @NgModule({
   declarations: [],

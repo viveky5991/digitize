@@ -1175,6 +1175,132 @@
       ]
     }
   ],
+  "Backlit3DBoard": [
+    {
+      "list": [
+        {
+          "title": "Backlit 3D Sign Board",
+          "description": [
+            "<ul><li><strong>Backlit 3D Signage Options:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Primary  Materials:</strong>MS or Aluminum Pipes, ACP or Aluminum Sheets, 3D Letters (Acrylic, Aluminum, SS, Channelium)</li><li><strong>Accessories:</strong>LED Lights, Transformers, Electric Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "PushThrough": [
+    {
+      "list": [
+        {
+          "title": "Push Through Sign Board",
+          "description": [
+            "<ul><li><strong>Types:</strong>Fascia, Shop Top, Wall, Side Board, Hanging</li><li><strong>Primary  Materials:</strong>MS/Aluminum Pipes, ACP/Aluminum Sheets, 3D Letters (Acrylic, Aluminum, SS, Channelium)</li><li><strong>Accessories:</strong>LED Lights, Transformers, Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Neon": [
+    {
+      "list": [
+        {
+          "title": "Neon Sign Board",
+          "description": [
+            "<ul><li><strong>Types:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Primary  Materials:</strong>LED Neon, Acrylic, Aluminum, Stainless Steel, ACP Sheet</li><li><strong>Supporting Materials:</strong>PVC Vinyl Sticker, Spacers, Hook, Transformer, Wires, Silicon Glue, Super Glue, Double Sided Tape, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "FlexFaceLightBox": [
+    {
+      "list": [
+        {
+          "title": "Flex Face Light Box",
+          "description": [
+            "<ul><li><strong>Flex Face Sign Board Options:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Primary  Materials:</strong>MS or Aluminum Pipes, GI Sheet, Digital Printed Flex</li><li><strong>Accessories:</strong>LED Lights, Transformers, Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Fabric": [
+    {
+      "list": [
+        {
+          "title": "Fabric Light Box (SEG) Silicon Edge Graphics",
+          "description": [
+            "<ul><li><strong>Fabric Light Box (SEG) Signage Options:</strong>Wall, Side Board, Hanging, Backdrops, Counter, Menu Signs</li><li><strong>Core Materials:</strong>Aluminum Profile Box, Digital Printed Fabric</li><li><strong>Accessories:</strong>LED Lights, Transformer, Silicon Strip, Wiring, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "acrylic_light_box": [
+    {
+      "list": [
+        {
+          "title": "Acrylic Light Box",
+          "description": [
+            "<ul><li><strong> Acrylic Light Box Signage Options:</strong>Wall, Side Board, Hanging, Counter, Menu, and Product Display Signs</li><li><strong>Primary Materials:</strong> Acrylic, Aluminum, MS Pipe, Wood, Digital Vinyl Sticker, Duratrance</li><li><strong>Accessories:</strong>LED Lights, Transformer, Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Poster": [
+    {
+      "list": [
+        {
+          "title": "Poster Light Box",
+          "description": [
+            "<ul><li><strong> Poster Light Box Options:</strong>Snap Frame, Menu Board, Poster Board, Product Display</li><li><strong>Materials:</strong> <ul><li>Frames: Aluminum, Wood, Metal</li><li>Visuals: Digital Printed Duratrance, Posters, Vinyl</li></ul></li><li><strong>Accessories:</strong> LED Lights, Power Supply, Wiring, Angle Iron, Hooks, Screws</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

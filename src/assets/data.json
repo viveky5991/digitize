@@ -1475,5 +1475,131 @@
         "../../../assets/img/apparel/jerset.webp"
       ]
     }
+  ],
+  "Wristband": [
+    {
+      "list": [
+        {
+          "title": "Tyvek Wristbands",
+          "description": [
+            "<p>Tyvek wristbands offer a safe and cost-effective way to identify attendees at various events. Known for their tear resistance and light weight, these wristbands are a popular choice.<br><br> Our custom printed Tyvek wristbands feature non-transferable, tamper-proof adhesive for added security.</p><ul><li><strong> Print Colors:</strong><ul><li>Single color</li><li>Multi-color custom printing (new)</li></ul></li><li><strong>Features:</strong> <ul><li>Made from synthetic paper</li><li>Made from synthetic paper</li><li>Secure and tamper-resistant</li><li>Maintains writing with permanent markers</li></ul></li><li><strong>Usage:</strong> Perfect for water parks, events, music festivals, promotional gifts, elections, advertisements, decorations, and sports.</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Badges": [
+    {
+      "list": [
+        {
+          "title": "Badges",
+          "description": [
+            "<p>Custom name badges for businesses in the UAE are an effective way to identify staff, customers, and visitors. They can be personalized with your company’s branding, including name, logo, employee details, and contact information. These badges offer a professional and organized look while promoting your brand identity. Durable and stylish, they are perfect for any business need. <br><br>Make your team stand out with our personalized name badges! Available in a variety of materials and colors, they suit any event or occasion. From simple plastic to luxurious metal, we have the perfect badge to match your requirements.</p>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Lanyards": [
+    {
+      "list": [
+        {
+          "title": "Lanyards",
+          "description": [
+            "<p>Our range of lanyards combines elegance, safety, and convenience. We offer stylish metal crimps, durable hooks, and breakaway elements for added safety. Customize your lanyards with reflective printing, custom designs, and various materials and colors using our easy tool. Experience the difference with Deluxe Printing's custom-made lanyards today!<br><br>Lanyards are ideal for ID cards at conferences, corporate offices, and classrooms. They provide easy access to badges and offer branding and customization opportunities.</p><ul><li><strong> Specification:</strong><ul><li>Width: 20mm</li><li>4-color printing on a customized background</li><li>Double-sided printing</li><li>Vivid colors</li><li>Sharp results for small fonts and graphics</li><li>Closest match to Pantone shades</li><li>Edge-to-edge printing</li></ul></li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Keychain": [
+    {
+      "list": [
+        {
+          "title": "Customized Keychain",
+          "description": [
+            "<p>Keychains are essential everyday items, perfect for organizing keys and adding a personal touch. Imagine a custom keychain that showcases your business message or unique style. <br><br> Our custom keychain printing services offer a unique way to promote your brand and create lasting impressions. <br><br> Contact us now to start designing impactful keychains for your message or brand.</p>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Mugs": [
+    {
+      "list": [
+        {
+          "title": "Mugs",
+          "description": [
+            "<p>Start your day with a mug showcasing your most cherished moments. Delight your kids with a personalized mug featuring their favorite photos.<br><br>Mugs are perfect for personal use, corporate branding, and giveaways at events and exhibitions. They deliver your message economically and have a long-lasting impact, making them a popular gift choice.</p><ul><li><strong> Features:</strong><ul><li>Made of breakable ceramic</li><li>Suitable for hot and cold beverages</li><li>Microwave and dishwasher safe</li><li>Clean with a sponge to avoid print damage</li></ul></li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Bottles": [
+    {
+      "list": [
+        {
+          "title": "Bottles",
+          "description": [
+            "<p>Create a statement with personalized photo, name, or logo-printed water bottles and sippers. Perfect for workouts, gifting, and events, these bottles can make your message stand out. Hand out custom bottles with your logo at exhibitions, conferences, or as gifts to employees and clients. Deluxe offers various options to suit any budget.<br><br>For beach days, insulated bottles keep drinks cool, and for winter, they keep drinks hot. These bottles feature a pop-up cover to prevent leaks and spills.<br><br>Reusable bottles reduce plastic waste and help you stay hydrated. Custom designs are great for special occasions or brand promotion. Send us your design, and we'll create a digital mockup for approval before production. Your personalized bottles will be delivered ready to use or gift.</p>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Tumblers": [
+    {
+      "list": [
+        {
+          "title": "Tumblers",
+          "description": [
+            "<p>Anyone looking to enjoy their favorite beverages in style should have a tumbler. Functional and indispensable, a tumbler enhances your drinking experience, whether it's a cool cocktail or morning coffee. <br><br>Tumblers are also durable, unlike disposable cups, making them cost-effective over time. Easy to clean and maintain, they are perfect for busy individuals. With various sizes, shapes, and designs available, there's a tumbler to match everyone's taste and style, from sleek and modern to classic and elegant.</p>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
   ]
 }

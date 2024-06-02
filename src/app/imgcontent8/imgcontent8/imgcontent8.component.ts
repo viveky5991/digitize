@@ -48,17 +48,48 @@ export class Imgcontent8Component implements OnInit{
           this.digitizedata = data.TearDropFlags;
         })
       }else if(url[0].path=='LShapeFlags'){
-        this.title='LShapeFlags'
+        this.title='L Shape Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.LShapeFlags)
+          this.digitizedata = data.LShapeFlags;
+        })
       }else if(url[0].path=='BladeFlags'){
-        this.title='BladeFlags'
+        this.title='Blade Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.BladeFlags)
+          this.digitizedata = data.BladeFlags;
+        })
       }else if(url[0].path=='TelescopicFlags'){
-        this.title='TelescopicFlags'
+        this.title='Telescopic Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.TelescopicFlags)
+          this.digitizedata = data.TelescopicFlags;
+        })
       }else if(url[0].path=='CarFlags'){
-        this.title='CarFlags'
+        this.title='Car Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.CarFlags)
+          this.digitizedata = data.CarFlags;
+        })
       }else if(url[0].path=='CarDesert'){
-        this.title='CarDesert'
+        this.title='Car Desert';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.CarDesert)
+          this.digitizedata = data.CarDesert;
+        })
       }else if(url[0].path=='Dashboard'){
-        this.title='Dashboard'
+        this.title='Dashboard Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Dashboard)
+          this.digitizedata = data.Dashboard;
+        })
+
       }else{
         this.title='Digitize'
       }

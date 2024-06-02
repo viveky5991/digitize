@@ -1636,6 +1636,108 @@
       ]
     }
   ],
+  "LShapeFlags": [
+    {
+      "list": [
+        {
+          "title": "L Shape Flags",
+          "description": [
+            "<ul><li><strong>Flag Sizes:</strong><ul><li><b>Small:</b> Flag 2m x 90cm, Pole 3m</li><li><b>Medium:</b>  Flag 3m x 90cm, Pole 4m</li><li><b>Large:</b> Flag 4m x 90cm, Pole 5m</li><li><b>Extra Large:</b> Flag 5m x 90cm, Pole 5m</li></ul></li><li><strong>Pole Specifications:</strong> Material: Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester: Single-sided (mirror image on other side)</li><li>Satin Gloss & Super Matt: Both sides printing</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "BladeFlags": [
+    {
+      "list": [
+        {
+          "title": "Blade Flags",
+          "description": [
+            "<ul><li><strong>Flag Sizes:</strong><ul><li><b>Small:</b> Flag 2m x 90cm, Pole 3m</li><li><b>Medium:</b>  Flag 3m x 90cm, Pole 4m</li></ul></li><li><strong>Pole Specifications:</strong> Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester: Single-sided, mirror image on back</li><li>Satin Gloss and Super Matt: Printing on both sides</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "TelescopicFlags": [
+    {
+      "list": [
+        {
+          "title": "Telescopic Flags",
+          "description": [
+            "<ul><li><b>Small:</b> Flag 4m x 1m, Pole 5m</li><li> <b>Pole Details:</b> <ul><li>Material: Aluminum</li><li>Color: Grey</li></ul></li><li><b>Base Features:</b> Fiber construction, fillable with water or sand</li><li><b>Materials:</b> <ul><li>Taffeta Satin Glossy: Double-sided print</li><li>German Knitted Polyester: Single-sided print, mirror image on reverse</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "CarFlags": [
+    {
+      "list": [
+        {
+          "title": "Car Flags",
+          "description": [
+            "<ul><li><b>Sizes Available:</b>A5: 14.8cm x 21cm, A4: 21cm x 29.7cm</li><li><b>Pole Specs:</b>Length: 38cm,Material: Plastic,Color: White</li><li><b>Materials:</b><ul><li>Taffeta Satin Glossy: Double-sided printing</li><li>German Knitted Polyester: Single-sided, mirror image on reverse</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "CarDesert": [
+    {
+      "list": [
+        {
+          "title": "Car Desert Flags",
+          "description": [
+            "<p>Transform any drive into a dynamic advertising opportunity with custom car flags. Perfect for showcasing allegiance to causes, organizations, or school sports teams, these flags are fully customizable in any color and design to align with your message. <br><br>Ideal for boosting team spirit and visibility, promotional car flags are excellent for corporate retreats or sports teams traveling to games. </p> <ul><li><b>Ideal For:</b>Public Awareness, Racing Events, Fundraisers, Auto Dealerships, etc.</li><li><b>Popular Sizes:</b>30 x 40 cm, 20 x 30 cm</li><li><b>Materials:</b><ul><li>Knitted Polyester: Single-sided (mirror image on back)</li><li>Satin Gloss & Super Matt: Printed on both sides</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Dashboard": [
+    {
+      "list": [
+        {
+          "title": "Dashboard Flags",
+          "description": [
+            "<p><b>Car Dashboard Flags:</b><br> Available in Single and Dual models. Customizable design, text, and color. </p> <ul><li><b>Pole Height:</b>8-11 cm (adjustable)</li><li><b>Flag Size: </b>8 x 4 cm</li><b>Material:</b> Gloss Satin, double-sided print<li></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding": [
     {
       "title": "Hardcover Or Case Binding",

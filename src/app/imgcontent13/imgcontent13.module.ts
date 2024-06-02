@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'Drawstringbag', component: Imgcontent13Component },
   { path: 'CottonStringbag', component: Imgcontent13Component }
 ];
-
+  
 
 @NgModule({
   declarations: [],

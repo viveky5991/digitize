@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { PolicyComponent } from './policy/policy/policy.component';
 
 export const routes: Routes = [
   //
@@ -163,6 +164,7 @@ export const routes: Routes = [
 //   },
   { path: 'Contact', component: ContactComponent },
   { path: 'About-us', component: AboutusComponent },
+  { path: 'Privacy-Policy', component: PolicyComponent },
 // // Wall-Vinyl,Wall-Graphics
 //   {
 //     path:'',

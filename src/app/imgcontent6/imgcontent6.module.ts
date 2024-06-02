@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'Hanging', component: Imgcontent6Component },
   { path: 'Directory', component: Imgcontent6Component },
   { path: 'Metal', component: Imgcontent6Component },
-  { path: 'Wooden', component: Imgcontent6Component },
+  { path: 'Wooden-Letters', component: Imgcontent6Component },
   { path: 'AcrylicLetters', component: Imgcontent6Component },
   { path: 'ForexFoam', component: Imgcontent6Component }
 ];

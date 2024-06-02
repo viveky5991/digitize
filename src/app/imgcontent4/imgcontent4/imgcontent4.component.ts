@@ -33,7 +33,7 @@ export class Imgcontent4Component  implements OnInit{
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-            if(url[0].path=='Unlit3D'){
+      if(url[0].path=='Unlit3D'){
         this.title='Unlit 3D';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 

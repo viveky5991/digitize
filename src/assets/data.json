@@ -1301,6 +1301,326 @@
       ]
     }
   ],
+  "SelfStanding": [
+    {
+      "list": [
+        {
+          "title": "Self-Standing Signage",
+          "description": [
+            "<ul><li><strong>Types:</strong> Temporary, Permanent</li><li><strong>Materials:</strong>  <ul><li>Base: MS Pipe, Aluminum, ACP, Wood, Acrylic</li><li>Surface: Digital Printed Vinyl, Color/Reflective Vinyl</li><li>Lighting: LED Lights</li> </ul></li><li><strong>Accessories:</strong> Power Supply, Wiring, Angle Iron, Nut & Bolts, Wheels, Heavy Base</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "WallMounted": [
+    {
+      "list": [
+        {
+          "title": "Wall Mounted Signage",
+          "description": [
+            "<ul><li><strong>Types:</strong>Permanent</li><li><strong>Materials:</strong>  MS Pipe, Aluminum, ACP, Wood, Acrylic, Digital Printed Vinyl, Color/Reflective Vinyl</li><li><strong>Supporting Accessories:</strong> LED Lights, Power Supply, Wiring, Angle Iron, Nuts & Bolts, Hooks, Metal Wire, Pipes</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Hanging": [
+    {
+      "list": [
+        {
+          "title": "Hanging Signage",
+          "description": [
+            "<ul><li><strong>Types:</strong>Permanent</li><li><strong>Primary Materials:</strong> <ul><li>MS Pipe, Aluminum, ACP, Wood, Acrylic</li><li>Digital and Reflective Vinyl</li></ul></li><li><strong>Accessories:</strong> LED Lights, Power Supply, Wiring, Angle Iron, Nuts & Bolts, Screws, Hooks, Metal Wire, Pipes</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Directory": [
+    {
+      "list": [
+        {
+          "title": "Directory Signage",
+          "description": [
+            "<ul><li><strong>Types:</strong>Permanent</li><li><strong>Core Materials:</strong> Stainless Steel, Aluminum, ACP, Wood, Acrylic, Digital Printed Vinyl, Color/Reflective Vinyl.</li><li><strong>Supporting Elements:</strong> LED Lights, Power Supply, Wiring, Angle Iron, Spacers, Screws, Hooks, Metal Wire, Pipes.</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Metal": [
+    {
+      "list": [
+        {
+          "title": "Metal Letters",
+          "description": [
+            "<ul><li><strong>Metal Letters Uses:</strong>Events, Openings, Welcome Signs, Logos, Hashtags, Backdrops</li><li><strong>Primary Materials:</strong> Stainless Steel, Aluminum, MS Sheet, GI Sheet</li><li><strong>Supporting Accessories:</strong> LED Lights, Power Supply, Wiring, Angle Iron, Heavy Base, Printed Vinyl</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Wooden": [
+    {
+      "list": [
+        {
+          "title": "Wooden Letters",
+          "description": [
+            "<ul><li><strong>Wooden Letters Uses:</strong>Events, Openings, Welcome Signs, Logos, Hashtags, Backdrops</li><li><strong>Materials:</strong> Solid Wood, Wooden MDF, Paint</li><li><strong>Accessories:</strong> LED Lights, Power Supply, Wiring, Heavy Base, Digital Printed Vinyl</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "AcrylicLetters": [
+    {
+      "list": [
+        {
+          "title": "Acrylic Letters",
+          "description": [
+            "<ul><li><strong>Acrylic Letters for:</strong>Events, Openings, Welcomes, Logos, Hashtags, Backdrops</li><li><strong>Materials:</strong> Acrylic, Plexi Glass</li><li><strong>Accessories:</strong> LED Lights, Power Supply, Wiring, Heavy Base, Printed Vinyl</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "ForexFoam": [
+    {
+      "list": [
+        {
+          "title": "Forex / Foam Letters",
+          "description": [
+            "<ul><li><strong>Forex / Foam Letters Uses:</strong> Events, Openings, Welcomes, Logos, Hashtags, Backdrops</li><li><strong>Primary Materials:</strong> Forex Sheet, Foam Board, Styro Foam</li><li><strong>Accessories:</strong> Paint, Digital/Colored Vinyl, Screws, Heavy Bases</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "MetalPlates": [
+    {
+      "list": [
+        {
+          "title": "Metal Name Plates",
+          "description": [
+            "<ul><li><strong>Metal Name Plates Varieties:</strong> Name Plate, Number Plate, Wall Sign, Door Sign, Logo Sign, Company Name Sign</li><li><strong>Core Materials:</strong> Stainless Steel, Aluminum, MS Sheet, GI Sheet</li><li><strong>Finishing and Installation:</strong> Engraving, Etching, Coloring, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "AcrylicPlates": [
+    {
+      "list": [
+        {
+          "title": "Acrylic Name Plates",
+          "description": [
+            "<ul><li><strong>Acrylic Name Plates Options:</strong> Name Plate, Number Plate, Wall, Door, Logo, Company Sign</li><li><strong>Materials:</strong> Acrylic, Plexi Glass</li><li><strong>Details:</strong> Engraving, Etching, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "WoodenPlates": [
+    {
+      "list": [
+        {
+          "title": "Wooden Name Plates",
+          "description": [
+            "<ul><li><strong>Wooden Name Plates Varieties:</strong> Name, Number, Wall, Door, Logo, and Company Signs</li><li><strong>Primary Materials:</strong> Solid Wood, MDF, Plywood</li><li><strong>Enhancements:</strong> Engraving, Router Cutting, Coloring, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "TableTopPlates": [
+    {
+      "list": [
+        {
+          "title": "Table Top Plates / Sign",
+          "description": [
+            "<ul><li><strong>Table Top Plates/Signs:</strong> Name Plates, Menu Stands, Information Signs, Reservation Signs, Menu Cubes</li><li><strong>Materials:</strong> Stainless Steel, Aluminum, ACP, Wood, Acrylic, Forex</li><li><strong>Techniques:</strong> Digital Printing, UV Printing, Laser Engraving, Vinyl Stickers</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "TraffolytePVCAcrylic": [
+    {
+      "list": [
+        {
+          "title": "Traffolyte / PVC / Acrylic Labels",
+          "description": [
+            "<ul><li><strong>Label Types:</strong> Machine, Furniture, Switch Board, Wire, Device Labels</li><li><strong>Materials:</strong> Traffolyte, Acrylic</li><li><strong>Supporting Process:</strong> Engraving</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "MetalLabels": [
+    {
+      "list": [
+        {
+          "title": "Metal Labels",
+          "description": [
+            "<ul><li><strong>Metal Labels Types:</strong>Machine, Furniture, Switch Board, Wire, Device</li><li><strong>Materials:</strong> Aluminum, Stainless Steel</li><li><strong>Techniques:</strong> Engraving, Etching, Coloring, Direct Printing</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "WoodenLabels": [
+    {
+      "list": [
+        {
+          "title": "Wooden Labels",
+          "description": [
+            "<ul><li><strong>Types:</strong>Garments, Bags, Gifts, Sentiments</li><li><strong>Materials:</strong> Plywood, Wooden MDF, Solid Wood</li><li><strong>Techniques:</strong> Engraving, Coloring, Direct Printing</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "AcrylicLabels": [
+    {
+      "list": [
+        {
+          "title": "Acrylic Labels",
+          "description": [
+            "<ul><li><strong>Types:</strong>Gift, Sentiments, Product</li><li><strong>Materials:</strong> Acrylic: Colored, Transparent, Silver, Gold</li><li><strong>Techniques:</strong> Engraving, Direct Printing</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "SailFlags": [
+    {
+      "list": [
+        {
+          "title": "Sail Flags (Curve Top Flag)",
+          "description": [
+            "<ul><li><strong>Flag Sizes:</strong><ul><li>Small: Flag 2m x 85cm, Pole 3.5m</li><li>Medium: Flag 3m x 85cm, Pole 4.5m</li><li>Large: Flag 4m x 85cm, Pole 5.5m</li></ul></li><li><strong>Pole Material:</strong> Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Spike, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester (single-sided)</li><li>Satin Gloss, Super Matt (double-sided printing)</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "TearDropFlags": [
+    {
+      "list": [
+        {
+          "title": "Tear Drop Flags",
+          "description": [
+            "<ul><li><strong>Flag Sizes:</strong><ul><li><b>Small:</b> Flag 2.1m x 82cm, Pole 3.5m</li><li><b>Medium:</b> Flag 2.62m x 1.1m, Pole 4.5m</li><li><b>Large:</b> Flag 3.33m x 1.1m, Pole 5.5m</li></ul></li><li><strong>Pole Material:</strong> Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Spike, Cross, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester (single-sided)</li><li>Satin Gloss, Super Matt (Both sides printed)</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

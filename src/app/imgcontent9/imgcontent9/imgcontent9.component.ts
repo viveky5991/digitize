@@ -42,17 +42,47 @@ export class Imgcontent9Component implements OnInit{
           this.digitizedata = data.Pennant;
         })
       } else if(url[0].path=='Bunting'){
-        this.title='Bunting'
+        this.title='Bunting';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Bunting)
+          this.digitizedata = data.Bunting;
+        })
       }else if(url[0].path=='Toothpick'){
-        this.title='Toothpick'
+        this.title='Toothpick';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Toothpick)
+          this.digitizedata = data.Toothpick;
+        })
       }else if(url[0].path=='Poleflags'){
-        this.title='Poleflags'
+        this.title='Pole Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Poleflags)
+          this.digitizedata = data.Poleflags;
+        })
       }else if(url[0].path=='Handflags'){
-        this.title='Handflags'
+        this.title='Hand Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Handflags)
+          this.digitizedata = data.Handflags;
+        })
       }else if(url[0].path=='FinishLine'){
-        this.title='FinishLine'
+        this.title='Finish Line';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.FinishLine)
+          this.digitizedata = data.FinishLine;
+        })
       }else if(url[0].path=='BodyFlags'){
-        this.title='BodyFlags'
+        this.title='Body Flags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.BodyFlags)
+          this.digitizedata = data.BodyFlags;
+        })
       }else if(url[0].path=='FanScarf'){
         this.title='FanScarf'
       }else{

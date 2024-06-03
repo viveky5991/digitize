@@ -1638,6 +1638,108 @@
       ]
     }
   ],
+  "Bunting": [
+    {
+      "list": [
+        {
+          "title": "Bunting Flags",
+          "description": [
+            "<ul><li><strong>Flag Shapes:</strong>Square, Triangle, Rectangle</li><li><strong>Usage:</strong> Events, Exhibitions, Shop Displays, Garage Sales</li><li><strong>Materials:</strong> <ul><li>Polyester: One-side print, mirror image</li><li>Satin: Both-sides printing</li>   </ul>         </li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Toothpick": [
+    {
+      "list": [
+        {
+          "title": "Toothpick Flags",
+          "description": [
+            "<ul><li><b>Flag Shapes:</b>Square, Rectangle, Fancy</li><li><b>Sticker Size:</b> 2.5 x 2 cm</li><li><b>Uses:</b> Cupcakes, sandwiches, cocktails, cheese</li><li><b>Industries:</b> Bakeries, Hotels, Restaurants, Hypermarkets, Parties</li><li><b>Benefits:</b>Disposable, reduces cleanup time</li><li><b>Customization:</b>Fully personalized for any event</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Poleflags": [
+    {
+      "list": [
+        {
+          "title": "Pole Flags",
+          "description": [
+            "<ul><li><b>Sizes:</b> <ul><li>Standard: A5, A4</li><li>Custom sizes available</li></ul><li><b>Pole Specs:</b><ul><li>Bamboo: 40 cm, golden top</li><li>Wooden: Lengths of 40 cm and 1.2 m; Thicknesses of 0.5 cm and 2 cm</li></ul></li><li><b>Materials</b><ul><li>Taffeta Satin Glossy: Single/Double-sided</li><li>Bridal Satin Matt: Single/Double-sided</li><li>German Knitted Polyester: Single-sided with mirror image</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Handflags": [
+    {
+      "list": [
+        {
+          "title": "Hand Flags",
+          "description": [
+            "<ul><li><b>Sizes:</b><ul><li>Standard: 1m x 0.6m</li><li>Custom sizes available</li></ul></li><li><b>Materials:</b></li> <ul><li>Knitted Polyester: Single-sided, mirror image on reverse</li><li>Satin Gloss and Super Matt: Printing on both sides</li></ul><li><b>Finishing Options:</b></li><ul><li>Side stitching</li><li>Flash cut</li><li>Rope on one side</li><li>Eyelets/Grommets available</li></ul></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "FinishLine": [
+    {
+      "list": [
+        {
+          "title": "Finish Line",
+          "description": [
+            "<p>Perfect for any race, our finish line ribbon can match your theme or feature sponsor logos. Ideal for marathons and school races alike, these customizable ribbons are a cost-effective option with single or double-sided printing available.</p><ul><li><b>Material:</b>Single-faced satin, smooth on one side</li><li><b>Sizes:</b><ul><li>Standard: 20 x 300 cm, 20 x 400 cm</li><li>Custom sizes available</li></ul></li><li><b>Printing:</b><ul><li>Custom colors to match brand</li><li>Option for single or double-sided printing</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "BodyFlags": [
+    {
+      "list": [
+        {
+          "title": "Body Flags",
+          "description": [
+            "<p>Showcase your national or team pride with customizable flags. Choose your design and size. <br>  Enjoy comfort at events with our silky-smooth fabric that’s durable and washable for repeated use.</p><ul><li><b>Sizes:</b><ul><li>150 x 80 cm</li><li>120 x 70 cm</li></ul></li><li><b>Usage:</b>Clubs, Sports Games, Festivals</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

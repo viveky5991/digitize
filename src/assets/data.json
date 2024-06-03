@@ -1621,6 +1621,23 @@
       ]
     }
   ],
+  "Pennant": [
+    {
+      "list": [
+        {
+          "title": "Pennant Flags",
+          "description": [
+            "<ul><li><strong>Available Sizes:</strong><ul><li><b>A5:</b> 15 x 20 cm</li><li><b>A4: </b> 20 x 30 cm</li><li><b>Custom sizes available</b> </li></ul></li><li><strong>Material:</strong> <ul><li><b>Knitted Polyester:</b> Single-sided print, reverse side mirror image</li><li><b>Glossy Satin:</b> Double-sided print</li><li><b>Matt Satin:</b> Double-sided print</li></ul></li><li><strong>Shapes:</strong> Rectangle, Triangle</li><li><strong>Finishing:</strong><ul><li>With Tassel/Lace</li><li>Mounted on wooden stick</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

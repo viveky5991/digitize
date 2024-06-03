@@ -2286,5 +2286,113 @@
         "../../../assets/img/window/window.png"
       ]
     }
+  ],
+  "popups": [
+    {
+      "list": [
+        {
+          "title": "Pop Up Softcase",
+          "description": [
+            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Printing Options</th></tr></thead><tbody><tr><td>2x3</td><td>284.2 x 230 cm</td><td>204.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>3x3</td><td>359.2 x 230 cm</td><td>279.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>4x3</td><td>434.2 x 230 cm</td><td>354.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>5x3</td><td>509.2 x 230 cm</td><td>429.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>6x3</td><td>584.2 x 230 cm</td><td>504.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>8x3</td><td>734.2 x 230 cm</td><td>654.2 x 230 cm</td><td>One side, Both sides</td></tr></tbody></table><ul><li>Collapsible structure</li><li>Easy to install</li><li>Can be used multiple times</li><li>Usage: Indoor Events</li><li>Frame: Aluminum</li><li>Packaging: Comes in a soft fabric with plastic sheet case trolley</li><li>Installation and Removal: User Friendly</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "fabricpopups": [
+    {
+      "list": [
+        {
+          "title": "Fabric Pop Up",
+          "description": [
+            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Weight</th></tr></thead><tbody><tr><td>3x3</td><td>288 x 225 cm</td><td>225 x 225 cm</td><td>12 kgs</td></tr><tr><td>4x3</td><td>362 x 225 cm</td><td>300 x 225 cm</td><td>15 kgs</td></tr><tr><td>8x3</td><td>663 x 225 cm</td><td>600 x 225 cm</td><td>30 kgs</td></tr></tbody></table> <ul><li>Collapsible structure</li><li>Seamless View</li><li>Easy to install</li><li>Washable, Multiple use</li><li>Usage:  Indoor Events, Conference, Exhibitions and Parties</li><li>Frame: Aluminum</li><li>Packaging: Comes with a Wheel Trolley Bag</li><li>Installation and Removal: User Friendly</li></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "promotion": [
+    {
+      "list": [
+        {
+          "title": "Promotion",
+          "description": [
+            "<ul><li>Branding: Digital Printed Vinyl Sticker with Lamination</li><li>Stucture: Freestanding, Assemble type</li><li>Packing: Oxford carry bag</li></ul><ul><li><strong>Sizes</strong></li><ul><li>Front: 82.5cm x 85cm</li><li>Sides: 46cm x 85cm</li><li>Top: 79cm x 29cm</li></ul></ul><ul><li><strong>Features:</strong></li><ul><li>Easy to set up</li><li>Top board can be made custom shape</li><li>Small packing</li><li>Usage: Supermarkets and shop advertising display</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "exhibitioncounter": [
+    {
+      "list": [
+        {
+          "title": "Exhibition Counters",
+          "description": [
+            "<p>Together with a backdrop or as a standalone, a promotion counter is a versatile option for a trade show, exhibition, registration or in-mall brand activation. <br><br>   The set includes table top, printed graphics, and a carry bag. The graphics are fully custom printed which can then be easily mounted over the counter structure. The printed graphics have vibrant colors and are reusable.            </p><ul><li><strong>Features:</strong></li><ul><li>Light weight, Easy to carry and store</li><li>Tool Free Assembly</li><li>Swap out graphics when needed</li><li>Includes carry case</li><li>Reasonably priced</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "tentcanopy": [
+    {
+      "list": [
+        {
+          "title": "Tent Canopy",
+          "description": [
+            "<ul><li><strong>Structure Features</strong></li><ul><li>Anodized Iron frame</li><li>Height adjustment button provides safety to fingers and stability to structure</li><li>Smooth mechanism to install and un-install</li><li>Structure is durable and sturdy</li><li>Tent height ground to peak and width between columns 3mtrs</li><li>Roof top can be re-printed using the existing tent frame</li></ul></ul><ul><li><strong>Usage</strong></li><ul><li>Good marketing tool for small or large scale events</li><li>Can be set up in flea markets, trade shows, festivals, marketing events, sporting events, arts and crafts shows</li><li>Option to use both indoors and outdoors</li></ul></ul><ul><li><strong>Branding options</strong></li><ul><li>Tent Canopy Branding</li><li>Tent Canopy + Backwall (one side or both sides)</li><li>Tent Canopy + Backwall + Full Side walls/ Half side walls (one side or both sides)</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "parasolumbrella": [
+    {
+      "list": [
+        {
+          "title": "Parasol Umbrella",
+          "description": [
+            "<p>Everyone loves and needs an umbrella, whether it's to keep dry from the rain or to provide shade from the sun! Its also a cool way to make a fashion statement yet adhering to convenience at the same time. <br><br> Umbrellas can also be used as a promotion tool for marketing campaigns or brand visibility. Can be given out during events conferences thereby leaving a lasting impression.</p><ul><li><strong>Fully customized umbrella:</strong></li><ul><li>Customized roof branding edge-to-edge</li><li>Custom Umbrella sleeve</li></ul></ul><ul><li><strong>Usage</strong></li><ul><li>Print logo on ready-made umbrella</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
   ]
 }

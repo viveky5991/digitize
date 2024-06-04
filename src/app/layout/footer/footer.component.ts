@@ -1,13 +1,13 @@
 import { Component, ElementRef, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PopupComponent } from '../../popup/popup.component';
-import { Router } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [FooterComponent, CommonModule],
+  imports: [FooterComponent, CommonModule,RouterModule],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })

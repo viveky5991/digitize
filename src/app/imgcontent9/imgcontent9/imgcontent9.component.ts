@@ -84,7 +84,13 @@ export class Imgcontent9Component implements OnInit{
           this.digitizedata = data.BodyFlags;
         })
       }else if(url[0].path=='FanScarf'){
-        this.title='FanScarf'
+        this.title='Fan Scarf';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.FanScarf)
+          this.digitizedata = data.FanScarf;
+        })
+
       }else{
         this.title='Digitize'
       }

@@ -17,13 +17,6 @@ export function app(): express.Express {
   const indexHtml = join(serverDistFolder, 'index.server.html');
   // const MockBrowser = require('mock-browser').mocks.MockBrowser;
   // const mock = new MockBrowser();
-  // server.use(morgan('combined'));
-  // server.use(helmet());
-  // server.use(cors());
-
-  // server.use(compression());
-  server.use(express.json());
-server.use(express.urlencoded({ extended: true }));
   const commonEngine = new CommonEngine();
   // global.window = mock.getWindow();
   server.set('view engine', 'html');

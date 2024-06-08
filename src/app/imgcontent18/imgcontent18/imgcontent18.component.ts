@@ -63,13 +63,34 @@ export class Imgcontent18Component implements OnInit{
           this.digitizedata = data.parasolumbrella;
         })
       } else if(url[0].path=='cover-cloth'){
-        this.title='cover-cloth'
+        this.title='Table Cover & Table Cloth';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.covercloth)
+          this.digitizedata = data.covercloth;
+        })
+
       } else if(url[0].path=='media-frame'){
-        this.title='media-frame'
+        this.title='Social Media Frame';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.mediaframe)
+          this.digitizedata = data.mediaframe;
+        })
       } else if(url[0].path=='foam-board'){
-        this.title='foam-board'
+        this.title='Foam / Forex Boards';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.foamboard)
+          this.digitizedata = data.foamboard;
+        })
       } else if(url[0].path=='shell-scheme'){
-        this.title='shell-scheme'
+        this.title='Shell Scheme';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.ShellScheme)
+          this.digitizedata = data.ShellScheme;
+        })
       } else if(url[0].path=='flag-base'){
         this.title='flag-base'
       }else{

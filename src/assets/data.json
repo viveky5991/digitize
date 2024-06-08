@@ -2427,5 +2427,77 @@
         "../../../assets/img/window/window.png"
       ]
     }
+  ],
+  "covercloth": [
+    {
+      "list": [
+        {
+          "title": "Table Cover & Table Cloth",
+          "description": [
+            "<ul><li><strong>Printing:</strong>Full color, including gradients</li><li><strong>Material:</strong>Poly Back crepe, Duchess Satin - Matt, Whisper Smooth, Viscose Cotton</li><li><strong>Features:</strong>Washable, logo won't crack or peel</li><li><strong>Style Options:</strong></li><ul><li>Table Throws (Open and Closed Back)</li><li>Fitted Table Cover (Standard and with Zip)</li><li>Table Runner</li><li>Round Table</li></ul></ul><ul><li><strong>Branding Options</strong></li><ul><li>All Sides</li><li>Edge to Edge Printing</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "mediaframe": [
+    {
+      "list": [
+        {
+          "title": "Social Media Frame",
+          "description": [
+            "<ul><li><strong>Material:</strong>Forex / Foam</li><li><strong>Features:</strong>Light weight and portable</li><li><strong>Standard size:</strong>A0 (Good for 3 people), A1 (for 2 people)</li><li><strong>Finish:</strong>Mounted with high quality digitally printed sticker</li><ul><li>Customizable colors</li><li>Durable material</li><li>Order to size of choice</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "foamboard": [
+    {
+      "list": [
+        {
+          "title": "Foam / Forex Boards",
+          "description": [
+            "<p>Foam and Forex boards are cost-effective for short-term use with quick turnaround times.</p><ul><li><strong>Usage:</strong></li><ul><li>Tabletop or floor easels</li><li>Lean/prop against a wall</li><li>Hang on walls with double-sided tape</li><li>Hang from grommets</li></ul></ul><ul><li><strong>Material Options</strong></li><ul><li>Foam board core: 5mm, 10mm</li><li>Forex board core: 2mm, 3mm, 5mm, 10mm</li></ul></ul><ul><li><strong>Material Selection Factors</strong></li><ul><li>Purpose of use</li><li>Location</li><li>Size requirement</li><li>Duration of use</li><li>Budget</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "ShellScheme": [
+    {
+      "list": [
+        {
+          "title": "Shell Scheme",
+          "description": [
+            "<p>For a stunning display at your upcoming show, consider our backlit modular standee. It can be customized in any size, angle, or shape, from backdrops to angular stands with arches. These stands can form a shell scheme by surrounding your booth on two or three sides. They feature high-quality, replaceable SEG graphics and are available for rent to meet budget goals.</p><ul><li><strong>Features:</strong></li><ul><li>Available on Rental basis</li><li>SEG backlit custom printed fabric graphics</li><li>Interchangeable frame design layout</li><li>Can use the frames together or separately</li><li>Pre-installed LED lights in each frame section</li><li>Graphics: Single or both sides</li></ul></ul><ul><li><strong>Place of use:</strong></li><ul><li>Exhibition hall</li><li>Hotel Ballroom</li><li>Spacious Villa</li><li>Malls</li><li>Showrooms/ Boutique</li><li>Indoor areas</li><li>Stand alone island exhibits</li></ul></ul><ul><li><strong>Branding:</strong></li><ul><li>One side OR</li><li>Both sides (front and back)</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
   ]
 }

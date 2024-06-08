@@ -6,7 +6,7 @@ import { Imgcontent10Component } from './imgcontent10/imgcontent10.component';
 
 const routes: Routes = [
   { path: 'Hoisting', component: Imgcontent10Component },
-  { path: 'WallMounted', component: Imgcontent10Component },
+  { path: 'wall_mounted_flags', component: Imgcontent10Component },
   { path: 'Stadium', component: Imgcontent10Component },
   { path: 'Advertising', component: Imgcontent10Component },
   { path: 'Festival', component: Imgcontent10Component },
@@ -24,5 +24,5 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes)
   ]
-})  
+})
 export class Imgcontent10Module { }

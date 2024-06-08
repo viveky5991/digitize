@@ -42,7 +42,12 @@ export class Imgcontent10Component implements OnInit{
           this.digitizedata = data.Hoisting;
         })
       } else if(url[0].path=='WallMounted'){
-        this.title='WallMounted'
+        this.title='WallMounted';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Hoisting)
+          this.digitizedata = data.Hoisting;
+        })
       }else if(url[0].path=='Stadium'){
         this.title='Stadium'
       }else if(url[0].path=='Advertising'){

@@ -4,20 +4,31 @@ import express from 'express';
 import { fileURLToPath } from 'node:url';
 import { dirname, join, resolve } from 'node:path';
 import bootstrap from './src/main.server';
-
+// import compression from 'compression';
+// import helmet from 'helmet';
+// import morgan from 'morgan';
+// import cors from 'cors';
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
   const server = express();
+
   const serverDistFolder = dirname(fileURLToPath(import.meta.url));
   const browserDistFolder = resolve(serverDistFolder, '../browser');
   const indexHtml = join(serverDistFolder, 'index.server.html');
-  const MockBrowser = require('mock-browser').mocks.MockBrowser;
-  const mock = new MockBrowser();
+  // const MockBrowser = require('mock-browser').mocks.MockBrowser;
+  // const mock = new MockBrowser();
+  // server.use(morgan('combined'));
+  // server.use(helmet());
+  // server.use(cors());
+
+  // server.use(compression());
+  server.use(express.json());
+server.use(express.urlencoded({ extended: true }));
   const commonEngine = new CommonEngine();
-  global.window = mock.getWindow();
+  // global.window = mock.getWindow();
   server.set('view engine', 'html');
   server.set('views', browserDistFolder);
-  
+
   if (typeof window !== 'undefined') {
     // Your code that relies on the window object
 }

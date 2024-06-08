@@ -1773,6 +1773,22 @@
       ]
     }
   ],
+  "WallMountedflag": [
+    {
+      "list": [
+        {
+          "title": "Fan Scarf",
+          "description": [
+            "<p> Add a personalized fan scarf to your collection by custom printing your favorite club logo or country flag. <br>Design your scarf with a single image or choose different images for the front and back. <br> This makes for a perfect keepsake for football, cricket, and other sports events. <br> Crafted from ultra-lightweight satin silk feel material, it's comfortable to wear for extended periods. <br> Customize it further with your choice of tassel color at each end.</p> <ul><li><b>Size:</b>100 x 15cms</li><li><b>Material :</b>Super light weight silk satin</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
   "binding1": [
     {
       "title": "Kraft Paper",

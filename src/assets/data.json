@@ -2499,5 +2499,151 @@
         "../../../assets/img/window/window.png"
       ]
     }
+  ],
+  "fencebanners": [
+    {
+      "list": [
+        {
+          "title": "Fence Banners",
+          "description": [
+            "<ul><li><strong>Features:</strong></li><ul><li>Does not have transparency or see through effect</li><li>Is a good choice for outdoor usage due to its sturdiness</li><li>Can be drilled and fixed on construction site fencing for long term duration</li></ul></ul><ul><li><strong>Usage :</strong></li><ul><li>Large building wrap advertising</li><li>Fence Advertising</li><li>Billboard</li><li>Banner in boulevard</li><li>Hanging banner in high wind area</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "Hoisting": [
+    {
+      "list": [
+        {
+          "title": "Hoisting Flags",
+          "description": [
+            "<ul><li><b>Sizes:</b>90cm x 1.2m,1.5m x 1m, 1.2m x 1.8m, Customizable</li><li><b>Poles:</b>Lengths: 2m, 10m, 12m</li><li>Customizable</li><li>Materials: Aluminum, GI, Fiber, Stainless Steel</li>  <li><b>Materials:</b><ul><li>Satin Glossy (Double Sided)</li><li>German Knitted Polyester (Single Sided)</li></ul> </li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "WallMountedflag": [
+    {
+      "list": [
+        {
+          "title": "Wall Mounted Flags",
+          "description": [
+            "<ul><li><b>Sizes Available:</b>90cm x 1.2m, 1.5m x 1m 1.2m x 1.8m, Customizable</li><li><b>Pole Specs:</b><ul><li>Lengths: 2m, 10m, 12m</li><li>Customizable</li><li>Materials: Aluminum, GI, Fiber, Stainless Steel</li></ul></li><li><b>Material Options:</b><ul><li>Satin Glossy Double-Sided</li><li>German Knitted Polyester Single-Sided</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "Stadium": [
+    {
+      "list": [
+        {
+          "title": "Stadium Flags",
+          "description": [
+            "<h4>Printable in any size or shape.</h4><ul><b>Material:</b><li>Lightweight knitted polyester, easy to carry.</li><li><b>Finishing:</b>Edge hand grip straps.</li><li><b>Ideal for:</b>Sports events, openings, press, concerts, rallies.</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "Advertising": [
+    {
+      "list": [
+        {
+          "title": "Advertising Flags",
+          "description": [
+            "<ul><li><b>Sizes:</b><ul><li>Small: 2m x 1m</li><li>Medium: 3m x 1m</li><li>Large: 4m x 1m</li><li>Custom sizes available</li></ul></li><li><b>Pole Specs:</b><ul><li>Lengths: 6m, 8m, 10m, 12m</li><li>Materials: GI, Fiber</li></ul></li><li><b>Materials:</b><ul><li>Taffeta Satin Glossy (Double-sided)</li><li>German Knitted Polyester (Single-sided)</li><li>Double Sided Fabric Banner</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "Festival": [
+    {
+      "list": [
+        {
+          "title": "Festival Flags",
+          "description": [
+            "<ul><li><b>Available Sizes:</b>Customized</li><li><b>Pole Specifications:</b>6.2m, Tapered, Fiber, White</li><li><b>Base Specifications:</b><ul><li>Fiber Base: 45-50kg</li><li>Water Base: 30kg</li></ul></li><li><b>Material Options:</b><ul><li>Satin Glossy, Double-Sided</li><li>German Knitted Polyester, Single-Sided</li><li>Double-Sided Fabric Banner</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "TableFlags": [
+    {
+      "list": [
+        {
+          "title": "Table Flags",
+          "description": [
+            "<ul><li><b>Pole Types:</b><ul><li>Single: Straight, L-Shape</li><li>Dual: Y-Shape, V-Shape, T-Shape, Tripole</li></ul></li><li><b>Pole Colors:</b> Silver, Golden</li><li><b>Flag Material:</b><ul><li>Satin Glossy, Double-Sided</li><li>Knitted Polyester, Single-Sided</li></ul></li><li><b>Finishing:</b>Lace/Tassels</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "TableFlagsRoyal": [
+    {
+      "list": [
+        {
+          "title": "Table Flags - Royal",
+          "description": [
+            "<p>Premium finish for international and government conferences, exhibitions. <br> Perfect for daily patriotic displays or national pride on office desks, tables, or shelves.</p><ul><li><b>Specifications:</b><ul><li>Pole: 44 cm</li><li>Flag: 20 x 30 cm</li><li>Weight: 650 g</li><li>Tassel: Optional</li><li>Colors: Silver, Golden</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
+  ],
+  "ConferenceFlags": [
+    {
+      "list": [
+        {
+          "title": "Conference Flags",
+          "description": [
+            "<ul><li><b>Flag Specifications:</b><ul><li>Size: 1.5m x 1m (custom sizes available)</li><li>Material: Taffeta Satin Glossy, double-sided printing</li><li>Finishing: Options include lace or tassels</li></ul></li><li><b>Pole Specifications:</b><ul><li>Material: Metal</li><li>Color Options: Gold, Silver</li></ul></li><li><b>Base Specifications:</b><ul><li>Material: Metal</li><li>Colors: Gold, Silver</li><li>Weight: 3-4 kg</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp"
+
+      ]
+    }
   ]
 }

@@ -53,7 +53,7 @@ export class Imgcontent16Component  implements OnInit{
       }else if(url[0].path=='x-banners'){
         this.title='x-banners';
       }else if(url[0].path=='banners-flex'){
-        this.title='banners-flex';
+        this.title='banners-flex';  
       }else if(url[0].path=='fence-banners'){
         this.title='fence-banners';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -62,7 +62,12 @@ export class Imgcontent16Component  implements OnInit{
           this.digitizedata = data.fencebanners;
         })
       }else if(url[0].path=='lama-stand'){
-        this.title='lama-stand'
+        this.title='Lama Stand Display';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.lamastand)
+          this.digitizedata = data.lamastand;
+        })
       }else{
         this.title='Digitize'
       }

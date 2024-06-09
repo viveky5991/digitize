@@ -91,7 +91,12 @@ export class Imgcontent10Component implements OnInit{
           this.digitizedata = data.ConferenceFlags;
         })
       }else if(url[0].path=='ConferenceFlagsHanging'){
-        this.title='ConferenceFlagsHanging'
+        this.title='Conference Flags - Hanging';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.ConferenceFlagsHanging)
+          this.digitizedata = data.ConferenceFlagsHanging;
+        })
       }else{
         this.title='Digitize'
       }
@@ -100,7 +105,8 @@ export class Imgcontent10Component implements OnInit{
   EnquiryNow() {
 
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
+      width: '700px',
+      height:'620px'
     });
 
     dialogRef.afterClosed().subscribe(() => {

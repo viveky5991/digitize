@@ -36,11 +36,23 @@ SwiperCore.use([
 })
 export class HomeComponent {
   config: SwiperOptions = {
-    slidesPerView: 2,
-    spaceBetween: 50,
+    // slidesPerView: 2,
+    // spaceBetween: 50,
     navigation: true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },
+    breakpoints: {
+      // When the viewport width is 992 pixels or less
+      992: {
+        slidesPerView: 2,
+        spaceBetween: 50 // Keeps the same spacing as the default configuration
+      },
+      // When the viewport width is 640 pixels or less
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 30 // Reduced space for smaller screens
+      }
+    }
   };
   onSwiper(swiper:any) {
     console.log(swiper);

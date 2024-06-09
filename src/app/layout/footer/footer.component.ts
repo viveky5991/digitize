@@ -47,7 +47,8 @@ export class FooterComponent implements OnInit {
     //   console.log(`Dialog result: ${result}`);
     // });
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
+     width: '700px',
+      height:'620px'
     });
     dialogRef.afterOpened().subscribe(() => {
       // Find the dialog container element by class name or any other means if necessary

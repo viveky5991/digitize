@@ -51,8 +51,7 @@ export class NavbarComponent implements OnInit {
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
-      debugger
-      if(this.router.url=='/Frosted-Sticker#Standard-Cut' ||this.router.url=='/Frosted-Sticker#ReverseCut'||this.router.url=='/Frosted-Sticker#Printed-Frosted'||this.router.url=='/Frosted-Sticker#Blank-Frosted'){
+            if(this.router.url=='/Frosted-Sticker#Standard-Cut' ||this.router.url=='/Frosted-Sticker#ReverseCut'||this.router.url=='/Frosted-Sticker#Printed-Frosted'||this.router.url=='/Frosted-Sticker#Blank-Frosted'){
 
       } else{
         window.scrollTo(0, 0);

@@ -4,22 +4,33 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
+import { SwiperOptions } from 'swiper';
+import { SwiperModule } from 'swiper/angular';
+import { Animations } from '../../animation';
 
 @Component({
   selector: 'app-imgcontent',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule,],
+  imports: [HttpClientModule, CommonModule,RouterModule,SwiperModule],
   templateUrl: './imgcontent.component.html',
-  styleUrl: './imgcontent.component.scss'
+  styleUrl: './imgcontent.component.scss',
+  animations: Animations
 })
 export class ImgcontentComponent implements OnInit {
   title: string | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
   digitizedata: any;
   constructor(public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
 
     this.navload()
-  } 
+  }
   navload() {
     this._route.url.subscribe((url: any) => {
       debugger
@@ -99,7 +110,8 @@ export class ImgcontentComponent implements OnInit {
     //   console.log(`Dialog result: ${result}`);
     // });
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
+     width: '700px',
+      height:'620px'
     });
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary

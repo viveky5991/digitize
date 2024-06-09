@@ -34,13 +34,14 @@
 
     .hidden-sm {
         display: block !important;
-        width: 340px;
+        // width: 340px;
         height: 85%;
     }
 }
 
 .aboutus-image img {
-    height: 100%;
+    // height: 100%;
+    height: 430px;
     width: 100%;
 }
 
@@ -123,7 +124,7 @@
     padding-bottom:110px;
     margin-top: 4.3em;
  }
- 
+
   .image-aboutus-sm-banner {
     background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
     background-repeat: no-repeat;

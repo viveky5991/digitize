@@ -611,7 +611,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
+         "../../../assets/img/Folder/folder2.jpg",
+         "../../../assets/img/Folder/folder3.png"
       ]
     }
   ],
@@ -681,7 +683,7 @@
         {
           "title": "Self Ink Stamps",
           "description": [
-            "Get your custom stamp in just a few easy steps:  Choose a Shape and Size: Select the preferred shape and size for your stamp from our options. Email Documentation: Send us a copy of your valid trade license and Emirates ID along with the dimensions of the stamp. Proof Approval: Receive the proof of the stamp design via email within minutes. Review and approve the design. Collection or Delivery: Collection: Your stamp will be ready for collection the same day, just 4 hours after approving the draft. Delivery: If you prefer delivery, ensure to approve the stamp draft by 2:00 pm for next-day delivery. Don't have a design yet? No problem!  Our helpful team can assist you in creating a custom stamp. Simply browse our website's Stamp category, choose a template, and email us the template code. We'll take care of the rest!"
+            " <ul><li><b>Get your custom stamp in just a few easy steps: </b></li> <li><b>Choose a Shape and Size:</b><ul><li> Select the preferred shape and size for your stamp from our options.</li></ul></li><li><b>Email Documentation:</b>Send us a copy of your valid trade license and Emirates ID along with the dimensions of the stamp.</li><li><b>Proof Approval:</b><ul><li>Receive the proof of the stamp design via email within minutes.</li><li>Review and approve the design.</li></ul></li><li><b>Collection or Delivery:</b><ul><li>Collection: Your stamp will be ready for collection the same day, just 4 hours after approving the draft. </li><li> Delivery: If you prefer delivery, ensure to approve the stamp draft by 2:00 pm for next-day delivery.</li></ul></li></ul> <p>Don't have a design yet? No problem! Our helpful team can assist you in creating a custom stamp. Simply browse our website's Stamp category, choose a template, and email us the template code. We'll take care of the rest!</p>"
           ]
         }
       ],

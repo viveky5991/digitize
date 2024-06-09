@@ -1,26 +1,39 @@
 import { CommonModule } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
+import { SwiperOptions } from 'swiper';
+import { SwiperModule } from 'swiper/angular';
+import { Animations } from '../../animation';
+import { PopupComponent } from '../../popup/popup.component';
 
 @Component({
   selector: 'app-imgcontent1',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule,],
+  imports: [HttpClientModule, CommonModule,RouterModule,SwiperModule],
   templateUrl: './imgcontent1.component.html',
-  styleUrl: './imgcontent1.component.scss'
+  styleUrl: './imgcontent1.component.scss',
+  animations: Animations
 })
 export class Imgcontent1Component implements OnInit{
   title: string | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
   digitizedata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient) { }
+  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if(url[0].path=='selfink-stamps'){
         this.title='Self Ink';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -84,5 +97,16 @@ export class Imgcontent1Component implements OnInit{
         this.title='Digitize'
       }
     })
+  }
+  EnquiryNow() {
+
+    const dialogRef = this.dialog.open(PopupComponent, {
+      width: '700px',
+      height:'620px'
+    });
+
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Dialog closed');
+    });
   }
 }

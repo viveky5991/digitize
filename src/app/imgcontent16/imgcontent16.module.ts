@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'rollup-banners', component: Imgcontent16Component },
   { path: 'x-banners', component: Imgcontent16Component },
   { path: 'banners-flex', component: Imgcontent16Component },
-  { path: 'fence-banners ', component: Imgcontent16Component },
+  { path: 'fence-banners', component: Imgcontent16Component },
   { path: 'lama-stand', component: Imgcontent16Component },
   
 ]

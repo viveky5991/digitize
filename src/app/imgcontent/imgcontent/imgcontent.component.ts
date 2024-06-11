@@ -33,7 +33,7 @@ export class ImgcontentComponent implements OnInit {
   }
   navload() {
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if (url[0].path == 'letter-heads') {
         console.log('envletter-headselopes');
         this.title = 'letter-heads'

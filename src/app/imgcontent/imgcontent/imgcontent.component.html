@@ -4,7 +4,7 @@
       <div class="row">
           <div class="col-md-12">
               <h1 class="lg-text">{{title}}</h1>
-              <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <!-- <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
           </div>
       </div>
   </div>
@@ -50,7 +50,9 @@
                           The <span>{{img.title}}</span>
                       </h2>
 
-                      <div class="content" [innerHTML]="img.description" ></div>
+                      <div class="content">
+                        <p  [innerHTML]="img.description" ></p>
+                      </div>
 
                       <!-- <div class="counter ">
                           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

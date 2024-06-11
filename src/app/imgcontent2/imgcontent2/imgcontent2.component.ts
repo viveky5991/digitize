@@ -20,8 +20,7 @@ export class Imgcontent2Component implements OnInit {
   }
   navload() {
     this._route.url.subscribe((url: any) => {
-      debugger
-      if (url[0].path == 'die-cut') {
+            if (url[0].path == 'die-cut') {
         console.log('die-cut');
 
         this.title = 'Die-Cut';

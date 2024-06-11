@@ -170,3 +170,36 @@
       -webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
       box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
   }
+  @media(max-width: 574px) {
+    .image-aboutus-banner {
+      padding-top: 75px;
+      padding-bottom: 75px;
+
+
+    }
+    .image-aboutus-banner h1 {
+      font-size: 30px;
+    }
+
+    .container h3 {
+      font-size: 23px;
+    }
+
+    .note ul li {
+
+      font-size: 14px;
+      text-align: justify;
+    }
+    .note h4{
+      font-size: 16px;
+    }
+    .content  p{
+      font-size: 16px;
+      line-height: 27px;
+      text-align: justify;
+  }
+  .aboutus-image img  {
+    // height: 430px;
+    // width: 100%;
+}
+  }

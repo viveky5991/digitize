@@ -91,7 +91,14 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
 
         })
       }else if(url[0].path=='certificates'){
-        this.title='certificates'
+        this.title='certificates';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.binding)
+          this.bindingdata = data.binding;
+
+
+        })
       }else if(url[0].path=='booklets'){
         this.title='booklets'
       }else if(url[0].path=='foil'){

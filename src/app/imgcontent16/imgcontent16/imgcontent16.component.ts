@@ -49,11 +49,21 @@ export class Imgcontent16Component  implements OnInit{
           this.digitizedata = data.fabricpopups;
         })
       }else if(url[0].path=='rollup-banners'){
-        this.title='rollup-banners'
+        this.title='ROLL UP BANNER';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.rollupbanners)
+          this.digitizedata = data.rollupbanners;
+        })
       }else if(url[0].path=='x-banners'){
         this.title='x-banners';
       }else if(url[0].path=='banners-flex'){
-        this.title='banners-flex';  
+        this.title='Banners Flex'; 
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.bannersflex)
+          this.digitizedata = data.bannersflex;
+        }) 
       }else if(url[0].path=='fence-banners'){
         this.title='fence-banners';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

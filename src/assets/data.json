@@ -2794,5 +2794,41 @@
         "../../../assets/img/window/window.png"
       ]
     }
+  ],
+  "rollupbanners": [
+    {
+      "list": [
+        {
+          "title": "ROLL UP BANNER",
+          "description": [
+            "<p>Our Roll up banners give you portability and flexibility in very little space. We offer High Quality, urgent, professional, quick printed graphic, with added Matt or Gloss lamination for protection and anti-glare benefits. Our Rollups / Pullups are highly durable and available at Affordable low prices. <br><br> With portable Roll-up banners the graphic is stored in the base on a roller. The graphic is simply pulled up and secured by hooking it onto the supporting pole. The Rollup banner literally takes seconds to assemble and is supplied in a carry bag for easy transportation.You can submit your own design or our professional designer team will help you Design your banner (Images and Text to be Supplied by the Client).</p>"
+           ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "bannersflex": [
+    {
+      "list": [
+        {
+          "title": "Banners Flex",
+          "description": [
+            "<p>Our banners in Dubai, UAE are great for outdoor ads and have bright colors and strong durability. They work well for grabbing attention and promoting your business effectively, as they are flexible and have high-quality printing that lasts a long time. <br><br> <strong>Usage : </strong>Ideal for outdoor use and excellent for indoor applications as well. <br><br> <strong>Purpose : </strong>Suitable for large-scale marketing efforts, trade shows, conferences, retail displays, and birthday banners.</p>"
+           ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
   ]
 }

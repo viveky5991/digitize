@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h1 class="lg-text">{{title}}</h1>
-                <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <!-- <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
             </div>
         </div>
     </div>
@@ -18,8 +18,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="aboutus-image float-left hidden-sm">
-                      <swiper [loop]="false" [allowTouchMove]="true" [autoplay]="{ delay: 3000, disableOnInteraction: false }"
-                      [pagination]="{ clickable: true }" [navigation]="true">
+                      <swiper [config]="config">
                       <ng-template data-swiper-autoplay="6000" swiperSlide *ngFor="let img of item.img">
                         <img [src]="img" alt="" class="w-100 swp">
                         <!-- <img src="../../assets/img/banner/banner.jpg" alt="img" class="swp" class="w-100"> -->

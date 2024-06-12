@@ -127,10 +127,10 @@
 
 
 
-<section>
+<section class="container">
 
-<div id="counter" [@fadeInOut]="{value:'*',params:{delay:'300ms',scale:'0.2'}}">
-  <div class="item" *ngFor="let item of countItems">
+<div id="counter" class="row" [@fadeInOut]="{value:'*',params:{delay:'300ms',scale:'0.2'}}">
+  <div class="item col-md" *ngFor="let item of countItems">
     <p class="count styp">{{ item.count }}{{item.sign}}</p>
     <p class="text styp1">{{ item.label }}</p>
   </div>

@@ -92,6 +92,9 @@ ul{
   .footer-col{
     width: 100%;
 }
+.mob{
+	display: none;
+}
 }
 .btn-template-main {
     background: #d93800;
@@ -143,6 +146,9 @@ ul{
 	}
 	.whatsapp{
 	  display: block;
+	}
+	.mob{
+		display: none;
 	}
   }
   @include media-breakpoint('lt-sm') {

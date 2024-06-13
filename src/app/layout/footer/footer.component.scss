@@ -1,34 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import "../../../assets/scss/variables";
-body{
+
+body {
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
-*{
-	margin:0;
-	padding:0;
+
+* {
+	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
-.container{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-ul{
+
+// .container {
+// 	max-width: 1170px;
+// 	margin: auto;
+// }
+
+// .row {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// }
+
+ul {
 	list-style: none;
 }
-.footer{
+
+.footer {
 	background-color: #f7abb1c7;
-    padding: 30px 0;
+	padding: 30px 0;
 }
-.footer-col{
-   width: 33.33%;
-   padding: 0 15px;
+
+.footer-col {
+	width: 33.33%;
+	padding: 0 15px;
 }
-.footer-col h4{
+
+.footer-col h4 {
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
@@ -36,21 +44,24 @@ ul{
 	font-weight: 500;
 	position: relative;
 }
-.footer-col h4::before{
+
+.footer-col h4::before {
 	content: '';
 	position: absolute;
-	left:0;
+	left: 0;
 	bottom: -10px;
 	background-color: #ffffff75;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
 }
-.footer-col ul li{
+
+.footer-col ul li {
 	margin-bottom: 10px;
 	color: #ffffff;
 }
-.footer-col ul li a{
+
+.footer-col ul li a {
 	font-size: 16px;
 	// text-transform: capitalize;
 	color: #ffffff;
@@ -60,103 +71,148 @@ ul{
 	display: block;
 	transition: all 0.3s ease;
 }
-.footer-col ul li a:hover{
+
+.footer-col ul li a:hover {
 	color: #ffffff;
 	padding-left: 8px;
 }
-.footer-col .social-links a{
+
+.footer-col .social-links a {
 	display: inline-block;
 	height: 40px;
 	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
-.footer-col .social-links a:hover{
+
+.footer-col .social-links a:hover {
 	color: #e91e63;
 	background-color: #ffffff;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-.mob{
-	display: none;
-}
-}
-.btn-template-main {
-    background: #d93800;
-    border: 1px solid #d93800 !important;
-    color: #fff !important;
-    border-radius: 100px !important;
-    text-decoration: none;
-    padding: 10px 10px;
-    margin-top: 15px;
+@media(max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
 }
 
-.textboxsty{
-    line-height: 2;
-    border-radius: 2px;
+@media(max-width: 574px) {
+	footer {
+		padding: 15px 0;
+	}
+
+	.footer-col {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+
+	.mob {
+		display: none;
+	}
+
+	.footer-col h4 {
+		margin-bottom: 20px;
+	}
+
+	.footer-col ul li a {
+		line-height: 15px;
+	}
+
+	.copy {
+		font-size: 12px;
+	}
+
+	.footer-col .social-links a {
+
+		height: 29px;
+		width: 29px;
+
+		margin: 0 5px 5px 0;
+
+		line-height: 29px;
+
+
+	}
 }
+
+.btn-template-main {
+	background: #d93800;
+	border: 1px solid #d93800 !important;
+	color: #fff !important;
+	border-radius: 100px !important;
+	text-decoration: none;
+	padding: 10px 10px;
+	margin-top: 15px;
+}
+
+.textboxsty {
+	line-height: 2;
+	border-radius: 2px;
+}
+
 .floatright {
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 30px;
-    right: 30px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 43px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 30px;
+	right: 30px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 43px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
 }
-.fa{
+
+.fa {
 	margin-right: 10px;
 }
-.copy{
+
+.copy {
 	text-align: center;
 	background-color: white;
 	color: black;
 	padding: 5px 0px;
 }
-.whatsapp{
+
+.whatsapp {
 	display: none;
-  }
-  .whatsapp-desk{
+}
+
+.whatsapp-desk {
 	display: block;
 
-  }
+}
+
 @include media-breakpoint('sm') {
-	.whatsapp-desk{
-	  display: none;
-	}
-	.whatsapp{
-	  display: block;
-	}
-	.mob{
+	.whatsapp-desk {
 		display: none;
 	}
-  }
-  @include media-breakpoint('lt-sm') {
-	.whatsapp{
-	  display: block;
+
+	.whatsapp {
+		display: block;
 	}
-	.whatsapp-desk{
-	  display: none;
+
+	.mob {
+		display: none;
+	}
+}
+
+@include media-breakpoint('lt-sm') {
+	.whatsapp {
+		display: block;
+	}
+
+	.whatsapp-desk {
+		display: none;
 
 	}
-  }
+}

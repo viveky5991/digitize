@@ -55,10 +55,14 @@
 }
 
 @media only screen and (max-width: 479px) {
-    .aboutus-content h2 {
-        font-size: 30px;
-        line-height: 30px;
-    }
+  .aboutus-content h2 {
+    font-size: 26px;
+    line-height: 15px;
+  }
+  .aboutus-area  {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 }
 
 .aboutus-content h2 span {
@@ -180,4 +184,37 @@
   background-color: rgba(240, 87, 100, 0.5019607843);
   -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
   box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+}
+
+@media(max-width: 574px) {
+  .image-aboutus-banner {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+  }
+
+  .image-aboutus-banner h1 {
+    font-size: 30px;
+  }
+
+  .container h3 {
+    font-size: 23px;
+  }
+
+  .aboutus-content ul li {
+
+    font-size: 14px;
+    text-align: justify;
+  }
+  .aboutus-content {
+    font-size: 14px;
+    text-align: justify;
+}
+  .aboutus-content h4{
+    font-size: 16px;
+  }
+  .aboutus-image img {
+    height: 200px;
+
+}
 }

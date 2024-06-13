@@ -3,14 +3,15 @@ import { RouterModule } from '@angular/router';
 import { Animations } from '../../animation'; 
 
 @Component({
-  selector: 'app-policy',
+  selector: 'app-terms',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './policy.component.html',
-  styleUrl: './policy.component.scss',
+  templateUrl: './terms.component.html',
+  styleUrl: './terms.component.scss',
   animations: Animations
 })
-export class PolicyComponent implements OnInit{
+
+export class TermsComponent implements OnInit{
   constructor(){}
   ngOnInit(): void {
     throw new Error('Method not implemented.');

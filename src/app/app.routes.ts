@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { PolicyComponent } from './policy/policy/policy.component';
+import { TermsComponent } from './policy/terms/terms.component';
 
 export const routes: Routes = [
   //
@@ -165,6 +166,7 @@ export const routes: Routes = [
   { path: 'Contact', component: ContactComponent },
   { path: 'About-us', component: AboutusComponent },
   { path: 'Privacy-Policy', component: PolicyComponent },
+  { path: 'Terms', component: TermsComponent },
 // // Wall-Vinyl,Wall-Graphics
 //   {
 //     path:'',

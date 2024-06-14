@@ -275,3 +275,13 @@ h5{
     text-transform: capitalize;
   }
 
+  @media(max-width: 574px) {
+    .section_all{
+      padding-top: 0px;
+      padding-bottom: 0px;
+      min-height: 100vh;
+    }
+    .aboutSty {
+      padding-top: 30px;
+  }
+  }

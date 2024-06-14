@@ -165,8 +165,12 @@ export const routes: Routes = [
 //   },
   { path: 'Contact', component: ContactComponent },
   { path: 'About-us', component: AboutusComponent },
-  { path: 'Privacy-Policy', component: PolicyComponent },
-  { path: 'Terms', component: TermsComponent },
+  // { path: 'Privacy-Policy', component: PolicyComponent },
+  // { path: 'Terms', component: TermsComponent },
+  {
+    path: '',
+    loadChildren: () => import('./policy/policy.module').then(m => m.PolicyModule)
+  },
 // // Wall-Vinyl,Wall-Graphics
 //   {
 //     path:'',

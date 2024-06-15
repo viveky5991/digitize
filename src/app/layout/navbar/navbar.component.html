@@ -45,9 +45,9 @@
 
             <button mat-menu-item [matMenuTriggerFor]="stationary">Stationary & Corporate Identity Stationary</button>
             <button mat-menu-item [matMenuTriggerFor]="seals">Seals</button>
-            <button mat-menu-item (click)="navigate('/voucher')">Voucher Books</button>
+            <button mat-menu-item (click)="navigate('/voucher')" (click)="toggleMenu()">Voucher Books</button>
             <button mat-menu-item [matMenuTriggerFor]="brochures">Brochures & Flyers</button>
-            <button mat-menu-item (click)="navigate('/hang-tag')">Hang Tags</button>
+            <button mat-menu-item (click)="navigate('/hang-tag')" (click)="toggleMenu()">Hang Tags</button>
             <button mat-menu-item [matMenuTriggerFor]="crowd">Promo Print</button>
             <button mat-menu-item [matMenuTriggerFor]="stickers">Stickers</button>
           </mat-menu>

@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 import { PopupComponent } from '../../popup/popup.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 SwiperCore.use([Pagination, EffectCoverflow]);
-import SwiperCore , {
+import SwiperCore, {
   Navigation,
   Pagination,
   Scrollbar,
@@ -37,11 +37,11 @@ SwiperCore.use([
 @Component({
   selector: 'app-bannercontent',
   standalone: true,
-  imports: [SwiperModule,CarouselModule,CollapseModule,CommonModule,HttpClientModule],
+  imports: [SwiperModule, CarouselModule, CollapseModule, CommonModule, HttpClientModule],
   templateUrl: './bannercontent.component.html',
   styleUrl: './bannercontent.component.scss'
 })
-export class BannercontentComponent implements OnInit, AfterViewInit{
+export class BannercontentComponent implements OnInit, AfterViewInit {
   title: string | undefined;
   swiper: Swiper | undefined;
   config: SwiperOptions = {
@@ -54,7 +54,8 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
 
 
   bindingdata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient,public dialog: MatDialog) { }
+  contentinfo: any;
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog) { }
   ngOnInit(): void {
 
     this.navload()
@@ -78,37 +79,49 @@ export class BannercontentComponent implements OnInit, AfterViewInit{
       },
     });
   }
-  navload(){
+  navload() {
     this._route.url.subscribe((url: any) => {
       debugger
-      if(url[0].path=='binding'){
-        this.title='binding'
+      if (url[0].path == 'binding') {
+        this.title = 'binding'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
-
           console.log(data.binding)
           this.bindingdata = data.binding;
-
-
         })
-      }else if(url[0].path=='certificates'){
-        this.title='certificates';
+      } else if (url[0].path == 'certificates') {
+        this.title = 'Certificates';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
-
+          console.log(data.certificates)
+          this.bindingdata = data.certificates;
+          this.bindingdata.forEach((element: any) => {
+            debugger
+            if(element[0]){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            }
+          });
+        })
+      } else if (url[0].path == 'booklets') {
+        this.title = 'booklets';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.binding)
           this.bindingdata = data.binding;
-
-
         })
-      }else if(url[0].path=='booklets'){
-        this.title='booklets'
-      }else if(url[0].path=='foil'){
-        this.title='foil'
-      }else{
-        this.title='Digitize'
+      } else if (url[0].path == 'foil') {
+        this.title = 'foil';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+          console.log(data.binding)
+          this.bindingdata = data.binding;
+        })
+      } else {
+        this.title = 'Digitize'
       }
     })
   }
-  onSwiper(swiper:any) {
+  onSwiper(swiper: any) {
     console.log(swiper);
   }
   onSlideChange() {

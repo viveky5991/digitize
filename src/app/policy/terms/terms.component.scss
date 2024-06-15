@@ -1,12 +1,29 @@
-.privacy{
-    padding-top:90px;
+.terms {
+    padding-top: 90px;
     padding-bottom: 90px;
+}
+
+.terms h1 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.terms ul li {
+    text-align: justify;
+    font-size: 18px;
+    list-style: lower-latin;
+}
+
+@media(max-width: 574px) {
+    .terms {
+        // padding-top: 60px;
+        padding-bottom: 30px;
     }
-    .privacy h1{
-        text-align: center;
-        padding: 10px 0px;
+    
+    ol ul {
+        padding: 0px 15px;
     }
-    .privacy p{
-        text-align: justify;
-        font-size: 18px;
+    .terms ul li {
+        font-size: 14px;
     }
+}

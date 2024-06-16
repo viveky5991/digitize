@@ -81,28 +81,33 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
   }
   navload() {
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if (url[0].path == 'binding') {
         this.title = 'binding'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
-          console.log(data.binding)
+          // console.log(data.binding)
           this.bindingdata = data.binding;
         })
       } else if (url[0].path == 'certificates') {
         this.title = 'Certificates';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.certificates)
-          this.bindingdata = data.certificates;
-          this.bindingdata.forEach((element: any) => {
-            debugger
+          this.bindingdata = [];
+          this.contentinfo=[]
+          data.certificates.forEach((element: any) => {
+
             if(element[0]){
-              this.contentinfo=[element]
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
               // this.titleService.setTitle('Business-card');
               // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
               // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.bindingdata.push(element)
             }
           });
+          console.log(this.bindingdata)
         })
       } else if (url[0].path == 'booklets') {
         this.title = 'booklets';

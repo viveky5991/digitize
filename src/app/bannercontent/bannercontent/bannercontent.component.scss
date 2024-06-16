@@ -327,3 +327,9 @@ img {
 	box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
 }
 
+@media(max-width: 574px) {
+  .main{
+    padding-top: 2px;
+     padding-bottom: 2px;
+  }
+}

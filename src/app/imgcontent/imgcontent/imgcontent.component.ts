@@ -35,8 +35,7 @@ export class ImgcontentComponent implements OnInit {
     this._route.url.subscribe((url: any) => {
 
       if (url[0].path == 'letter-heads') {
-        console.log('envletter-headselopes');
-        this.title = 'letter-heads'
+        this.title = 'Letterhead'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.letter_heads)

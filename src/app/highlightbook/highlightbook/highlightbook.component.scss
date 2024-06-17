@@ -40,7 +40,7 @@ h6 {
 	color: #282936;
 }
 
-#services .title {
+ .title {
 	font-size: 46px;
 	color: #000000;
 	font-weight: 600;
@@ -106,8 +106,8 @@ h6 {
 	margin-top: 26px;
 	margin-bottom: 15px;
 }
-@media (max-width: 574){
-  #services .title {
+@media(max-width: 574px) {
+  .title {
     font-size: 30px;
     color: #000000;
     font-weight: 600;

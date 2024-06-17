@@ -110,16 +110,46 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
           console.log(this.bindingdata)
         })
       } else if (url[0].path == 'booklets') {
-        this.title = 'booklets';
-        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
-          console.log(data.binding)
-          this.bindingdata = data.binding;
+        this.title = 'Booklets & Catalogues';
+         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+          console.log(data.booklets)
+          this.bindingdata = [];
+          this.contentinfo=[]
+          data.booklets.forEach((element: any) => {
+
+            if(element[0]){
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
+              console.log(this.contentinfo)
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.bindingdata.push(element)
+            }
+          });
+          console.log(this.bindingdata)
         })
       } else if (url[0].path == 'foil') {
-        this.title = 'foil';
-        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
-          console.log(data.binding)
-          this.bindingdata = data.binding;
+        this.title = 'Foil Stickers';
+       this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+          console.log(data.foil)
+          this.bindingdata = [];
+          this.contentinfo=[]
+          data.foil.forEach((element: any) => {
+
+            if(element[0]){
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
+              console.log(this.contentinfo)
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.bindingdata.push(element)
+            }
+          });
+          console.log(this.bindingdata)
         })
       } else {
         this.title = 'Digitize'

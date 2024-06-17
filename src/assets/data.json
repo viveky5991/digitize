@@ -2057,12 +2057,86 @@
     },
     [
       {
-        "description":[
+        "description": [
           "<p>Reward excellence with premium certificate printing from printed.com. Whether for standout employees, educational achievements, or exemplary performance, trust us to produce professional certificates on the finest papers with state-of-the-art presses. Elevate your business or institution and create keepsakes worthy of pride.</p>"
         ]
       }
     ]
-
+  ],
+  "booklets": [
+    {
+      "title": "Hardcover Or Case Binding",
+      "img": "../../../assets/img/Binding/new/Hardcover-or-case-binding-768x386.png"
+    },
+    {
+      "title": "Interscrew Binding",
+      "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
+    },
+    {
+      "title": "Perfect Binding",
+      "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
+    },
+    {
+      "title": "Saddle Stitch Binding",
+      "img": "../../../assets/img/Binding/new/Saddle-stitch-binding-768x386.png"
+    },
+    {
+      "title": "Section Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Singer Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Solander Boxes And Slipcases",
+      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
+    },
+    {
+      "title": "Wiro Comb Or Spiral Binding",
+      "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
+    },
+    [
+      {
+        "description": [
+          "<p>Magazines are an effective marketing tool to engage your target market. They effectively showcase your brands, enhancing and sustaining your business's image through powerful advertising.</p>"
+        ]
+      }
+    ]
+  ],
+  "foil": [
+    {
+      "title": "Hardcover Or Case Binding",
+      "img": "../../../assets/img/Binding/new/Hardcover-or-case-binding-768x386.png"
+    },
+    {
+      "title": "Interscrew Binding",
+      "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
+    },
+    {
+      "title": "Perfect Binding",
+      "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
+    },
+    {
+      "title": "Saddle Stitch Binding",
+      "img": "../../../assets/img/Binding/new/Saddle-stitch-binding-768x386.png"
+    },
+    {
+      "title": "Section Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Singer Sewn Binding",
+      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
+    },
+    {
+      "title": "Solander Boxes And Slipcases",
+      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
+    },
+    {
+      "title": "Wiro Comb Or Spiral Binding",
+      "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
+    }
   ],
   "pen": [
     {

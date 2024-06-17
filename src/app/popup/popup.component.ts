@@ -38,6 +38,14 @@ export class PopupComponent implements OnInit {
       console.log('Form is invalid, please check all fields.');
     }
   }
+  
+  onLoad() {
+    const url = window.location.href;
+    const webUrlControl = this.contactForm.get('webUrl');
+    if (webUrlControl) {
+      webUrlControl.setValue(url);
+    }
+  }
 
 
 

@@ -11,31 +11,31 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .aboutus-image {
-      margin-right: 35px;
-      width: 345px;
+    margin-right: 35px;
+    width: 345px;
   }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .aboutus-image {
-      margin-bottom: 30px;
-      float: none;
+    margin-bottom: 30px;
+    float: none;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .aboutus-image {
-      margin-bottom: 30px;
-      margin-right: 0;
-      float: none;
-      width: auto;
+    margin-bottom: 30px;
+    margin-right: 0;
+    float: none;
+    width: auto;
   }
 
   .hidden-sm {
-      display: block !important;
-      width: 340px;
-      height: 85%;
+    display: block !important;
+    width: 340px;
+    height: 85%;
   }
 }
 
@@ -92,58 +92,62 @@
 
 @media only screen and (max-width: 767px) {
   .counter .single-counter {
-      width: 50%;
+    width: 50%;
   }
 
   .counter .single-counter+.single-counter {
-      border-left: none
+    border-left: none
   }
 
   .counter .single-counter h2 {
-      font-size: 30px;
-      color: #71b100;
-      line-height: 24px;
-      font-family: "Open Sans", sans-serif;
-      margin-bottom: 8px;
+    font-size: 30px;
+    color: #71b100;
+    line-height: 24px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 8px;
   }
 
   .counter .single-counter p {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 0;
-      color: #8f8f8f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #8f8f8f;
   }
 }
+
 .image-aboutus-banner {
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../../assets/img/window/bck.png");
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../../assets/img/window/bck.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
   padding-top: 110px;
-  padding-bottom:110px;
+  padding-bottom: 110px;
   margin-top: 4.3em;
 }
 
 .image-aboutus-sm-banner {
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../../assets/img/banner/tshirt.jpg");
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../../../assets/img/banner/tshirt.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   color: #fff;
   padding-top: 30px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
 }
+
 .lg-text {
-  font-size:52px;
+  font-size: 52px;
   font-weight: 600;
   text-transform: none;
-  color:#fff;
+  color: #fff;
 }
+
 .image-aboutus-para {
-  color:#fff;
+  color: #fff;
 }
-.list-btn{
+
+.list-btn {
   margin-right: auto;
   margin-left: auto;
   display: block;
@@ -151,6 +155,7 @@
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
 .btn-primary {
   color: #fff;
   background-color: rgba(240, 87, 100, 0.5019607843);
@@ -158,7 +163,7 @@
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: capitalize;
-  padding:8px 20px;
+  padding: 8px 20px;
   min-width: 150px;
   transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -166,11 +171,13 @@
   -ms-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
 }
+
 .btn-primary:hover {
-    -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
-    box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
-    background-color: rgba(240, 87, 100, 0.768);
+  -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+  box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+  background-color: rgba(240, 87, 100, 0.768);
 }
+
 .btn-primary:focus {
   background-color: rgba(240, 87, 100, 0.5019607843);
   -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
@@ -183,10 +190,12 @@
     padding-bottom: 60px;
 
   }
+
   .aboutus-area {
     padding-top: 30px;
     padding-bottom: 30px;
-}
+  }
+
   .image-aboutus-banner h1 {
     font-size: 30px;
   }
@@ -200,15 +209,24 @@
     font-size: 14px;
     text-align: justify;
   }
+
   .aboutus-content {
     font-size: 14px;
     text-align: justify;
-}
-  .aboutus-content h4{
+  }
+
+  .aboutus-content h4 {
     font-size: 16px;
   }
-  .aboutus-image img {
-    height: 45vh;
 
-}
+  .aboutus-image img {
+    height: 35vh;
+
+  }
+
+  .hidden-sm {
+
+    width: 100%;
+    height: 50%;
+  }
 }

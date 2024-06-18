@@ -90,8 +90,6 @@ export class Imgcontent11Component implements OnInit{
 
 
         })
-      }else if(url[0].path=='NeckTie'){
-        this.title='NeckTie'
       }else if(url[0].path=='SafetyVest'){
         this.title='SafetyVest';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { StationaryModule } from '../stationary.module';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SharedService } from '../../service/shared-service.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT, Location } from '@angular/common';
 import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
 import { Meta, Title } from '@angular/platform-browser';
@@ -23,12 +23,16 @@ export class StationarylistingComponent implements OnInit {
 
   digitizedata: any;
   contentinfo: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title) { }
+  fullUrl: any;
+  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title, private location: Location, @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
     debugger
+    this.fullUrl = this.getFullUrl();
+    console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-
+      // const urlweb = window.location.href;
+      // console.log(urlweb)
       if (url[0].path == 'business-cards') {
         // this.data = this.service.getData();
         // console.log(this.data)
@@ -131,14 +135,23 @@ export class StationarylistingComponent implements OnInit {
   navigate(path:string){
     this._router.navigateByUrl(path);
   }
+   getFullUrl() {
+    const protocol = this.document.location.protocol;
+    const host = this.document.location.host;
+    const path = this.location.prepareExternalUrl(this.location.path());
+    return `${protocol}//${host}${path}`;
+  }
+
   EnquiryNow() {
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
+    const dataToPass = { webUrl: this.fullUrl };
     const dialogRef = this.dialog.open(PopupComponent, {
       width: '900px',
+      data:dataToPass
     });
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary

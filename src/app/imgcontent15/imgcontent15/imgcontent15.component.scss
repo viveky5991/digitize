@@ -184,3 +184,49 @@
     -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
     box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
 }
+@media(max-width: 574px) {
+    .image-aboutus-banner {
+      padding-top: 60px;
+      padding-bottom: 60px;
+  
+    }
+  
+    .aboutus-area {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    .image-aboutus-banner h1 {
+      font-size: 30px;
+    }
+  
+    .container h3 {
+      font-size: 23px;
+    }
+  
+    .aboutus-content ul li {
+  
+      font-size: 14px;
+      text-align: justify;
+    }
+  
+    .aboutus-content {
+      font-size: 14px;
+      text-align: justify;
+    }
+  
+    .aboutus-content h4 {
+      font-size: 16px;
+    }
+  
+    .aboutus-image img {
+      height: 35vh;
+  
+    }
+  
+    .hidden-sm {
+  
+      width: 100%;
+      height: 50%;
+    }
+  }

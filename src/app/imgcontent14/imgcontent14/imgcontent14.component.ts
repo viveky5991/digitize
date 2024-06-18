@@ -22,7 +22,7 @@ export class Imgcontent14Component implements OnInit{
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-      debugger
+
       this._route.fragment.subscribe(fragment => {
         if (fragment) {
           this.scrollToFragment(fragment);

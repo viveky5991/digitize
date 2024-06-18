@@ -2,20 +2,33 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { MatDialog } from '@angular/material/dialog';
+import { SwiperOptions } from 'swiper';
+import { SwiperModule } from 'swiper/angular';
+import { Animations } from '../../animation';
+import { PopupComponent } from '../../popup/popup.component';
 
 @Component({
   selector: 'app-imgcontent11',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule],
+  imports: [SwiperModule, CommonModule,RouterModule],
   templateUrl: './imgcontent11.component.html',
-  styleUrl: './imgcontent11.component.scss'
+  styleUrl: './imgcontent11.component.scss',
+  animations: Animations
 })
 export class Imgcontent11Component implements OnInit{
   title: string | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
   digitizedata: any;
-  constructor(public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient) { }
+  constructor(public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
   navload(){
@@ -92,6 +105,16 @@ export class Imgcontent11Component implements OnInit{
         this.title='Digitize'
       }
     })
+  }
+  EnquiryNow() {
+
+    const dialogRef = this.dialog.open(PopupComponent, {
+      width: '900px',
+    });
+
+    dialogRef.afterClosed().subscribe(() => {
+      console.log('Dialog closed');
+    });
   }
 }
 

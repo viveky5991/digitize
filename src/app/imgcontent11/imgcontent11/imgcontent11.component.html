@@ -1,68 +1,85 @@
-<div class="image-aboutus-banner">
-    <!-- style="margin-top:70px" -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h1 class="lg-text">{{title}}</h1>
-                <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </div>
-    </div>
+<div class="image-aboutus-banner" [@fadeInOut]="{value:'*',params:{delay:'300ms',scale:'0.2'}}" >
+  <!-- style="margin-top:70px" -->
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h1 class="lg-text">{{title}}</h1>
+              <!-- <p class="image-aboutus-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+          </div>
+      </div>
+  </div>
 </div>
-    
 
-<div class="aboutus-area">
-    <div class="container" *ngFor="let item of digitizedata">
 
-        <div class="col-xs-12">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="aboutus-image float-left hidden-sm" *ngFor="let img of item.img">
-                        <img [src]="img" alt="" class="w-100">
-                        <!-- <img src="../../../assets/img/ticketcoupen/coupon-and-tickets.jpg" alt="" class=""> -->
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let img of item.list">
-                    <div class="aboutus-content ">
-                        <h2>
-                            <p><span>{{title}}</span></p>
-                            The <span> {{img.title}}</span>
-                        </h2>
-                        <p>{{img.description}}</p>
-                        <p>{{img.description1}}</p>
-                        <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                            there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-                            Semantics, a large language ocean.</p>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
-                            It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
+<div class="aboutus-area" [@fadeInOut]="{value:'*',params:{delay:'300ms',scale:'0.2'}}">
+  <div class="container" *ngFor="let item of digitizedata">
 
-                        <!-- <div class="counter ">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <div class="single-counter text-center">
-                                    <h2 class="counter"><span>15</span></h2>
-                                    <p>YEARS OF EXPERIENCED</p>
-                                </div>
+      <div class="col-xs-12">
+          <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                  <div class="aboutus-image float-left hidden-sm">
+                    <swiper [loop]="false" [allowTouchMove]="true" [autoplay]="{ delay: 3000, disableOnInteraction: false }"
+                    [pagination]="{ clickable: true }" [navigation]="true">
+                    <ng-template data-swiper-autoplay="6000" swiperSlide *ngFor="let img of item.img">
+                      <img [src]="img" alt="" class="w-100 swp">
+                      <!-- <img src="../../assets/img/banner/banner.jpg" alt="img" class="swp" class="w-100"> -->
+                    </ng-template>
 
-                                <div class="single-counter text-center">
-                                    <h2 class="counter"><span>100</span></h2>
-                                    <p>WEBSITES COMPLETED</p>
-                                </div>
+                    <!-- <ng-template data-swiper-autoplay="10000" class="" swiperSlide>
+                      <img src="../../assets/img/banner/flag.jpg" alt="img" class="swp" class="w-100">
+                      <img src="https://www.dlxprint.com/img/stickers_wall_dubai_slider.png" alt="img" class="img-thumbnail">
+                    </ng-template>
 
-                                <div class="single-counter text-center">
-                                    <h2 class="counter"><span>5</span></h2>
-                                    <p>AWARDS WON</p>
-                                </div>
+                    <ng-template data-swiper-autoplay="60000" swiperSlide>
+                      <img src="../../assets/img/banner/tshirt.jpg" alt="img" class="swp" class="w-100">
+                      <img src="../../assets/img/logo/about.png" alt="img">
 
-                                <div class="single-counter text-center">
-                                    <h2 class="counter"><span>10</span></h2>
-                                    <p>CLIENTS</p>
-                                </div>
-                            </div>
-                        </div> -->
+                    </ng-template>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+                    <ng-template data-swiper-autoplay="60000" swiperSlide>
+                     <img src="../../assets/img/logo/about.png" alt="img">
+                    </ng-template> -->
+
+                  </swiper>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let img of item.list">
+                  <div class="aboutus-content ">
+                      <h2>
+                          <p><span>{{title}}</span></p>
+                          The <span>{{img.title}}</span>
+                      </h2>
+
+                      <div class="content" [innerHTML]="img.description" ></div>
+
+                      <!-- <div class="counter ">
+                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                              <div class="single-counter text-center">
+                                  <h2 class="counter"><span>15</span></h2>
+                                  <p>YEARS OF EXPERIENCED</p>
+                              </div>
+
+                              <div class="single-counter text-center">
+                                  <h2 class="counter"><span>100</span></h2>
+                                  <p>WEBSITES COMPLETED</p>
+                              </div>
+
+                              <div class="single-counter text-center">
+                                  <h2 class="counter"><span>5</span></h2>
+                                  <p>AWARDS WON</p>
+                              </div>
+
+                              <div class="single-counter text-center">
+                                  <h2 class="counter"><span>10</span></h2>
+                                  <p>CLIENTS</p>
+                              </div>
+                          </div>
+                      </div> -->
+
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <button class="btn btn-primary list-btn" (click)="EnquiryNow()">Enquire Now</button>
 </div>

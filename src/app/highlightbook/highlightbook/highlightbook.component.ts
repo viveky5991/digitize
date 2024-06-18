@@ -22,7 +22,7 @@ export class HighlightbookComponent implements OnInit{
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if(url[0].path=='brochures'){
         this.title='Brochures';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

@@ -1,5 +1,5 @@
 import { Component, Inject, OnInit } from '@angular/core';
-import {MAT_DIALOG_DATA, MatDialog, MatDialogModule} from '@angular/material/dialog';
+import {MAT_DIALOG_DATA, MatDialog, MatDialogModule, MatDialogRef} from '@angular/material/dialog';
 import {MatButtonModule} from '@angular/material/button';
 
 import { FormBuilder, FormGroup, FormsModule, NgForm, Validators,ReactiveFormsModule } from '@angular/forms';
@@ -16,21 +16,22 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 export class PopupComponent implements OnInit {
   //constructor(public dialog: MatDialog) {}
   contactForm: any;
- data: any;
+//  data: any;
  
-  constructor(private fb: FormBuilder ,public dialog: MatDialog) {
+  constructor(private fb: FormBuilder ,public dialog: MatDialog,  public dialogRef: MatDialogRef<any>,
+    @Inject(MAT_DIALOG_DATA) public data: string,) {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       phone: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       requirement: ['', Validators.required],
-      urlweb:[this.data.webUrl],
+      urlweb:[this.data],
       message: ['', Validators.required]
     });
   }
 
   ngOnInit(): void {
-    console.log("this.data.webUrl",this.data.webUrl);
+    console.log("this.data.webUrl",this.data);
   }
 
   onSubmit() {

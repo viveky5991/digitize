@@ -425,6 +425,192 @@
       ]
     }
   ],
+  "usb": [
+    {
+      "id": 1,
+      "title": "Crystal USB",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "Corporate Card USB",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "Premium Silver Card USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "Twister USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "title": "Wooden USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 6,
+      "title": "3D USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+
+    {
+      "id": 7,
+      "title": "Metal USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 8,
+      "title": "Round USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 9,
+      "title": "Pen USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Metal Clip USB",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+           
+          ]
+        }
+      ]
+    }
+  ],
+  "flagbase": [
+    {
+      "id": 1,
+      "title": "Round Concrete Base (25 kgs)",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 2,
+      "title": "Square Concrete Base (25kgs)",
+      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 3,
+      "title": "Round Concrete Base (50 kgs)",
+      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 4,
+      "title": "Metal Base with Concrete Filling (50 kgs)",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "title": "Square Concrete Base (75 kgs)",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 6,
+      "title": "Square Concrete Base (160 kgs)",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+
+    {
+      "id": 7,
+      "title": "Pyramid Concrete Base (250kgs)",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 8,
+      "title": "Water Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 9,
+      "title": "Fiber Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Metal Base - Round",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Metal Base - Square",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Spike Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Chrome Plated Cross Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "White Cross Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Forex Cover Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "T-550 Water Base",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 10,
+      "title": "Clamps",
+      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+           
+          ]
+        }
+      ]
+    }
+  ],
   "repositionable": [
     {
       "id": 1,
@@ -2154,6 +2340,22 @@
       ]
     }
   ],
+  "PUNotebooks": [
+    {
+      "list": [
+        {
+          "title": "PU Notebooks",
+          "description": [
+            "<p>Now give a complete gift set to your friend and family with our PU Notebook that can be accompanied by a personalied pen and card USB. You may refer to our USB and Pen pages to select the model of your choice.</p><ul><li><strong>Features</strong></li><ul><li>Size: A5 & A6</li><li>Soft feel PU material</li><li>Elastic Closure</li><li>80 Ruled Sheets</li><li>70 gsm Ivory White Paper</li><li>Book Mark and Pen Holder</li></ul></ul>"
+          ]
+
+        }
+      ],
+      "img": [
+        "../../../assets/img/OfficeEssentials/pen.webp"
+      ]
+    }
+  ],
   "PUOrganizer": [
     {
       "list": [
@@ -2303,6 +2505,23 @@
           "title": "Lanyards",
           "description": [
             "<p>Our range of lanyards combines elegance, safety, and convenience. We offer stylish metal crimps, durable hooks, and breakaway elements for added safety. Customize your lanyards with reflective printing, custom designs, and various materials and colors using our easy tool. Experience the difference with Deluxe Printing's custom-made lanyards today!<br><br>Lanyards are ideal for ID cards at conferences, corporate offices, and classrooms. They provide easy access to badges and offer branding and customization opportunities.</p><ul><li><strong> Specification:</strong><ul><li>Width: 20mm</li><li>4-color printing on a customized background</li><li>Double-sided printing</li><li>Vivid colors</li><li>Sharp results for small fonts and graphics</li><li>Closest match to Pantone shades</li><li>Edge-to-edge printing</li></ul></li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "IDCardsBadgeReel": [
+    {
+      "list": [
+        {
+          "title": "ID Cards & Badge Reel",
+          "description": [
+            "<p> ID cards are best to use in event passes, visitor information, membership or loyalty cards, photo identification, and workplace aesthetics. Option to print single or double-sided in either landscape or portrait layouts with your choice of customizable designs and colors which can be provided by you or can be managed by our professional design team.</p><ul><li><strong> ID card sizes:</strong><ul><li>8.6 X 5.4 cms</li><li>9.8 X 6.7 cms</li><li>12.4 X 8.6 cms</li><li>Other custom sizes also available depending on quantity</li></ul></li></ul><ul><li><strong>Features</strong></li><ul><li>Thick PVC ID card</li><li>Full color UV print</li><li> Stain resistant with full-color personalized design</li><li>Color matching to suit any style guide or individual needs</li><li> Quick turnaround based on product selected</li><li> Custom badge designs as required to suit any needs</li><li> Protective covers, lanyards, slot punching and more as required</li></ul></ul>"
           ]
         }
       ],
@@ -2725,7 +2944,7 @@
     {
       "list": [
         {
-          "title": "Wooden frame Backdrop",
+          "title": "Wooden Frame Backdrop",
           "description": [
             "<ul><li><strong>Specifications:</strong></li><ul><li><strong>Starting Size:</strong> 2 x 2.3 mtr</li><li>Can be customised in various sizes</li></ul></ul><ul><li><strong>Usage  :</strong> Indoor/Outdoor Events, Conference, Exhibitions and Parties.</li><li><strong>Frame   :</strong>Wooden</li><li><strong>Material and Print:</strong>PVC Banner, Single Side Printing</li><li><strong>Installation/Removal:</strong>To be done by Deluxe team.</li><li><strong>Carpet Option  :</strong>Available</li></ul>"
           ]
@@ -2742,7 +2961,7 @@
     {
       "list": [
         {
-          "title": "Step and Repeat Backdrop",
+          "title": "Step And Repeat Backdrop",
           "description": [
             "<table class='table table-hover'><thead><tr><th>Size</th><th>Print Area</th><th>Weight</th></tr></thead><tbody><tr><td>Regular</td><td>2.4 x 2.4m</td><td>8 kgs</td></tr><tr><td>Large</td><td>3 x 3m</td><td>13 kgs</td></tr></tbody></table> <ul><li>Maximum size : Width 240cms X Height 240cms</li><li>Minimum size : Width 133cms x Height 92cms (adjustable)</li><li>Easy and quick to set-up and dismantle</li><li>PVC Banner rolled in length of 2.4mtrs to avoid creasing</li><li>Banner can be folded as well</li><li>Collapsible Structure</li><li>Good for one side branding</li><li>Portable and light weight</li><li>Choice of carpet (Optional)</li></ul></ul><ul><li><strong>Usage  :</strong> Indoor/Outdoor Events, Conference, Exhibitions and Parties.</li><li><strong>Frame   :</strong>Aluminum (Black)</li><li><strong>Material and Print:</strong>PVC Banner, Single Side Printing</li><li><strong>Packaging:</strong> Comes in a Carry Bag</li><li><strong>Installation and Removal :</strong>User Friendly</li></ul>"
           ]
@@ -2847,6 +3066,23 @@
           "title": "ROLL UP BANNER",
           "description": [
             "<p>Our Roll up banners give you portability and flexibility in very little space. We offer High Quality, urgent, professional, quick printed graphic, with added Matt or Gloss lamination for protection and anti-glare benefits. Our Rollups / Pullups are highly durable and available at Affordable low prices. <br><br> With portable Roll-up banners the graphic is stored in the base on a roller. The graphic is simply pulled up and secured by hooking it onto the supporting pole. The Rollup banner literally takes seconds to assemble and is supplied in a carry bag for easy transportation.You can submit your own design or our professional designer team will help you Design your banner (Images and Text to be Supplied by the Client).</p>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/3d/Unlit3d.webp",
+        "../../../assets/img/window/window.png",
+        "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "xbanners": [
+    {
+      "list": [
+        {
+          "title": "X Banners",
+          "description": [
+            "<ul><li><strong>Sizes</strong></li><ul><li>60 x 160cms</li><li>80 x 180cms</li></ul></ul>"
           ]
         }
       ],

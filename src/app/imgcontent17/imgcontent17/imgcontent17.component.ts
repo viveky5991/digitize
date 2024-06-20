@@ -36,7 +36,7 @@ export class Imgcontent17Component  implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='wooden-backdrop'){
-        this.title='Wooden frame Backdrop';
+        this.title='Wooden Frame Backdrop';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.woodenbackdrop)

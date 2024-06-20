@@ -30,7 +30,7 @@ export class Imgcontent12Component implements OnInit{
   ngOnInit(): void {
    
     this.navload()
-  }
+  } 
   navload(){
     this._route.url.subscribe((url: any) => {
       
@@ -56,7 +56,12 @@ export class Imgcontent12Component implements OnInit{
           this.digitizedata = data.Lanyards;
         })
       }else if(url[0].path=='IDCardsBadgeReel'){
-        this.title='IDCardsBadgeReel'
+        this.title='ID Cards & Badge Reel';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.IDCardsBadgeReel)
+          this.digitizedata = data.IDCardsBadgeReel;
+        })
       }else if(url[0].path=='Keychain'){
         this.title='Customized Keychain';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

@@ -8,6 +8,10 @@ const routes: Routes = [
   { path: 'helmet', component: ListingComponent },
   { path: 'floor-stickers', component: ListingComponent },
   { path: 'posters', component: ListingComponent },
+  { path: 'USB', component: ListingComponent },
+  { path: 'USB', component: ListingComponent },
+  { path: 'flag-base', component: ListingComponent }
+
   // { path: 'repositionable', component: ListingComponent }
 ];
 

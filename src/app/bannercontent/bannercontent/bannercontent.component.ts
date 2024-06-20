@@ -1,9 +1,9 @@
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { SwiperModule } from 'swiper/angular';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { PopupComponent } from '../../popup/popup.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 SwiperCore.use([Pagination, EffectCoverflow]);
@@ -22,6 +22,7 @@ import SwiperCore, {
   EffectCoverflow,
 
 } from 'swiper';
+import { Location } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 SwiperCore.use([
   Navigation,
@@ -55,7 +56,8 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
 
   bindingdata: any;
   contentinfo: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog) { }
+  fullUrl: any;
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog , private location: Location, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
 
     this.navload()
@@ -79,7 +81,16 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
       },
     });
   }
+  getFullUrl() {
+    const protocol = this.document.location.protocol;
+    const host = this.document.location.host;
+    const path = this.location.prepareExternalUrl(this.location.path());
+    return `${protocol}//${host}${path}`;
+  }
+
   navload() {
+    this.fullUrl = this.getFullUrl();
+    console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
 
       if (url[0].path == 'binding') {

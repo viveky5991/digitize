@@ -23,7 +23,7 @@ import SwiperCore, {
 
 } from 'swiper';
 import { Location } from '@angular/common';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 SwiperCore.use([
   Navigation,
   Pagination,
@@ -57,7 +57,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
   bindingdata: any;
   contentinfo: any;
   fullUrl: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog , private location: Location, @Inject(DOCUMENT) private document: Document) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
 
     this.navload()
@@ -104,10 +104,10 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.certificates)
           this.bindingdata = [];
-          this.contentinfo=[]
+          this.contentinfo = []
           data.certificates.forEach((element: any) => {
 
-            if(element[0]){
+            if (element[0]) {
               this.contentinfo.push(element)
               // this.contentinfo=[element]
               console.log(this.contentinfo)
@@ -122,13 +122,13 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
         })
       } else if (url[0].path == 'booklets') {
         this.title = 'Booklets & Catalogues';
-         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.booklets)
           this.bindingdata = [];
-          this.contentinfo=[]
+          this.contentinfo = []
           data.booklets.forEach((element: any) => {
 
-            if(element[0]){
+            if (element[0]) {
               this.contentinfo.push(element)
               // this.contentinfo=[element]
               console.log(this.contentinfo)
@@ -143,13 +143,13 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
         })
       } else if (url[0].path == 'foil') {
         this.title = 'Foil Stickers';
-       this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.foil)
           this.bindingdata = [];
-          this.contentinfo=[]
+          this.contentinfo = []
           data.foil.forEach((element: any) => {
 
-            if(element[0]){
+            if (element[0]) {
               this.contentinfo.push(element)
               // this.contentinfo=[element]
               console.log(this.contentinfo)
@@ -193,9 +193,11 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
-    const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
-    });
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.width = "550px";
+    dialogConfig.data = this.fullUrl;
+    const dialogRef = this.dialog.open(PopupComponent, dialogConfig);
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary
     //   const dialogContainer = document.querySelector('.mat-dialog-container');
@@ -205,8 +207,13 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
     //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
     //   }
     // });
-    dialogRef.afterClosed().subscribe(() => {
-      console.log('Dialog closed');
+    dialogRef.afterClosed().subscribe({
+      next: (result) => {
+        console.log(`Dialog result: ${result}`);
+      },
+      error: (error) => {
+        console.error('Error occurred while opening the dialog:', error);
+      }
     });
   }
 }

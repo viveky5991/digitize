@@ -35,28 +35,28 @@ export class Imgcontent18Component implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='promotion'){
-        this.title='promotion';
+        this.title='Promotion';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.promotion)
           this.digitizedata = data.promotion;
         })
       } else if(url[0].path=='exhibition-counter'){
-        this.title='exhibition-counter';
+        this.title='Exhibition Counter';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.exhibitioncounter)
           this.digitizedata = data.exhibitioncounter;
         })
       } else if(url[0].path=='tent-canopy'){
-        this.title='tent-canopy';
+        this.title='Tent Canopy';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.tentcanopy)
           this.digitizedata = data.tentcanopy;
         })
       } else if(url[0].path=='parasol-umbrella'){
-        this.title='parasol-umbrella';
+        this.title='Parasol Umbrella';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.parasolumbrella)
@@ -91,8 +91,6 @@ export class Imgcontent18Component implements OnInit{
           console.log(data.ShellScheme)
           this.digitizedata = data.ShellScheme;
         })
-      } else if(url[0].path=='flag-base'){
-        this.title='flag-base'
       }else{
         this.title='Digitize'
       }

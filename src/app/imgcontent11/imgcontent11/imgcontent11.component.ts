@@ -44,9 +44,16 @@ export class Imgcontent11Component implements OnInit{
 
         })
       } else if(url[0].path=='PUNotebooks'){
-        this.title='PUNotebooks'
+        this.title='PU Notebooks';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.PUNotebooks)
+          this.digitizedata = data.PUNotebooks;
+
+
+        })
       }else if(url[0].path=='PUOrganizer'){
-        this.title='PUOrganizer';
+        this.title='PU Organizer';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.pen)
@@ -91,7 +98,7 @@ export class Imgcontent11Component implements OnInit{
 
         })
       }else if(url[0].path=='SafetyVest'){
-        this.title='SafetyVest';
+        this.title='Safety Vest';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.SafetyVest);

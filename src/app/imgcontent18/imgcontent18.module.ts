@@ -13,8 +13,7 @@ const routes: Routes = [
   { path: 'media-frame', component: Imgcontent18Component },
   { path: 'foam-board', component: Imgcontent18Component },
   { path: 'shell-scheme', component: Imgcontent18Component },
-  { path: 'flag-base', component: Imgcontent18Component }
-
+  
 ]
 
 @NgModule({

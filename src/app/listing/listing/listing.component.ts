@@ -118,7 +118,44 @@ export class ListingComponent implements OnInit{
           // }
 
         })
+      }else if(url[0].path=='USB'){
+        this.title='Customised USB';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.usb)
+          this.digitizedata = data.usb;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+              this.titleService.setTitle('Customised USB');
+              this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+              this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            }
+          });
+         
+
+        })
+      }else if(url[0].path=='flag-base'){
+        this.title='Flag Base';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.flagbase)
+          this.digitizedata = data.flagbase;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+              this.titleService.setTitle('Flag Base');
+              this.metaService.updateTag({ name: 'description', content: 'Flag Base' });
+              this.metaService.updateTag({ property: 'og:title', content: 'Flag Base' });
+            }
+          });
+         
+
+        })
       }
+
       /* else if(url[0].path=='repositionable'){
         this.title='Repositionable Cling';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

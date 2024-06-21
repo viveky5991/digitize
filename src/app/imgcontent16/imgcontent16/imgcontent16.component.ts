@@ -35,14 +35,14 @@ export class Imgcontent16Component  implements OnInit{
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='popups'){
-        this.title='popups';
+        this.title='Pop Up Softcase';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.popups)
           this.digitizedata = data.popups;
         })
       } else if(url[0].path=='fabric-popups'){
-        this.title='fabric-popups';
+        this.title='Fabric Popups';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.fabricpopups)
@@ -56,7 +56,12 @@ export class Imgcontent16Component  implements OnInit{
           this.digitizedata = data.rollupbanners;
         })
       }else if(url[0].path=='x-banners'){
-        this.title='x-banners';
+        this.title='X Banners';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.xbanners)
+          this.digitizedata = data.xbanners;
+        })
       }else if(url[0].path=='banners-flex'){
         this.title='Banners Flex'; 
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -65,7 +70,7 @@ export class Imgcontent16Component  implements OnInit{
           this.digitizedata = data.bannersflex;
         }) 
       }else if(url[0].path=='fence-banners'){
-        this.title='fence-banners';
+        this.title='Fence Banners';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.fencebanners)

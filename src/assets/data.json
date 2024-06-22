@@ -2336,7 +2336,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/OfficeEssentials/pen.webp"
+        "../../../assets/img/OfficeEssentials/pen.webp",
+         "../../../assets/img/OfficeEssentials/pen.webp",
+          "../../../assets/img/OfficeEssentials/pen.webp"
       ]
     }
   ],
@@ -2352,7 +2354,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/OfficeEssentials/pen.webp"
+        "../../../assets/img/OfficeEssentials/pen.webp",
+         "../../../assets/img/OfficeEssentials/pen.webp",
+          "../../../assets/img/OfficeEssentials/pen.webp"
       ]
     }
   ],

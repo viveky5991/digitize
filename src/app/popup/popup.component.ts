@@ -20,6 +20,10 @@ export class PopupComponent implements OnInit {
  
   constructor(private fb: FormBuilder ,public dialog: MatDialog,  public dialogRef: MatDialogRef<any>,
     @Inject(MAT_DIALOG_DATA) public data: string,) {
+   
+  }
+
+  ngOnInit(): void {
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       phone: ['', Validators.required],
@@ -28,13 +32,11 @@ export class PopupComponent implements OnInit {
       urlweb:[this.data],
       message: ['', Validators.required]
     });
-  }
-
-  ngOnInit(): void {
     console.log("this.data.webUrl",this.data);
   }
 
   onSubmit() {
+    debugger;
     if (this.contactForm.valid) {
       console.log('Form submitted successfully!');
       console.log(this.contactForm.value);

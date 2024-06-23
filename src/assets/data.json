@@ -287,17 +287,15 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-            {
-              "note": "Windshield stickers are crafted using a specialized printing technique that allows them to be adhered to the interior side of the windshield. These stickers are designed to be heat-resistant, ensuring durability and longevity for up to a year."
-            }
+    [
+      {
+        "description": [
+         "<p>Windshield stickers are crafted using a specialized printing technique that allows them to be adhered to the interior side of the windshield. These stickers are designed to be heat-resistant, ensuring durability and longevity for up to a year.</p> "
+
+
           ]
-        }
-      ]
-    }
+      }]
+
   ],
   "helmet": [
     {
@@ -324,17 +322,15 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-            {
-              "note": "For helmet sticker printing, we offer a diverse range of print methods tailored to your needs. Our team can guide you in selecting the best method based on your specific artwork. The printing process for helmet decals involves printing and then cutting the stickers to the desired shape. This can be done on either white or clear transparent stickers. Additionally, we provide options for variable branding across different areas of the helmet, ensuring a customized and professional finish."
-            }
+    [
+      {
+        "description": [
+         "<p>For helmet sticker printing, we offer a diverse range of print methods tailored to your needs. Our team can guide you in selecting the best method based on your specific artwork. The printing process for helmet decals involves printing and then cutting the stickers to the desired shape. This can be done on either white or clear transparent stickers. Additionally, we provide options for variable branding across different areas of the helmet, ensuring a customized and professional finish.</p> "
+
+
           ]
-        }
-      ]
-    }
+      }]
+
   ],
   "floor_stickers": [
     {
@@ -361,26 +357,15 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-            {
-              "note": "Material: Special soft white PVC film"
-            },
-            {
-              "note": "Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look."
-            },
-            {
-              "note": "Thickness: 110 microns and 160 microns for floor lamination."
-            },
-            {
-              "note": "Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective."
-            }
+    [
+      {
+        "description": [
+         "<p>Material: Special soft white PVC film</p> <p>Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look.</p> <p>Thickness: 110 microns and 160 microns for floor lamination. Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective.</p> "
+
+
           ]
-        }
-      ]
-    }
+      }]
+
   ],
   "posters": [
     {
@@ -407,24 +392,16 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-            {
-              "note": "Transform your walls or windows into opportunities with custom-made posters. Keep your message clear and simple, whether it’s announcing opening hours, limited-time sales, or an upcoming special event. Ensure a professional appearance that effectively communicates your message, whether it's in-store or outdoors."
-            },
-            {
-              "note": "Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request"
-            },
-            {
-              "note": "Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required"
-            }
+    [
+      {
+        "description": [
+         "<p>Transform your walls or windows into opportunities with custom-made posters. Keep your message clear and simple, whether it’s announcing opening hours, limited-time sales, or an upcoming special event. Ensure a professional appearance that effectively communicates your message, whether it's in-store or outdoors.</p> <p>Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request</p> <p>Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required</p> "
+
+
           ]
-        }
-      ]
-    }
-  ],
+      }]
+ ],
+
   "usb": [
     {
       "id": 1,
@@ -487,15 +464,13 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-           
-          ]
-        }
-      ]
-    }
+    [
+      {
+        "description": [
+          "<p>Reward excellence with premium certificate printing from printed.com. Whether for standout employees, educational achievements, or exemplary performance, trust us to produce professional certificates on the finest papers with state-of-the-art presses. Elevate your business or institution and create keepsakes worthy of pride.</p>"
+        ]
+      }
+    ]
   ],
   "flagbase": [
     {
@@ -601,15 +576,13 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-    {
-      "PrintingInformation": [
-        {
-          "list": [
-           
-          ]
-        }
-      ]
-    }
+    [
+      {
+        "description": [
+          "<p></p>"
+        ]
+      }
+    ]
   ],
   "repositionable": [
     {

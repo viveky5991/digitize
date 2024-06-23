@@ -30,69 +30,123 @@ export class ListingComponent implements OnInit{
         this.title='Windshield Stickers';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
+          // console.log(data.helmet)
+          // this.digitizedata = data.floor_stickers;
+          // this.digitizedata.forEach((element: any) => {
+          //   if(element.PrintingInformation){
+          //     this.contentinfo=[element]
+          //     console.log(this.contentinfo)
+          //     this.titleService.setTitle('Floor Graphics Stickers');
+          //     this.metaService.updateTag({ name: 'description', content: 'Floor Graphics Stickers' });
+          //     this.metaService.updateTag({ property: 'og:title', content: 'Floor Graphics Stickers' });
+          //   }
+          // });
           console.log(data.wind_shield)
-          this.digitizedata = data.wind_shield;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.wind_shield.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Windshield Stickers');
-              this.metaService.updateTag({ name: 'description', content: 'Windshield Stickers' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Windshield Stickers' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
 
         })
       } else if(url[0].path=='helmet'){
         this.title='Helmet Stickers';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
+          // console.log(data.helmet)
+          // this.digitizedata = data.floor_stickers;
+          // this.digitizedata.forEach((element: any) => {
+          //   if(element.PrintingInformation){
+          //     this.contentinfo=[element]
+          //     console.log(this.contentinfo)
+          //     this.titleService.setTitle('Floor Graphics Stickers');
+          //     this.metaService.updateTag({ name: 'description', content: 'Floor Graphics Stickers' });
+          //     this.metaService.updateTag({ property: 'og:title', content: 'Floor Graphics Stickers' });
+          //   }
+          // });
           console.log(data.helmet)
-          this.digitizedata = data.helmet;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.helmet.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Helmet Stickers');
-              this.metaService.updateTag({ name: 'description', content: 'Helmet Stickers' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Helmet Stickers' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
 
         })
       } else if(url[0].path=='floor-stickers'){
         this.title='Floor Graphics Stickers';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.helmet)
-          this.digitizedata = data.floor_stickers;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          // console.log(data.helmet)
+          // this.digitizedata = data.floor_stickers;
+          // this.digitizedata.forEach((element: any) => {
+          //   if(element.PrintingInformation){
+          //     this.contentinfo=[element]
+          //     console.log(this.contentinfo)
+          //     this.titleService.setTitle('Floor Graphics Stickers');
+          //     this.metaService.updateTag({ name: 'description', content: 'Floor Graphics Stickers' });
+          //     this.metaService.updateTag({ property: 'og:title', content: 'Floor Graphics Stickers' });
+          //   }
+          // });
+          console.log(data.floor_stickers)
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.floor_stickers.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Floor Graphics Stickers');
-              this.metaService.updateTag({ name: 'description', content: 'Floor Graphics Stickers' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Floor Graphics Stickers' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
 
         })
       } else if(url[0].path=='posters'){
@@ -100,40 +154,77 @@ export class ListingComponent implements OnInit{
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.posters)
-          this.digitizedata = data.posters;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.posters.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Posters');
-              this.metaService.updateTag({ name: 'description', content: 'Posters' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Posters' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
+
 
         })
+        // this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+        //   console.log(data.posters)
+        //   this.digitizedata = data.posters;
+        //   this.digitizedata.forEach((element: any) => {
+        //     if(element.PrintingInformation){
+        //       this.contentinfo=[element]
+        //       console.log(this.contentinfo)
+        //       this.titleService.setTitle('Posters');
+        //       this.metaService.updateTag({ name: 'description', content: 'Posters' });
+        //       this.metaService.updateTag({ property: 'og:title', content: 'Posters' });
+        //     }
+        //   });
+
+
+        // })
       }else if(url[0].path=='USB'){
         this.title='Customised USB';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.usb)
-          this.digitizedata = data.usb;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.usb.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Customised USB');
-              this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-         
+
 
         })
       }else if(url[0].path=='flag-base'){
@@ -141,45 +232,35 @@ export class ListingComponent implements OnInit{
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.flagbase)
-          this.digitizedata = data.flagbase;
-          this.digitizedata.forEach((element: any) => {
-            if(element.PrintingInformation){
-              this.contentinfo=[element]
+          this.digitizedata = [];
+          // this.digitizedata = data.usb;
+
+          this.contentinfo = []
+          data.flagbase.forEach((element: any) => {
+            // if(element.PrintingInformation){
+            //   this.contentinfo=[element]
+            //   console.log(this.contentinfo)
+            //   this.titleService.setTitle('Customised USB');
+            //   this.metaService.updateTag({ name: 'description', content: 'Customised USB' });
+            //   this.metaService.updateTag({ property: 'og:title', content: 'Customised USB' });
+            // }
+            if (element[0]) {
+              this.contentinfo.push(element)
+              // this.contentinfo=[element]
               console.log(this.contentinfo)
-              this.titleService.setTitle('Flag Base');
-              this.metaService.updateTag({ name: 'description', content: 'Flag Base' });
-              this.metaService.updateTag({ property: 'og:title', content: 'Flag Base' });
+              // this.titleService.setTitle('Business-card');
+              // this.metaService.updateTag({ name: 'description', content: 'businesscard' });
+              // this.metaService.updateTag({ property: 'og:title', content: 'businesscard' });
+            } else {
+              this.digitizedata.push(element)
             }
           });
-         
+
 
         })
       }
 
-      /* else if(url[0].path=='repositionable'){
-        this.title='Repositionable Cling';
-        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.repositionable)
-          this.digitizedata = data.repositionable;
-          // this.digitizedata.forEach((element: any) => {
-          //   if(element.PrintingInformation){
-          //     this.contentinfo=[element]
-          //     console.log(this.contentinfo)
-          //     this.titleService.setTitle('Repositionable Cling');
-          //     this.metaService.updateTag({ name: 'description', content: 'Repositionable Cling' });
-          //     this.metaService.updateTag({ property: 'og:title', content: 'Repositionable Cling' });
-          //   }
-          // });
-          // if (data.businesscard.length > 5) {
-          //   this.contentinfo = data.businesscard[5].PrintingInformation;
-          //   console.log(this.contentinfo);
-          // } else {
-          //   console.log("Not enough data in businesscard array.");
-          // }
-
-        })
-      } */
       else{
         this.title='Digitize'
       }

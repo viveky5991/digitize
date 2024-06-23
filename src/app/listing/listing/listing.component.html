@@ -10,7 +10,7 @@
   </div>
 </div>
 
-    
+
 <div class="container pt-5 pb-5">
   <h3>{{title}}</h3>
   <div class="row">
@@ -54,21 +54,12 @@
 
 
   </div>
-  <div *ngFor="let item of contentinfo" class="note">
+  <div *ngFor="let item2 of contentinfo" class="note">
+    <div *ngFor="let item of item2" class="bnr">
       <!-- {{item|json}} -->
-      <h4>Important points to note before placing your order:</h4>
-      <!-- <div class="row"> -->
-      <!-- <div class="col-2"></div> -->
-      <div class="col-12">
-          <ul *ngFor="let item2 of item.PrintingInformation">
-              <li *ngFor="let item of item2.list">{{item.note}}</li>
-              <!-- <li>{{item.ColorStandards}}</li>
-  <li>{{item.PrintQuality}}</li>
-  <li>{{item.ColorMatching}} </li> -->
-          </ul>
-      </div>
-      <!-- <div class="col-2"></div> -->
-      <!-- </div> -->
+      <span [innerHTML]="item.description"></span>
+    </div>
+
   </div>
   <button type="button" (click)="EnquiryNow()" class="btn btn-primary list-btn">Enquiry Now</button>
 </div>

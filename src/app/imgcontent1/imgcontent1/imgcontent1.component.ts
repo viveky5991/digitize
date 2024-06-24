@@ -1,13 +1,13 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component,Inject, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { SwiperOptions } from 'swiper';
 import { SwiperModule } from 'swiper/angular';
 import { Animations } from '../../animation';
 import { PopupComponent } from '../../popup/popup.component';
-
+import { Location } from '@angular/common';
 @Component({
   selector: 'app-imgcontent1',
   standalone: true,
@@ -26,12 +26,21 @@ export class Imgcontent1Component implements OnInit{
     scrollbar: { draggable: true },
   };
   digitizedata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
+  fullUrl: any;
+  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
 
     this.navload()
   }
+  getFullUrl() {
+    const protocol = this.document.location.protocol;
+    const host = this.document.location.host;
+    const path = this.location.prepareExternalUrl(this.location.path());
+    return `${protocol}//${host}${path}`;
+  }
   navload(){
+    this.fullUrl = this.getFullUrl();
+    console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
 
       if(url[0].path=='selfink-stamps'){
@@ -110,3 +119,4 @@ export class Imgcontent1Component implements OnInit{
     });
   }
 }
+

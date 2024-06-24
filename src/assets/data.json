@@ -2826,9 +2826,13 @@
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/Table-cloth/1.jpg",
+        "../../../assets/img/Table-cloth/2.jpg",
+        "../../../assets/img/Table-cloth/01107.webp",
+        "../../../assets/img/Table-cloth/3.jpg",
+        "../../../assets/img/Table-cloth/4.jpg",
+        "../../../assets/img/Table-cloth/5.jpg",
+        "../../../assets/img/Table-cloth/6.jpg"
       ]
     }
   ],
@@ -3047,9 +3051,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/roll-up/0111.png",
+        "../../../assets/img/roll-up/0114.png",
+        "../../../assets/img/roll-up/0115.png"
       ]
     }
   ],

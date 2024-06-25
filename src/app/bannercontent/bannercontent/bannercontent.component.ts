@@ -94,7 +94,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
     this._route.url.subscribe((url: any) => {
 
       if (url[0].path == 'binding') {
-        this.title = 'Binding'
+        this.title = 'Book Binding'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           // console.log(data.binding)
           this.bindingdata = data.binding;
@@ -188,6 +188,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
   ];
 
   EnquiryNow() {
+    debugger
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

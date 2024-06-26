@@ -1,13 +1,13 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { SwiperOptions } from 'swiper';
 import { PopupComponent } from '../../popup/popup.component';
-import { CommonModule } from '@angular/common';
 import { SwiperModule } from 'swiper/angular';
 import { Animations } from '../../animation';
-
+import { Location } from '@angular/common';
+import { CommonModule,DOCUMENT } from '@angular/common';
+import { Component, OnInit,Inject } from '@angular/core';
 
 @Component({
   selector: 'app-imgcontent17',
@@ -27,12 +27,21 @@ export class Imgcontent17Component  implements OnInit{
     scrollbar: { draggable: true },
   };
   digitizedata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog) { }
+  fullUrl: any;
+  constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
-   
+
     this.navload()
   }
+  getFullUrl() {
+    const protocol = this.document.location.protocol;
+    const host = this.document.location.host;
+    const path = this.location.prepareExternalUrl(this.location.path());
+    return `${protocol}//${host}${path}`;
+  }
   navload(){
+    this.fullUrl = this.getFullUrl();
+    console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
       debugger
       if(url[0].path=='wooden-backdrop'){
@@ -91,13 +100,33 @@ export class Imgcontent17Component  implements OnInit{
   }
 
   EnquiryNow() {
+    debugger
+    // const dialogRef = this.dialog.open(PopupComponent);
 
-    const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
-    });
-
-    dialogRef.afterClosed().subscribe(() => {
-      console.log('Dialog closed');
+    // dialogRef.afterClosed().subscribe(result => {
+    //   console.log(`Dialog result: ${result}`);
+    // });
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.width = "550px";
+    dialogConfig.data = this.fullUrl;
+    const dialogRef = this.dialog.open(PopupComponent, dialogConfig);
+    // dialogRef.afterOpened().subscribe(() => {
+    //   // Find the dialog container element by class name or any other means if necessary
+    //   const dialogContainer = document.querySelector('.mat-dialog-container');
+    //   // Check if the element exists
+    //   if (dialogContainer) {
+    //     // Set the role attribute to 'dialog'
+    //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+    //   }
+    // });
+    dialogRef.afterClosed().subscribe({
+      next: (result) => {
+        console.log(`Dialog result: ${result}`);
+      },
+      error: (error) => {
+        console.error('Error occurred while opening the dialog:', error);
+      }
     });
   }
 }

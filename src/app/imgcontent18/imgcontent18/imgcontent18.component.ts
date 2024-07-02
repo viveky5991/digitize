@@ -42,7 +42,7 @@ export class Imgcontent18Component implements OnInit{
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if(url[0].path=='promotion'){
         this.title='Promotion';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {

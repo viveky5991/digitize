@@ -21,7 +21,9 @@
     margin: 0px;
     width: 100%;
 }
-
+.listmain{
+  padding: 90px 0px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
     .aboutus-image {
         margin-right: 35px;
@@ -361,7 +363,7 @@ img {
     }
     .lg-text {
         font-size: 30px;
-      
+
     }
     .bnr{
         text-align: justify;

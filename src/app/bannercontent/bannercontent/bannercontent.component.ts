@@ -21,7 +21,8 @@ import SwiperCore, {
   Swiper,
   EffectCoverflow,
 
-} from 'swiper';
+} 
+from 'swiper';
 import { Location } from '@angular/common';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 SwiperCore.use([

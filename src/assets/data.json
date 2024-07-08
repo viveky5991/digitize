@@ -640,10 +640,12 @@
     },
     {
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/newimg/Brochures/TrifoldBrouchers.jpg",
+        "../../../assets/img/newimg/Brochures/Bi-fold Brouchers.jpg",
+        "../../../assets/img/newimg/Brochures/Landscape Bi-fold Brouchers.jpg",
+        "../../../assets/img/newimg/Brochures/SquareTri-fold Brouchers.jpg",
+        "../../../assets/img/newimg/Brochures/SquareBi-foldBrouchers.jpg",
+        "../../../assets/img/newimg/Brochures/TrifoldBrouchers1.jpg"
       ]
     }
   ],
@@ -743,7 +745,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/Letter-Ahead/1192.jpg"
+        "../../../assets/img/newimg/LetterAhead/img1.jpg",
+        "../../../assets/img/newimg/LetterAhead/img2.jpg",
+        "../../../assets/img/newimg/LetterAhead/img3.jpg"
       ]
     }
   ],
@@ -758,7 +762,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/Envelope/2cd2706ec68d41fd0ae7e90ac8dd5853.jpg"
+        "../../../assets/img/newimg/Envelope/Free-Envelope-Mockup-01.jpg",
+        "../../../assets/img/newimg/Envelope/img1.jpg",
+        "../../../assets/img/newimg/Envelope/img2.jpg"
       ]
     }
   ],
@@ -773,9 +779,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/folder2.jpg",
-        "../../../assets/img/Folder/folder3.png"
+        "../../../assets/img/newimg/Folder/Folder-Mockup-1-1536x1152.jpg",
+        "../../../assets/img/newimg/Folder/Folder-Mockup-7-1536x1152.jpg",
+        "../../../assets/img/newimg/Folder/Interlocking_Folder_Design__49706.jpg"
       ]
     }
   ],
@@ -790,7 +796,7 @@
         }
       ],
       "img": [
-        "../../../assets/img/notepad/Notepad_Printing__03161.webp"
+        "../../../assets/img/newimg/Notepads/img1.jpg"
       ]
     }
   ],
@@ -820,7 +826,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/thankyoucard/thank-you-cards.jpg"
+        "../../../assets/img/newimg/ThankyouCards/img1.jpg",
+        "../../../assets/img/newimg/ThankyouCards/img2.jpg",
+        "../../../assets/img/newimg/ThankyouCards/img3.jpg"
       ]
     }
   ],
@@ -835,10 +843,10 @@
         }
       ],
       "img": [
-        "../../../assets/img/calendar/one.jpg",
-        "../../../assets/img/calendar/two.jpg",
-        "../../../assets/img/calendar/three.jpg",
-        "../../../assets/img/calendar/four.jpg"
+        "../../../assets/img/newimg/Calenders/img1.jpg",
+        "../../../assets/img/newimg/Calenders/img2.jpg",
+        "../../../assets/img/newimg/Calenders/img3.jpg",
+        "../../../assets/img/newimg/Calenders/img4.jpg"
       ]
     }
   ],
@@ -868,7 +876,8 @@
         }
       ],
       "img": [
-        "../../../assets/img/stamp/wax-seal-stamp.jpeg"
+        "../../../assets/img/newimg/WaxSeaStamp/img1.jpg",
+        "../../../assets/img/newimg/WaxSeaStamp/img2.jpg"
       ]
     }
   ],
@@ -883,7 +892,7 @@
         }
       ],
       "img": [
-        "../../../assets/img/stamp/embosse_seal.jpg"
+        "../../../assets/img/newimg/EmbossingStamp/71aTxR8K6dL._AC_SL1500_.jpg"
       ]
     }
   ],
@@ -900,7 +909,10 @@
         }
       ],
       "img": [
-        "../../../assets/img/flyer/flyer.webp"
+        "../../../assets/img/newimg/Flyers/DL-Flyer-PSD.jpg",
+        "../../../assets/img/newimg/Flyers/A4.jpg",
+        "../../../assets/img/newimg/Flyers/A5.jpg",
+        "../../../assets/img/newimg/Flyers/A6.jpg"
       ]
     }
   ],
@@ -1125,7 +1137,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/wall/canvas.png"
+        "../../../assets/img/newimg/Canvas/img1.jpg",
+        "../../../assets/img/newimg/Canvas/img2.jpg",
+        "../../../assets/img/newimg/Canvas/img3.jpg"
       ]
     }
   ],
@@ -2189,37 +2203,14 @@
   ],
   "certificates": [
     {
-      "title": "Hardcover Or Case Binding",
-      "img": "../../../assets/img/Binding/new/Hardcover-or-case-binding-768x386.png"
+      "title": "",
+      "img": "../../../assets/img/newimg/Certificates/1200.jpg"
     },
     {
-      "title": "Interscrew Binding",
-      "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
+      "title": "",
+      "img": "../../../assets/img/newimg/Certificates/5586744.jpg"
     },
-    {
-      "title": "Perfect Binding",
-      "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
-    },
-    {
-      "title": "Saddle Stitch Binding",
-      "img": "../../../assets/img/Binding/new/Saddle-stitch-binding-768x386.png"
-    },
-    {
-      "title": "Section Sewn Binding",
-      "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
-    },
-    {
-      "title": "Singer Sewn Binding",
-      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
-    },
-    {
-      "title": "Solander Boxes And Slipcases",
-      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
-    },
-    {
-      "title": "Wiro Comb Or Spiral Binding",
-      "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
-    },
+   
     [
       {
         "description": [
@@ -2230,36 +2221,28 @@
   ],
   "booklets": [
     {
-      "title": "Hardcover Or Case Binding",
-      "img": "../../../assets/img/Binding/new/Hardcover-or-case-binding-768x386.png"
+      "title": "Free-US-Letter-Magazine-Mockup",
+      "img": "../../../assets/img/newimg/Booklets/03-Free-US-Letter-Magazine-Mockup.jpg"
     },
     {
-      "title": "Interscrew Binding",
-      "img": "../../../assets/img/Binding/new/Interscrew-binding-768x386.png"
+      "title": "A4_Magazine_Brochure_Catalog_Mockup_Preview",
+      "img": "../../../assets/img/newimg/Booklets/03_Free_A4_Magazine_Brochure_Catalog_Mockup_Preview.jpg"
     },
     {
-      "title": "Perfect Binding",
-      "img": "../../../assets/img/Binding/new/PUR-binding-768x386.png"
+      "title": "Magazine_Brochure_Catalog_Mockup",
+      "img": "../../../assets/img/newimg/Booklets/05_Free_A4_Magazine_Brochure_Catalog_Mockup_Preview.jpg"
     },
     {
-      "title": "Saddle Stitch Binding",
-      "img": "../../../assets/img/Binding/new/Saddle-stitch-binding-768x386.png"
+      "title": "",
+      "img": "../../../assets/img/newimg/Booklets/07.jpg"
     },
     {
-      "title": "Section Sewn Binding",
-      "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
+      "title": "",
+      "img": "../../../assets/img/newimg/Booklets/13.jpg"
     },
     {
-      "title": "Singer Sewn Binding",
-      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
-    },
-    {
-      "title": "Solander Boxes And Slipcases",
-      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
-    },
-    {
-      "title": "Wiro Comb Or Spiral Binding",
-      "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
+      "title": "",
+      "img": "../../../assets/img/newimg/Booklets/14.jpg"
     },
     [
       {

@@ -1,0 +1,23 @@
+
+https://www.exprintmart.com/brouchers-printing-dubai.html (Please check the Link and prepare the Page same as per Link & insert the details provided by us as below)
+
+Paper stock options for Brochure printing
+150gsm Gloss or Matt
+170gsm Gloss or Matt
+200gsm Gloss or Matt
+250gsm Gloss or Matt
+300gsm Gloss or Matt
+350gsm Gloss or Matt
+
+
+
+Guidelines for Supplying finished files - Ready to Print Artwork:
+* Apply a 2mm bleed over the finished size .
+* Convert all fonts to paths or curves .
+* Convert all colors to CMYK or Grayscale (No RGB, PMS, Pantone, or Spot colors).
+* Flatten transparency effects Set overprints correctly for desired result.
+* Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode.
+* Ensure reversed type (light type on dark background) is a minimum of 7pt.
+* Please supply all files separately as we prefer to do our own imposing. PDF's should be individual files and not multi-page documents.
+* Ensure borders and type are within safe zone as variations may occur when trimming.
+* Remove registration marks, keylines, dyelines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area

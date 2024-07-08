@@ -5,14 +5,33 @@ import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { Location } from '@angular/common';
+import { SwiperModule } from 'swiper/angular';
+SwiperCore.use([Pagination, EffectCoverflow]);
+import SwiperCore, {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  SwiperOptions,
+  A11y,
+  Virtual,
+  Zoom,
+  Autoplay,
+  Thumbs,
+  Controller,
+  Swiper,
+  EffectCoverflow,
 
+} 
+from 'swiper';
 @Component({
   selector: 'app-imgcontent3',
   standalone: true,
-  imports: [HttpClientModule, CommonModule, RouterModule,],
+  imports: [SwiperModule,HttpClientModule, CommonModule, RouterModule,],
   templateUrl: './imgcontent3.component.html',
   styleUrl: './imgcontent3.component.scss'
 })
+
+
 export class Imgcontent3Component  implements OnInit{
   title: string | undefined;
   digitizedata: any;

@@ -40,7 +40,7 @@ export class StationarylistingComponent implements OnInit {
         this.title = 'Business Cards'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.businesscard)
+          console.log('iiiiiiii',data.businesscard)
           this.digitizedata = data.businesscard;
           this.digitizedata.forEach((element: any) => {
             if(element.PrintingInformation){

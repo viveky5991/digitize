@@ -5,12 +5,14 @@ import { PopupComponent } from '../../popup/popup.component';
 import { Location } from '@angular/common';
 import { CommonModule,DOCUMENT } from '@angular/common';
 import { Component, OnInit,Inject } from '@angular/core';
+import { Animations } from '../../animation';
 @Component({
   selector: 'app-imgcontent14',
   standalone: true,
   imports: [HttpClientModule, CommonModule,RouterModule,],
   templateUrl: './imgcontent14.component.html',
-  styleUrl: './imgcontent14.component.scss'
+  styleUrl: './imgcontent14.component.scss',
+  animations: Animations
 })
 export class Imgcontent14Component implements OnInit{
   title: string | undefined;

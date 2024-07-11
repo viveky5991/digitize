@@ -1,37 +1,7 @@
 <section id="services" class="bg-light pt-100 pb-70">
    <div class="container">
-      <div class="row align-items-center">
-         <div class="col-lg-5">
-            <h2 class="title">{{title}}
-            </h2>
-            <p *ngFor="let item of digitizedata" class="mt-3"><span *ngFor="let ls of item.list">
-              {{ls}}
-            </span></p>
-            <!-- <ul *ngFor="let item of digitizedata">
-               <li *ngFor="let ls of item.list">
-                  {{ls}}
-               </li>
-            </ul> -->
-            <!-- <p class=" mt-3 ">Apply Bleed: Add a 2mm bleed over the finished size of the brochure.
-               Convert Fonts to Paths/Curves: Convert all fonts in the brochure to paths or curves to ensure consistent
-               display across different systems.
-               Color Mode Conversion: Convert all colors to CMYK or Grayscale, excluding RGB, PMS, Pantone, or Spot
-               colors.
-               Flatten Transparency Effects: Flatten any transparency effects to avoid printing issues.
-               Set Overprints Correctly: Ensure that overprints are set correctly for the desired printing result.
-               Remove Color Profiles: Remove any color profiles to avoid conflicts or unexpected color changes.
-               Image Resolution: Ensure all bitmap images have a minimum resolution of 300dpi and are in CMYK color
-               mode.
-               Minimum Type Size for Reversed Type: Reversed type (light type on dark background) should be a minimum of
-               7pt to ensure legibility.
-               Supply Files Separately: Supply all files separately, preferably as individual PDFs, rather than
-               multi-page documents.
-               Safe Zone: Ensure that borders and type are within the safe zone to accommodate variations that may occur
-               during trimming.
-               Remove Non-Printing Items: Remove registration marks, keylines, dielines, and other non-printing items.
-               Crop Marks: If crop marks are required, position them outside the bleed area.</p> -->
-            <button class="btn btn-primary list-btn my-5" type="button" (click)="EnquiryNow()" >Enquire Now</button>
-         </div>
+      <div class="row ">
+
          <div class="col-lg-7">
             <div class="row card-items" *ngFor="let item of digitizedata">
                <div class="col-lg-6 col-sm-6" *ngFor="let im of item.img">
@@ -64,6 +34,37 @@
                </div> -->
             </div>
          </div>
+         <div class="col-lg-5">
+          <h2 class="title">{{title}}
+          </h2>
+          <p *ngFor="let item of digitizedata" class="mt-3"><span *ngFor="let ls of item.list">
+            {{ls}}
+          </span></p>
+          <!-- <ul *ngFor="let item of digitizedata">
+             <li *ngFor="let ls of item.list">
+                {{ls}}
+             </li>
+          </ul> -->
+          <!-- <p class=" mt-3 ">Apply Bleed: Add a 2mm bleed over the finished size of the brochure.
+             Convert Fonts to Paths/Curves: Convert all fonts in the brochure to paths or curves to ensure consistent
+             display across different systems.
+             Color Mode Conversion: Convert all colors to CMYK or Grayscale, excluding RGB, PMS, Pantone, or Spot
+             colors.
+             Flatten Transparency Effects: Flatten any transparency effects to avoid printing issues.
+             Set Overprints Correctly: Ensure that overprints are set correctly for the desired printing result.
+             Remove Color Profiles: Remove any color profiles to avoid conflicts or unexpected color changes.
+             Image Resolution: Ensure all bitmap images have a minimum resolution of 300dpi and are in CMYK color
+             mode.
+             Minimum Type Size for Reversed Type: Reversed type (light type on dark background) should be a minimum of
+             7pt to ensure legibility.
+             Supply Files Separately: Supply all files separately, preferably as individual PDFs, rather than
+             multi-page documents.
+             Safe Zone: Ensure that borders and type are within the safe zone to accommodate variations that may occur
+             during trimming.
+             Remove Non-Printing Items: Remove registration marks, keylines, dielines, and other non-printing items.
+             Crop Marks: If crop marks are required, position them outside the bleed area.</p> -->
+          <button class="btn btn-primary list-btn my-5" type="button" (click)="EnquiryNow()" >Enquire Now</button>
+       </div>
       </div>
    </div>
 </section>

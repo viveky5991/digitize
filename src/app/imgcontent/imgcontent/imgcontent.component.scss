@@ -48,9 +48,16 @@
 /*-- aboutus Content --*/
 .aboutus-content h2 {
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 500;
     line-height: 40px;
     margin-bottom: 2px;
+}
+.aboutus-area h2 {
+  // padding: 12px 0px;
+}
+.maintitle h2 {
+  padding: 12px 0px;
+  color: #f05764;
 }
 
 @media only screen and (max-width: 479px) {
@@ -72,8 +79,8 @@
 }
 
 .aboutus-content p {
-    font-size: 16px;
-    line-height: 27px;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 /*-- counter --*/

@@ -97,7 +97,17 @@ export class ImgcontentComponent implements OnInit {
 
 
         })
-      } else {
+      } else if(url[0].path=="booklets"){
+        this.title = 'Booklets & Catalogues';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.calendars)
+          this.digitizedata = data.calendars;
+
+
+        })
+      }
+      else {
         this.title = 'Digitize'
       }
     })

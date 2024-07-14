@@ -21,10 +21,10 @@
                   <div class="aboutus-image float-left hidden-sm">
                     <swiper [loop]="false" [allowTouchMove]="true" [autoplay]="{ delay: 3000, disableOnInteraction: false }"
                     [pagination]="{ clickable: true }" [navigation]="true">
-                    <ng-template data-swiper-autoplay="6000" swiperSlide *ngFor="let img of item.img">
+                    <!-- <ng-template data-swiper-autoplay="6000" swiperSlide *ngFor="let img of item.img">
                       <img [src]="img" alt="" class="w-100 swp">
-                      <!-- <img src="../../assets/img/banner/banner.jpg" alt="img" class="swp" class="w-100"> -->
-                    </ng-template>
+                      <img src="../../assets/img/banner/banner.jpg" alt="img" class="swp" class="w-100">
+                    </ng-template> -->
 
                     <!-- <ng-template data-swiper-autoplay="10000" class="" swiperSlide>
                       <img src="../../assets/img/banner/flag.jpg" alt="img" class="swp" class="w-100">
@@ -42,6 +42,22 @@
                     </ng-template> -->
 
                   </swiper>
+                  </div>
+                  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner" >
+                      <div class="carousel-item active" *ngFor="let img of item.img">
+                        <img [src]="img" class="d-block w-100" alt="...">
+                      </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let img of item.list">

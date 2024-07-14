@@ -21,7 +21,7 @@ import SwiperCore, {
   Swiper,
   EffectCoverflow,
 
-} 
+}
 from 'swiper';
 import { Location } from '@angular/common';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
@@ -121,7 +121,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
           });
           console.log(this.bindingdata)
         })
-      } else if (url[0].path == 'booklets') {
+      } /* else if (url[0].path == 'booklets') {
         this.title = 'Booklets & Catalogues';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.booklets)
@@ -142,7 +142,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
           });
           console.log(this.bindingdata)
         })
-      } else if (url[0].path == 'foil') {
+      } */ else if (url[0].path == 'foil') {
         this.title = 'Foil Stickers';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
           console.log(data.foil)

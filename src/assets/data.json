@@ -855,7 +855,7 @@
         {
           "title": "Notepads",
           "description": [
-            "Explore our range of perforated notepads tailored to your needs at Deluxe Printing. Whether you require a specific size, shape, or number of sheets, we've got you covered. Stand out from the crowd with custom die-cut shapes that catch the eye! Each pad boasts a generous number of pages, typically 50 or more, and is reinforced with chipboard for added durability. For those seeking unique touches, consider options like rounded corners or side printing. Our woodfree 80gsm stock is favored for its smooth writing surface, though we offer a wide selection of alternatives to suit your preferences. Simply put, if you can envision it, we can bring it to life through print!"
+            "<p>We offer premium notepads that enhance your business's professional image. These customized notepads are perfect for meetings, marketing events, and everyday office activities. You can incorporate your logo, slogan, or unique design to ensure your brand stands out.</p><p>Our notepads come in various sizes and styles, ideal for jotting down quick notes or detailed writing. Choose Digitize Graphics for personalized notepads that are both practical and effective for brand promotion, making a lasting impression with every note you write.</p><ul><li>Features:</li><li>Binding: Top, Left, or Right Opening</li><li>Cover: Customizable - 170gsm smooth paper or thicker</li><li>Inner Pages: Available in 80gsm, 100gsm, or 120gsm uncoated wood-free paper</li><li>Page Printing: Fully Customizable</li><li>Sheets: 50 per pad recommended, more if needed</li></ul>"
           ]
         }
       ],
@@ -902,7 +902,7 @@
         {
           "title": "Calendars",
           "description": [
-            "<p>We specialize in creating a range of premium calendars tailored to your specific needs. Our Wall Calendars are perfect for planning your year and adding a personal touch to your space. For professionals looking to enhance their workspace, our Customized Desk Calendars offer a blend of practicality and elegance, keeping important dates always within reach. <br><br>Additionally, we offer Photo Poster Calendars that turn your cherished memories into functional art, and Tabletop Calendars ideal for any home or office setting. For those always on the go, our Pocket Calendars provide a compact solution for managing your schedule. With our comprehensive Calendar Printing Services, you can choose from various formats and designs to craft the perfect calendar that suits your personality and organizational needs. Explore our diverse collection today and find the perfect calendar to keep you organized all year long.</p>"
+            "<p>We specialize in creating a range of premium calendars tailored to your specific needs. Our Wall Calendars are perfect for planning your year and adding a personal touch to your space. For professionals looking to enhance their workspace, our Customized Desk Calendars offer a blend of practicality and elegance, keeping important dates always within reach. <br><br>Additionally, we offer Photo Poster Calendars that turn your cherished memories into functional art, and Tabletop Calendars ideal for any home or office setting. For those always on the go, our Pocket Calendars provide a compact solution for managing your schedule. With our comprehensive Calendar Printing Services, you can choose from various formats and designs to craft the perfect calendar that suits your personality and organizational needs. Explore our diverse collection today and find the perfect calendar to keep you organized all year long.</p><ul><li>Types of Calendars we print</li><li>Table Calendars</li><li>Wall Calendars</li><li>Poster Calendars</li><li>Card Calendars</li><li>Customized Calendars</li></ul>"
           ]
         }
       ],
@@ -940,8 +940,9 @@
         }
       ],
       "img": [
-        "../../../assets/img/newimg/WaxSeaStamp/img1.jpg",
-        "../../../assets/img/newimg/WaxSeaStamp/img2.jpg"
+        "../../../assets/img/newimg/WaxSeaStamp/img2.jpg",
+        "../../../assets/img/newimg/WaxSeaStamp/img1.jpg"
+        
       ]
     }
   ],

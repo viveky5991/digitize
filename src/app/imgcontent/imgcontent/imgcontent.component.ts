@@ -7,11 +7,12 @@ import { MatDialog } from '@angular/material/dialog';
 import { SwiperOptions } from 'swiper';
 import { SwiperModule } from 'swiper/angular';
 import { Animations } from '../../animation';
+import { BannercontentComponent } from '../../bannercontent/bannercontent/bannercontent.component';
 
 @Component({
   selector: 'app-imgcontent',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule,SwiperModule],
+  imports: [HttpClientModule, CommonModule,RouterModule,SwiperModule,  BannercontentComponent],
   templateUrl: './imgcontent.component.html',
   styleUrl: './imgcontent.component.scss',
   animations: Animations
@@ -26,6 +27,7 @@ export class ImgcontentComponent implements OnInit {
     scrollbar: { draggable: true },
   };
   digitizedata: any;
+  booklets: boolean=false;
   constructor(public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
   ngOnInit(): void {
 
@@ -98,6 +100,7 @@ export class ImgcontentComponent implements OnInit {
 
         })
       } else if(url[0].path=="booklets"){
+        this.booklets=true;
         this.title = 'Booklets & Catalogues';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 

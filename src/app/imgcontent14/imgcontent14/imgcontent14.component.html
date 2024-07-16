@@ -17,8 +17,24 @@
         <div class="col-xs-12 main" id="{{item.id}}">
             <div class="row" >
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="aboutus-image float-left hidden-sm" *ngFor="let img of item.img">
-                      <img [src]="img" alt="" class="w-100">
+                    <div class="aboutus-image float-left hidden-sm" >
+                      <!-- <img [src]="img" alt="" class="w-100"> -->
+                      <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active swps" *ngFor="let img of item.img">
+                            <img [src]="img" class="d-block w-100" alt="...">
+                          </div>
+                         
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12" *ngFor="let img of item.list">
@@ -28,7 +44,9 @@
                             The  <span> {{img.title}}</span>
                         </h2>
 
-                        <p>{{img.description}}</p>
+                      <div class="" [innerHTML]="img.description">
+                        
+                      </div>  
                         <!-- <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                             It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p> -->
 

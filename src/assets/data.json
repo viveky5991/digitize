@@ -765,12 +765,14 @@
       "id": "Standard-Cut",
       "list": [
         {
-          "title": "Standard Cut Frosted Stickers",
-          "description": "The letters or logo will be precisely cut into the exact shape from the frosted vinyl, with internal elements of the artwork removed to prevent them from being solid.  As illustrated in the image, the interior of the 'p' is cut out rather than left solid. It will bear no color and will simply retain a frosted translucent effect."
+          "title": "Standard Cut & Reverse Cut Frosted Stickers",
+          "description": "<p>The letters or logo will be precisely cut from the frosted vinyl, with any interior elements removed to prevent solid filling. As a result, the design will remain colorless, showcasing only the frosted translucent effect.</p>"
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/ReverseCutFrostedSticker.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker1.jpg"
       ]
     },
     {
@@ -778,23 +780,27 @@
       "list": [
         {
           "title": "Printed Frosted Stickers",
-          "description": "The design is directly applied to the surface of the frosted vinyl material using a four-color printing process.  This technique preserves all the colors in the design while also permitting light to pass through both the printed and unprinted areas, thanks to the translucent properties of the material."
+          "description": "<p>The artwork is directly printed onto the frosted vinyl surface using a four-color printing process.This method preserves all the colors in the design while allowing some light to pass through both the printed and unprinted areas, thanks to its translucent quality.</p>"
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/newimg/FROSTEDSTICKER/PrintedFrostedSticker/PrintedFrostedSticker1.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/PrintedFrostedSticker/PrintedFrostedSticker2.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/PrintedFrostedSticker/PrintedFrostedSticker3.jpg"
       ]
     },
     {
       "id": "Blank-Frosted",
       "list": [
         {
-          "title": "Blank-Frosted",
-          "description": "This will be a solid, unprinted, and non-cut frosted vinyl, providing a genuine, solid frosted effect. It will be installed in its original form, with no modifications."
+          "title": "Frosted Glass Stickers",
+          "description": "<p>Frosted stickers or frosted glass films create the look of frosted or opaque glass, offering privacy and security without sacrificing light or visibility. These frosted glass stickers are easy to clean using standard glass cleaning products. They are durable and resistant to sunlight and UV damage. Frosted vinyl stickers are commonly used to enhance privacy in boardrooms and obscure views into personal spaces by applying the film to any partition or glass surface. Additionally, they provide an affordable upgrade to your old transparent glass compared to blinds or curtains.</p>"
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers1.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers2.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers.jpg"
       ]
     }
   ],
@@ -1122,12 +1128,14 @@
         {
           "title": "Window Vinyl Lettering",
           "description": [
-            "Vinyl lettering is a popular and cost-effective method for displaying storefront messages. Whether it's for showcasing working hours, indicating a change of location, displaying a company logo, or posting important notices, vinyl lettering provides a clear and professional look. It adheres easily to windows and glass surfaces, making it a versatile choice for business signage."
+            "<ul><li><b>Usage : </b>Indoor and Outdoor</li><li><b>Color options : </b>Choose from over 40 pre-printed vinyl colors.</li><li><b>Application : </b>Storefront windows, glass doors, office windows, and home décor for both Residential and Commercial spaces.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/WindowBranding/VinylLettering/VinylLettering1.jpg",
+        "../../../assets/img/newimg/WindowBranding/VinylLettering/VinylLettering2.jpg",
+        "../../../assets/img/newimg/WindowBranding/VinylLettering/VinylLettering.jpg"
       ]
     }
   ],
@@ -1137,12 +1145,14 @@
         {
           "title": "Window-Graphics",
           "description": [
-            "Window decals are a favored approach for enhancing and branding commercial window fronts. Frequently utilized by businesses such as salons and spas, these decals not only ensure privacy by obstructing external views but also serve as effective promotional tools. Available in various dimensions to suit different window sizes, these window decals are tailored to meet specific branding needs. Premium installation services for these window decals are offered across major cities including Dubai, Abu Dhabi, and Sharjah, catering to a range of establishments from retail shops to corporate offices. Window branding is becoming an essential strategy for marketing your products and enhancing the visibility of your storefront. By transforming windows into attractive advertising spaces, it catches the eye of passersby, potentially increasing foot traffic to your store or business. Deluxe provides comprehensive window branding services, including professional design and installation, at highly competitive rates. Whether you're looking to promote a new product or reinforce brand recognition, our window branding solutions are designed to meet your specific needs and stand out in busy commercial environments."
+            "<ul><li><b>Usage : </b>Indoor and Outdoor</li><li><b>Application : </b>Electronic appliances, refrigerators, storefronts displaying store hours, retail locations, glass décor, and window signage.</li><li><b>Installation Options : </b>From the Outside or the Inside.</li><li><b>Shape Options : </b>Standard or Custom Border options.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/window/window-graphic.png"
+        "../../../assets/img/newimg/WindowBranding/WindowGraphics/1.jpg",
+        "../../../assets/img/newimg/WindowBranding/WindowGraphics/2.jpg",
+        "../../../assets/img/newimg/WindowBranding/WindowGraphics/3.jpg"
       ]
     }
   ],
@@ -1152,12 +1162,14 @@
         {
           "title": "One Way Vision",
           "description": [
-            "Usage: Suitable for both indoor and outdoor environments. Style Options: Choose from multi-piece decals that combine to form a large display or opt for a single, continuous piece for a seamless look. Application: Ideal for sales promotions or advertising on storefronts, these decals also serve multiple functional purposes including privacy maintenance, sun protection, and decorative window signage. They are perfect for use on partition glasses in settings such as hospitals and pharmacies. Note: The effectiveness of one-way vision decals can diminish if the interior is brighter than the exterior, such as a well-lit store during nighttime. This limitation is inherent to all perforated or one-way vision decals. One-way vision films offer a practical solution for branding outlets while displaying ongoing promotions and product details. These custom films not only enhance the aesthetic appeal of a storefront but also contribute to a cooler indoor environment by blocking excess sunlight. Ideal for office spaces, these films maintain external visibility and privacy, making them an effective and functional choice for advertising and sun protection."
+            "<ul><li><b>Usage : </b>Indoor and Outdoor</li><li><b>Style options : </b>Multi-piece decals that can form one large display or be used as a single continuous piece.</li><li><b>Application : </b>Sales and advertising promotions for storefronts, privacy maintenance, sun protection, window décor and signage, as well as partition glass solutions for hospitals and pharmacies.</li><li><b>Note : </b>The effectiveness of a one-way vision decal can be compromised when the interior is brighter than the exterior, such as in a well-lit store at night. This applies to all perforated or one-way vision decals.</li></ul>"
           ]
         }
       ],
-      "img": [
-        "../../../assets/img/window/one-way.png"
+     "img": [
+        "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/1.jpg",
+        "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/2.jpg",
+        "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/3.jpg"
       ]
     }
   ],

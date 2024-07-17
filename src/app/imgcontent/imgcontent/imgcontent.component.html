@@ -103,5 +103,11 @@
           </div>
       </div>
   </div>
-  <button class="btn btn-primary list-btn" (click)="EnquiryNow()">Enquire Now</button>
+  <button class="btn btn-primary list-btn" *ngIf="!booklets" (click)="EnquiryNow()">Enquire Now</button>
 </div>
+
+<div *ngIf="booklets">
+  <h2>Related Products</h2>
+  <app-bannercontent></app-bannercontent>
+</div>
+

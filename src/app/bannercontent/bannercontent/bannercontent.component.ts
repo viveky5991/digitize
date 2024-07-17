@@ -40,6 +40,7 @@ SwiperCore.use([
   selector: 'app-bannercontent',
   standalone: true,
   imports: [SwiperModule, CarouselModule, CollapseModule, CommonModule, HttpClientModule],
+
   templateUrl: './bannercontent.component.html',
   styleUrl: './bannercontent.component.scss'
 })
@@ -164,7 +165,11 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
           console.log(this.bindingdata)
         })
       } else {
-        this.title = 'Digitize'
+        this.title = 'Book Binding'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+          // console.log(data.binding)
+          this.bindingdata = data.binding;
+        })
       }
     })
   }

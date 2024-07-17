@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'whiteink', component: Imgcontent2Component },
   { path: 'embossingseal', component: Imgcontent2Component },
   { path: 'kraftpaper', component: Imgcontent2Component },
- 
+  { path: 'Stickers', component: Imgcontent2Component },
+
 ];
 
 @NgModule({

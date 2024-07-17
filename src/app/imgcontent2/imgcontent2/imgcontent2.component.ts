@@ -79,7 +79,14 @@ export class Imgcontent2Component implements OnInit {
           console.log(data.kraft_paper)
           this.digitizedata = data.kraft_paper;
         })
-      } else {
+      } else if (url[0].path == 'Stickers') {
+        this.title = 'Kraft Paper Sticker'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.kraft_paper)
+          this.digitizedata = data.kraft_paper;
+        })
+      }       else {
         this.title = 'Digitize'
       }
     })

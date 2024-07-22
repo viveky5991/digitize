@@ -62,6 +62,12 @@
           "title": "CRAFT BUSINESS CARDS",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "CRAFT BUSINESS CARDS",
+          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
 
       ]},
@@ -80,6 +86,12 @@
             "title": "img2",
             "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img2.jpg",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img3.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
           }
         ]
       },
@@ -91,6 +103,18 @@
             "id": 1,
             "title": "Round Corners",
             "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
           }
         ]
@@ -810,7 +834,7 @@
         {
           "title": "Letterhead",
           "description": [
-            "<p>Enhance your company's image with our premium letterhead printing services in Dubai. Choose from a variety of designs, option for on-demand printing, and embrace eco-friendly practices with our Recycled Letterhead material. Our Recycled Letterhead Paper is crafted to deliver exceptional results, boasting a brighter and more uniform color while minimizing environmental impact. Best of all</p> <p> Our full-color letterhead printing is available on a range of premium paper brands including Conqueror, Fedrigoni, woodfree, Executive Bonds, and more. A well-crafted letterhead lends a professional edge to all your communications, so don't wait—order yours today and leave a lasting impression!</p>"
+            "<p>Enhance your company's image with our premium letterhead printing services in Dubai. Choose from a variety of designs, option for on-demand printing, and embrace eco-friendly practices with our Recycled Letterhead material. Our Recycled Letterhead Paper is crafted to deliver exceptional results, boasting a brighter and more uniform color while minimizing environmental impact.</p> <p> Best of all Our full-color letterhead printing is available on a range of premium paper brands including Conqueror, Fedrigoni, woodfree, Executive Bonds, and more. A well-crafted letterhead lends a professional edge to all your communications, so don't wait—order yours today and leave a lasting impression!</p>"
           ]
         }
       ],
@@ -891,7 +915,7 @@
         {
           "title": "Thank You Cards",
           "description": [
-            "Ready to elevate your gratitude? Say thanks from the depths of your heart with a personalized card. Whether it's for a birthday bash, a dreamy wedding, or a simple act of kindness, a handwritten thank you note speaks volumes. We specialize in crafting thank you cards that reflect your individuality. From wedding appreciation to professional gestures, our cards are fully customizable. Add your personal touch with photos, bespoke text, and more. Say it with sincerity, say it with style - say thank you like never before."
+            "Ready to elevate your gratitude? Say thanks from the depths of your heart with a personalized card. Whether it's for a birthday bash, a dreamy wedding, or a simple act of kindness, a handwritten thank you note speaks volumes. We specialize in crafting thank you cards that reflect your individuality. From wedding appreciation to professional gestures, our cards are fully customizable. Add your personal touch with photos, bespoke text, and more. Say it with sincerity, say it with style - say thank you like never before.<ul><li><b>Specification:</b></li><li>Size : Customized</li><li>Material : 350Gsm Art Matt</li><li>Printing : Both Sides</li><li>Matt Lamination : Both Sides</li></ul>"
           ]
         }
       ],
@@ -2265,14 +2289,7 @@
       "title": "Section Sewn Binding",
       "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
     },
-    {
-      "title": "Singer Sewn Binding",
-      "img": "../../../assets/img/Binding/new/Singer-sewn-binding-768x386.png"
-    },
-    {
-      "title": "Solander Boxes And Slipcases",
-      "img": "../../../assets/img/Binding/new/Solander-boxes-and-slipcases-768x386.png"
-    },
+   
     {
       "title": "Wire Comb Or Spiral Binding",
       "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
@@ -2287,7 +2304,10 @@
       "title": "",
       "img": "../../../assets/img/newimg/Certificates/5586744.jpg"
     },
-
+    {
+      "title": "",
+      "img": "../../../assets/img/newimg/Certificates/img.jpg"
+    } , 
     [
       {
         "description": [

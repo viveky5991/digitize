@@ -380,14 +380,14 @@
 
         </li>
 
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown d-none">
           <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Print & Marketing
               </a> -->
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown"
             aria-expanded="false" [matMenuTriggerFor]="corporateGifts">Corporate Gifts </a>
           <mat-menu #corporateGifts="matMenu">
-            <!-- <button mat-menu-item>All Corporate Gifts & Bags</button> -->
+           
             <button mat-menu-item [matMenuTriggerFor]="officeEssentials">Office Essentials</button>
             <button mat-menu-item [matMenuTriggerFor]="apparel">Apparel</button>
             <button mat-menu-item [matMenuTriggerFor]="tradeShows">Trade Shows & Events</button>
@@ -406,7 +406,7 @@
             <button mat-menu-item (click)="navigate('/TShirt')" (click)="toggleMenu()">T-Shirt</button>
             <button mat-menu-item (click)="navigate('/Jersey')" (click)="toggleMenu()">Jersey</button>
             <button mat-menu-item (click)="navigate('/Caps')" (click)="toggleMenu()">Caps</button>
-            <!-- <button mat-menu-item (click)="navigate('/NeckTie')">Neck Tie</button> -->
+          
             <button mat-menu-item (click)="navigate('/SafetyVest')" (click)="toggleMenu()">Safety Vest</button>
 
           </mat-menu>
@@ -439,6 +439,11 @@
             <button mat-menu-item (click)="navigate('/CottonStringbag')" (click)="toggleMenu()">Cotton String bag</button>
 
           </mat-menu>
+        </li>
+        <li class="nav-item">
+          <a href="https://dgs-uae.com/" (click)="toggleMenu()" class="nav-link" target="_blank">
+            Corporate Gifts
+          </a>
         </li>
         <li class="nav-item">
           <a routerLink="/About-us" (click)="toggleMenu()" class="nav-link">

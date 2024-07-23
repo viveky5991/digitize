@@ -147,38 +147,51 @@
   ],
   "voucher": [
     {
-      "id": 1,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Folder/Folder-Mockup-7-1536x1152.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+      "image"      :       "",
+      "maintitle"      :       "Round Corner Business Cards",
+      "tourcodes"      :       [
+        {
+          "id": 1,
+          "title": "Round Corners",
+          "img": "../../../assets/img/newimg/voucher/DeliveryOrderBooks.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/voucher/InvoiceBooks.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/voucher/LPOBooks.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/voucher/Paymentvouchers.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/voucher/PettyCashVouchers.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+      ]
     },
-    {
-      "id": 2,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
-      "id": 3,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
-      "id": 4,
-      "title": "PC Business Cards  ",
-      "img": "../assets/img/Business-card/Sandwich-Cards/original-577f5927ca1798820559413304a7821a.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
+    
     {
       "PrintingInformation": [
         {
           "list": [
             {
-              "note": " voucher is a document which can be used as proof that a monetary transaction has occurred between two parties. In business, a payment voucher can be used for a variety of purposes, sometimes taking the place of cash in a transaction, acting as a receipt, or indicating that an invoice has been approved for payment."
+              "note": "Digitize Graphics offers a variety of printing options including multi-color, full-color, or single-color offset printing on high-quality self-carbon or NCR paper. Our self-carbon forms are available in duplicates, triplicates, and more. We carry a wide range of colored papers such as pink, yellow, green, and blue. Our premium self-carbonized paper ensures that ink transfers cleanly to the last copy of each set."
             },
             {
-              "note": "Deluxe Printing provides printing services in multiple colors, including full-color or single-color offset printing on high-grade Self Carbon or NCR paper. Our top-quality forms utilize self-carbonating paper and are available in duplicates, triplicates, and more. We keep a stock of popularly used colored papers in shades of pink, yellow, green, and blue. The superior quality of our self-carbonizing paper ensures ink transfer to the final copy in a set. Custom sizes for company Payment Vouchers are available, as well as standard A5 format. We accept orders starting from 10 books and guarantee printing within five working days. Choose from our selection of payment voucher templates, or send us your own template along with the required number of copies to receive a quote."
+              "note": "We can customize NCR books to any size or offer standard sizes like A4 or A5. Orders start from 10 books and are printed within 5 working days. Choose from our selection of Voucher book templates or send us your own sample template along with the desired number of copies to receive a quote via email."
             }
           ]
         }
@@ -724,7 +737,7 @@
   "brochurePreparationTasks": [
     {
       "list": [
-        "Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area"
+        "<p>Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area</p><ul><li><b>Paper stock options for Brochure printing</b></li><li>150gsm Gloss or Matt</li><li>170gsm Gloss or Matt</li><li>200gsm Gloss or Matt</li><li>250gsm Gloss or Matt</li><li>300gsm Gloss or Matt</li><li>350gsm Gloss or Matt</li><li></li></ul>"
       ]
     },
     {

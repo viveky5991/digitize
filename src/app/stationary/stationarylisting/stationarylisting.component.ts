@@ -24,6 +24,7 @@ export class StationarylistingComponent implements OnInit {
   digitizedata: any;
   contentinfo: any;
   fullUrl: any;
+  busines: any;
   constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title, private location: Location, @Inject(DOCUMENT) private document: Document) { }
 
   ngOnInit(): void {
@@ -38,6 +39,7 @@ export class StationarylistingComponent implements OnInit {
         // console.log(this.data)
         console.log('business-cards');
         this.title = 'Business Cards'
+      this.busines=true
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log('iiiiiiii',data.businesscard)

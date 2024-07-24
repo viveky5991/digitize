@@ -37,9 +37,10 @@
          <div class="col-lg-5">
           <h2 class="title">{{title}}
           </h2>
-          <p *ngFor="let item of digitizedata" class="mt-3"><span *ngFor="let ls of item.list">
-            {{ls}}
-          </span></p>
+          <div *ngFor="let item of digitizedata" class="mt-3 content"><div *ngFor="let ls of item.list">
+            <span [innerHTML]="ls"></span>
+            <!-- {{ls}} -->
+          </div></div>
           <!-- <ul *ngFor="let item of digitizedata">
              <li *ngFor="let ls of item.list">
                 {{ls}}

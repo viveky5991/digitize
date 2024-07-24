@@ -200,41 +200,86 @@
   ],
   "hangtag": [
     {
-      "id": 1,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
-      "id": 2,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
-      "id": 3,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
-      "id": 4,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-    },
-    {
+      "image"      :       "",
+      "maintitle"      :       "Hang Tag",
+      "tourcodes"      :       [
+        {
+          "id": 1,
+          "title": "img1",
+          "img": "../../../assets/img/newimg/hangtag/img1.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/hangtag/img2.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img3.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img4.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img5.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img6.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img7.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img8.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img9.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img10.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/hangtag/img11.png",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+        
+      ]
+    },    {
       "PrintingInformation": [
         {
           "list": [
             {
-              "note": "Hang tags effortlessly and economically enhance the distinctiveness of a brand, adding a unique touch to virtually any product."
+              "note": "Hang tags enhance a brand's distinctive appeal affordably and effectively across various products. They contribute significantly to raising awareness, a vital aspect of brand communication. Beyond style, they foster customer engagement with the product, serving the purposes of displaying details such as product specifics, pricing, origin, content, and company backstory or mission. They find application in a wide range of items including apparel, stationery, invitations, food, gift boxes, and collectibles."
             },
             {
-              "note": "Enhances the efficiency of raising awareness, a fundamental aspect of brand communication."
-            },
-            {
-              "note": "It not only enhances the brand's appeal but also fosters a connection between the customer and the product."
+              "note": "Hang tags can be finished with a hole punch, optionally adding an eyelet or rope for additional customization."
             }
           ]
         }
@@ -737,7 +782,7 @@
   "brochurePreparationTasks": [
     {
       "list": [
-        "<p>Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area</p><ul><li><b>Paper stock options for Brochure printing</b></li><li>150gsm Gloss or Matt</li><li>170gsm Gloss or Matt</li><li>200gsm Gloss or Matt</li><li>250gsm Gloss or Matt</li><li>300gsm Gloss or Matt</li><li>350gsm Gloss or Matt</li><li></li></ul>"
+        "<p>Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area</p><ul><li><b>Paper stock options for Brochure printing</b></li><li>150gsm Gloss or Matt</li><li>170gsm Gloss or Matt</li><li>200gsm Gloss or Matt</li><li>250gsm Gloss or Matt</li><li>300gsm Gloss or Matt</li><li>350gsm Gloss or Matt</li></ul>"
       ]
     },
     {
@@ -1010,9 +1055,7 @@
         {
           "title": "Flyers",
           "description": [
-            "Sure, here's a refined version:",
-            "For flawless print results, adhere to these meticulous guidelines:",
-            "Bleed Requirements: Ensure a 2mm bleed over the finished size for flyers. Font Precision: Convert all fonts in the brochure to paths or curves for consistent rendering. Color Standards: Utilize CMYK or Grayscale colors exclusively; refrain from using RGB, PMS, Pantone, or Spot colors. Transparency Handling: Flatten transparency effects to prevent unexpected outcomes during printing. Overprint Settings: Set overprints accurately to achieve the desired printing effect. Color Profile Removal: Remove all color profiles to maintain color integrity across platforms. Image Resolution: Bitmap images must have a minimum resolution of 300dpi and be in CMYK format for optimal print quality. Reversed Type: Ensure that reversed type (light type on dark backgrounds) is no smaller than 7pt for readability. File Organization: Provide individual PDF files instead of multi-page documents to facilitate efficient imposition. Safe Zone Considerations: Keep borders and type within the safe zone, as variations may occur during trimming. Non-Printing Elements: Remove registration marks, keylines, dielines, and other non-printing items to maintain clarity. Crop Marks: If crop marks are necessary, position them outside the bleed area to avoid interference with the printed content. Adhering to these specifications will ensure optimal print quality and streamline the printing process."
+            "<ul><li><b>Paper stock options for Brochure printing</b></li><li>150gsm Gloss or Matt</li><li>170gsm Gloss or Matt</li><li>200gsm Gloss or Matt</li><li>250gsm Gloss or Matt</li><li>300gsm Gloss or Matt</li><li>350gsm Gloss or Matt</li></ul><span><b>Guidelines for Supplying finished files - Ready to Print Artwork:</b></span><ul><li>Apply a 2mm bleed over the finished size.</li><li>Convert all fonts to paths or curves.</li><li>Convert all colors to CMYK or Grayscale (No RGB, PMS, Pantone, or Spot colors).</li><li>Flatten transparency effects Set overprints correctly for desired result.</li><li>Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode.</li><li>Ensure reversed type (light type on dark background) is a minimum of 7pt.</li><li>Please supply all files separately as we prefer to do our own imposing. PDF's should be individual files and not multi-page documents.</li><li>Ensure borders and type are within safe zone as variations may occur when trimming.</li><li>Remove registration marks, keylines, dyelines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area</li></ul>"
           ]
         }
       ],
@@ -1060,12 +1103,15 @@
         {
           "title": "Tent Cards",
           "description": [
-            "Elevate your brand's presence with our top-tier tent card printing services in Dubai. Our bespoke designs, unparalleled quality, and swift delivery ensure that your message leaves a lasting impact. Contact us today for premium tent card solutions crafted to perfection."
+            "<p>Full-color, custom-printed tent cards provide a versatile solution for a variety of purposes such as displaying menus, hotel information, price lists, and general advertising. They are utilized in the following ways:</p><p>Showcasing Menu Specials: In restaurants or cafes, they are used to highlight daily specials, desserts, or enticing drink options.</p><p>Event Table Identifiers: At weddings and conferences, they serve as elegant table markers or labels for buffet tables, indicating the offerings available.</p><p>Dynamic Marketing: They are used for point-of-sale displays to introduce new products, promote upcoming events, or announce special offers.</p><p>Informative Signage: In hotel rooms, tent cards enhance the guest experience by providing details about Wi-Fi access, room service options, and emergency contact information.</p><ul><li><b>Features</b></li><li>Materal: 350 gsm art matt/gloss</li><li>Both sides printing</li><li>Matt/Gloss Lamination one sides</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/flyer/flyer.webp"
+        "../../../assets/img/newimg/tentcard/img1.jpg",
+        "../../../assets/img/newimg/tentcard/img2.jpg",
+        "../../../assets/img/newimg/tentcard/img3.jpg",
+        "../../../assets/img/newimg/tentcard/img4.jpg"
       ]
     }
   ],

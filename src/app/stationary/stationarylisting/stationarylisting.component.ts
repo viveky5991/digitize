@@ -103,7 +103,20 @@ export class StationarylistingComponent implements OnInit {
             }
           });
         })
-      } else if (url[0].path == 'pvcwhite') {
+      }  else if (url[0].path == 'Stickers') {
+        this.title = 'Stickers'
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Stickers)
+          this.digitizedata = data.Stickers;
+          this.digitizedata.forEach((element: any) => {
+            if(element.PrintingInformation){
+              this.contentinfo=[element]
+              console.log(this.contentinfo)
+            }
+          });
+        })
+      }else if (url[0].path == 'pvcwhite') {
         this.title = 'PVC Stickers'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 

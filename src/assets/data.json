@@ -145,6 +145,223 @@
       ]
     }
   ],
+  "Stickers": [
+    {
+      "image"      :       "",
+      "maintitle"      :       "Die Cut Stickers",
+      "tourcodes"      :       [
+        {
+          "id": 1,
+          "title": "img1",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+      ]
+    },
+    {
+      "image"      :       "",
+      "maintitle"      :       "Epoxy Stickers",
+      "tourcodes"      :       [
+        {
+          "id": 1,
+          "title": "img1",
+          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img1.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "img2",
+          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 3,
+          "title": "img3",
+          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+      ]
+    },
+    {"image"      :       "",
+     "maintitle"      :       "Foil Stickers",
+      "tourcodes"      :       [
+        {
+          "id": 1,
+          "title": "Img1",
+          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img1.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "CRAFT BUSINESS CARDS",
+          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "CRAFT BUSINESS CARDS",
+          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+
+      ]},
+      {
+        "image"      :       "",
+        "maintitle"      :       "Paper Stickers",
+        "tourcodes"      :       [
+          {
+            "id": 1,
+            "title": "img1",
+            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img3.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          }
+        ]
+      },
+       {
+        "image"      :       "",
+        "maintitle"      :       "PVC Stickers",
+        "tourcodes"      :       [
+          {
+            "id": 1,
+            "title": "Round Corners",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          }
+        ]
+      },
+      {
+        "image"      :       "",
+        "maintitle"      :       "Transparent Stickers",
+        "tourcodes"      :       [
+          {
+            "id": 1,
+            "title": "Round Corners",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          }
+        ]
+      },
+      {
+        "image"      :       "",
+        "maintitle"      :       "White Ink Sticker",
+        "tourcodes"      :       [
+          {
+            "id": 1,
+            "title": "Round Corners",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          }
+        ]
+      },
+      {
+        "image"      :       "",
+        "maintitle"      :       "Windshield Stickers",
+        "tourcodes"      :       [
+          {
+            "id": 1,
+            "title": "Round Corners",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          },
+          {
+            "id": 2,
+            "title": "img2",
+            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+          }
+        ]
+      },
+
+
+
+
+    {
+      "PrintingInformation": [
+        {
+          "list": [
+            {
+              "note": "Colors adhere to CMYK Digital standards, ensuring exceptional print quality with consistent color accuracy throughout the entire print run."
+            },
+            {
+              "note": "We cannot ensure an exact color match with your current business card. Color discrepancies may occur due to differences between various machines and vendors."
+            },
+            {
+              "note": "Color differences may exist between what is displayed on the client’s screen and the actual product. The supplier will not cover the cost of reprints caused by these color variations."
+            },
+            {
+              "note": "Pantone colors cannot be directly printed and will instead be automatically translated into CMYK"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "voucher": [
     {
       "image"      :       "",
@@ -804,10 +1021,9 @@
     },
     {
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg",
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
+        "../../../assets/img/newimg/TicketsCoupns/img1.jpg",
+        "../../../assets/img/newimg/TicketsCoupns/img2.jpg"
+      
       ]
     }
   ],

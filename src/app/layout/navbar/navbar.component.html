@@ -123,7 +123,7 @@
             <button mat-menu-item [matMenuTriggerFor]="frosted">Frosted Sticker</button>
             <button mat-menu-item [matMenuTriggerFor]="window">Window Branding</button>
             <button mat-menu-item (click)="navigate('/floor-stickers')" (click)="toggleMenu()">Floor Sticker</button>
-            <button mat-menu-item [matMenuTriggerFor]="wallBranding">Wall Branding</button>
+            <button mat-menu-item [matMenuTriggerFor]="wallBranding" class="d-none">Wall Branding</button>
             <button mat-menu-item [matMenuTriggerFor]="wallFrames">Wall Frames</button>
             <button mat-menu-item (click)="navigate('/posters')" (click)="toggleMenu()">Posters</button>
             <!-- <button mat-menu-item  (click)="navigate('/repositionable')">Repositionable Cling</button> -->
@@ -155,11 +155,11 @@
             <button mat-menu-item (click)="navigate('/Window-Graphics')" (click)="toggleMenu()">Window Graphics</button>
             <button mat-menu-item (click)="navigate('/OneWay-Vision')" (click)="toggleMenu()">One Way Vision
               Sticker</button>
-            <button mat-menu-item (click)="navigate('/Window-Films')" (click)="toggleMenu()">Window Films</button>
+            <button mat-menu-item (click)="navigate('/Window-Films')" (click)="toggleMenu()" class="d-none">Window Films</button>
 
           </mat-menu>
 
-          <mat-menu #wallBranding="matMenu">
+          <mat-menu #wallBranding="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Wall-Vinyl')" (click)="toggleMenu()">Wall Vinyl Lettering</button>
             <button mat-menu-item (click)="navigate('/Wall-Graphics')" (click)="toggleMenu()">Wall Graphics</button>
 

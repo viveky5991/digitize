@@ -149,49 +149,49 @@
         {
           "id": 1,
           "title": "Die Cut Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
+          "img": "../../../assets/img/newimg/sticker/Diecutsticker.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
           "title": "Epoxy Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
+          "img": "../../../assets/img/newimg/sticker/EpoxyStickers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
           "title": "Foil Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/FoilStickers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 4,
           "title": "Paper Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/paper_sticker.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 5,
           "title": "PVC Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/PVCStickers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 6,
           "title": "Transparent Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/TransparentStickers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 7,
           "title": "White Ink Sticker",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/WhiteInkSticker.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 8,
           "title": "Windshield Stickers",
-          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "img": "../../../assets/img/newimg/sticker/WindshieldStickers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
       ]
@@ -2440,7 +2440,7 @@
         {
           "title": "Booklets & Catalogues",
           "description": [
-            "<p>Magazines are an effective marketing tool to engage your target market. They effectively showcase your brands, enhancing and sustaining your business's image through powerful advertising.</p>"
+            "<ul><li><b>Features and Specifications:</b></li><li>Cover page : 250gsm Matt or Gloss.</li><li>Inner pages : 170gsm Matt or Gloss.</li><li>Multi-Color Printing.</li><li>Sizes : A6, A5, A4 or any custom size up to A3.</li><li>Pages : From 4, 8, 12, 16, 20, 24, 28, 32 and more.</li></ul><ul><li><b>Guidelines for Supplying finished files - Ready to Print Artwork:</b></li><li>Apply a 2mm bleed over the finished size .</li><li>Convert all fonts to paths or curves .</li><li>Convert all colors to CMYK or Grayscale (No RGB, PMS, Pantone, or Spot colors).</li><li>Flatten transparency effects Set overprints correctly for desired result.</li><li>Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode.</li><li>Ensure reversed type (light type on dark background) is a minimum of 7pt.</li><li>Please supply all files separately as we prefer to do our own imposing. PDF's should be individual files and not multi-page documents.</li><li>Ensure borders and type are within safe zone as variations may occur when trimming.</li><li>Remove registration marks, keylines, dyelines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area.</li><li></li></ul>"
           ]
         }
       ],

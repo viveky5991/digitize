@@ -169,7 +169,7 @@
             <button mat-menu-item (click)="navigate('/Canvas')" (click)="toggleMenu()">Canvas</button>
             <button mat-menu-item (click)="navigate('/Wooden')" (click)="toggleMenu()">Wooden</button>
             <button mat-menu-item (click)="navigate('/Acrylic')" (click)="toggleMenu()">Acrylic</button>
-            <button mat-menu-item (click)="navigate('/MetalArt')" (click)="toggleMenu()">Metal Art</button>
+            <button mat-menu-item (click)="navigate('/MetalArt')" (click)="toggleMenu()" class="d-none">Metal Art</button>
 
           </mat-menu>
 
@@ -191,7 +191,8 @@
           <mat-menu #signages="matMenu">
             <!-- <button mat-menu-item>All Signages</button> -->
             <button mat-menu-item [matMenuTriggerFor]="indoor3D">3D Indoor / Outdoor Signage</button>
-            <button mat-menu-item [matMenuTriggerFor]="signBoard">Sign Board</button>
+            
+            <button mat-menu-item (click)="navigate('/Sign-Board')" (click)="toggleMenu()">Sign Board</button>
             <button mat-menu-item [matMenuTriggerFor]="lightBox">Light Box Signages</button>
             <button mat-menu-item [matMenuTriggerFor]="direction">Direction / Wayfinding Signage</button>
             <button mat-menu-item [matMenuTriggerFor]="selfStanding">Self Standing Letters</button>
@@ -204,36 +205,36 @@
             <button mat-menu-item (click)="navigate('/Unlit3D')" (click)="toggleMenu()">Unlit 3D Signage</button>
             <button mat-menu-item (click)="navigate('/Frontlit3D')" (click)="toggleMenu()">Frontlit 3D Signage</button>
             <button mat-menu-item (click)="navigate('/Backlit3D')" (click)="toggleMenu()">Backlit 3D Signage</button>
-            <button mat-menu-item (click)="navigate('/Outlit3D')" (click)="toggleMenu()">Outlit 3D Signage</button>
-            <button mat-menu-item (click)="navigate('/PushThrough3D')" (click)="toggleMenu()">Push Through 3D
+            <button mat-menu-item (click)="navigate('/Outlit3D')" (click)="toggleMenu()" class="d-none">Outlit 3D Signage</button>
+            <button mat-menu-item (click)="navigate('/PushThrough3D')" (click)="toggleMenu()" class="d-none">Push Through 3D
               Signage</button>
             <button mat-menu-item (click)="navigate('/Neon3D')" (click)="toggleMenu()">Neon 3D Signage</button>
 
           </mat-menu>
 
-          <mat-menu #signBoard="matMenu">
-            <button mat-menu-item (click)="navigate('/FlexFace')" (click)="toggleMenu()">Flex Face Sign Board</button>
-            <button mat-menu-item (click)="navigate('/Frontlit3DBoard')" (click)="toggleMenu()">Frontlit 3D Sign
+          <mat-menu #signBoard="matMenu" class="d-none">
+            <button mat-menu-item (click)="navigate('/FlexFace')" (click)="toggleMenu()" class="d-none">Flex Face Sign Board</button>
+            <button mat-menu-item (click)="navigate('/Frontlit3DBoard')" (click)="toggleMenu()" class="d-none">Frontlit 3D Sign
               Board</button>
-            <button mat-menu-item (click)="navigate('/Backlit3DBoard')" (click)="toggleMenu()">Backtlit 3D Sign
+            <button mat-menu-item (click)="navigate('/Backlit3DBoard')" (click)="toggleMenu()" class="d-none">Backtlit 3D Sign
               Board</button>
-            <button mat-menu-item (click)="navigate('/PushThrough')" (click)="toggleMenu()">Push Through Sign
+            <button mat-menu-item (click)="navigate('/PushThrough')" (click)="toggleMenu()" class="d-none">Push Through Sign
               Board</button>
-            <button mat-menu-item (click)="navigate('/Neon')" (click)="toggleMenu()">Neon Sign Board</button>
+            <button mat-menu-item (click)="navigate('/Neon')" (click)="toggleMenu()" class="d-none">Neon Sign Board</button>
 
           </mat-menu>
 
           <mat-menu #lightBox="matMenu">
             <button mat-menu-item (click)="navigate('/FlexFace-LightBox')" (click)="toggleMenu()">Flex Face Light
               Box</button>
-            <button mat-menu-item (click)="navigate('/Fabric')" (click)="toggleMenu()">Fabric Light Box</button>
-            <button mat-menu-item (click)="navigate('/acrylic-light-box')" (click)="toggleMenu()">Acrylic Light
+            <button mat-menu-item (click)="navigate('/Fabric')" (click)="toggleMenu()" class="d-none">Fabric Light Box</button>
+            <button mat-menu-item (click)="navigate('/acrylic-light-box')" (click)="toggleMenu()" class="d-none">Acrylic Light
               Box</button>
-            <button mat-menu-item (click)="navigate('/Poster')" (click)="toggleMenu()">Poster Light Box</button>
+            <button mat-menu-item (click)="navigate('/Poster')" (click)="toggleMenu()" class="d-none">Poster Light Box</button>
 
           </mat-menu>
 
-          <mat-menu #direction="matMenu">
+          <mat-menu #direction="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/SelfStanding')" (click)="toggleMenu()">Self-Standing
               Signage</button>
             <button mat-menu-item (click)="navigate('/WallMounted')" (click)="toggleMenu()">Wall Mounted
@@ -242,7 +243,7 @@
             <button mat-menu-item (click)="navigate('/Directory')" (click)="toggleMenu()">Directory Signage</button>
 
           </mat-menu>
-          <mat-menu #selfStanding="matMenu">
+          <mat-menu #selfStanding="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Metal')" (click)="toggleMenu()">Metal Letters</button>
             <button mat-menu-item (click)="navigate('/Wooden-Letters')" (click)="toggleMenu()">Wooden Letters</button>
             <button mat-menu-item (click)="navigate('/AcrylicLetters')" (click)="toggleMenu()">Acrylic Letters</button>
@@ -254,13 +255,13 @@
             <button mat-menu-item (click)="navigate('/MetalPlates')" (click)="toggleMenu()">Metal Name Plates</button>
             <button mat-menu-item (click)="navigate('/AcrylicPlates')" (click)="toggleMenu()">Acrylic Name
               Plates</button>
-            <button mat-menu-item (click)="navigate('/WoodenPlates')" (click)="toggleMenu()">Wooden Name Plates</button>
-            <button mat-menu-item (click)="navigate('/TableTopPlates')" (click)="toggleMenu()">Table Top Plates /
+            <button mat-menu-item (click)="navigate('/WoodenPlates')" (click)="toggleMenu()"  class="d-none">Wooden Name Plates</button>
+            <button mat-menu-item (click)="navigate('/TableTopPlates')" (click)="toggleMenu()"  class="d-none">Table Top Plates /
               Sign</button>
 
           </mat-menu>
 
-          <mat-menu #labels="matMenu">
+          <mat-menu #labels="matMenu"  class="d-none">
             <button mat-menu-item (click)="navigate('/TraffolytePVCAcrylic')" (click)="toggleMenu()">Traffolyte / PVC /
               Acrylic Labels</button>
             <button mat-menu-item (click)="navigate('/MetalLabels')" (click)="toggleMenu()">Metal Labels</button>
@@ -292,12 +293,12 @@
             <button mat-menu-item (click)="navigate('/TearDropFlags')" (click)="toggleMenu()">Tear Drop Flags</button>
             <button mat-menu-item (click)="navigate('/LShapeFlags')" (click)="toggleMenu()">L Shape Flags</button>
             <button mat-menu-item (click)="navigate('/BladeFlags')" (click)="toggleMenu()">Blade Flags</button>
-            <button mat-menu-item (click)="navigate('/TelescopicFlags')" (click)="toggleMenu()">Telescopic
+            <button mat-menu-item (click)="navigate('/TelescopicFlags')" (click)="toggleMenu()" class="d-none">Telescopic
               Flags</button>
 
           </mat-menu>
 
-          <mat-menu #decorativeFlags="matMenu">
+          <mat-menu #decorativeFlags="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/CarFlags')" (click)="toggleMenu()">Car Flags</button>
             <button mat-menu-item (click)="navigate('/CarDesert')" (click)="toggleMenu()">Car Desert Flags</button>
             <button mat-menu-item (click)="navigate('/Dashboard')" (click)="toggleMenu()">Dashboard Flags</button>
@@ -310,11 +311,11 @@
             <button mat-menu-item (click)="navigate('/Poleflags')" (click)="toggleMenu()">Pole flags</button>
             <button mat-menu-item (click)="navigate('/Handflags')" (click)="toggleMenu()">Hand flags</button>
             <button mat-menu-item (click)="navigate('/FinishLine')" (click)="toggleMenu()">Finish Line</button>
-            <button mat-menu-item (click)="navigate('/BodyFlags')" (click)="toggleMenu()">Body Flags</button>
+            <button mat-menu-item (click)="navigate('/BodyFlags')" (click)="toggleMenu()" class="d-none">Body Flags</button>
             <button mat-menu-item (click)="navigate('/FanScarf')" (click)="toggleMenu()">Fan Scarf</button>
           </mat-menu>
 
-          <mat-menu #outdoorFlags="matMenu">
+          <mat-menu #outdoorFlags="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Hoisting')" (click)="toggleMenu()">Hoisting Flags</button>
             <button mat-menu-item (click)="navigate('/wall_mounted_flags')" (click)="toggleMenu()">Wall Mounted Flags</button>
             <button mat-menu-item (click)="navigate('/Stadium')" (click)="toggleMenu()">Stadium flags</button>
@@ -324,9 +325,9 @@
 
           <mat-menu #officeFlags="matMenu">
             <button mat-menu-item (click)="navigate('/TableFlags')" (click)="toggleMenu()">Table Flags</button>
-            <button mat-menu-item (click)="navigate('/TableFlagsRoyal')" (click)="toggleMenu()">Table Flags - Royal</button>
-            <button mat-menu-item (click)="navigate('/ConferenceFlags')" (click)="toggleMenu()">Conference Flags</button>
-            <button mat-menu-item (click)="navigate('/ConferenceFlagsHanging')" (click)="toggleMenu()">Conference Flags - Hanging</button>
+            <button mat-menu-item (click)="navigate('/TableFlagsRoyal')" (click)="toggleMenu()" class="d-none">Table Flags - Royal</button>
+            <button mat-menu-item (click)="navigate('/ConferenceFlags')" (click)="toggleMenu()" class="d-none">Conference Flags</button>
+            <button mat-menu-item (click)="navigate('/ConferenceFlagsHanging')" (click)="toggleMenu()" class="d-none">Conference Flags - Hanging</button>
           </mat-menu>
         </li>
 
@@ -351,7 +352,7 @@
             <button mat-menu-item (click)="navigate('/rollup-banners')" (click)="toggleMenu()">Rollup Banners</button>
             <button mat-menu-item (click)="navigate('/x-banners')" (click)="toggleMenu()">X Banners</button>
             <button mat-menu-item (click)="navigate('/banners-flex')" (click)="toggleMenu()">Banners-Flex & Fabric</button>
-            <button mat-menu-item (click)="navigate('/fence-banners')" (click)="toggleMenu()">Fence Banners </button>
+            <button mat-menu-item (click)="navigate('/fence-banners')" (click)="toggleMenu()" class="d-none">Fence Banners </button>
             <button mat-menu-item (click)="navigate('/lama-stand')" (click)="toggleMenu()">Lama Stand </button>
 
           </mat-menu>

@@ -104,8 +104,8 @@ export class ImgcontentComponent implements OnInit {
         this.title = 'Booklets & Catalogues';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.calendars)
-          this.digitizedata = data.calendars;
+          console.log(data.booklets)
+          this.digitizedata = data.booklets;
 
 
         })

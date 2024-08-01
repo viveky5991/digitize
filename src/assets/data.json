@@ -1,129 +1,125 @@
 {
   "businesscard": [
     {
-      "image"      :       "",
-      "maintitle"      :       "Standard Business Cards",
-      "tourcodes"      :       [
+      "image": "",
+      "maintitle": "Standard Business Cards",
+      "tourcodes": [
         {
           "id": 1,
-          "title": "img1",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
       ]
     },
     {
-      "image"      :       "",
-      "maintitle"      :       "Sandwich Business Cards With Color Edge",
-      "tourcodes"      :       [
+      "image": "",
+      "maintitle": "Sandwich Business Cards With Color Edge",
+      "tourcodes": [
         {
           "id": 1,
-          "title": "img1",
+          "title": "",
           "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img3.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
       ]
     },
-    {"image"      :       "",
-     "maintitle"      :       "Eco Friendly Business Cards",
-      "tourcodes"      :       [
+    {
+      "image": "",
+      "maintitle": "Eco Friendly Business Cards",
+      "tourcodes": [
         {
           "id": 1,
-          "title": "Img1",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "CRAFT BUSINESS CARDS",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "CRAFT BUSINESS CARDS",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
-
-      ]},
-      {
-        "image"      :       "",
-        "maintitle"      :       "Spot UV Business Cards",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "img1",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img3.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-       {
-        "image"      :       "",
-        "maintitle"      :       "Round Corner Business Cards",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "Round Corners",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-
-
-
-
-
+      ]
+    },
+    {
+      "image": "",
+      "maintitle": "Spot UV Business Cards",
+      "tourcodes": [
+        {
+          "id": 1,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img1.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+      ]
+    },
+    {
+      "image": "",
+      "maintitle": "Round Corner Business Cards",
+      "tourcodes": [
+        {
+          "id": 1,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 2,
+          "title": "",
+          "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        }
+      ]
+    },
     {
       "PrintingInformation": [
         {
@@ -147,200 +143,61 @@
   ],
   "Stickers": [
     {
-      "image"      :       "",
-      "maintitle"      :       "Die Cut Stickers",
-      "tourcodes"      :       [
+      "image": "",
+      "maintitle": "",
+      "tourcodes": [
         {
           "id": 1,
-          "title": "img1",
+          "title": "Die Cut Stickers",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "Epoxy Stickers",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "Foil Stickers",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 4,
+          "title": "Paper Stickers",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 5,
+          "title": "PVC Stickers",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 6,
+          "title": "Transparent Stickers",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 7,
+          "title": "White Ink Sticker",
+          "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+        },
+        {
+          "id": 8,
+          "title": "Windshield Stickers",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
       ]
     },
-    {
-      "image"      :       "",
-      "maintitle"      :       "Epoxy Stickers",
-      "tourcodes"      :       [
-        {
-          "id": 1,
-          "title": "img1",
-          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img1.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        },
-        {
-          "id": 2,
-          "title": "img2",
-          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img2.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        },
-        {
-          "id": 3,
-          "title": "img3",
-          "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img3.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        }
-      ]
-    },
-    {"image"      :       "",
-     "maintitle"      :       "Foil Stickers",
-      "tourcodes"      :       [
-        {
-          "id": 1,
-          "title": "Img1",
-          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img1.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        },
-        {
-          "id": 2,
-          "title": "CRAFT BUSINESS CARDS",
-          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        },
-        {
-          "id": 2,
-          "title": "CRAFT BUSINESS CARDS",
-          "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-        }
-
-      ]},
-      {
-        "image"      :       "",
-        "maintitle"      :       "Paper Stickers",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "img1",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/SpotUVBusinessCards/img3.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-       {
-        "image"      :       "",
-        "maintitle"      :       "PVC Stickers",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "Round Corners",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-      {
-        "image"      :       "",
-        "maintitle"      :       "Transparent Stickers",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "Round Corners",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-      {
-        "image"      :       "",
-        "maintitle"      :       "White Ink Sticker",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "Round Corners",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-      {
-        "image"      :       "",
-        "maintitle"      :       "Windshield Stickers",
-        "tourcodes"      :       [
-          {
-            "id": 1,
-            "title": "Round Corners",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners1.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          },
-          {
-            "id": 2,
-            "title": "img2",
-            "img": "../../../assets/img/newimg/Businesscard/RoundCornerBusinessCards/RoundCorners2.jpg",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
-          }
-        ]
-      },
-
-
-
-
+   
+   
     {
       "PrintingInformation": [
         {
@@ -364,9 +221,9 @@
   ],
   "voucher": [
     {
-      "image"      :       "",
-      "maintitle"      :       "Round Corner Business Cards",
-      "tourcodes"      :       [
+      "image": "",
+      "maintitle": "Round Corner Business Cards",
+      "tourcodes": [
         {
           "id": 1,
           "title": "Round Corners",
@@ -399,7 +256,6 @@
         }
       ]
     },
-    
     {
       "PrintingInformation": [
         {
@@ -417,9 +273,9 @@
   ],
   "hangtag": [
     {
-      "image"      :       "",
-      "maintitle"      :       "Hang Tag",
-      "tourcodes"      :       [
+      "image": "",
+      "maintitle": "Hang Tag",
+      "tourcodes": [
         {
           "id": 1,
           "title": "img1",
@@ -486,9 +342,9 @@
           "img": "../../../assets/img/newimg/hangtag/img11.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
-        
       ]
-    },    {
+    },
+    {
       "PrintingInformation": [
         {
           "list": [
@@ -659,12 +515,10 @@
     [
       {
         "description": [
-         "<p>Windshield stickers are crafted using a specialized printing technique that allows them to be adhered to the interior side of the windshield. These stickers are designed to be heat-resistant, ensuring durability and longevity for up to a year.</p> "
-
-
-          ]
-      }]
-
+          "<p>Windshield stickers are crafted using a specialized printing technique that allows them to be adhered to the interior side of the windshield. These stickers are designed to be heat-resistant, ensuring durability and longevity for up to a year.</p> "
+        ]
+      }
+    ]
   ],
   "helmet": [
     {
@@ -694,12 +548,10 @@
     [
       {
         "description": [
-         "<p>For helmet sticker printing, we offer a diverse range of print methods tailored to your needs. Our team can guide you in selecting the best method based on your specific artwork. The printing process for helmet decals involves printing and then cutting the stickers to the desired shape. This can be done on either white or clear transparent stickers. Additionally, we provide options for variable branding across different areas of the helmet, ensuring a customized and professional finish.</p> "
-
-
-          ]
-      }]
-
+          "<p>For helmet sticker printing, we offer a diverse range of print methods tailored to your needs. Our team can guide you in selecting the best method based on your specific artwork. The printing process for helmet decals involves printing and then cutting the stickers to the desired shape. This can be done on either white or clear transparent stickers. Additionally, we provide options for variable branding across different areas of the helmet, ensuring a customized and professional finish.</p> "
+        ]
+      }
+    ]
   ],
   "floor_stickers": [
     {
@@ -729,12 +581,10 @@
     [
       {
         "description": [
-         "<p>Material: Special soft white PVC film</p> <p>Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look.</p> <p>Thickness: 110 microns and 160 microns for floor lamination. Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective.</p> "
-
-
-          ]
-      }]
-
+          "<p>Material: Special soft white PVC film</p> <p>Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look.</p> <p>Thickness: 110 microns and 160 microns for floor lamination. Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective.</p> "
+        ]
+      }
+    ]
   ],
   "posters": [
     {
@@ -764,13 +614,11 @@
     [
       {
         "description": [
-         "<p>Transform your walls or windows into opportunities with custom-made posters. Keep your message clear and simple, whether it’s announcing opening hours, limited-time sales, or an upcoming special event. Ensure a professional appearance that effectively communicates your message, whether it's in-store or outdoors.</p> <p>Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request</p> <p>Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required</p> "
-
-
-          ]
-      }]
- ],
-
+          "<p>Transform your walls or windows into opportunities with custom-made posters. Keep your message clear and simple, whether it’s announcing opening hours, limited-time sales, or an upcoming special event. Ensure a professional appearance that effectively communicates your message, whether it's in-store or outdoors.</p> <p>Small Quantity - Digital Posters: Ideal for Limited Runs, Available Print Sizes: A3, A4, or Smaller, Artwork Options: Unique or Common Designs, Custom Sizes: Available Upon Request</p> <p>Large Quantity - Offset Posters: Cost-effective for bulk quantities, Print sizes: A3, A4, or custom sizes, Common artwork required</p> "
+        ]
+      }
+    ]
+  ],
   "usb": [
     {
       "id": 1,
@@ -808,7 +656,6 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-
     {
       "id": 7,
       "title": "Metal USB",
@@ -878,7 +725,6 @@
       "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
-
     {
       "id": 7,
       "title": "Pyramid Concrete Base (250kgs)",
@@ -1023,7 +869,6 @@
       "img": [
         "../../../assets/img/newimg/TicketsCoupns/img1.jpg",
         "../../../assets/img/newimg/TicketsCoupns/img2.jpg"
-      
       ]
     }
   ],
@@ -1246,7 +1091,6 @@
       "img": [
         "../../../assets/img/newimg/WaxSeaStamp/img2.jpg",
         "../../../assets/img/newimg/WaxSeaStamp/img1.jpg"
-        
       ]
     }
   ],
@@ -1465,7 +1309,7 @@
           ]
         }
       ],
-     "img": [
+      "img": [
         "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/1.jpg",
         "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/2.jpg",
         "../../../assets/img/newimg/WindowBranding/OneWayVisionSticker/3.jpg"
@@ -2564,7 +2408,6 @@
       "title": "Section Sewn Binding",
       "img": "../../../assets/img/Binding/new/Section-sewn-binding-768x386.png"
     },
-   
     {
       "title": "Wire Comb Or Spiral Binding",
       "img": "../../../assets/img/Binding/new/Wiro-comb-or-spiral-binding-768x386.png"
@@ -2582,7 +2425,7 @@
     {
       "title": "",
       "img": "../../../assets/img/newimg/Certificates/img.jpg"
-    } , 
+    },
     [
       {
         "description": [
@@ -2592,6 +2435,26 @@
     ]
   ],
   "booklets": [
+    {
+      "list": [
+        {
+          "title": "Booklets & Catalogues",
+          "description": [
+            "<p>Magazines are an effective marketing tool to engage your target market. They effectively showcase your brands, enhancing and sustaining your business's image through powerful advertising.</p>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/newimg/Booklets/03-Free-US-Letter-Magazine-Mockup.jpg",
+        "../../../assets/img/newimg/Booklets/03_Free_A4_Magazine_Brochure_Catalog_Mockup_Preview.jpg",
+        "../../../assets/img/newimg/Booklets/05_Free_A4_Magazine_Brochure_Catalog_Mockup_Preview.jpg",
+        "../../../assets/img/newimg/Booklets/07.jpg",
+        "../../../assets/img/newimg/Booklets/13.jpg",
+        "../../../assets/img/newimg/Booklets/14.jpg"
+      ]
+    }
+  ],
+  "booklet": [
     {
       "title": "Free US Letter Magazine Mockup",
       "img": "../../../assets/img/newimg/Booklets/03-Free-US-Letter-Magazine-Mockup.jpg"
@@ -2666,13 +2529,12 @@
           "description": [
             "<p>Promotional pens are an ideal choice for a wide range of recipients, including graduates, students, and sales staff, as well as anyone who frequently writes notes, reports, shopping lists, or journals. These pens shine at events, exhibitions, and trade show giveaways, offering a cost-effective solution for marketing on a tight budget. Their ability to create a lasting impression with quirky designs makes them memorable, and unlike business cards, pens have the longevity to keep your brand in front of potential clients for a long time.</p> <br> <p>Furthermore, promotional pens are incredibly versatile and easy to customize, allowing for multi-color printing or engraving to suit your brand’s aesthetic. Their everyday usability ensures they are constantly in use, making them one of the most effective tools for brand visibility. Whether made from plastic, metal, rubberized, crystal, stylus, bamboo, or eco-friendly materials, these pens cater to various tastes and underscore your brand’s commitment to quality and practicality. By choosing promotional pens, you can enhance your marketing strategy and ensure your brand is always at your clients' fingertips.</p>"
           ]
-
         }
       ],
       "img": [
         "../../../assets/img/OfficeEssentials/pen.webp",
-         "../../../assets/img/OfficeEssentials/pen.webp",
-          "../../../assets/img/OfficeEssentials/pen.webp"
+        "../../../assets/img/OfficeEssentials/pen.webp",
+        "../../../assets/img/OfficeEssentials/pen.webp"
       ]
     }
   ],
@@ -2684,13 +2546,12 @@
           "description": [
             "<p>Now give a complete gift set to your friend and family with our PU Notebook that can be accompanied by a personalied pen and card USB. You may refer to our USB and Pen pages to select the model of your choice.</p><ul><li><strong>Features</strong></li><ul><li>Size: A5 & A6</li><li>Soft feel PU material</li><li>Elastic Closure</li><li>80 Ruled Sheets</li><li>70 gsm Ivory White Paper</li><li>Book Mark and Pen Holder</li></ul></ul>"
           ]
-
         }
       ],
       "img": [
         "../../../assets/img/OfficeEssentials/pen.webp",
-         "../../../assets/img/OfficeEssentials/pen.webp",
-          "../../../assets/img/OfficeEssentials/pen.webp"
+        "../../../assets/img/OfficeEssentials/pen.webp",
+        "../../../assets/img/OfficeEssentials/pen.webp"
       ]
     }
   ],

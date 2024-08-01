@@ -30,7 +30,7 @@ export class FooterComponent implements OnInit {
           ''
         }
 
-      }, 10000);
+      }, 90000);
 
       window.addEventListener('scroll', () => {
         this.windowScrolled = window.pageYOffset !== 0;

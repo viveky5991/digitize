@@ -11,7 +11,9 @@ const routes: Routes = [
   { path: 'flyers', component: Imgcontent1Component },
   { path: 'compliment-slips', component: Imgcontent1Component },
   { path: 'Coupons', component: Imgcontent1Component },
-  { path: 'Tent-Cards', component: Imgcontent1Component }
+  { path: 'Tent-Cards', component: Imgcontent1Component },
+  { path: 'Lanyards', component: Imgcontent1Component },
+  { path: 'Paper-Bags', component: Imgcontent1Component }
 ];
 
 @NgModule({

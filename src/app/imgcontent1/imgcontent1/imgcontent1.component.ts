@@ -102,6 +102,20 @@ export class Imgcontent1Component implements OnInit{
           console.log(data.tent_cards)
           this.digitizedata = data.tent_cards;
         })
+      }else if(url[0].path=='Lanyards'){
+        this.title='Lanyards';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Lanyards)
+          this.digitizedata = data.Lanyards;
+        })
+      }else if(url[0].path=='Paper-Bags'){
+        this.title='Paper-Bags';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.Paper_Bags)
+          this.digitizedata = data.Paper_Bags;
+        })
       }else{
         this.title='Digitize'
       }

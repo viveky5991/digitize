@@ -556,32 +556,38 @@
   "floor_stickers": [
     {
       "id": 1,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/0115.jpg",
+      "title": " ",
+      "img": "../../../assets/img/newimg/floorstickers/img1.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 2,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Eco-Friendly-Cards/CRAFT-BUSINESS-CARDS.jpg",
+      "title": " ",
+      "img": "../../../assets/img/newimg/floorstickers/img2.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 3,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Sandwich-Cards/0118.jpg",
+      "title": " ",
+      "img": "../../../assets/img/newimg/floorstickers/img3.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     {
       "id": 4,
-      "title": "PVC Business Cards  ",
-      "img": "../assets/img/Business-card/Sandwich-Cards/color_edge_card_printing_dubai_4.webp",
+      "title": " ",
+      "img": "../../../assets/img/newimg/floorstickers/img4.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
+    },
+    {
+      "id": 5,
+      "title": " ",
+      "img": "../../../assets/img/newimg/floorstickers/img5.jpg",
       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
     },
     [
       {
         "description": [
-          "<p>Material: Special soft white PVC film</p> <p>Finishing Options: Available in both glossy and matte finishes, ensuring excellent opacity and a premium look.</p> <p>Thickness: 110 microns and 160 microns for floor lamination. Applications: Ideal for advertising in retail stores, shopping malls, cafes, cinemas, parking facilities, medical centers, libraries, or other high-traffic locations where point of purchase displays are highly effective.</p> "
+          "<p>Floor Graphics Stickers</p><p>Material: Special soft white PVC film</p> <p>Finishing : Available in both glossy and matte finishes, it offers excellent opacity.</p> <p>Thickness: 110 micron, 160 micron for floor lamination.</p><p> Applications: Ideal for advertising in Supermarkets, Toy stores, Restaurants, Theaters, Parking lots, Hospitals, Book Exhibitions, and other High-traffic areas where point-of-purchase displays are most effective.</p> "
         ]
       }
     ]
@@ -889,33 +895,17 @@
   ],
   "Frosted_Sticker": [
     {
-      "id": "ReverseCut",
+      "id": "Blank-Frosted",
       "list": [
         {
-          "title": "Reverse Cut Frosted Stickers",
-          "description": [
-            "The design is precisely extracted from the frosted vinyl, creating clear cut-outs where the images or graphics are located, allowing for direct visibility through these areas.",
-            "Each decal will typically be shaped as a square or rectangle, with the design elements meticulously trimmed out of the larger form.",
-            "Prior to installation, the sticker is carefully pre-spaced and covered with transfer tape for accurate placement."
-          ]
+          "title": "Frosted Glass Stickers",
+          "description": "<p>Frosted stickers or frosted glass films create the look of frosted or opaque glass, offering privacy and security without sacrificing light or visibility. These frosted glass stickers are easy to clean using standard glass cleaning products. They are durable and resistant to sunlight and UV damage. Frosted vinyl stickers are commonly used to enhance privacy in boardrooms and obscure views into personal spaces by applying the film to any partition or glass surface. Additionally, they provide an affordable upgrade to your old transparent glass compared to blinds or curtains.</p>"
         }
       ],
       "img": [
-        "../../../assets/img/Folder/Folder-Mockup-1-1536x1152.jpg"
-      ]
-    },
-    {
-      "id": "Standard-Cut",
-      "list": [
-        {
-          "title": "Standard Cut & Reverse Cut Frosted Stickers",
-          "description": "<p>The letters or logo will be precisely cut from the frosted vinyl, with any interior elements removed to prevent solid filling. As a result, the design will remain colorless, showcasing only the frosted translucent effect.</p>"
-        }
-      ],
-      "img": [
-        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/ReverseCutFrostedSticker.jpg",
-        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker.jpg",
-        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker1.jpg"
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers1.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers2.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers.jpg"
       ]
     },
     {
@@ -933,19 +923,21 @@
       ]
     },
     {
-      "id": "Blank-Frosted",
+      "id": "Standard-Cut",
       "list": [
         {
-          "title": "Frosted Glass Stickers",
-          "description": "<p>Frosted stickers or frosted glass films create the look of frosted or opaque glass, offering privacy and security without sacrificing light or visibility. These frosted glass stickers are easy to clean using standard glass cleaning products. They are durable and resistant to sunlight and UV damage. Frosted vinyl stickers are commonly used to enhance privacy in boardrooms and obscure views into personal spaces by applying the film to any partition or glass surface. Additionally, they provide an affordable upgrade to your old transparent glass compared to blinds or curtains.</p>"
+          "title": "Standard Cut & Reverse Cut Frosted Stickers",
+          "description": "<p>The letters or logo will be precisely cut from the frosted vinyl, with any interior elements removed to prevent solid filling. As a result, the design will remain colorless, showcasing only the frosted translucent effect.</p>"
         }
       ],
       "img": [
-        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers1.jpg",
-        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers2.jpg",
-        "../../../assets/img/newimg/FROSTEDSTICKER/FrostedGlassStickers/FrostedGlassStickers.jpg"
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/ReverseCutFrostedSticker.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker.jpg",
+        "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker1.jpg"
       ]
     }
+   
+   
   ],
   "letter_heads": [
     {
@@ -1157,6 +1149,8 @@
       ]
     }
   ],
+ 
+ 
   "tent_cards": [
     {
       "list": [
@@ -1369,12 +1363,15 @@
         {
           "title": "Wooden Frames",
           "description": [
-            "We offer an extensive collection of frames that are perfect for encasing your photographs, artworks, cherished mementos, or elegantly designed certificates. Our selection spans from classic vintage designs to sleek, modern aesthetics. Through expert craftsmanship, meticulous selection, and innovative design, we strive to craft a display-worthy piece. With our custom framing options, you have the freedom to select each component of your frame, tailoring it to your specific needs. This bespoke service provides a deeply personal touch to your framing project. Opt for custom frame design when you desire something truly exceptional, enhancing the beauty of your piece while also safeguarding it for the future."
+            "<p>We offer a diverse selection of frames for photos, artwork, memorabilia, and decorated certificates, ranging from traditional antique styles to contemporary and modern designs.</p><p>With expert craftsmanship and a thoughtful selection of materials, we create pieces that are truly display-worthy. Our custom picture framing allows you to choose the specific elements that best suit your needs.</p><p>This personalized approach is perfect for when you want something unique. A custom frame design not only enhances your piece but also ensures its long-term protection.</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/wall/woodframe.png"
+        "../../../assets/img/newimg/Wooden/img1.jpg",
+        "../../../assets/img/newimg/Wooden/img2.jpg",
+        "../../../assets/img/newimg/Wooden/img3.jpg",
+        "../../../assets/img/newimg/Wooden/img4.jpg"
       ]
     }
   ],
@@ -2703,14 +2700,38 @@
         {
           "title": "Lanyards",
           "description": [
-            "<p>Our range of lanyards combines elegance, safety, and convenience. We offer stylish metal crimps, durable hooks, and breakaway elements for added safety. Customize your lanyards with reflective printing, custom designs, and various materials and colors using our easy tool. Experience the difference with Deluxe Printing's custom-made lanyards today!<br><br>Lanyards are ideal for ID cards at conferences, corporate offices, and classrooms. They provide easy access to badges and offer branding and customization opportunities.</p><ul><li><strong> Specification:</strong><ul><li>Width: 20mm</li><li>4-color printing on a customized background</li><li>Double-sided printing</li><li>Vivid colors</li><li>Sharp results for small fonts and graphics</li><li>Closest match to Pantone shades</li><li>Edge-to-edge printing</li></ul></li></ul>"
+            "<p>Our extensive selection of lanyards provides unparalleled sophistication, protection, and convenience. We offer everything you need, including stylish metal crimps, durable metal hooks, and breakaway features for enhanced safety. With our user-friendly tool, you can personalize your lanyards with options such as reflective printing, custom printing, and a variety of materials and colors. Get custom-made lanyards from Deluxe Printing and experience the difference today! <br><br>Lanyards are essential accessories that complement ID cards in various settings, such as conferences, corporate offices, and classrooms. These versatile straps not only offer easy access to badges and identification but also provide opportunities for branding and customization.</p><ul><li><strong> Specification:</strong><ul><li>Width: 20mm</li><li>4-color printing on a customized background</li><li>Double-sided printing</li><li>Vivid colors</li><li>Sharp results for small fonts and graphics</li><li>Closest match to Pantone shades</li><li>Edge-to-edge printing</li></ul></li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/Lanyards/img1.jpg",
+        "../../../assets/img/newimg/Lanyards/img2.jpg",
+        "../../../assets/img/newimg/Lanyards/img3.jpg",
+        "../../../assets/img/newimg/Lanyards/img4.jpg",
+        "../../../assets/img/newimg/Lanyards/img5.jpg",
+        "../../../assets/img/newimg/Lanyards/img6.jpg",
+        "../../../assets/img/newimg/Lanyards/img7.jpg",
+        "../../../assets/img/newimg/Lanyards/img8.jpg"
+        
+      ]
+    }
+  ],
+  "Paper_Bags": [
+    {
+      "list": [
+        {
+          "title": "Paper Bags",
+          "description": [
+            "<p>Paper bags have gained popularity in recent years. Choosing paper bags for your company can help you appear forward-thinking and stylish, ensuring that customers see your organization as trendy and fashionable. This can lead to increased foot traffic in your store. Additionally, paper bags are ideal for events and exhibitions as carriers for giveaways. <br><br>Opting for paper bags is an environmentally friendly and sustainable choice. Customers are highly interested in eco-friendly initiatives, and organizations that demonstrate a commitment to sustainability are often rewarded. Paper bags can serve as subtle advertisements that your company is dedicated to addressing future challenges and supporting environmental causes.</p>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/newimg/PaperBags/img1.jpg",
+        "../../../assets/img/newimg/PaperBags/img2.jpg",
+        "../../../assets/img/newimg/PaperBags/img3.jpg"
+        
       ]
     }
   ],

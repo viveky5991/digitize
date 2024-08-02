@@ -226,31 +226,31 @@
       "tourcodes": [
         {
           "id": 1,
-          "title": "Round Corners",
+          "title": "",
           "img": "../../../assets/img/newimg/voucher/DeliveryOrderBooks.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/voucher/InvoiceBooks.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/voucher/LPOBooks.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/voucher/Paymentvouchers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/voucher/PettyCashVouchers.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
@@ -278,67 +278,67 @@
       "tourcodes": [
         {
           "id": 1,
-          "title": "img1",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img1.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "img2",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img2.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img3.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img4.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img5.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img6.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img7.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img8.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img9.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img10.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "img3",
+          "title": "",
           "img": "../../../assets/img/newimg/hangtag/img11.png",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }

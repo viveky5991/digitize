@@ -1381,12 +1381,16 @@
         {
           "title": "Acrylic Frames",
           "description": [
-            "Acrylic is a superior choice for photo mounting, particularly when paired with advanced face-mount techniques that place the photo beneath the acrylic sheet. The inherent clarity and shine of acrylic amplify the colors and vibrancy of your images while providing essential protection and sturdiness. The result is a breathtaking, enduring, and resilient display piece, perfect for exhibitions and public spaces. Our exquisite acrylic floating frames, featuring elegant metal fixtures, will take your display to the next level. In these frameless designs, your artwork is encased between two clear acrylic panels, creating a seamless, borderless visual effect. This allows your photographs and artworks to truly shine, unobstructed by traditional framing."
+            "<p>Acrylic is an exceptional medium for photo mounting, especially when paired with quality face-mounting techniques that place the photo beneath the acrylic layer.</p><p>The clarity and shine of acrylic enhance your image’s colors and vibrancy while offering protection and stability. The final product is not only stunning but also durable, making it perfect for galleries and public displays.</p><p>Our beautiful acrylic floating frames, featuring elegant metal hardware, will elevate your presentation. For a borderless look, your artwork is sandwiched between two panels of floating acrylic, allowing your pieces to shine without distraction.</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/wall/acrylic.png"
+        "../../../assets/img/newimg/Acrylic/1.jpg",
+        "../../../assets/img/newimg/Acrylic/2.jpg",
+        "../../../assets/img/newimg/Acrylic/3.jpg",
+        "../../../assets/img/newimg/Acrylic/4.jpg",
+        "../../../assets/img/newimg/Acrylic/5.jpg"
       ]
     }
   ],
@@ -1426,12 +1430,13 @@
         {
           "title": "Ceremonial Ribbon",
           "description": [
-            "Custom printed ribbons add a touch of professionalism and celebration to any corporate event, particularly during groundbreaking ceremonies or store openings. When you personalize these ribbons with your logo, company name, or a unique message, they become a centerpiece of the ceremony, drawing attention and making a memorable statement about your brand. Extend your brand's reach by opting for extra lengths of ribbon, ensuring that your branding theme is consistently visible throughout the event space. This not only enhances the visual appeal but also supports broader media coverage, from photographs to videos, thereby amplifying your brand's presence and impact. Investing in these bespoke ribbons is cost-effective, offering you the luxury of high-quality branding tools within a reasonable budget. Make your next corporate milestone unforgettable with custom printed ribbons that truly embody your brand's ethos and achievements."
+            "<p>Elevate Your Ceremony with Custom Printed Ribbons</p><ul><li><b>Specifications:</b></li><li>Impactful Branding: Make a statement with your logo, company name, or custom design on vibrant ceremonial ribbons.</li><li>Perfect for Events: Ideal for groundbreaking ceremonies or new store openings, creating a memorable focal point.</li><li>Expand Your Theme: Additional meters available to enhance your event’s visual appeal.</li><li>Media Attention: Capture stunning photos and videos that will boost your brand’s visibility and value.</li><li>Budget-Friendly: Enjoy high-quality ribbons at competitive prices.</li></ul><ul><li><b>Common Sizes:</b></li><li>15 x 300 cm</li><li>20 x 400 cm</li><li>Custom sizes available to fit your needs.</li></ul><span>Make your next event unforgettable!</span>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/ceremonial/ceremonial.webp"
+        "../../../assets/img/newimg/ceremonial/img1.jpg",
+        "../../../assets/img/newimg/ceremonial/img2.jpg"
       ]
     }
   ],
@@ -1441,14 +1446,14 @@
         {
           "title": "Unlit 3D",
           "description": [
-            "<ul><li><strong>Types:</strong> Reception, Wall, 3D Letters.</li><li><strong>Basic Materials:</strong> Forex, Wood, Acrylic, Aluminum, Stainless Steel, ACP, Channelium, GI Sheet.</li><li><strong>Supporting Materials:</strong> PVC Vinyl, Reflective Stickers, Spacers, Hooks, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
+            "<ul><li><strong>Specifications:</strong> </li><li>3D Signage :Reception Sign / Wall Sign / Wall 3D Letters.</li><li><strong>Primary Materials:</strong> Forex, Wood, Acrylic, Aluminum, Stainless Steel, ACP, Channelium, GI Sheet.</li><li><strong>Additional Materials:</strong> PVC Vinyl Stickers, Reflective Stickers, Spacers, Hooks, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
         }
-      ],
+     ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/Unlit3D/1.jpg",
+        "../../../assets/img/newimg/Unlit3D/2.jpg",
+        "../../../assets/img/newimg/Unlit3D/3.jpg"
       ]
     }
   ],
@@ -1458,14 +1463,15 @@
         {
           "title": "Frontlit 3D Signage",
           "description": [
-            "<ul><li><strong>Types:</strong> Reception Sign, Wall Sign, Wall 3D Letters, Fascia.</li><li><strong>Basic Materials:</strong> Acrylic, Aluminum, Stainless Steel, Channelium.</li><li><strong>Supporting Materials:</strong> LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws.</li></ul>"
+            "<ul><li><strong>Specifications:</strong> </li><li>Frontlit 3D Signage :Reception Sign, Wall Sign, Wall 3D Letters, Fascia .</li><li><strong>Primary Materials:</strong> Acrylic, Aluminum, Stainless Steel, Channelium.</li><li><strong>Additional Materials:</strong> LED Lights, PVC Vinyl Stickers, Transformer, Wiring, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+       "../../../assets/img/newimg/Frontlit3D/1.jpg",
+        "../../../assets/img/newimg/Frontlit3D/2.jpg",
+        "../../../assets/img/newimg/Frontlit3D/3.jpg",
+        "../../../assets/img/newimg/Frontlit3D/4.jpg"
       ]
     }
   ],
@@ -1475,14 +1481,16 @@
         {
           "title": "Backlit 3D Signage",
           "description": [
-            "<ul><li><strong> Types:</strong> Reception Sign, Wall Sign, 3D Wall Letters, Fascia</li><li><strong>Primary  Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Supporting Materials:</strong> LED Lights, PVC Vinyl Sticker, Transformer, Wiring, Adhesives (Silicon Glue, Super Glue), Double-Sided Tape, Screws</li></ul>"
+            "<ul><li><strong>Specifications:</strong> </li><li>Backlit 3D Signage :Reception Sign, Wall Sign, Wall 3D Letters, Fascia.</li><li><strong>Primary Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Additional Materials:</strong> LED Lights, PVC Vinyl Stickers, Transformer, Wiring, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+       "../../../assets/img/newimg/Backlit3D/1.jpg",
+        "../../../assets/img/newimg/Backlit3D/2.jpg",
+        "../../../assets/img/newimg/Backlit3D/3.jpg",
+        "../../../assets/img/newimg/Backlit3D/4.jpg",
+        "../../../assets/img/newimg/Backlit3D/5.jpg"
       ]
     }
   ],
@@ -1490,16 +1498,18 @@
     {
       "list": [
         {
-          "title": "Outlit 3D Signage",
+          "title": "Neon 3D Signage",
           "description": [
-            "<ul><li><strong> Types:</strong> Reception, Wall Signs, 3D Letters, Fascia.</li><li><strong>Primary  Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Accessories:</strong> LED Lights, PVC Vinyl Stickers, Transformer, Wiring, Silicon Glue, Super Glue, Double Sided Tape, Screws.</li></ul>"
+            "<ul><li><strong>Specifications:</strong> </li><li>Backlit 3D Signage :Reception Sign, Wall Sign, Wall 3D Letters, Fascia.</li><li><strong>Primary Materials:</strong> Forex, Acrylic, Aluminum, Stainless Steel, ACP, Channelium.</li><li><strong>Additional Materials:</strong> LED Lights, PVC Vinyl Stickers, Transformer, Wiring, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+       "../../../assets/img/newimg/Neon3D/1.jpg",
+        "../../../assets/img/newimg/Neon3D/2.jpg",
+        "../../../assets/img/newimg/Neon3D/3.jpg",
+        "../../../assets/img/newimg/Neon3D/4.jpg",
+        "../../../assets/img/newimg/Neon3D/5.jpg"
       ]
     }
   ],
@@ -1526,14 +1536,15 @@
         {
           "title": "Neon 3D Signage",
           "description": [
-            "<ul><li><strong> Types:</strong> Reception, Wall, Party, Fascia</li><li><strong>Primary  Materials:</strong> LED Neon, Acrylic, Aluminum, Stainless Steel, ACP</li><li><strong>Accessories:</strong>PVC Vinyl Sticker, Spacers, Hook, Transformer, Wires, Silicon Glue, Super Glue, Double-Sided Tape, Screws</li></ul>"
+            "<ul><li><strong>Specifications:</strong> </li><li>Neon 3D Signage :Reception Sign, Wall Sign, Party Sign, Fascia.</li><li><strong>Primary Materials:</strong> LED Neon, Acrylic, Aluminum, Stainless Steel, ACP.</li><li><strong>Additional Materials:</strong> PVC Vinyl Stickers, Spacers, Hooks, Transformer, Wires, Silicone Glue, Super Glue, Double-Sided Tape, Screws.</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+       "../../../assets/img/newimg/Neon3D/1.jpg",
+        "../../../assets/img/newimg/Neon3D/2.jpg",
+        "../../../assets/img/newimg/Neon3D/3.jpg",
+        "../../../assets/img/newimg/Neon3D/4.jpg"
       ]
     }
   ],
@@ -1628,14 +1639,14 @@
         {
           "title": "Flex Face Light Box",
           "description": [
-            "<ul><li><strong>Flex Face Sign Board Options:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Primary  Materials:</strong>MS or Aluminum Pipes, GI Sheet, Digital Printed Flex</li><li><strong>Accessories:</strong>LED Lights, Transformers, Wiring, Angle Iron, Hooks, Screws</li></ul>"
+            "<ul><li><strong>Flex Face Sign Board Options:</strong>Fascia, Shop Top, Wall, Side Board, Hanging Signs</li><li><strong>Basic Materials:</strong>MS Pipe / Aluminum Pipe, GI Sheet, Digital Printed Flex</li><li><strong>Supporting Materials:</strong>LED Lights, Transformer / Power Supply, Electric Wiring, Angle Iron, Hooks, Screws</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/FlexFace/1.jpg",
+        "../../../assets/img/newimg/FlexFace/2.jpg",
+        "../../../assets/img/newimg/FlexFace/3.jpg"
       ]
     }
   ],
@@ -1832,14 +1843,17 @@
         {
           "title": "Metal Name Plates",
           "description": [
-            "<ul><li><strong>Metal Name Plates Varieties:</strong> Name Plate, Number Plate, Wall Sign, Door Sign, Logo Sign, Company Name Sign</li><li><strong>Core Materials:</strong> Stainless Steel, Aluminum, MS Sheet, GI Sheet</li><li><strong>Finishing and Installation:</strong> Engraving, Etching, Coloring, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
+            "<ul><li><strong>Metal Name Plates Varieties:</strong> Name Plate, Number Plate, Wall Sign, Door Sign, Logo Sign, Company Name Sign</li><li><strong>Basic Materials:</strong> Stainless Steel, Aluminum, MS Sheet, GI Sheet</li><li><strong>Supporting Materials:</strong> Engraving, Etching, Coloring, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/MetalPlates/1.jpg",
+        "../../../assets/img/newimg/MetalPlates/2.jpg",
+        "../../../assets/img/newimg/MetalPlates/3.jpg",
+        "../../../assets/img/newimg/MetalPlates/4.jpg",
+        "../../../assets/img/newimg/MetalPlates/5.jpg",
+        "../../../assets/img/newimg/MetalPlates/6.jpg"
       ]
     }
   ],
@@ -1849,14 +1863,16 @@
         {
           "title": "Acrylic Name Plates",
           "description": [
-            "<ul><li><strong>Acrylic Name Plates Options:</strong> Name Plate, Number Plate, Wall, Door, Logo, Company Sign</li><li><strong>Materials:</strong> Acrylic, Plexi Glass</li><li><strong>Details:</strong> Engraving, Etching, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
+            "<ul><li><strong>Acrylic Name Plates Options:</strong> Name Plate, Number Plate, Wall, Door, Logo, Company Sign</li><li><strong>Basic Materials:</strong> Acrylic, Plexi Glass</li><li><strong>Supporting Materials:</strong> Engraving, Etching, UV Printing, Vinyl Letters, Spacers, Screws, Double-Sided Tape, Super Glue</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/AcrylicPlates/1.jpg",
+        "../../../assets/img/newimg/AcrylicPlates/2.jpg",
+        "../../../assets/img/newimg/AcrylicPlates/3.jpg",
+        "../../../assets/img/newimg/AcrylicPlates/4.jpg",
+        "../../../assets/img/newimg/AcrylicPlates/5.jpg"
       ]
     }
   ],

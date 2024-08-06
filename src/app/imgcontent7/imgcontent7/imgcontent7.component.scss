@@ -1,152 +1,165 @@
 .aboutus-area {
-    padding-top: 6em;
-    padding-bottom: 60px;
+  padding-top: 6em;
+  padding-bottom: 4em;
 }
 
 /*-- aboutus Image --*/
 .aboutus-image {
-
-    margin: 0px;
-    width: 100%;
-    // height: 500px;
+  margin: 0px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .aboutus-image {
-        margin-right: 35px;
-        width: 345px;
-    }
+  .aboutus-image {
+      margin-right: 35px;
+      width: 345px;
+  }
 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .aboutus-image {
-        margin-bottom: 30px;
-        float: none;
-    }
+  .aboutus-image {
+      margin-bottom: 30px;
+      float: none;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-    .aboutus-image {
-        margin-bottom: 30px;
-        margin-right: 0;
-        float: none;
-        width: auto;
-    }
+  .aboutus-image {
+      margin-bottom: 30px;
+      margin-right: 0;
+      float: none;
+      width: auto;
+  }
 
-    .hidden-sm {
-        display: block !important;
-        width: 340px;
-        height: 85%;
-    }
+  .hidden-sm {
+      display: block !important;
+      // width: 340px;
+      height: 85%;
+  }
 }
+@media only screen and (max-width: 540px) {
 
+
+  .hidden-sm {
+      display: block !important;
+      // width: 340px;
+      height:0%;
+  }
+}
 .aboutus-image img {
-    height: 100%;
-    width: 100%;
+  // height: 100%;
+  height: 430px;
+  width: 100%;
 }
 
 /*-- aboutus Content --*/
 .aboutus-content h2 {
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 40px;
-    margin-bottom: 2px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  margin-bottom: 2px;
+}
+.aboutus-area h2 {
+// padding: 12px 0px;
+}
+.maintitle h2 {
+padding: 12px 0px;
+color: #f05764;
 }
 
 @media only screen and (max-width: 479px) {
   .aboutus-content h2 {
-    font-size: 26px;
-    line-height: 15px;
+      font-size: 30px;
+      line-height: 30px;
   }
-  .aboutus-area  {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 }
 
 .aboutus-content h2 span {
-    color: #71b100;
+  color: #71b100;
 }
 
 .aboutus-content h4 {
-    font-size: 18px;
-    font-weight: 500;
-    color: #9b9b9b;
-    margin-bottom: 23px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9b9b;
+  margin-bottom: 23px;
 }
 
 .aboutus-content p {
-    font-size: 16px;
-    line-height: 27px;
+  font-size: 20px;
+  padding: 15px 0px 0px 0px;
 }
 
 /*-- counter --*/
 .single-counter {
-    border: none;
-    margin-top: 32px;
-    float: left;
-    width: 100%;
+  border: none;
+  margin-top: 32px;
+  float: left;
+  width: 100%;
 }
 
 .single-counter {
-    float: left;
-    width: 25%;
-    padding: 28px 15px 28px;
+  float: left;
+  width: 25%;
+  padding: 28px 15px 28px;
 }
 
 @media only screen and (max-width: 767px) {
-    .counter .single-counter {
-        width: 50%;
-    }
+  .counter .single-counter {
+      width: 50%;
+  }
 
-    .counter .single-counter+.single-counter {
-        border-left: none
-    }
+  .counter .single-counter+.single-counter {
+      border-left: none
+  }
 
-    .counter .single-counter h2 {
-        font-size: 30px;
-        color: #71b100;
-        line-height: 24px;
-        font-family: "Open Sans", sans-serif;
-        margin-bottom: 8px;
-    }
+  .counter .single-counter h2 {
+      font-size: 30px;
+      color: #71b100;
+      line-height: 24px;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 8px;
+  }
 
-    .counter .single-counter p {
-        font-size: 16px;
-        font-weight: 600;
-        margin-bottom: 0;
-        color: #8f8f8f;
-    }
+  .counter .single-counter p {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 0;
+      color: #8f8f8f;
+  }
 }
+
 .image-aboutus-banner {
-    background: linear-gradient(#00000030, #00000057), url("../../../assets/img/banner/signagebanner1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    padding-top: 110px;
-    padding-bottom:110px;
-    margin-top: 4.3em;
- }
-
-  .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../../../assets/img/banner/signagebanner1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    color: #fff;
-    padding-top: 30px;
-    padding-bottom:30px;
- }
-.lg-text {
-    font-size:52px;
-    font-weight: 600;
-    text-transform: none;
-    color:#fff;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  margin-top: 4.3em;
 }
+
+.image-aboutus-sm-banner {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.lg-text {
+  font-size: 52px;
+  font-weight: 600;
+  text-transform: none;
+  color: #fff;
+}
+
 .image-aboutus-para {
-    color:#fff;
+  color: #fff;
 }
 
 .list-btn {
@@ -175,46 +188,44 @@
 }
 
 .btn-primary:hover {
-  -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
-  box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
-  background-color: rgba(240, 87, 100, 0.768);
-}
-
-.btn-primary:focus {
-  background-color: rgba(240, 87, 100, 0.5019607843);
-  -webkit-box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
-  box-shadow: 0 5px 9px -4px rgba(240, 87, 100, 0.5019607843);
+  -webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
+  box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
 }
 
 @media(max-width: 574px) {
   .image-aboutus-banner {
-    padding-top: 60px;
-    padding-bottom: 60px;
+      padding-top: 75px;
+      padding-bottom: 75px;
+
 
   }
 
   .image-aboutus-banner h1 {
-    font-size: 30px;
+      font-size: 30px;
   }
 
   .container h3 {
-    font-size: 23px;
+      font-size: 23px;
   }
 
-  .aboutus-content ul li {
+  .note ul li {
 
-    font-size: 14px;
-    text-align: justify;
+      font-size: 14px;
+      text-align: justify;
   }
-  .aboutus-content {
-    font-size: 14px;
-    // text-align: justify;
-}
-  .aboutus-content h4{
-    font-size: 16px;
+
+  .note h4 {
+      font-size: 16px;
   }
+
+  .content p {
+      font-size: 14px;
+      line-height: 27px;
+      text-align: justify;
+  }
+
   .aboutus-image img {
-    height: 200px;
-
-}
+      height:45vh;
+      // width: 100%;
+  }
 }

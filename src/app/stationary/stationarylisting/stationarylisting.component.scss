@@ -8,6 +8,7 @@
 .listmain{
   padding: 90px 0px;
 }
+
 .main h3{
   padding-top: 20px;
   padding-bottom: 20px;
@@ -130,7 +131,9 @@ img {
   .container h3 {
     font-size: 23px;
   }
-
+  .listmain h3{
+    padding: 14px;
+  }
   .note ul li {
 
     font-size: 14px;
@@ -138,6 +141,7 @@ img {
   }
 
   .note h4 {
-    font-size: 16px;
+    font-size: 14px;
+    padding: 14px;
   }
 }

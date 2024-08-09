@@ -11,7 +11,8 @@
     height: 400px;
     // height: 500px;
 }
-.main{
+
+.main {
     padding-top: 4em;
     padding-bottom: 2em;
 
@@ -68,7 +69,7 @@
 }
 
 .aboutus-content h2 span {
-    color: #71b100;
+    color:#f0576480;
 }
 
 .aboutus-content h4 {
@@ -108,7 +109,7 @@
 
     .counter .single-counter h2 {
         font-size: 30px;
-        color: #71b100;
+        color: #f05764;
         line-height: 24px;
         font-family: "Open Sans", sans-serif;
         margin-bottom: 8px;
@@ -121,6 +122,7 @@
         color: #8f8f8f;
     }
 }
+
 .image-aboutus-banner {
     background: linear-gradient(#00000030, #00000057), url("../../../assets/img/banner/tshirt.jpg");
     background-repeat: no-repeat;
@@ -128,84 +130,95 @@
     background-position: center center;
     color: #fff;
     padding-top: 110px;
-    padding-bottom:110px;
+    padding-bottom: 110px;
     margin-top: 4.3em;
- }
+}
 
-  .image-aboutus-sm-banner {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
+.image-aboutus-sm-banner {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("https://www.dlxprint.com/images/canvas_frames_banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     color: #fff;
     padding-top: 30px;
-    padding-bottom:30px;
- }
+    padding-bottom: 30px;
+}
+
 .lg-text {
-    font-size:52px;
+    font-size: 52px;
     font-weight: 600;
     text-transform: none;
-    color:#fff;
+    color: #fff;
 }
+
 .image-aboutus-para {
-    color:#fff;
+    color: #fff;
 }
+
 .list-btn {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  border-radius: 35px;
-  margin-bottom: 1em;
-  margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 35px;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
+
 .btn-primary {
-  color: #fff;
-  background-color: rgba(240, 87, 100, 0.5019607843);
-  border: none;
-  font-size: 14px;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  padding: 12px 20px;
-  min-width: 150px;
-  transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+    color: #fff;
+    background-color: rgba(240, 87, 100, 0.5019607843);
+    border: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 12px 20px;
+    min-width: 150px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
 }
 
 .btn-primary:hover {
-  -webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
-  box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
+    -webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
+    box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
 }
-@media(max-width: 574px) {
-  .main {
-      padding-top: 54px;
-      padding-bottom: 2px;
-  }
-  .aboutus-area {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-  .image-aboutus-banner {
-      padding-top: 60px;
-      padding-bottom: 60px;
-  }
-  .lg-text {
-      font-size: 30px;
 
-  }
-  .bnr{
-      text-align: justify;
-      font-size: 14px;
-  }
-  .aboutus-image img {
-    // height: 45vh;
-    // width: 100%;
-}
-.hidden-sm[_ngcontent-ng-c1494645208] {
-  display: block !important;
-  width: 100%;
-  height: 85%;
-}
+@media(max-width: 574px) {
+    .main {
+        padding-top: 54px;
+        padding-bottom: 2px;
+    }
+
+    .aboutus-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .image-aboutus-banner {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .lg-text {
+        font-size: 30px;
+
+    }
+
+    .bnr {
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .aboutus-image img {
+        // height: 45vh;
+        // width: 100%;
+    }
+
+    .hidden-sm[_ngcontent-ng-c1494645208] {
+        display: block !important;
+        width: 100%;
+        height: 85%;
+    }
 }

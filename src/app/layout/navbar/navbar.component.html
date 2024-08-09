@@ -123,12 +123,14 @@
             aria-expanded="false" [matMenuTriggerFor]="office">Office & Store Branding</a>
           <mat-menu #office="matMenu">
             <!-- <button mat-menu-item>Office & Store Branding</button> -->
-            <button mat-menu-item [matMenuTriggerFor]="frosted">Frosted Sticker</button>
+            <button mat-menu-item [matMenuTriggerFor]="frosted" class="d-none">Frosted Sticker</button>
+            <button mat-menu-item routerLink="/Frosted-Sticker" (click)="toggleMenu()">Frosted Sticker</button>
             <button mat-menu-item [matMenuTriggerFor]="window">Window Branding</button>
             <button mat-menu-item (click)="navigate('/floor-stickers')" (click)="toggleMenu()">Floor Sticker</button>
             <button mat-menu-item [matMenuTriggerFor]="wallBranding" class="d-none">Wall Branding</button>
             <button mat-menu-item [matMenuTriggerFor]="wallFrames">Wall Frames</button>
-            <button mat-menu-item (click)="navigate('/posters')" (click)="toggleMenu()">Posters</button>
+            <button mat-menu-item [matMenuTriggerFor]="posters">Posters</button>
+            <button mat-menu-item (click)="navigate('/posters')" (click)="toggleMenu()" class="d-none">Posters</button>
             <!-- <button mat-menu-item  (click)="navigate('/repositionable')">Repositionable Cling</button> -->
             <!-- <button mat-menu-item [matMenuTriggerFor]="vehicle">Vehicle Graphics</button> -->
             <button mat-menu-item (click)="navigate('/magnetic')" (click)="toggleMenu()">Magnetic Sheet</button>
@@ -136,7 +138,7 @@
 
           </mat-menu>
 
-          <mat-menu #frosted="matMenu">
+          <mat-menu #frosted="matMenu" class="d-none">
             <button mat-menu-item routerLink="/Frosted-Sticker" fragment="ReverseCut" (click)="toggleMenu()">Reverse Cut
               Frosted
               sticker</button>
@@ -168,7 +170,11 @@
             <button mat-menu-item (click)="navigate('/Wall-Graphics')" (click)="toggleMenu()">Wall Graphics</button>
 
           </mat-menu>
+          <mat-menu #posters="matMenu" class="">
+            <button mat-menu-item (click)="navigate('/')" (click)="toggleMenu()">Posters 1</button>
+            <button mat-menu-item (click)="navigate('/')" (click)="toggleMenu()">Poster 2</button>
 
+          </mat-menu>
           <mat-menu #wallFrames="matMenu">
             <button mat-menu-item (click)="navigate('/Canvas')" (click)="toggleMenu()">Canvas</button>
             <button mat-menu-item (click)="navigate('/Wooden')" (click)="toggleMenu()">Wooden</button>

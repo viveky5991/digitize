@@ -94,6 +94,20 @@ export class Imgcontent4Component implements OnInit {
           console.log(data.Neon3D)
           this.digitizedata = data.Neon3D;
         })
+      } else if (url[0].path == 'Mounted-Posters') {
+        this.title = 'Mounted Posters';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.mountedposters)
+          this.digitizedata = data.mountedposters;
+        })
+      } else if (url[0].path == 'Posters') {
+        this.title = 'Posters';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.posters)
+          this.digitizedata = data.posters;
+        })
       } else {
         this.title = 'Digitize'
       }

@@ -133,7 +133,7 @@
             <button mat-menu-item (click)="navigate('/posters')" (click)="toggleMenu()" class="d-none">Posters</button>
             <!-- <button mat-menu-item  (click)="navigate('/repositionable')">Repositionable Cling</button> -->
             <!-- <button mat-menu-item [matMenuTriggerFor]="vehicle">Vehicle Graphics</button> -->
-            <button mat-menu-item (click)="navigate('/magnetic')" (click)="toggleMenu()">Magnetic Sheet</button>
+            <button mat-menu-item (click)="navigate('/Magnetic-Sheet')" (click)="toggleMenu()">Magnetic Sheet</button>
             <button mat-menu-item (click)="navigate('/ceremonial')" (click)="toggleMenu()">Ceremonial ribbon</button>
 
           </mat-menu>
@@ -171,8 +171,8 @@
 
           </mat-menu>
           <mat-menu #posters="matMenu" class="">
-            <button mat-menu-item (click)="navigate('/')" (click)="toggleMenu()">Posters 1</button>
-            <button mat-menu-item (click)="navigate('/')" (click)="toggleMenu()">Poster 2</button>
+            <button mat-menu-item (click)="navigate('/Mounted-Posters')" (click)="toggleMenu()">Mounted Posters</button>
+            <button mat-menu-item (click)="navigate('/Posters')" (click)="toggleMenu()">Posters</button>
 
           </mat-menu>
           <mat-menu #wallFrames="matMenu">
@@ -203,14 +203,14 @@
             <!-- <button mat-menu-item>All Signages</button> -->
             <button mat-menu-item [matMenuTriggerFor]="indoor3D">3D Indoor / Outdoor Signage</button>
 
-            <button mat-menu-item (click)="navigate('/Sign-Board')" (click)="toggleMenu()">Sign Board</button>
+            <button mat-menu-item (click)="navigate('/Sign-Board')" (click)="toggleMenu()" class="d-none">Sign Board</button>
             <button mat-menu-item [matMenuTriggerFor]="lightBox">Light Box Signages</button>
-            <button mat-menu-item (click)="navigate('/Direction')" (click)="toggleMenu()">Direction / Wayfinding
+            <button mat-menu-item (click)="navigate('/Direction')" (click)="toggleMenu()"  class="d-none">Direction / Wayfinding
               Signage</button>
-            <button mat-menu-item (click)="navigate('/Self-Standing-Letters')" (click)="toggleMenu()">Self Standing
+            <button mat-menu-item (click)="navigate('/Self-Standing-Letters')" (click)="toggleMenu()"  class="d-none">Self Standing
               Letters</button>
             <button mat-menu-item [matMenuTriggerFor]="namePlate">Name Plate</button>
-            <button mat-menu-item (click)="navigate('/Labels')" (click)="toggleMenu()">Labels</button>
+            <button mat-menu-item (click)="navigate('/Labels')" (click)="toggleMenu()"  class="d-none">Labels</button>
 
           </mat-menu>
 
@@ -305,10 +305,10 @@
           <mat-menu #flags="matMenu">
             <!-- <button mat-menu-item>All Flags</button> -->
             <button mat-menu-item [matMenuTriggerFor]="advertisingFlags">Advertising Flags</button>
-            <button mat-menu-item (click)="navigate('/Decorative-flag')" (click)="toggleMenu()">Decorative
+            <button mat-menu-item (click)="navigate('/Decorative-flag')" (click)="toggleMenu()" class="d-none">Decorative
               Flags</button>
             <button mat-menu-item [matMenuTriggerFor]="handheldFlags">Handheld Flags</button>
-            <button mat-menu-item (click)="navigate('/Outdoor-flag')" (click)="toggleMenu()">Outdoor Flags</button>
+            <button mat-menu-item (click)="navigate('/Outdoor-flag')" (click)="toggleMenu()"  class="d-none">Outdoor Flags</button>
             <button mat-menu-item [matMenuTriggerFor]="officeFlags">Office Flags</button>
             <button mat-menu-item (click)="navigate('/flag-base')" (click)="toggleMenu()">Flag Base</button>
 

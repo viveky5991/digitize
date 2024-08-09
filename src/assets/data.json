@@ -592,7 +592,7 @@
       }
     ]
   ],
-  "posters": [
+  "posters1": [
     {
       "id": 1,
       "title": "PVC Business Cards  ",
@@ -624,6 +624,44 @@
         ]
       }
     ]
+  ],
+  "posters": [
+    {
+      "list": [
+        {
+          "title": "Posters",
+          "description": [
+            "<p>Large format posters <br>Large poster printing is perfect for showcasing your business at trade shows or enhancing your store with stunning displays of your best work.<br>Experience unmatched color accuracy and vibrancy.</p><p>Ideal for movie posters, gallery exhibits, museums, large-scale photography, photo enlargements, and impressive artwork of all kinds.<br>Media options include Photo Gloss, Photo Matte, Plus, each poster can feature a different piece of artwork.<br>Custom sizes available, including A0.</p>"
+          ]
+        }
+      ],
+      "img": [
+       
+        "../../../assets/img/newimg/Posters/1.jpg",
+        "../../../assets/img/newimg/Posters/2.jpg",
+        "../../../assets/img/newimg/Posters/3.jpg",
+        "../../../assets/img/newimg/Posters/4.jpg"
+      ]
+    }
+  ],
+  "mountedposters": [
+    {
+      "list": [
+        {
+          "title": "Mounted Posters",
+          "description": [
+            "<p>Elevate your business visibility with our diverse selection of posters and signage solutions. Perfect for exhibitions, special events, or office use, our large format printing options are designed to grab the attention of passersby.</p><ul><li><b>Material Options</b></li><li>Foam Board (5mm & 10mm): Ideal for:</li><li>Exhibitions / Trade Shows</li><li>Internal Signs</li><li>Safety Signs</li><li>Marketing</li><li>Retail Signs</li><li>Directional / Informational Signs</li><li>Forex Board (2mm / 3mm / 5mm / 10mm): Suitable for:</li><li>Branding</li><li>School Projects</li><li>Marketing</li><li>Internal Signs</li><li>Exhibitions / Trade Shows</li></ul>"
+          ]
+        }
+      ],
+      "img": [
+        "../../../assets/img/newimg/mountedposters/1.jpg",
+        "../../../assets/img/newimg/mountedposters/2.jpg",
+        "../../../assets/img/newimg/mountedposters/3.jpg",
+        "../../../assets/img/newimg/mountedposters/4.jpg",
+        "../../../assets/img/newimg/mountedposters/5.jpg"
+      ]
+    }
   ],
   "usb": [
     {
@@ -3350,6 +3388,34 @@
         "../../../assets/img/3d/Unlit3d.webp",
         "../../../assets/img/window/window.png",
         "../../../assets/img/window/window.png"
+      ]
+    }
+  ],
+  "magneticsheet": [
+    {
+      "id": "Car Magnets",
+      "list": [
+        {
+          "title": "Car Magnets",
+          "description": "<p><b>Features</b><br>Transform Your Vehicle into a Moving Billboard!<br>Easy Application: Peel off easily, leaving no damage or residue behind.<br>Versatile Fit: Suitable for various vehicle sizes and types.<br>Ideal for Promotions: Perfect for short-term updates and marketing campaigns.<br>Increase Brand Awareness: Get noticed everywhere you go!<br>Professional Look: Elevate your brand's image with sleek designs.<br>Make every drive an opportunity!</p><p><b>Usage</b> Boost Your Business on the Move!<br>Drive Growth: Promote your business while you’re out and about.<br>Share Offers: Highlight special deals and discounts to attract customers.<br>Easy Contact: Display your contact information for effortless reach.<br>Community Support: Show your commitment to local causes and sports teams.<br>Increase Local Visibility: Make your brand known throughout your town.<br><br>Let your vehicle do the marketing for you!</p>"
+        }
+      ],
+      "img": [
+        "../../../assets/img/newimg/CarMagnets/1.jpg"
+        
+      ]
+    },
+    {
+      "id": "Fridge Magnets",
+      "list": [
+        {
+          "title": "Fridge Magnets",
+          "description": "<p><b>Features</b><br> Versatile Magnetic Solution for Home and Office!<br>Organize with Ease: Holds lists, images, and notes securely.<br>Surface Friendly: Safe for all surfaces, leaving no damage.<br>Enhance Aesthetics: Elevate the look of your kitchen or office.<br>Low Maintenance: Easy to clean and care for.<br>Universal Fit: Works on fridges, lockers, and other metal surfaces.<br>Customizable Design: Personalize with patterns and text to match your style.<br>Keep your space organized and stylish!</p><p><b>Usage</b><br> Keep Life Organized and Memorable!<br>Visible Reminders: Keep important notes and reminders front and center.<br>Showcase Memories: Display family photos and cherished moments.<br>Personalized Gifts: Perfect for thoughtful small gifts for loved ones.<br>Secure Documents: Organize papers and bills effortlessly.<br>Plan Ahead: Easily arrange schedules and meal plans.<br><br>Stay organized while celebrating what matters most!</p>"
+        }
+      ],
+      "img": [
+        "../../../assets/img/newimg/FridgeMagnets/1.jpg"
+        
       ]
     }
   ]

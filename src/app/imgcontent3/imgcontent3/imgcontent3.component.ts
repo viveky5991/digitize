@@ -52,7 +52,7 @@ export class Imgcontent3Component  implements OnInit{
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
       if(url[0].path=='Window-Vinyl'){
-        this.title='Window Vinyl Lettering';
+        this.title='Vinyl Lettering';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.window_vinyl)

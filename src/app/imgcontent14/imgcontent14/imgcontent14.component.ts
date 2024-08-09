@@ -50,8 +50,15 @@ export class Imgcontent14Component implements OnInit{
 
         })
 
-      }else if(url[0].path=='vehicle-graphics'){
-        this.title='vehicle-graphics'
+      }else if(url[0].path=='Magnetic-Sheet'){
+        this.title='Magnetic Sheet';
+        this.httpClient.get<any>("assets/data.json").subscribe((data) => {
+
+          console.log(data.magneticsheet)
+          this.digitizedata = data.magneticsheet;
+
+
+        })
       } else{
         this.title='Digitize'
       }

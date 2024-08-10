@@ -42,12 +42,12 @@ export class Imgcontent8Component implements OnInit{
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-      if(url[0].path=='SailFlags'){
-        this.title='Sail Flags';
+      if(url[0].path=='CurvedFlags'){
+        this.title='Curved Top Flags';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
-          console.log(data.SailFlags)
-          this.digitizedata = data.SailFlags;
+          console.log(data.CurvedFlags)
+          this.digitizedata = data.CurvedFlags;
         })
       } else if(url[0].path=='TearDropFlags'){
         this.title='Tear Drop';

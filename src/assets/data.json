@@ -2016,20 +2016,22 @@
       ]
     }
   ],
-  "SailFlags": [
+  "CurvedFlags": [
     {
       "list": [
         {
           "title": "Sail Flags (Curve Top Flag)",
           "description": [
-            "<ul><li><strong>Flag Sizes:</strong><ul><li>Small: Flag 2m x 85cm, Pole 3.5m</li><li>Medium: Flag 3m x 85cm, Pole 4.5m</li><li>Large: Flag 4m x 85cm, Pole 5.5m</li></ul></li><li><strong>Pole Material:</strong> Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Spike, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester (single-sided)</li><li>Satin Gloss, Super Matt (double-sided printing)</li></ul></li></ul>"
+                        "<p><b>Available Sizes</b></p><table  cellpadding='5' cellspacing='0'><thead><tr><th>Size</th><th>Flag Dimensions</th><th>Pole Height</th></tr></thead><tbody><tr><td>Small</td><td>2m x 85cm</td><td>3.5m</td></tr><tr><td>Medium</td><td>3m x 85cm</td><td>4.5m</td></tr><tr><td>Large</td><td>4m x 85cm</td><td>5.5m</td></tr></tbody></table><p>Pole Specifications <br>Material: Aluminum <br><br> Concrete <br> Water Base <br>Spike Base<br>Fiber Base<br>Materials<br>Knitted Polyester (Single-sided with mirror image on the reverse)<br>Satin Gloss (Double-sided printing)<br>Super Matt (Double-sided printing)</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/CurvedFlags/1.jpg",
+        "../../../assets/img/newimg/CurvedFlags/2.jpg",
+        "../../../assets/img/newimg/CurvedFlags/3.jpg",
+        "../../../assets/img/newimg/CurvedFlags/4.jpg",
+        "../../../assets/img/newimg/CurvedFlags/5.jpg"
       ]
     }
   ],
@@ -2039,14 +2041,15 @@
         {
           "title": "Tear Drop Flags",
           "description": [
-            "<ul><li><strong>Flag Sizes:</strong><ul><li><b>Small:</b> Flag 2.1m x 82cm, Pole 3.5m</li><li><b>Medium:</b> Flag 2.62m x 1.1m, Pole 4.5m</li><li><b>Large:</b> Flag 3.33m x 1.1m, Pole 5.5m</li></ul></li><li><strong>Pole Material:</strong> Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Spike, Cross, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester (single-sided)</li><li>Satin Gloss, Super Matt (Both sides printed)</li></ul></li></ul>"
+            "<p><b>Available Sizes</b></p><table  cellpadding='5' cellspacing='0'><thead><tr><th>Size</th><th>Flag Dimensions</th><th>Pole Height</th></tr></thead><tbody><tr><td>Small</td><td>2.1m x 82cm</td><td>3.5m</td></tr><tr><td>Medium</td><td>2.62m x 1.1m</td><td>4.5m</td></tr><tr><td>Large</td><td>3.33m x 1.1m</td><td>5.5m</td></tr></tbody></table><p>Pole Specifications <br>Material: Aluminum <br><br> Base Options<br> Concrete Base<br> Water Base <br> Cross Base<br>Spike Base<br>Fiber Base<br>Materials<br>Knitted Polyester (Single-sided with mirror image on the reverse)<br>Satin Gloss (Double-sided printing)<br>Super Matt (Double-sided printing)</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/TearDropFlags/1.jpg",
+        "../../../assets/img/newimg/TearDropFlags/2.jpg",
+        "../../../assets/img/newimg/TearDropFlags/3.jpg",
+        "../../../assets/img/newimg/TearDropFlags/4.jpg"
       ]
     }
   ],
@@ -2345,14 +2348,15 @@
         {
           "title": "L Shape Flags",
           "description": [
-            "<ul><li><strong>Flag Sizes:</strong><ul><li><b>Small:</b> Flag 2m x 90cm, Pole 3m</li><li><b>Medium:</b>  Flag 3m x 90cm, Pole 4m</li><li><b>Large:</b> Flag 4m x 90cm, Pole 5m</li><li><b>Extra Large:</b> Flag 5m x 90cm, Pole 5m</li></ul></li><li><strong>Pole Specifications:</strong> Material: Aluminum</li><li><strong>Base Options:</strong> Concrete, Water, Fiber</li><li><strong>Materials:</strong><ul><li>Knitted Polyester: Single-sided (mirror image on other side)</li><li>Satin Gloss & Super Matt: Both sides printing</li></ul></li></ul>"
+            "<p>Our L-shaped flags are expertly designed to enhance brand recognition. Ideal for advertising, these banner flags create a significant impact at any event or outside your store. Crafted from durable materials, they can withstand various weather conditions, ensuring your message remains clear and effective.</p><p>Perfect for trade shows, sales events, or boosting your business visibility, our L-shaped flags offer a versatile advertising solution. With customizable bright colors and designs, you can showcase your brand in an eye-catching way.</p><p>Count on Digitize Graphics to provide Banner Flags that effectively communicate your brand’s message and attract customer interest.</p><table  cellpadding='5' cellspacing='0'><thead><tr><th>Available Sizes</th><th>Flag Size</th><th>Pole Size</th></tr></thead><tbody><tr><td>Small</td><td>2m x 90cm</td><td>3m</td></tr><tr><td>Medium</td><td>3m x 90cm</td><td>4m</td></tr></tbody></table><p>Pole: Aluminium <br>Base:Concrete Base, Water Base, Fiber Base</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/LShapeFlags/1.jpg",
+        "../../../assets/img/newimg/LShapeFlags/2.jpg",
+        "../../../assets/img/newimg/LShapeFlags/3.jpg",
+        "../../../assets/img/newimg/LShapeFlags/4.jpg"
       ]
     }
   ],

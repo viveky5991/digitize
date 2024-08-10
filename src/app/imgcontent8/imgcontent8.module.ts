@@ -5,7 +5,7 @@ import { Imgcontent8Component } from './imgcontent8/imgcontent8.component';
 
 
 const routes: Routes = [
-  { path: 'SailFlags', component: Imgcontent8Component },
+  { path: 'CurvedFlags', component: Imgcontent8Component },
   { path: 'TearDropFlags', component: Imgcontent8Component },
   { path: 'LShapeFlags', component: Imgcontent8Component },
   { path: 'BladeFlags', component: Imgcontent8Component },

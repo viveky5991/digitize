@@ -6,19 +6,19 @@
       "tourcodes": [
         {
           "id": 1,
-          "title": "",
+          "title": "Business Card",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "",
+          "title": "Business Card Design",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "",
+          "title": "Business Card",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
@@ -36,7 +36,7 @@
         },
         {
           "id": 2,
-          "title": "",
+          "title": "Colour Edge Card",
           "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
@@ -60,13 +60,13 @@
         },
         {
           "id": 2,
-          "title": "",
+          "title": "Craft Business Card",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "",
+          "title": "Craft Card",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
@@ -196,8 +196,8 @@
         }
       ]
     },
-   
-   
+
+
     {
       "PrintingInformation": [
         {
@@ -636,7 +636,7 @@
         }
       ],
       "img": [
-       
+
         "../../../assets/img/newimg/Posters/1.jpg",
         "../../../assets/img/newimg/Posters/2.jpg",
         "../../../assets/img/newimg/Posters/3.jpg",
@@ -974,8 +974,8 @@
         "../../../assets/img/newimg/FROSTEDSTICKER/StandardCutFrostedSticker/StandardCutFrostedSticker1.jpg"
       ]
     }
-   
-   
+
+
   ],
   "letter_heads": [
     {
@@ -1187,8 +1187,8 @@
       ]
     }
   ],
- 
- 
+
+
   "tent_cards": [
     {
       "list": [
@@ -2774,7 +2774,7 @@
         "../../../assets/img/newimg/Lanyards/img6.jpg",
         "../../../assets/img/newimg/Lanyards/img7.jpg",
         "../../../assets/img/newimg/Lanyards/img8.jpg"
-        
+
       ]
     }
   ],
@@ -2792,7 +2792,7 @@
         "../../../assets/img/newimg/PaperBags/img1.jpg",
         "../../../assets/img/newimg/PaperBags/img2.jpg",
         "../../../assets/img/newimg/PaperBags/img3.jpg"
-        
+
       ]
     }
   ],
@@ -3406,7 +3406,7 @@
       ],
       "img": [
         "../../../assets/img/newimg/CarMagnets/1.jpg"
-        
+
       ]
     },
     {
@@ -3419,7 +3419,7 @@
       ],
       "img": [
         "../../../assets/img/newimg/FridgeMagnets/1.jpg"
-        
+
       ]
     }
   ]

@@ -1099,12 +1099,17 @@
         {
           "title": "Self Ink Stamps",
           "description": [
-            " <ul><li><b>Get your custom stamp in just a few easy steps: </b></li> <li><b>Choose a Shape and Size:</b><ul><li> Select the preferred shape and size for your stamp from our options.</li></ul></li><li><b>Email Documentation:</b>Send us a copy of your valid trade license and Emirates ID along with the dimensions of the stamp.</li><li><b>Proof Approval:</b><ul><li>Receive the proof of the stamp design via email within minutes.</li><li>Review and approve the design.</li></ul></li><li><b>Collection or Delivery:</b><ul><li>Collection: Your stamp will be ready for collection the same day, just 4 hours after approving the draft. </li><li> Delivery: If you prefer delivery, ensure to approve the stamp draft by 2:00 pm for next-day delivery.</li></ul></li></ul> <p>Don't have a design yet? No problem! Our helpful team can assist you in creating a custom stamp. Simply browse our website's Stamp category, choose a template, and email us the template code. We'll take care of the rest!</p>"
+            "<h2>Specifications</h2><table><tr><th>Shape</th><th>Standard Size</th></tr><tr><td>Round</td><td>3.9 cm</td></tr><tr><td>Square</td><td>3.9 cm X 3.9 cm</td></tr><tr><td>Rectangle</td><td>3 cm X 5 cm</td></tr><tr><td>Oval</td><td>3 cm X 5 cm</td></tr></table> <p><strong>The Self Ink Stamps</strong></p><p>Create Your Custom Stamp in a Few Simple Steps:</p><p><strong>Select Shape and Size:</strong><br>Choose your desired shape and size from our available options.</p><p><strong>Submit Documentation:</strong><br>Email us a copy of your valid trade license and Emirates ID, along with the stamp dimensions.</p><p><strong>Design Approval:</strong><br>You’ll receive a proof of your stamp design via email within minutes.<br>Review the design and give your approval.</p><p><strong>Pick-Up or Delivery:</strong><br>Pick-Up: Your stamp will be ready for collection the same day, just 4 hours after you approve the design.</p><p><strong>Delivery:</strong> If you prefer delivery, make sure to approve the design by 2:00 PM for next-day delivery.</p><p>No Design Yet? No worries! Our friendly team can help you create a custom stamp. Simply explore our website's Stamp category, select a template, and email us the template code. We'll handle the rest!</p>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/stamp/stamp.webp"
+          "../../../assets/img/newimg/selfink_stamps/1.jpg",
+          "../../../assets/img/newimg/selfink_stamps/2.jpg",
+          "../../../assets/img/newimg/selfink_stamps/3.jpg",
+          "../../../assets/img/newimg/selfink_stamps/4.jpg",
+          "../../../assets/img/newimg/selfink_stamps/5.jpg",
+          "../../../assets/img/newimg/selfink_stamps/6.jpg"
       ]
     }
   ],

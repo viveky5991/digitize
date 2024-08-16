@@ -40,3 +40,15 @@ a {
   padding-top: 10px;
   line-height: 18px;
 }
+
+.content .color-circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+content table tr td .blue-bg { background-color: blue; }
+.red-bg { background-color: red; }
+.green-bg { background-color: green; }
+.black-bg { background-color: black; }

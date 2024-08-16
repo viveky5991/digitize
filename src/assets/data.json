@@ -6,19 +6,19 @@
       "tourcodes": [
         {
           "id": 1,
-          "title": "Business Card",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img1.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "Business Card Design",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 3,
-          "title": "Business Card",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/StandardBusinessCards/img3.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }
@@ -36,7 +36,7 @@
         },
         {
           "id": 2,
-          "title": "Colour Edge Card",
+          "title": "",
           "img": "..../../../assets/img/newimg/Businesscard/SandwichBusinessCardswithcoloredge/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
@@ -60,13 +60,13 @@
         },
         {
           "id": 2,
-          "title": "Craft Business Card",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/CRAFTBUSINESSCARDS.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         },
         {
           "id": 2,
-          "title": "Craft Card",
+          "title": "",
           "img": "../../../assets/img/newimg/Businesscard/EcoFriendlyBusinessCards/img2.jpg",
           "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima expedita incidunt rerum."
         }

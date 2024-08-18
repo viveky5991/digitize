@@ -892,6 +892,21 @@
         "<p>Apply a 2mm bleed over the finished size Convert all fonts to paths or curves Convert all colors to CMYK or Grayscale (no RGB, PMS, Pantone, or Spot colors)  Flatten transparency effects Set overprints correctly for desired result Remove all color profiles Ensure all bitmap images are minimum 300dpi and in CMYK color mode Ensure reversed type (light type on dark background) is a minimum of 7pt Supply all files separately as individual PDFs (not multi-page documents) Ensure borders and type are within safe zone as variations may occur when trimming Remove registration marks, keylines, dielines, and other non-printing items If crop marks are required, ensure they are positioned outside the bleed area</p><ul><li><b>Paper stock options for Brochure printing</b></li><li>150gsm Gloss or Matt</li><li>170gsm Gloss or Matt</li><li>200gsm Gloss or Matt</li><li>250gsm Gloss or Matt</li><li>300gsm Gloss or Matt</li><li>350gsm Gloss or Matt</li></ul>"
       ]
     },
+    {"caption":[
+    {"title":"Trifold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/TrifoldBrouchers.jpg"
+},
+    {"title":"Bi-fold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/Bi-fold Brouchers.jpg"},
+    {"title":"Landscape Bi-fold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/Landscape Bi-fold Brouchers.jpg"},
+    {"title":"SquareTri-fold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/SquareTri-fold Brouchers.jpg"},
+    {"title":"SquareBi-fold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/SquareBi-foldBrouchers.jpg"},
+    {"title":"Trifold Brouchers",
+  "img": "../../../assets/img/newimg/Brochures/TrifoldBrouchers1.jpg"}
+    ]},
     {
       "img": [
         "../../../assets/img/newimg/Brochures/TrifoldBrouchers.jpg",
@@ -909,6 +924,14 @@
         "Order your event tickets or coupons through Deluxe Printing for superior quality. Deluxe offers cost-effective printing solutions for custom vouchers or coupons with a fast turnaround time. Additionally, we provide printing services for gift certificates that include barcodes or QR codes."
       ]
     },
+    {"caption":[
+      {"title":"design-gift-or-discount-voucher-card-coupon-and-ticket",
+      "img": "../../../assets/img/newimg/TicketsCoupns/img1.jpg"
+    },
+    {"title":"Scratch & Win Cards",
+    "img": "../../../assets/img/newimg/TicketsCoupns/img2.jpg"
+  }
+    ]},
     {
       "img": [
         "../../../assets/img/newimg/TicketsCoupns/img1.jpg",

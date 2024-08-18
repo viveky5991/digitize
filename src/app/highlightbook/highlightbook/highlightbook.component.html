@@ -4,10 +4,13 @@
 
          <div class="col-lg-7">
             <div class="row card-items" *ngFor="let item of digitizedata">
-               <div class="col-lg-6 col-sm-6" *ngFor="let im of item.img">
+
+               <div class="col-lg-6 col-sm-6" *ngFor="let im of item.caption">
                   <div class="card" >
                      <div class="card-body">
-                        <img [src]="im" alt="" class="w-100">
+
+                        <img [src]="im.img"  [alt]="im.title" class="w-100">
+                       <span>{{im.title}}</span>
                      </div>
                   </div>
                </div>

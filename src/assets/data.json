@@ -2301,12 +2301,15 @@
         {
           "title": "Table Flags",
           "description": [
-            "<ul><li><b>Pole Types:</b><ul><li>Single: Straight, L-Shape</li><li>Dual: Y-Shape, V-Shape, T-Shape, Tripole</li></ul></li><li><b>Pole Colors:</b> Silver, Golden</li><li><b>Flag Material:</b><ul><li>Satin Glossy, Double-Sided</li><li>Knitted Polyester, Single-Sided</li></ul></li><li><b>Finishing:</b>Lace/Tassels</li></ul>"
+            "<ul><li><b>Pole Types:</b><ul><li>Single: Straight, L-Shape</li><li>Dual: Y-Shape, V-Shape, T-Shape, Tripole</li></ul></li><li><b>Pole Colors:</b> Silver, Golden</li><li><b>Flag Material:</b><ul><li>Satin Glossy (Double Sided)</li><li>Knitted Polyester (Single sided other side mirror image)</li></ul></li><li><b>Finishing:</b>Lace/Tassels</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp"
+       "../../../assets/img/newimg/TableFlags/1.jpg",
+        "../../../assets/img/newimg/TableFlags/2.jpg",
+        "../../../assets/img/newimg/TableFlags/3.jpg",
+        "../../../assets/img/newimg/TableFlags/4.jpg"
       ]
     }
   ],

@@ -3054,14 +3054,17 @@
         {
           "title": "Pop Up Softcase",
           "description": [
-            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Printing Options</th></tr></thead><tbody><tr><td>2x3</td><td>284.2 x 230 cm</td><td>204.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>3x3</td><td>359.2 x 230 cm</td><td>279.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>4x3</td><td>434.2 x 230 cm</td><td>354.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>5x3</td><td>509.2 x 230 cm</td><td>429.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>6x3</td><td>584.2 x 230 cm</td><td>504.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>8x3</td><td>734.2 x 230 cm</td><td>654.2 x 230 cm</td><td>One side, Both sides</td></tr></tbody></table><ul><li>Collapsible structure</li><li>Easy to install</li><li>Can be used multiple times</li><li>Usage: Indoor Events</li><li>Frame: Aluminum</li><li>Packaging: Comes in a soft fabric with plastic sheet case trolley</li><li>Installation and Removal: User Friendly</li></ul>"
+            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Printing Options</th></tr></thead><tbody><tr><td>2x3</td><td>284.2 x 230 cm</td><td>204.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>3x3</td><td>359.2 x 230 cm</td><td>279.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>4x3</td><td>434.2 x 230 cm</td><td>354.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>5x3</td><td>509.2 x 230 cm</td><td>429.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>6x3</td><td>584.2 x 230 cm</td><td>504.2 x 230 cm</td><td>One side, Both sides</td></tr><tr><td>8x3</td><td>734.2 x 230 cm</td><td>654.2 x 230 cm</td><td>One side, Both sides</td></tr></tbody></table><ul><li>Collapsible structure</li><li>Easy to install</li><li>Can be used multiple times</li><li>Branding on trolley (Optional)</li><li>Usage: Indoor Events</li><li>Frame: Aluminum</li><li>Packaging: Comes in a soft fabric with plastic sheet case trolley</li><li>Installation and Removal: User Friendly</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+       "../../../assets/img/newimg/popups/1.jpg",
+        "../../../assets/img/newimg/popups/2.jpg",
+        "../../../assets/img/newimg/popups/3.jpg",
+        "../../../assets/img/newimg/popups/4.jpg",
+        "../../../assets/img/newimg/popups/5.jpg",
+        "../../../assets/img/newimg/popups/6.jpg"
       ]
     }
   ],
@@ -3383,7 +3386,7 @@
         {
           "title": "Roll Up Banner",
           "description": [
-            "<p>Our Roll up banners give you portability and flexibility in very little space. We offer High Quality, urgent, professional, quick printed graphic, with added Matt or Gloss lamination for protection and anti-glare benefits. Our Rollups / Pullups are highly durable and available at Affordable low prices. <br><br> With portable Roll-up banners the graphic is stored in the base on a roller. The graphic is simply pulled up and secured by hooking it onto the supporting pole. The Rollup banner literally takes seconds to assemble and is supplied in a carry bag for easy transportation.You can submit your own design or our professional designer team will help you Design your banner (Images and Text to be Supplied by the Client).</p><ul><li><b>Sizes Available:</b></li><ul><li>Width x Height</li><li>85 x 200 cm</li><li>100 x 200 cm</li><li>120 x 200 cm</li><li>150 x 200 cm</li><li>200 x 200 cm</li><li>300 x 200 cm</li><li>29.7 x 42 cm</li><li>29.7 x 21 cm</li></ul></ul>"
+            "<p>We at Digitize Graphics have a wide selection of roll up / pull up banner stands. </p><ul><li><b>Rollup banners are available in the following sizes:</b></li><ul><li>Width x Height</li><li>85cm x 200 cm</li><li>100cm x 200 cm</li><li>120 x 200 cm</li><li>150cm x 200 cm</li><li>200cm x 200 cm</li><li>240cm x 200cm</li><li>A3 size</li></ul></ul>"
           ]
         }
       ],
@@ -3400,14 +3403,16 @@
         {
           "title": "X Banners",
           "description": [
-            "<ul><li><strong>Sizes</strong></li><ul><li>60 x 160cms</li><li>80 x 180cms</li></ul></ul>"
+            "<p>The X Banner is the best lightweight and portable solution for your on-the-go display needs. Your design will be printed Matte Vinyl, Heavy Duty Vinyl or UV Fabric which will allow your display a long lasting and clear image for years to come.</p><ul><li><strong>Sizes</strong></li><ul><li>60 x 160cms</li><li>80 x 180cms</li></ul></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/xbanners/1.jpg",
+        "../../../assets/img/newimg/xbanners/2.jpg",
+        "../../../assets/img/newimg/xbanners/3.jpg",
+        "../../../assets/img/newimg/xbanners/4.jpg",
+        "../../../assets/img/newimg/xbanners/5.jpg"
       ]
     }
   ],

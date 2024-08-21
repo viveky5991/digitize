@@ -318,7 +318,7 @@
             <button mat-menu-item (click)="navigate('/CurvedFlags')" (click)="toggleMenu()">Curved Top Flags</button>
             <button mat-menu-item (click)="navigate('/TearDropFlags')" (click)="toggleMenu()">Tear Drop Flags</button>
             <button mat-menu-item (click)="navigate('/LShapeFlags')" (click)="toggleMenu()">L Shape Flags</button>
-            
+
 
           </mat-menu>
 
@@ -369,7 +369,7 @@
           <mat-menu #Backdrops="matMenu">
             <!-- <button mat-menu-item>ALL BACKDROPS</button> -->
             <button mat-menu-item [matMenuTriggerFor]="popupsRollups">Popups, Rollups & Banners</button>
-            <button mat-menu-item [matMenuTriggerFor]="backdropsStandees">Backdrops & Standees</button>
+            <button mat-menu-item [matMenuTriggerFor]="backdropsStandees" class="d-none">Backdrops & Standees</button>
             <button mat-menu-item [matMenuTriggerFor]="exhibitionEvents">Exhibition & Events</button>
             <!-- <button mat-menu-item>Flag Base</button> -->
 
@@ -406,16 +406,16 @@
 
           <mat-menu #exhibitionEvents="matMenu">
             <button mat-menu-item (click)="navigate('/promotion')" (click)="toggleMenu()">Promotion Table </button>
-            <button mat-menu-item (click)="navigate('/exhibition-counter')" (click)="toggleMenu()">Exhibition Counters
+            <button mat-menu-item class="d-none" (click)="navigate('/exhibition-counter')" (click)="toggleMenu()">Exhibition Counters
             </button>
-            <button mat-menu-item (click)="navigate('/tent-canopy')" (click)="toggleMenu()">Tent / Canopy / Gazebo
+            <button mat-menu-item class="d-none"  (click)="navigate('/tent-canopy')" (click)="toggleMenu()">Tent / Canopy / Gazebo
             </button>
-            <button mat-menu-item (click)="navigate('/parasol-umbrella')" (click)="toggleMenu()">Parasol Umbrella
+            <button mat-menu-item class="d-none" (click)="navigate('/parasol-umbrella')" (click)="toggleMenu()">Parasol Umbrella
             </button>
             <button mat-menu-item (click)="navigate('/cover-cloth')" (click)="toggleMenu()">Table Cover & Table Cloth
             </button>
-            <button mat-menu-item (click)="navigate('/media-frame')" (click)="toggleMenu()">Social Media Frame </button>
-            <button mat-menu-item (click)="navigate('/foam-board')" (click)="toggleMenu()">Foam Board </button>
+            <button mat-menu-item class="d-none" (click)="navigate('/media-frame')" (click)="toggleMenu()">Social Media Frame </button>
+            <button mat-menu-item class="d-none" (click)="navigate('/foam-board')" (click)="toggleMenu()">Foam Board </button>
             <button mat-menu-item (click)="navigate('/shell-scheme')" (click)="toggleMenu()">Shell Scheme Booth Branding
             </button>
 

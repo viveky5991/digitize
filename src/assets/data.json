@@ -3071,14 +3071,16 @@
         {
           "title": "Fabric Pop Up",
           "description": [
-            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Weight</th></tr></thead><tbody><tr><td>3x3</td><td>288 x 225 cm</td><td>225 x 225 cm</td><td>12 kgs</td></tr><tr><td>4x3</td><td>362 x 225 cm</td><td>300 x 225 cm</td><td>15 kgs</td></tr><tr><td>8x3</td><td>663 x 225 cm</td><td>600 x 225 cm</td><td>30 kgs</td></tr></tbody></table> <ul><li>Collapsible structure</li><li>Seamless View</li><li>Easy to install</li><li>Washable, Multiple use</li><li>Usage:  Indoor Events, Conference, Exhibitions and Parties</li><li>Frame: Aluminum</li><li>Packaging: Comes with a Wheel Trolley Bag</li><li>Installation and Removal: User Friendly</li></ul>"
+            "<table class='table table-hover'><thead><tr><th>Type</th><th>Print Area</th><th>View Area</th><th>Weight</th></tr></thead><tbody><tr><td>3x3</td><td>288 x 225 cm</td><td>225 x 225 cm</td><td>12 kgs</td></tr><tr><td>4x3</td><td>362 x 225 cm</td><td>300 x 225 cm</td><td>15 kgs</td></tr><tr><td>8x3</td><td>663 x 225 cm</td><td>600 x 225 cm</td><td>30 kgs</td></tr></tbody></table> <ul><li>Collapsible structure</li><li>Seamless View</li><li>No alignment, Joints or Panel matching issue</li><li>Easy to install</li><li>Washable, Multiple use</li><li><b>Usage</b>:  Indoor Events, Conference, Exhibitions and Parties</li><li><b>Frame</b>: Aluminum</li><li><b>Packaging</b>: Comes with a Wheel Trolley Bag</li><li><b>Installation and Removal</b>: User Friendly</li></ul>"
           ]
         }
       ],
       "img": [
-        "../../../assets/img/3d/Unlit3d.webp",
-        "../../../assets/img/window/window.png",
-        "../../../assets/img/window/window.png"
+        "../../../assets/img/newimg/fabricPopup/1.jpg",
+        "../../../assets/img/newimg/fabricPopup/2.jpg",
+        "../../../assets/img/newimg/fabricPopup/3.jpg",
+        "../../../assets/img/newimg/fabricPopup/4.jpg",
+        "../../../assets/img/newimg/fabricPopup/5.jpg"
       ]
     }
   ],

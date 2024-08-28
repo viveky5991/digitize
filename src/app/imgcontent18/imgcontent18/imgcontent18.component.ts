@@ -27,6 +27,7 @@ export class Imgcontent18Component implements OnInit{
   };
   digitizedata: any;
   fullUrl: any;
+  shell: boolean=false;
   constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
 
@@ -41,6 +42,7 @@ export class Imgcontent18Component implements OnInit{
   navload(){
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
+    this.shell=false;
     this._route.url.subscribe((url: any) => {
 
       if(url[0].path=='promotion'){
@@ -95,6 +97,7 @@ export class Imgcontent18Component implements OnInit{
         })
       } else if(url[0].path=='shell-scheme'){
         this.title='Shell Scheme';
+          this.shell=true;
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.ShellScheme)

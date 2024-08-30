@@ -3226,8 +3226,35 @@
         "../../../assets/img/newimg/shellscheme/3.jpg",
         "../../../assets/img/newimg/shellscheme/4.jpg",
         "../../../assets/img/newimg/shellscheme/5.jpg"
+      ],
+       "headline": "Types of shell scheme booths",
+      
+        "shellimg": [
+        
+        {
+          "title": "6 Panels Shell Scheme Booth",
+          "img": "../../../assets/img/newimg/typesofshell/1.jpg"
+        },
+        {
+          "title": "7 panel shell scheme",
+          "img": "../../../assets/img/newimg/typesofshell/2.jpg"
+        },
+        {
+          "title": "8 panel shell scheme",
+          "img": "../../../assets/img/newimg/typesofshell/3.jpg"
+        },
+        {
+          "title": "9 panel exhibition booth",
+          "img": "../../../assets/img/newimg/typesofshell/4.jpg"
+        },
+        {
+          "title": "12 panel shell scheme booth",
+          "img": "../../../assets/img/newimg/typesofshell/5.jpg"
+        }
       ]
+      
     }
+    
   ],
   "fencebanners": [
     {

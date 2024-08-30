@@ -106,17 +106,15 @@
           <!-- *ngFor="let item3 of" item -->
           <div class="main" >
            <h3 class="title">
-             Types of shell scheme booths
+            {{item.headline}}
+             
            </h3>
            <div class="row">
-             <div class="col-md-3 sim">
-               <img src="../../../assets/img/newimg/shellscheme/1.jpg" alt="" class="img-thumbnail">
-               <h4>ime2</h4>
+             <div class="col-md-3 sim" *ngFor="let item4 of item.shellimg">
+               <img [src]="item4.img" [alt]="item4.title" class="img-thumbnail">
+               <h4>{{item4.title}}</h4>
              </div>
-             <div class="col-md-3 sim">
-              <img src="../../../assets/img/newimg/shellscheme/1.jpg" alt="" class="img-thumbnail">
-              <h4>ime2</h4>
-            </div>
+             
            </div>
           </div>
          </div>

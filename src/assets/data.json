@@ -3228,9 +3228,9 @@
         "../../../assets/img/newimg/shellscheme/5.jpg"
       ],
        "headline": "Types of shell scheme booths",
-      
+
         "shellimg": [
-        
+
         {
           "title": "6 Panels Shell Scheme Booth",
           "img": "../../../assets/img/newimg/typesofshell/1.jpg"
@@ -3252,9 +3252,9 @@
           "img": "../../../assets/img/newimg/typesofshell/5.jpg"
         }
       ]
-      
+
     }
-    
+
   ],
   "fencebanners": [
     {
@@ -3420,9 +3420,13 @@
         }
       ],
       "img": [
-        "../../../assets/img/roll-up/0111.png",
-        "../../../assets/img/roll-up/0114.png",
-        "../../../assets/img/roll-up/0115.png"
+        "../../../assets/img/newimg/rollup/1.jpg",
+       "../../../assets/img/newimg/rollup/2.jpg",
+       "../../../assets/img/newimg/rollup/3.jpg",
+       "../../../assets/img/newimg/rollup/4.jpg",
+       "../../../assets/img/newimg/rollup/size_comparison_1.jpg",
+       "../../../assets/img/newimg/rollup/size_comparison_2.jpg",
+       "../../../assets/img/newimg/rollup/size_comparison_3.jpg"
       ]
     }
   ],

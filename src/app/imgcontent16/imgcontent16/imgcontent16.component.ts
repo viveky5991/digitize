@@ -42,7 +42,7 @@ export class Imgcontent16Component  implements OnInit{
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-      debugger
+
       if(url[0].path=='popups'){
         this.title='Pop Up Softcase';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -72,12 +72,12 @@ export class Imgcontent16Component  implements OnInit{
           this.digitizedata = data.xbanners;
         })
       }else if(url[0].path=='banners-flex'){
-        this.title='Banners Flex'; 
+        this.title='Banners Flex';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.bannersflex)
           this.digitizedata = data.bannersflex;
-        }) 
+        })
       }else if(url[0].path=='fence-banners'){
         this.title='Fence Banners';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -98,7 +98,7 @@ export class Imgcontent16Component  implements OnInit{
     })
   }
   EnquiryNow() {
-    debugger
+
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

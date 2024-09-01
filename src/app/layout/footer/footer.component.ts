@@ -18,26 +18,26 @@ export class FooterComponent implements OnInit {
   constructor(public dialog: MatDialog, private router: Router, @Inject(PLATFORM_ID) private platformId: any, private el: ElementRef, private renderer: Renderer2) { }
   ngOnInit(): void {
     // this.openDialog()
-    if (isPlatformBrowser(this.platformId)) {
-      setTimeout(() => {
-        var element = this.el.nativeElement.querySelector('.btn-enquiry');
-        var enqModal = document.querySelector('#mat-dialog-0');
-        console.log(enqModal);
-        // var customData = element.getAttribute('target-data');
-        if (element.className && !enqModal) {
-          this.openDialog(); // Call the openDialog function after the delay
-        } else {
-          ''
-        }
+    // if (isPlatformBrowser(this.platformId)) {
+    //   setTimeout(() => {
+    //     var element = this.el.nativeElement.querySelector('.btn-enquiry');
+    //     var enqModal = document.querySelector('#mat-dialog-0');
+    //     console.log(enqModal);
+    //     // var customData = element.getAttribute('target-data');
+    //     if (element.className && !enqModal) {
+    //       this.openDialog(); // Call the openDialog function after the delay
+    //     } else {
+    //       ''
+    //     }
 
-      }, 9000000);
+    //   }, 9000000);
 
-      window.addEventListener('scroll', () => {
-        this.windowScrolled = window.pageYOffset !== 0;
-      });
+    //   window.addEventListener('scroll', () => {
+    //     this.windowScrolled = window.pageYOffset !== 0;
+    //   });
 
-      this.scrollToTop();
-    }
+    //   this.scrollToTop();
+    // }
   }
 
   openDialog() {

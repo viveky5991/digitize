@@ -44,3 +44,17 @@ export class SharedService {
   
 }
 
+export class ContactComponent {
+  contact = { name: '', email: '',phone:'',address:'', message: '' };
+  message: string | undefined;
+
+  constructor(private http: HttpClient) {}
+
+  onSubmit() {
+      this.http.post('http://localhost:3200/create', this.contact)
+          .subscribe({
+              next: (response) => this.message = 'Message sent successfully',
+              error: (error) => this.message = 'Error sending message'
+          });
+  }
+}

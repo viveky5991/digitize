@@ -25,10 +25,10 @@ export class StationarylistingComponent implements OnInit {
   contentinfo: any;
   fullUrl: any;
   busines: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title, private location: Location, @Inject(DOCUMENT) private document: Document) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title, private location: Location, @Inject(DOCUMENT) private document: Document,private shared: SharedService) { }
 
   ngOnInit(): void {
-    debugger
+    
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
@@ -151,14 +151,12 @@ export class StationarylistingComponent implements OnInit {
     this._router.navigateByUrl(path);
   }
    getFullUrl() {
-    const protocol = this.document.location.protocol;
-    const host = this.document.location.host;
-    const path = this.location.prepareExternalUrl(this.location.path());
-    return `${protocol}//${host}${path}`;
+    
+     return this.document.location.href;
   }
 
   EnquiryNow() {
-    // const dialogRef = this.dialog.open(PopupComponent);
+       // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);

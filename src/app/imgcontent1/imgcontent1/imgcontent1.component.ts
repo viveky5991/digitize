@@ -142,6 +142,7 @@ export class Imgcontent1Component implements OnInit{
     //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
     //   }
     // });
+    debugger
     dialogRef.afterClosed().subscribe({
       next: (result) => {
         console.log(`Dialog result: ${result}`);

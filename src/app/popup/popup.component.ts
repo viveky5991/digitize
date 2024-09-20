@@ -6,6 +6,8 @@ import { FormBuilder, FormGroup, FormsModule, NgForm, Validators,ReactiveFormsMo
 import { CommonModule } from '@angular/common';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { SharedService } from '../service/shared-service.service';
+import swal from 'sweetalert';
 @Component({
   selector: 'app-popup',
   standalone: true,
@@ -18,43 +20,52 @@ export class PopupComponent implements OnInit {
   contactForm: any;
 //  data: any;
  
-  constructor(private fb: FormBuilder ,public dialog: MatDialog,  public dialogRef: MatDialogRef<any>,
-    @Inject(MAT_DIALOG_DATA) public data: string,) {
+  constructor(private fb: FormBuilder ,public dialog: MatDialog,private shared:SharedService,  public dialogRef: MatDialogRef<any>,
+    @Inject(MAT_DIALOG_DATA) public data: any,) {
    
   }
 
   ngOnInit(): void {
+    
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
       phone: ['', Validators.required],
       email: ['', [Validators.required, Validators.email]],
       requirement: ['', Validators.required],
-      urlweb:[this.data],
-      message: ['', Validators.required]
+      urlweb:[this.data.webUrl],
+      message: ['', Validators.required],
+      address: ['']
     });
     console.log("this.data.webUrl",this.data);
   }
 
   onSubmit() {
-    debugger;
     if (this.contactForm.valid) {
-      console.log('Form submitted successfully!');
-      console.log(this.contactForm.value);
-      // You can add form submission logic here, such as sending the form data to a server
-      // Reset the form after submission
-      this.contactForm.reset();
+      // console.log('Form submitted successfully!');
+      // console.log(this.contactForm.value);
+  
+      this.shared.postData(this.contactForm.value).subscribe({
+        next: (response) => {
+          if(response.code===2000)
+            swal({icon: "success",title:response.message});
+          //alert(response.message);
+          // console.log('Message sent successfully');
+          // Reset the form after successful submission
+          this.contactForm.reset();
+        },
+        error: (error) => {
+          if(error.status!==2000)
+          console.log('Error sending message', error);
+          swal({icon: "error",title:error.name});
+          // alert(error.message);
+        }
+      });
     } else {
       console.log('Form is invalid, please check all fields.');
     }
   }
   
-  onLoad() {
-    const url = window.location.href;
-    const webUrlControl = this.contactForm.get('webUrl');
-    if (webUrlControl) {
-      webUrlControl.setValue(url);
-    }
-  }
+
 
 
 

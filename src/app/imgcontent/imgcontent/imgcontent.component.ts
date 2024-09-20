@@ -1,6 +1,6 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { PopupComponent } from '../../popup/popup.component';
 import { MatDialog } from '@angular/material/dialog';
@@ -8,6 +8,7 @@ import { SwiperOptions } from 'swiper';
 import { SwiperModule } from 'swiper/angular';
 import { Animations } from '../../animation';
 import { BannercontentComponent } from '../../bannercontent/bannercontent/bannercontent.component';
+import { SharedService } from '../../service/shared-service.service';
 
 @Component({
   selector: 'app-imgcontent',
@@ -19,6 +20,7 @@ import { BannercontentComponent } from '../../bannercontent/bannercontent/banner
 })
 export class ImgcontentComponent implements OnInit {
   title: string | undefined;
+  fullUrl: any;
   config: SwiperOptions = {
     slidesPerView: 2,
     spaceBetween: 50,
@@ -28,9 +30,10 @@ export class ImgcontentComponent implements OnInit {
   };
   digitizedata: any;
   booklets: boolean = false;
-  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog, private shared:SharedService, @Inject(DOCUMENT) private document: Document) { }
   ngOnInit(): void {
 
+this.fullUrl = this.getFullUrl();
     this.navload()
   }
   navload() {
@@ -115,15 +118,23 @@ export class ImgcontentComponent implements OnInit {
       }
     })
   }
+  getFullUrl() {
+    debugger
+    //return document.URL;
+    return this.document.location.href;
+    }
   EnquiryNow() {
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
+    debugger
+    const dataToPass = { webUrl: this.fullUrl };
     const dialogRef = this.dialog.open(PopupComponent, {
       width: '700px',
-      height: '620px'
+      height: '620px',
+      data:dataToPass
     });
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary

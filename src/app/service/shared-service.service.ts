@@ -2,11 +2,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, map } from 'rxjs';
+import { environment} from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class SharedService {
+
 
   constructor(private http: HttpClient) { }
 
@@ -19,7 +21,19 @@ export class SharedService {
   //     })
   //   )
   // }
-  getData(): any[] {
+
+   // Example POST request
+   postData( data: any): Observable<any> {
+    
+    return this.http.post<any>(`${environment.apiUrl}/create`,data) .pipe(
+      map((user: any) => {
+         console.log(user);
+        return user;
+      })
+    )
+  }
+  
+  getData(data:any): any[] {
     return this.data;
   }
   data = [
@@ -44,17 +58,17 @@ export class SharedService {
   
 }
 
-export class ContactComponent {
-  contact = { name: '', email: '',phone:'',address:'', message: '' };
-  message: string | undefined;
+// export class ContactComponent {
+//   contact = { name: '', email: '',phone:'',address:'', message: '' };
+//   message: string | undefined;
 
-  constructor(private http: HttpClient) {}
+//   constructor(private http: HttpClient) {}
 
-  onSubmit() {
-      this.http.post('http://localhost:3200/create', this.contact)
-          .subscribe({
-              next: (response) => this.message = 'Message sent successfully',
-              error: (error) => this.message = 'Error sending message'
-          });
-  }
-}
+//   onSubmit() {
+//       this.http.post('http://localhost:3200/create', this.contact)
+//           .subscribe({
+//               next: (response) => this.message = 'Message sent successfully',
+//               error: (error) => this.message = 'Error sending message'
+//           });
+//   }
+// }

@@ -8,6 +8,7 @@ import { SwiperModule } from 'swiper/angular';
 import { Animations } from '../../animation';
 import { PopupComponent } from '../../popup/popup.component';
 import { Location } from '@angular/common';
+import { SharedService } from '../../service/shared-service.service';
 @Component({
   selector: 'app-imgcontent1',
   standalone: true,
@@ -27,7 +28,7 @@ export class Imgcontent1Component implements OnInit{
   };
   digitizedata: any;
   fullUrl: any;
-  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
+  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document, private Shared:SharedService) { }
   ngOnInit(): void {
 
     this.navload()
@@ -131,8 +132,9 @@ export class Imgcontent1Component implements OnInit{
     const dialogConfig = new MatDialogConfig();
     dialogConfig.disableClose = true;
     dialogConfig.width = "550px";
-    dialogConfig.data = this.fullUrl;
+    dialogConfig.data = {webUrl:this.fullUrl};
     const dialogRef = this.dialog.open(PopupComponent, dialogConfig);
+    
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary
     //   const dialogContainer = document.querySelector('.mat-dialog-container');
@@ -142,15 +144,14 @@ export class Imgcontent1Component implements OnInit{
     //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
     //   }
     // });
-    debugger
-    dialogRef.afterClosed().subscribe({
-      next: (result) => {
-        console.log(`Dialog result: ${result}`);
-      },
-      error: (error) => {
-        console.error('Error occurred while opening the dialog:', error);
-      }
-    });
+    // dialogRef.afterClosed().subscribe({
+    //   next: (result) => {
+    //     console.log(`Dialog result: ${result}`);
+    //   },
+    //   error: (error) => {
+    //     console.error('Error occurred while opening the dialog:', error);
+    //   }
+    // });
   }
 }
 

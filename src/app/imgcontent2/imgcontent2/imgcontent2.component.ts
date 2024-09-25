@@ -4,6 +4,7 @@ import { Component, Inject, OnInit } from '@angular/core';
 import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { Location } from '@angular/common';
+import { SharedService } from '../../service/shared-service.service';
 
 import { PopupComponent } from '../../popup/popup.component';
 
@@ -18,7 +19,7 @@ export class Imgcontent2Component implements OnInit {
   title: string | undefined;
   digitizedata: any;
   fullUrl: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document, private Shared:SharedService) { }
   ngOnInit(): void {
 
     this.navload()

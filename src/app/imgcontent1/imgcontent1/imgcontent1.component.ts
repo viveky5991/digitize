@@ -34,10 +34,8 @@ export class Imgcontent1Component implements OnInit{
     this.navload()
   }
   getFullUrl() {
-    const protocol = this.document.location.protocol;
-    const host = this.document.location.host;
-    const path = this.location.prepareExternalUrl(this.location.path());
-    return `${protocol}//${host}${path}`;
+   
+    return this.document.location.href;
   }
   navload(){
     this.fullUrl = this.getFullUrl();
@@ -130,6 +128,7 @@ export class Imgcontent1Component implements OnInit{
     //   console.log(`Dialog result: ${result}`);
     // });
     const dialogConfig = new MatDialogConfig();
+
     dialogConfig.disableClose = true;
     dialogConfig.width = "550px";
     dialogConfig.data = {webUrl:this.fullUrl};

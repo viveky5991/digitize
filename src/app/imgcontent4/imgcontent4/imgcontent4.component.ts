@@ -8,6 +8,7 @@ import { HttpClient } from '@angular/common/http';
 import { CommonModule,DOCUMENT } from '@angular/common';
 import { Animations } from '../../animation';
 import { Location } from '@angular/common';
+import { SharedService } from '../../service/shared-service.service';
 @Component({
   selector: 'app-imgcontent4',
   standalone: true,
@@ -37,16 +38,14 @@ export class Imgcontent4Component implements OnInit {
   };
   digitizedata: any;
   fullUrl: any;
-  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document) { }
+  constructor(public _router: Router, private _route: ActivatedRoute, private httpClient: HttpClient, public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document, private Shared:SharedService) { }
   ngOnInit(): void {
 
     this.navload()
   }
   getFullUrl() {
-    const protocol = this.document.location.protocol;
-    const host = this.document.location.host;
-    const path = this.location.prepareExternalUrl(this.location.path());
-    return `${protocol}//${host}${path}`;
+   
+    return this.document.location.href;
   }
   navload(){
     this.fullUrl = this.getFullUrl();
@@ -123,7 +122,7 @@ export class Imgcontent4Component implements OnInit {
     const dialogConfig = new MatDialogConfig();
     dialogConfig.disableClose = true;
     dialogConfig.width = "550px";
-    dialogConfig.data = this.fullUrl;
+    dialogConfig.data = {webUrl:this.fullUrl};
     const dialogRef = this.dialog.open(PopupComponent, dialogConfig);
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary

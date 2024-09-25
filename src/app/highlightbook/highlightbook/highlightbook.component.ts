@@ -1,9 +1,10 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { PopupComponent } from '../../popup/popup.component';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
+import { SharedService } from '../../service/shared-service.service';
 
 @Component({
   selector: 'app-highlightbook',
@@ -15,12 +16,19 @@ import { MatDialog } from '@angular/material/dialog';
 export class HighlightbookComponent implements OnInit{
   title: string | undefined;
   digitizedata: any;
-  constructor( public _router: Router, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog) { }
+  fullUrl: any;
+  constructor( public _router: Router, @Inject(DOCUMENT) private document: Document, private _route: ActivatedRoute,private httpClient: HttpClient,public dialog: MatDialog,  private Shared:SharedService) { }
   ngOnInit(): void {
 
     this.navload()
   }
+  getFullUrl() {
+   
+    return this.document.location.href;
+  }
   navload(){
+    this.fullUrl = this.getFullUrl();
+    console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
 
       if(url[0].path=='brochures'){
@@ -61,9 +69,12 @@ export class HighlightbookComponent implements OnInit{
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
-    const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
-    });
+    const dialogConfig = new MatDialogConfig();
+
+    dialogConfig.disableClose = true;
+    dialogConfig.width = "900px";
+    dialogConfig.data = {webUrl:this.fullUrl};
+    const dialogRef = this.dialog.open(PopupComponent,dialogConfig);
     // dialogRef.afterOpened().subscribe(() => {
     //   // Find the dialog container element by class name or any other means if necessary
     //   const dialogContainer = document.querySelector('.mat-dialog-container');

@@ -95,18 +95,18 @@
           </mat-menu>
 
           <mat-menu #stickers="matMenu" class="d-none">
-            <button mat-menu-item (click)="navigate('/die-cut')" (click)="toggleMenu()">Die Cut Sticker</button>
+            <!-- <button mat-menu-item (click)="navigate('/die-cut')" (click)="toggleMenu()">Die Cut Sticker</button>
             <button mat-menu-item (click)="navigate('/print-cut')" (click)="toggleMenu()">Print & Cut sticker</button>
             <button mat-menu-item (click)="navigate('/sticker-gloss')" (click)="toggleMenu()">Paper Sticker Gloss /
               Matt</button>
             <button mat-menu-item (click)="navigate('/transparent')" (click)="toggleMenu()">Transparent Sticker</button>
-            <button mat-menu-item (click)="navigate('/pvcwhite')" (click)="toggleMenu()">PVC White Sticker</button>
+            <button mat-menu-item (click)="navigate('/pvcwhite')" (click)="toggleMenu()">PVC White Sticker</button> -->
             <!-- <button mat-menu-item (click)="navigate('/whiteink')">White Ink Sticker</button> -->
-            <button mat-menu-item (click)="navigate('/epoxy')" (click)="toggleMenu()">Epoxy sticker</button>
+            <!-- <button mat-menu-item (click)="navigate('/epoxy')" (click)="toggleMenu()">Epoxy sticker</button>
             <button mat-menu-item (click)="navigate('/wind-shield')" (click)="toggleMenu()">Windshield sticker</button>
             <button mat-menu-item (click)="navigate('/foil')" (click)="toggleMenu()">Foil Sticker</button>
             <button mat-menu-item (click)="navigate('/embossingseal')" (click)="toggleMenu()">Embossing seal
-              sticker</button>
+              sticker</button> -->
             <!-- <button mat-menu-item (click)="navigate('/helmet')">Helmet Sticker</button> -->
             <!-- <button mat-menu-item (click)="navigate('/kraftpaper')">Kraft Paper Sticker</button> -->
           </mat-menu>
@@ -127,7 +127,7 @@
             <button mat-menu-item routerLink="/Frosted-Sticker" (click)="toggleMenu()">Frosted Sticker</button>
             <button mat-menu-item [matMenuTriggerFor]="window">Window Branding</button>
             <button mat-menu-item (click)="navigate('/floor-stickers')" (click)="toggleMenu()">Floor Sticker</button>
-            <button mat-menu-item [matMenuTriggerFor]="wallBranding" class="d-none">Wall Branding</button>
+            <!-- <button mat-menu-item [matMenuTriggerFor]="wallBranding" class="d-none">Wall Branding</button> -->
             <button mat-menu-item [matMenuTriggerFor]="wallFrames">Wall Frames</button>
             <button mat-menu-item [matMenuTriggerFor]="posters">Posters</button>
             <button mat-menu-item (click)="navigate('/posters')" (click)="toggleMenu()" class="d-none">Posters</button>
@@ -165,11 +165,11 @@
 
           </mat-menu>
 
-          <mat-menu #wallBranding="matMenu" class="d-none">
+          <!-- <mat-menu #wallBranding="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Wall-Vinyl')" (click)="toggleMenu()">Wall Vinyl Lettering</button>
             <button mat-menu-item (click)="navigate('/Wall-Graphics')" (click)="toggleMenu()">Wall Graphics</button>
 
-          </mat-menu>
+          </mat-menu> -->
           <mat-menu #posters="matMenu" class="">
             <button mat-menu-item (click)="navigate('/Mounted-Posters')" (click)="toggleMenu()">Mounted Posters</button>
             <button mat-menu-item (click)="navigate('/Posters')" (click)="toggleMenu()">Posters</button>
@@ -218,16 +218,16 @@
             <button mat-menu-item (click)="navigate('/Unlit3D')" (click)="toggleMenu()">Unlit 3D Signage</button>
             <button mat-menu-item (click)="navigate('/Frontlit3D')" (click)="toggleMenu()">Frontlit 3D Signage</button>
             <button mat-menu-item (click)="navigate('/Backlit3D')" (click)="toggleMenu()">Backlit 3D Signage</button>
-            <button mat-menu-item (click)="navigate('/Outlit3D')" (click)="toggleMenu()" class="d-none">Outlit 3D
+            <!-- <button mat-menu-item (click)="navigate('/Outlit3D')" (click)="toggleMenu()" class="d-none">Outlit 3D
               Signage</button>
             <button mat-menu-item (click)="navigate('/PushThrough3D')" (click)="toggleMenu()" class="d-none">Push
               Through 3D
-              Signage</button>
+              Signage</button> -->
             <button mat-menu-item (click)="navigate('/Neon3D')" (click)="toggleMenu()">Neon 3D Signage</button>
 
           </mat-menu>
 
-          <mat-menu #signBoard="matMenu" class="d-none">
+          <!-- <mat-menu #signBoard="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/FlexFace')" (click)="toggleMenu()" class="d-none">Flex Face Sign
               Board</button>
             <button mat-menu-item (click)="navigate('/Frontlit3DBoard')" (click)="toggleMenu()" class="d-none">Frontlit
@@ -242,22 +242,22 @@
             <button mat-menu-item (click)="navigate('/Neon')" (click)="toggleMenu()" class="d-none">Neon Sign
               Board</button>
 
-          </mat-menu>
+          </mat-menu> -->
 
           <mat-menu #lightBox="matMenu">
             <button mat-menu-item (click)="navigate('/FlexFace-LightBox')" (click)="toggleMenu()">Flex Face Light
               Box</button>
-            <button mat-menu-item (click)="navigate('/Fabric')" (click)="toggleMenu()" class="d-none">Fabric Light
+            <!-- <button mat-menu-item (click)="navigate('/Fabric')" (click)="toggleMenu()" class="d-none">Fabric Light
               Box</button>
             <button mat-menu-item (click)="navigate('/acrylic-light-box')" (click)="toggleMenu()" class="d-none">Acrylic
               Light
               Box</button>
             <button mat-menu-item (click)="navigate('/Poster')" (click)="toggleMenu()" class="d-none">Poster Light
-              Box</button>
+              Box</button> -->
 
           </mat-menu>
 
-          <mat-menu #direction="matMenu" class="d-none">
+          <!-- <mat-menu #direction="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/SelfStanding')" (click)="toggleMenu()">Self-Standing
               Signage</button>
             <button mat-menu-item (click)="navigate('/WallMounted')" (click)="toggleMenu()">Wall Mounted
@@ -265,35 +265,35 @@
             <button mat-menu-item (click)="navigate('/Hanging')" (click)="toggleMenu()">Hanging Signage</button>
             <button mat-menu-item (click)="navigate('/Directory')" (click)="toggleMenu()">Directory Signage</button>
 
-          </mat-menu>
-          <mat-menu #selfStanding="matMenu" class="d-none">
+          </mat-menu> -->
+          <!-- <mat-menu #selfStanding="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Metal')" (click)="toggleMenu()">Metal Letters</button>
             <button mat-menu-item (click)="navigate('/Wooden-Letters')" (click)="toggleMenu()">Wooden Letters</button>
             <button mat-menu-item (click)="navigate('/AcrylicLetters')" (click)="toggleMenu()">Acrylic Letters</button>
             <button mat-menu-item (click)="navigate('/ForexFoam')" (click)="toggleMenu()">Forex / Foam Letters</button>
 
-          </mat-menu>
+          </mat-menu> -->
 
           <mat-menu #namePlate="matMenu">
             <button mat-menu-item (click)="navigate('/MetalPlates')" (click)="toggleMenu()">Metal Name Plates</button>
             <button mat-menu-item (click)="navigate('/AcrylicPlates')" (click)="toggleMenu()">Acrylic Name
               Plates</button>
-            <button mat-menu-item (click)="navigate('/WoodenPlates')" (click)="toggleMenu()" class="d-none">Wooden Name
+            <!-- <button mat-menu-item (click)="navigate('/WoodenPlates')" (click)="toggleMenu()" class="d-none">Wooden Name
               Plates</button>
             <button mat-menu-item (click)="navigate('/TableTopPlates')" (click)="toggleMenu()" class="d-none">Table Top
               Plates /
-              Sign</button>
+              Sign</button> -->
 
           </mat-menu>
 
-          <mat-menu #labels="matMenu" class="d-none">
+          <!-- <mat-menu #labels="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/TraffolytePVCAcrylic')" (click)="toggleMenu()">Traffolyte / PVC /
               Acrylic Labels</button>
             <button mat-menu-item (click)="navigate('/MetalLabels')" (click)="toggleMenu()">Metal Labels</button>
             <button mat-menu-item (click)="navigate('/WoodenLabels')" (click)="toggleMenu()">Wooden Labels</button>
             <button mat-menu-item (click)="navigate('/AcrylicLabels')" (click)="toggleMenu()">Acrylic Labels</button>
 
-          </mat-menu>
+          </mat-menu> -->
 
         </li>
         <li class="nav-item dropdown">
@@ -305,12 +305,12 @@
           <mat-menu #flags="matMenu">
             <!-- <button mat-menu-item>All Flags</button> -->
             <button mat-menu-item [matMenuTriggerFor]="advertisingFlags">Advertising Flags</button>
-            <button mat-menu-item (click)="navigate('/Decorative-flag')" (click)="toggleMenu()" class="d-none">Decorative
-              Flags</button>
+            <!-- <button mat-menu-item (click)="navigate('/Decorative-flag')" (click)="toggleMenu()" class="d-none">Decorative
+              Flags</button> -->
             <button mat-menu-item [matMenuTriggerFor]="handheldFlags">Handheld Flags</button>
-            <button mat-menu-item (click)="navigate('/Outdoor-flag')" (click)="toggleMenu()"  class="d-none">Outdoor Flags</button>
+            <!-- <button mat-menu-item (click)="navigate('/Outdoor-flag')" (click)="toggleMenu()"  class="d-none">Outdoor Flags</button> -->
             <button mat-menu-item [matMenuTriggerFor]="officeFlags">Office Flags</button>
-            <button mat-menu-item (click)="navigate('/flag-base')" (click)="toggleMenu()" class="d-none">Flag Base</button>
+            <!-- <button mat-menu-item (click)="navigate('/flag-base')" (click)="toggleMenu()" class="d-none">Flag Base</button> -->
 
           </mat-menu>
 
@@ -322,41 +322,41 @@
 
           </mat-menu>
 
-          <mat-menu #decorativeFlags="matMenu" class="d-none">
+          <!-- <mat-menu #decorativeFlags="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/CarFlags')" (click)="toggleMenu()">Car Flags</button>
             <button mat-menu-item (click)="navigate('/CarDesert')" (click)="toggleMenu()">Car Desert Flags</button>
             <button mat-menu-item (click)="navigate('/Dashboard')" (click)="toggleMenu()">Dashboard Flags</button>
             <button mat-menu-item (click)="navigate('/Pennant')" (click)="toggleMenu()">Pennant Flags</button>
             <button mat-menu-item (click)="navigate('/Bunting')" (click)="toggleMenu()">Bunting Flags</button>
             <button mat-menu-item (click)="navigate('/Toothpick')" (click)="toggleMenu()">Toothpick Flags</button>
-          </mat-menu>
+          </mat-menu> -->
 
           <mat-menu #handheldFlags="matMenu">
             <button mat-menu-item (click)="navigate('/Poleflags')" (click)="toggleMenu()">Pole flags</button>
             <button mat-menu-item (click)="navigate('/Handflags')" (click)="toggleMenu()">Hand flags</button>
             <button mat-menu-item (click)="navigate('/FinishLine')" (click)="toggleMenu()">Finish Line</button>
-            <button mat-menu-item (click)="navigate('/BodyFlags')" (click)="toggleMenu()" class="d-none">Body
-              Flags</button>
+            <!-- <button mat-menu-item (click)="navigate('/BodyFlags')" (click)="toggleMenu()" class="d-none">Body
+              Flags</button> -->
             <button mat-menu-item (click)="navigate('/FanScarf')" (click)="toggleMenu()">Fan Scarf</button>
           </mat-menu>
 
-          <mat-menu #outdoorFlags="matMenu" class="d-none">
+          <!-- <mat-menu #outdoorFlags="matMenu" class="d-none">
             <button mat-menu-item (click)="navigate('/Hoisting')" (click)="toggleMenu()">Hoisting Flags</button>
             <button mat-menu-item (click)="navigate('/wall_mounted_flags')" (click)="toggleMenu()">Wall Mounted
               Flags</button>
             <button mat-menu-item (click)="navigate('/Stadium')" (click)="toggleMenu()">Stadium flags</button>
             <button mat-menu-item (click)="navigate('/Advertising')" (click)="toggleMenu()">Advertising Flags</button>
             <button mat-menu-item (click)="navigate('/Festival')" (click)="toggleMenu()">Festival Flags</button>
-          </mat-menu>
+          </mat-menu> -->
 
           <mat-menu #officeFlags="matMenu">
             <button mat-menu-item (click)="navigate('/TableFlags')" (click)="toggleMenu()">Table Flags</button>
-            <button mat-menu-item (click)="navigate('/TableFlagsRoyal')" (click)="toggleMenu()" class="d-none">Table
+            <!-- <button mat-menu-item (click)="navigate('/TableFlagsRoyal')" (click)="toggleMenu()" class="d-none">Table
               Flags - Royal</button>
             <button mat-menu-item (click)="navigate('/ConferenceFlags')" (click)="toggleMenu()"
               class="d-none">Conference Flags</button>
             <button mat-menu-item (click)="navigate('/ConferenceFlagsHanging')" (click)="toggleMenu()"
-              class="d-none">Conference Flags - Hanging</button>
+              class="d-none">Conference Flags - Hanging</button> -->
           </mat-menu>
         </li>
 
@@ -369,7 +369,7 @@
           <mat-menu #Backdrops="matMenu">
             <!-- <button mat-menu-item>ALL BACKDROPS</button> -->
             <button mat-menu-item [matMenuTriggerFor]="popupsRollups">Popups, Rollups & Banners</button>
-            <button mat-menu-item [matMenuTriggerFor]="backdropsStandees" class="d-none">Backdrops & Standees</button>
+            <!-- <button mat-menu-item [matMenuTriggerFor]="backdropsStandees" class="d-none">Backdrops & Standees</button> -->
             <button mat-menu-item [matMenuTriggerFor]="exhibitionEvents">Exhibition & Events</button>
             <!-- <button mat-menu-item>Flag Base</button> -->
 
@@ -382,8 +382,8 @@
             <button mat-menu-item (click)="navigate('/x-banners')" (click)="toggleMenu()">X Banners</button>
             <button mat-menu-item (click)="navigate('/banners-flex')" (click)="toggleMenu()">Banners-Flex &
               Fabric</button>
-            <button mat-menu-item (click)="navigate('/fence-banners')" (click)="toggleMenu()" class="d-none">Fence
-              Banners </button>
+            <!-- <button mat-menu-item (click)="navigate('/fence-banners')" (click)="toggleMenu()" class="d-none">Fence
+              Banners </button> -->
             <button mat-menu-item (click)="navigate('/lama-stand')" (click)="toggleMenu()">Lama Stand </button>
 
           </mat-menu>
@@ -405,17 +405,17 @@
           </mat-menu>
 
           <mat-menu #exhibitionEvents="matMenu">
-            <button mat-menu-item class="d-none" (click)="navigate('/promotion')" (click)="toggleMenu()">Promotion Table </button>
+            <!-- <button mat-menu-item class="d-none" (click)="navigate('/promotion')" (click)="toggleMenu()">Promotion Table </button>
             <button mat-menu-item class="d-none" (click)="navigate('/exhibition-counter')" (click)="toggleMenu()">Exhibition Counters
             </button>
             <button mat-menu-item class="d-none"  (click)="navigate('/tent-canopy')" (click)="toggleMenu()">Tent / Canopy / Gazebo
             </button>
             <button mat-menu-item class="d-none" (click)="navigate('/parasol-umbrella')" (click)="toggleMenu()">Parasol Umbrella
-            </button>
+            </button> -->
             <button mat-menu-item (click)="navigate('/cover-cloth')" (click)="toggleMenu()">Table Cover & Table Cloth
             </button>
-            <button mat-menu-item class="d-none" (click)="navigate('/media-frame')" (click)="toggleMenu()">Social Media Frame </button>
-            <button mat-menu-item class="d-none" (click)="navigate('/foam-board')" (click)="toggleMenu()">Foam Board </button>
+            <!-- <button mat-menu-item class="d-none" (click)="navigate('/media-frame')" (click)="toggleMenu()">Social Media Frame </button>
+            <button mat-menu-item class="d-none" (click)="navigate('/foam-board')" (click)="toggleMenu()">Foam Board </button> -->
             <button mat-menu-item (click)="navigate('/shell-scheme')" (click)="toggleMenu()">Shell Scheme Booth Branding
             </button>
 

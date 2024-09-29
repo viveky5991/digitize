@@ -6,8 +6,8 @@ const routes: Routes = [
   { path: 'Unlit3D', component: Imgcontent4Component },
   { path: 'Frontlit3D', component: Imgcontent4Component },
   { path: 'Backlit3D', component: Imgcontent4Component },
-  { path: 'Outlit3D', component: Imgcontent4Component },
-  { path: 'PushThrough3D', component: Imgcontent4Component },
+  // { path: 'Outlit3D', component: Imgcontent4Component },
+  // { path: 'PushThrough3D', component: Imgcontent4Component },
   { path: 'Neon3D', component: Imgcontent4Component },
   { path: 'Mounted-Posters', component: Imgcontent4Component },
   { path: 'Posters', component: Imgcontent4Component }

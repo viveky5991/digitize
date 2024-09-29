@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'TShirt', component: Imgcontent11Component },
   { path: 'Jersey', component: Imgcontent11Component },
   { path: 'Caps', component: Imgcontent11Component },
-  { path: 'NeckTie', component: Imgcontent11Component },
+  // { path: 'NeckTie', component: Imgcontent11Component },
   { path: 'SafetyVest', component: Imgcontent11Component }
 ];
 

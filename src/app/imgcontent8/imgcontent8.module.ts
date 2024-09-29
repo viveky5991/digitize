@@ -8,11 +8,11 @@ const routes: Routes = [
   { path: 'CurvedFlags', component: Imgcontent8Component },
   { path: 'TearDropFlags', component: Imgcontent8Component },
   { path: 'LShapeFlags', component: Imgcontent8Component },
-  { path: 'BladeFlags', component: Imgcontent8Component },
-  { path: 'TelescopicFlags', component: Imgcontent8Component },
-  { path: 'CarFlags', component: Imgcontent8Component },
-  { path: 'CarDesert', component: Imgcontent8Component },
-  { path: 'Dashboard', component: Imgcontent8Component }
+  // { path: 'BladeFlags', component: Imgcontent8Component },
+  // { path: 'TelescopicFlags', component: Imgcontent8Component },
+  // { path: 'CarFlags', component: Imgcontent8Component },
+  // { path: 'CarDesert', component: Imgcontent8Component },
+  // { path: 'Dashboard', component: Imgcontent8Component }
 ]
 
 

@@ -10,7 +10,7 @@ const routes: Routes = [
   { path: 'envelopes', component: ImgcontentComponent },
   { path: 'folders', component: ImgcontentComponent },
   { path: 'notepads', component: ImgcontentComponent },
-  { path: 'notebooks', component: ImgcontentComponent },
+  // { path: 'notebooks', component: ImgcontentComponent },
   { path: 'thanks', component: ImgcontentComponent },
   { path: 'calendars', component: ImgcontentComponent },
   { path: 'booklets', component: ImgcontentComponent },

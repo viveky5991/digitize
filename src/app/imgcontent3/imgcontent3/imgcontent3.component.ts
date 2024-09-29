@@ -21,15 +21,18 @@ import SwiperCore, {
   Swiper,
   EffectCoverflow,
 
-} 
+}
 from 'swiper';
 import { SharedService } from '../../service/shared-service.service';
+import { Animations } from '../../animation';
 @Component({
   selector: 'app-imgcontent3',
   standalone: true,
   imports: [SwiperModule,HttpClientModule, CommonModule, RouterModule,],
   templateUrl: './imgcontent3.component.html',
-  styleUrl: './imgcontent3.component.scss'
+  styleUrl: './imgcontent3.component.scss',
+  animations: Animations
+
 })
 
 
@@ -43,7 +46,7 @@ export class Imgcontent3Component  implements OnInit{
     this.navload()
   }
   getFullUrl() {
-    
+
     return this.document.location.href;
   }
   navload(){
@@ -118,8 +121,8 @@ export class Imgcontent3Component  implements OnInit{
       }
     })
   }
-  
-  
+
+
   EnquiryNow() {
     debugger
     // const dialogRef = this.dialog.open(PopupComponent);

@@ -12,7 +12,7 @@ const routes: Routes = [
   // { path: 'sticker-gloss', component: StationarylistingComponent },
   // { path: 'pvcwhite', component: StationarylistingComponent },
   // { path: 'epoxy', component: StationarylistingComponent },
-  // { path: 'Stickers', component: StationarylistingComponent },
+  { path: 'Stickers', component: StationarylistingComponent },
   // { path: 'notepads', component: StationarylistingComponent },
   // { path: 'notebook&journal', component: StationarylistingComponent },
   // { path: 'binding', component: StationarylistingComponent },

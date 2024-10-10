@@ -24,6 +24,7 @@ export class ImgcontentComponent implements OnInit {
   config: SwiperOptions = {
     slidesPerView: 2,
     spaceBetween: 50,
+    autoplay:true,
     navigation: true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },

@@ -52,7 +52,7 @@ export class Imgcontent1Component implements OnInit{
 
         })
       } else if(url[0].path=='wax-seal'){
-        this.title='Wax-Seal';
+        this.title='Wax Seal';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.Wax_Seal)
@@ -61,7 +61,7 @@ export class Imgcontent1Component implements OnInit{
 
         })
       }else if(url[0].path=='embossing-seal'){
-        this.title='Embossing-Seal';
+        this.title='Embossing Seal';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.Embossing_Seal)
@@ -79,7 +79,7 @@ export class Imgcontent1Component implements OnInit{
 
         })
       }else if(url[0].path=='compliment-slips'){
-        this.title='Compliment-Slips';
+        this.title='Compliment Slips';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.compliment_slips)
@@ -95,7 +95,7 @@ export class Imgcontent1Component implements OnInit{
           this.digitizedata = data.coupons;
         })
       }else if(url[0].path=='Tent-Cards'){
-        this.title='Tent-Cards';
+        this.title='Tent Cards';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.tent_cards)
@@ -109,7 +109,7 @@ export class Imgcontent1Component implements OnInit{
           this.digitizedata = data.Lanyards;
         })
       }else if(url[0].path=='Paper-Bags'){
-        this.title='Paper-Bags';
+        this.title='Paper Bags';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.Paper_Bags)

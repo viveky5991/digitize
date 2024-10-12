@@ -23,6 +23,7 @@ export class Imgcontent1Component implements OnInit{
     slidesPerView: 2,
     spaceBetween: 50,
     navigation: true,
+    autoplay:true,
     pagination: { clickable: true },
     scrollbar: { draggable: true },
   };

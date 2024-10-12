@@ -7,16 +7,26 @@ import { CommonModule,DOCUMENT } from '@angular/common';
 import { Component, OnInit,Inject } from '@angular/core';
 import { Animations } from '../../animation';
 import { SharedService } from '../../service/shared-service.service';
+import { SwiperOptions } from 'swiper';
+import { SwiperModule } from 'swiper/angular';
 @Component({
   selector: 'app-imgcontent14',
   standalone: true,
-  imports: [HttpClientModule, CommonModule,RouterModule,],
+  imports: [HttpClientModule, CommonModule,RouterModule,SwiperModule],
   templateUrl: './imgcontent14.component.html',
   styleUrl: './imgcontent14.component.scss',
   animations: Animations
 })
 export class Imgcontent14Component implements OnInit{
   title: string | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    navigation: true,
+    autoplay:true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
   digitizedata: any;
   fullUrl: any;
   constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document,  private Shared:SharedService) { }

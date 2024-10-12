@@ -13,8 +13,14 @@
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
-
+.thumb a{
+  text-decoration: none;
+  color: #f05764d1;
+}
+.thumb a:hover{
+  text-decoration: none;
+  color: #f05764;
+}
 .cta-100 {
   margin-top: 100px;
   padding-left: 8%;

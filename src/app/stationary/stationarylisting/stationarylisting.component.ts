@@ -25,10 +25,11 @@ export class StationarylistingComponent implements OnInit {
   contentinfo: any;
   fullUrl: any;
   busines: any;
+  heading:any
   constructor(public _router: Router, private _route: ActivatedRoute, private service: SharedService, private httpClient: HttpClient,public dialog: MatDialog,private metaService: Meta, private titleService: Title, private location: Location, @Inject(DOCUMENT) private document: Document,private shared: SharedService) { }
 
   ngOnInit(): void {
-    
+
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
@@ -104,7 +105,7 @@ export class StationarylistingComponent implements OnInit {
           });
         })
       }  else if (url[0].path == 'Stickers') {
-        this.title = 'Stickers'
+        this.heading = 'Stickers'
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
 
           console.log(data.Stickers)
@@ -151,7 +152,7 @@ export class StationarylistingComponent implements OnInit {
     this._router.navigateByUrl(path);
   }
    getFullUrl() {
-    
+
      return this.document.location.href;
   }
 

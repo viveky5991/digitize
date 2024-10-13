@@ -85,7 +85,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
     });
   }
   getFullUrl() {
-   
+
     return this.document.location.href;
   }
 
@@ -193,7 +193,7 @@ export class BannercontentComponent implements OnInit, AfterViewInit {
   ];
 
   EnquiryNow() {
-    debugger
+
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

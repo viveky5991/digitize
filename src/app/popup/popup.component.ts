@@ -19,18 +19,18 @@ export class PopupComponent implements OnInit {
   //constructor(public dialog: MatDialog) {}
   contactForm: any;
 //  data: any;
- 
+
   constructor(private fb: FormBuilder ,public dialog: MatDialog,private shared:SharedService,  public dialogRef: MatDialogRef<any>,
     @Inject(MAT_DIALOG_DATA) public data: any,) {
-   
+
   }
 
   ngOnInit(): void {
-    
+
     this.contactForm = this.fb.group({
       name: ['', Validators.required],
-      phone: ['', Validators.required],
-      email: ['', [Validators.required, Validators.email]],
+      phone: ['', [Validators.required, Validators.pattern("^[0-9]{10}$")]],
+      email: ['', [Validators.required, Validators.pattern("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$")]],
       requirement: ['', Validators.required],
       urlweb:[this.data.webUrl],
       message: ['', Validators.required],
@@ -43,7 +43,7 @@ export class PopupComponent implements OnInit {
     if (this.contactForm.valid) {
       // console.log('Form submitted successfully!');
       // console.log(this.contactForm.value);
-  
+
       this.shared.postData(this.contactForm.value).subscribe({
         next: (response) => {
           if(response.code===2000)
@@ -64,7 +64,7 @@ export class PopupComponent implements OnInit {
       console.log('Form is invalid, please check all fields.');
     }
   }
-  
+
 
 
 

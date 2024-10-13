@@ -9,7 +9,7 @@
   <!-- <form (ngSubmit)="submitForm()" #contactForm="ngForm"> -->
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <h3 class="title">Inquiry Form</h3>
-    
+
 
     <mat-form-field appearance="outline" class="w-100">
       <mat-label>Enter your Name</mat-label>
@@ -28,21 +28,17 @@
     </mat-form-field>
 
 
-   
+
 
     <mat-form-field appearance="outline" class="w-100">
       <mat-label>Enter your email</mat-label>
       <input matInput placeholder="pat@gmail.com" formControlName="email" required>
-      <mat-error class="help-block form-error text-danger small"
-      *ngIf="contactForm.get('email').hasError('required') && contactForm.get('email').touched">
-      Email is Required
-</mat-error>
-
-<!-- Corrected to check 'pattern' error -->
-<mat-error class="help-block form-error text-danger small"
-      *ngIf="contactForm.get('email').hasError('pattern') && contactForm.get('email').touched">
-Invalid E-mail
-</mat-error>
+      <mat-error *ngIf="contactForm.get('email').hasError('required') && contactForm.get('email').touched">
+        Email is Required
+      </mat-error>
+      <mat-error *ngIf="contactForm.get('email').hasError('pattern') && contactForm.get('email').touched">
+        Invalid E-mail
+      </mat-error>
     </mat-form-field>
     <mat-form-field appearance="outline" class="w-100">
       <mat-label>Enter your Number</mat-label>
@@ -51,6 +47,9 @@ Invalid E-mail
       *ngIf="contactForm.get('phone').hasError('required') && contactForm.get('phone').touched">
       Number is Required
 </mat-error>
+<mat-error class="help-block form-error text-danger small" *ngIf="contactForm.get('phone').hasError('pattern') && contactForm.get('phone').touched">
+  Invalid Number (must be 10 digits)
+</mat-error>
 
 <!-- Corrected to check 'pattern' error -->
 <mat-error class="help-block form-error text-danger small"
@@ -58,22 +57,29 @@ Invalid E-mail
 Invalid Number
 </mat-error>
     </mat-form-field>
-    <div class="input-container">
-      <input type="text" name="requirement" placeholder="Regarding Item" formControlName="requirement" class="input" required/>
-      <!-- <label for="">Regarding Item</label>
-     <span>Regarding Item</span> -->
-     <div *ngIf="contactForm.get('requirement').invalid && contactForm.get('requirement').touched" class="error">
-      Regarding Item is required
-    </div>
-    </div>
-    <div class="input-container textarea">
-      <textarea name="message" placeholder="Message" formControlName="message" class="input"></textarea>
-      <!-- <label for="">Message</label>
-      <span>Message</span> -->
-      <div *ngIf="contactForm.get('message').invalid && contactForm.get('message').touched" class="error">
+
+    <mat-form-field appearance="outline" class="w-100">
+      <mat-label>Regarding Item</mat-label>
+      <input matInput placeholder="item" formControlName="requirement" required >
+      <mat-error class="help-block form-error text-danger small"
+      *ngIf="contactForm.get('requirement').hasError('required') && contactForm.get('requirement').touched">
+      requirement is Required
+</mat-error>
+
+<!-- Corrected to check 'pattern' error -->
+<!-- <mat-error class="help-block form-error text-danger small"
+      *ngIf="contactForm.get('phone').hasError('pattern') && contactForm.get('phone').touched">
+Invalid Number
+</mat-error> -->
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="w-100">
+      <mat-label>Message</mat-label>
+      <textarea matInput placeholder="Message" formControlName="message" rows="5"></textarea>
+      <mat-error *ngIf="contactForm.get('message').hasError('required') && contactForm.get('message').touched">
         Message is required
-      </div>
-    </div>
+      </mat-error>
+    </mat-form-field>
+
     <button type="submit" [disabled]="!contactForm.valid"  class="btn btn-primary">Submit</button>
   </form>
 </div>

@@ -1,5 +1,5 @@
 import { Component, ElementRef, Inject, OnInit, PLATFORM_ID, Renderer2 } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { PopupComponent } from '../../popup/popup.component';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
@@ -15,6 +15,7 @@ export class FooterComponent implements OnInit {
   windowScrolled = false;
   topPosToStartShowing = 100;
   currentdate : Date = new Date();
+  fullUrl: any;
   constructor(public dialog: MatDialog, private router: Router, @Inject(PLATFORM_ID) private platformId: any, private el: ElementRef, private renderer: Renderer2) { }
   ngOnInit(): void {
     // this.openDialog()
@@ -40,27 +41,57 @@ export class FooterComponent implements OnInit {
     // }
   }
 
+  // openDialog() {
+  //   // const dialogRef = this.dialog.open(PopupComponent);
+
+  //   // dialogRef.afterClosed().subscribe(result => {
+  //   //   console.log(`Dialog result: ${result}`);
+  //   // });
+  //   const dialogRef = this.dialog.open(PopupComponent, {
+  //    width: '700px',
+  //     height:'620px'
+  //   });
+  //   dialogRef.afterOpened().subscribe(() => {
+  //     // Find the dialog container element by class name or any other means if necessary
+  //     const dialogContainer = document.querySelector('.mat-dialog-container');
+  //     // Check if the element exists
+  //     if (dialogContainer) {
+  //       // Set the role attribute to 'dialog'
+  //       this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+  //     }
+  //   });
+  //   dialogRef.afterClosed().subscribe(() => {
+  //     console.log('Dialog closed');
+  //   });
+  // }
   openDialog() {
+
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
-    const dialogRef = this.dialog.open(PopupComponent, {
-     width: '700px',
-      height:'620px'
-    });
-    dialogRef.afterOpened().subscribe(() => {
-      // Find the dialog container element by class name or any other means if necessary
-      const dialogContainer = document.querySelector('.mat-dialog-container');
-      // Check if the element exists
-      if (dialogContainer) {
-        // Set the role attribute to 'dialog'
-        this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.disableClose = true;
+    dialogConfig.width = "550px";
+    dialogConfig.data = {webUrl:''};
+    const dialogRef = this.dialog.open(PopupComponent, dialogConfig);
+    // dialogRef.afterOpened().subscribe(() => {
+    //   // Find the dialog container element by class name or any other means if necessary
+    //   const dialogContainer = document.querySelector('.mat-dialog-container');
+    //   // Check if the element exists
+    //   if (dialogContainer) {
+    //     // Set the role attribute to 'dialog'
+    //     this.renderer.setAttribute(dialogContainer, 'role', 'dialog');
+    //   }
+    // });
+    dialogRef.afterClosed().subscribe({
+      next: (result) => {
+        console.log(`Dialog result: ${result}`);
+      },
+      error: (error) => {
+        console.error('Error occurred while opening the dialog:', error);
       }
-    });
-    dialogRef.afterClosed().subscribe(() => {
-      console.log('Dialog closed');
     });
   }
   navigate(path: string) {

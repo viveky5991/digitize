@@ -6,15 +6,25 @@ import { Location } from '@angular/common';
 import { CommonModule,DOCUMENT } from '@angular/common';
 import { Component, OnInit,Inject } from '@angular/core';
 import { SharedService } from '../../service/shared-service.service';
+import { SwiperOptions } from 'swiper';
+import { SwiperModule } from 'swiper/angular';
 @Component({
   selector: 'app-imgcontent15',
   standalone: true,
-  imports: [HttpClientModule, CommonModule, RouterModule],
+  imports: [HttpClientModule, CommonModule, RouterModule, SwiperModule],
   templateUrl: './imgcontent15.component.html',
   styleUrl: './imgcontent15.component.scss'
 })
 export class Imgcontent15Component implements OnInit{
   title: string | undefined;
+  config: SwiperOptions = {
+    slidesPerView: 2,
+    spaceBetween: 50,
+    autoplay:true,
+    navigation: true,
+    pagination: { clickable: true },
+    scrollbar: { draggable: true },
+  };
   digitizedata: any;
   fullUrl: any;
   constructor( public _router: Router, private _route: ActivatedRoute,  private httpClient: HttpClient,public dialog: MatDialog, private location: Location, @Inject(DOCUMENT) private document: Document,  private Shared:SharedService) { }

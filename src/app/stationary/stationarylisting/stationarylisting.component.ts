@@ -164,7 +164,7 @@ export class StationarylistingComponent implements OnInit {
     // });
     const dataToPass = { webUrl: this.fullUrl };
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '900px',
+      width: '550px',
       data:dataToPass
     });
     // dialogRef.afterOpened().subscribe(() => {

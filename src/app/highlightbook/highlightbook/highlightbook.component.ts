@@ -72,7 +72,7 @@ export class HighlightbookComponent implements OnInit{
     const dialogConfig = new MatDialogConfig();
 
     dialogConfig.disableClose = true;
-    dialogConfig.width = "900px";
+    dialogConfig.width = "550px";
     dialogConfig.data = {webUrl:this.fullUrl};
     const dialogRef = this.dialog.open(PopupComponent,dialogConfig);
     // dialogRef.afterOpened().subscribe(() => {

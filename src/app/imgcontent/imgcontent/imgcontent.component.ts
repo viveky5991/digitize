@@ -133,8 +133,7 @@ this.fullUrl = this.getFullUrl();
     debugger
     const dataToPass = { webUrl: this.fullUrl };
     const dialogRef = this.dialog.open(PopupComponent, {
-      width: '700px',
-      height: '620px',
+      width: '550px',
       data:dataToPass
     });
     // dialogRef.afterOpened().subscribe(() => {

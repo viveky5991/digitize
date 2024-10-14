@@ -8,12 +8,14 @@ import { Component, OnInit,Inject } from '@angular/core';
 import { SharedService } from '../../service/shared-service.service';
 import { SwiperOptions } from 'swiper';
 import { SwiperModule } from 'swiper/angular';
+import { Animations } from '../../animation';
 @Component({
   selector: 'app-imgcontent15',
   standalone: true,
   imports: [HttpClientModule, CommonModule, RouterModule, SwiperModule],
   templateUrl: './imgcontent15.component.html',
-  styleUrl: './imgcontent15.component.scss'
+  styleUrl: './imgcontent15.component.scss',
+  animations: Animations
 })
 export class Imgcontent15Component implements OnInit{
   title: string | undefined;

@@ -42,7 +42,7 @@ export class Imgcontent13Component implements OnInit{
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-      debugger
+       
       if(url[0].path=='Paperbag'){
         this.title='Paper Bags';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -105,7 +105,7 @@ export class Imgcontent13Component implements OnInit{
     })
   }
   EnquiryNow() {
-    debugger
+     
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

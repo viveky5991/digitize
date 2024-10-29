@@ -17,7 +17,7 @@ export class PrintComponent  implements OnInit{
   }
   navload(){
     this._route.url.subscribe((url: any) => {
-      debugger
+       
       if(url[0].path=='envelopes'){
 console.log('envelopes');
 this.title='Envelopes'

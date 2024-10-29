@@ -120,7 +120,7 @@ this.fullUrl = this.getFullUrl();
     })
   }
   getFullUrl() {
-    debugger
+     
     //return document.URL;
     return this.document.location.href;
     }
@@ -130,7 +130,7 @@ this.fullUrl = this.getFullUrl();
     // dialogRef.afterClosed().subscribe(result => {
     //   console.log(`Dialog result: ${result}`);
     // });
-    debugger
+     
     const dataToPass = { webUrl: this.fullUrl };
     const dialogRef = this.dialog.open(PopupComponent, {
       width: '550px',

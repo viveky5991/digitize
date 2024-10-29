@@ -93,7 +93,7 @@ export class Imgcontent2Component implements OnInit {
     })
   }
   EnquiryNow() {
-    debugger
+     
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

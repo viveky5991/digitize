@@ -43,7 +43,7 @@ export class Imgcontent17Component  implements OnInit{
     this.fullUrl = this.getFullUrl();
     console.log(this.fullUrl)
     this._route.url.subscribe((url: any) => {
-      debugger
+       
       if(url[0].path=='wooden-backdrop'){
         this.title='Wooden Frame Backdrop';
         this.httpClient.get<any>("assets/data.json").subscribe((data) => {
@@ -100,7 +100,7 @@ export class Imgcontent17Component  implements OnInit{
   }
 
   EnquiryNow() {
-    debugger
+     
     // const dialogRef = this.dialog.open(PopupComponent);
 
     // dialogRef.afterClosed().subscribe(result => {

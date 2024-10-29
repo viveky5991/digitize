@@ -56,7 +56,7 @@ export class PopupComponent implements OnInit {
         error: (error) => {
           if(error.status!==2000)
           console.log('Error sending message', error);
-          swal({icon: "error",title:error.name});
+          swal({icon: "error",title:'Unable to reach the server. Please try again later.'});
           // alert(error.message);
         }
       });
